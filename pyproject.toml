@@ -64,3 +64,7 @@ target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# Long caption/f-string literals are content, not logic
+"src/fractiskills/figures.py" = ["E501"]

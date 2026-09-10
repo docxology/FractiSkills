@@ -154,7 +154,7 @@ def test_cli_all_subcommands(run_env, spec_file, capsys) -> None:
         == 0
     )
     registry = json.loads(capsys.readouterr().out)
-    assert len(registry) == 5
+    assert len(registry) == 10
 
     assert (
         main(

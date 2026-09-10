@@ -160,6 +160,7 @@ def discover_site(
     with WebsiteCrawler(profile) as crawler:
         bundle = crawler.crawl(profile.targets[0])
         events = [dict(event) for event in bundle.events]
+        fetch_entries = dict(crawler.fetch_cache)
 
     alias_map: dict[str, str] = {}
     for event in events:
@@ -186,8 +187,38 @@ def discover_site(
     for page in bundle.pages:
         identity = str(page.canonical_url or page.final_url)
         requested = str(page.requested_url)
-        if requested in sitemap_urls and requested != identity:
+        if requested != identity:
+            # Any accepted page reached under a different URL spelling (a
+            # canonical duplicate, redirect stub, or trailing-slash variant)
+            # becomes an alias of the identity it was accepted as.
             alias_map.setdefault(requested, identity)
+
+    # Duplicate-rejected requests carry their canonical only inside the
+    # crawler's fetch cache; recover it so canonical-declared duplicates
+    # (a landing page reached under two spellings) fold onto the page they
+    # duplicate.
+    from bs4 import BeautifulSoup
+
+    for event in events:
+        if event.get("kind") != "duplicate":
+            continue
+        url = str(event.get("url", ""))
+        if not url or url in alias_map or url in pages:
+            continue
+        entry = fetch_entries.get(url)
+        if entry is None or not entry.content:
+            continue
+        soup = BeautifulSoup(entry.content, "html.parser")
+        canonical_node = soup.select_one('link[rel~="canonical"][href]')
+        if canonical_node is None:
+            continue
+        try:
+            candidate = resolve_url(url, str(canonical_node.get("href")))
+        except (TypeError, ValueError):
+            continue
+        if candidate in pages:
+            alias_map.setdefault(url, candidate)
+
     for requested in {str(page.requested_url) for page in bundle.pages}:
         if requested in sitemap_urls:
             resolved = _resolve_alias_chain(alias_map, requested)

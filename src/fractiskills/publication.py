@@ -16,6 +16,8 @@ from skillarum.pipeline import CACHE_VERSION, PIPELINE_VERSION
 
 from .models import load_json, write_json_atomic, write_text_atomic
 
+MANUSCRIPT_TOKEN_PATTERN = re.compile(r"\{\{([A-Z][A-Z0-9_]+)\}\}")
+
 _CHAPTER_ORDER = [
     "preamble.md",
     "00_abstract.md",
@@ -27,11 +29,11 @@ _CHAPTER_ORDER = [
     "06_skill_catalog.md",
     "07_discussion_and_limitations.md",
     "08_scope_and_related_work.md",
+    "09_reproducibility.md",
+    "10_glossary.md",
+    "11_scope_summary.md",
     "99_references.md",
 ]
-
-
-MANUSCRIPT_TOKEN_PATTERN = re.compile(r"\{\{([A-Z][A-Z0-9_]+)\}\}")
 
 
 def _md_escape(value: object) -> str:
@@ -54,6 +56,10 @@ def _skill_catalog_table(analysis: dict) -> str:
                 f"| {_md_escape(area)} | {_md_escape(skill['skill'])} | "
                 f"{_md_escape(source)} | {skill['word_count']} |"
             )
+    rows.append(
+        f"| **Total** | **{analysis['inventory']['discovered_pages']}** | "
+        f"**{analysis['skills']['count']}** | **{analysis['skills']['total_words']}** |"
+    )
     return "\n".join(rows)
 
 
@@ -79,6 +85,69 @@ def _observation_window(analysis: dict) -> str:
     if generated_at and published_at:
         return f"{generated_at} through {published_at} (UTC)"
     return generated_at or "unavailable"
+
+
+def _indegree_table(analysis: dict) -> str:
+    rows = [
+        "| Page | Section | Inbound links |",
+        "| --- | --- | --- |",
+    ]
+    for row in analysis["indegree"]["top"]:
+        rows.append(
+            f"| {_md_escape(row['path'])} | {_md_escape(row['section'])} | {row['inbound']} |"
+        )
+    return "\n".join(rows)
+
+
+def _depth_table(analysis: dict) -> str:
+    histogram = analysis["depth_histogram"]
+    total = sum(histogram.values()) or 1
+    rows = [
+        "| BFS depth | Pages | Share |",
+        "| --- | --- | --- |",
+    ]
+    keys = sorted(histogram, key=lambda k: (k == "unfetched", int(k) if k.isdigit() else 99))
+    for key in keys:
+        label = "unfetched" if key == "unfetched" else f"depth {key}"
+        rows.append(f"| {label} | {histogram[key]} | {100 * histogram[key] / total:.0f}% |")
+    rows.append(f"| **Total** | **{total}** | **100%** |")
+    return "\n".join(rows)
+
+
+def _mode_depth(analysis: dict) -> str:
+    histogram = analysis["depth_histogram"]
+    if not histogram:
+        return "n/a"
+    key = max(histogram, key=lambda k: histogram[k])
+    return "unfetched" if key == "unfetched" else f"depth {key}"
+
+
+def _mode_depth_share(analysis: dict) -> str:
+    histogram = analysis["depth_histogram"]
+    total = sum(histogram.values()) or 1
+    return f"{100 * max(histogram.values(), default=0) / total:.0f}%"
+
+
+def _heavy_section(analysis: dict) -> str:
+    heavy = max(analysis["sections"], key=lambda row: row["words"], default=None)
+    return f"{heavy['section']}" if heavy else "n/a"
+
+
+def _biggest_section(analysis: dict) -> str:
+    biggest = max(analysis["sections"], key=lambda row: row["pages"], default=None)
+    return f"{biggest['section']} ({biggest['pages']} pages)" if biggest else "n/a"
+
+
+def _sitemap_yield(analysis: dict) -> str:
+    inv = analysis["inventory"]
+    return f"{100 * inv['via_sitemap'] / max(inv['sitemap_url_count'], 1):.0f}%"
+
+
+def _augment_ratio(skills: dict) -> str:
+    static_median = skills["median_words_static"]
+    if not static_median:
+        return "0.0"
+    return f"{skills['median_words_augmented'] / static_median:.1f}"
 
 
 def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict[str, str]:
@@ -113,6 +182,22 @@ def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict
         "PIPELINE_VERSION": PIPELINE_VERSION,
         "CACHE_VERSION": str(CACHE_VERSION),
         "OBSERVATION_WINDOW": _observation_window(analysis),
+        "TOP_INDEGREE_TABLE": _indegree_table(analysis),
+        "DEPTH_TABLE": _depth_table(analysis),
+        "TOP_DEPTH": str(
+            max((int(k) for k in analysis["depth_histogram"] if k.isdigit()), default=0)
+        ),
+        "DEPTH_MODE_DEPTH": _mode_depth(analysis),
+        "DEPTH_MODE_SHARE": _mode_depth_share(analysis),
+        "LINKED_PAGES": str(analysis["indegree"]["linked_pages"]),
+        "AUGMENT_SKILLS": str(skills["augmented_count"]),
+        "STATIC_SKILLS": str(skills["static_count"]),
+        "MEDIAN_WORDS_AUGMENTED": f"{skills['median_words_augmented']:.0f}",
+        "MEDIAN_WORDS_STATIC": f"{skills['median_words_static']:.0f}",
+        "AUGMENT_RATIO": _augment_ratio(skills),
+        "HEAVY_SECTION": _heavy_section(analysis),
+        "BIGGEST_SECTION": _biggest_section(analysis),
+        "SITEMAP_YIELD": _sitemap_yield(analysis),
     }
     for figure in (figure_registry or {}).get("figures", []):
         prefix = "FIGURE_" + str(figure["figure_id"]).replace("-", "_").upper()
@@ -182,6 +267,20 @@ def _chapter_sort_key(name: str) -> tuple[int, str]:
         return (99, name)
 
 
+def _inventory_from_output(output_dir: str):
+    from .models import SiteInventory
+
+    value = load_json(f"{output_dir}/data/inventory.json")
+    return SiteInventory.from_dict(value)
+
+
+def _try_load(path: str):
+    try:
+        return load_json(path)
+    except (OSError, ValueError):
+        return None
+
+
 def build_research_package(
     project_dir: str, output_dir: str, *, skills_dir: str | None = None
 ) -> dict:
@@ -221,17 +320,3 @@ def build_research_package(
         variables=variables,
     )
     return {"analysis_summary": True, "figures": len(registry), "receipt": receipt}
-
-
-def _inventory_from_output(output_dir: str):
-    from .models import SiteInventory
-
-    value = load_json(f"{output_dir}/data/inventory.json")
-    return SiteInventory.from_dict(value)
-
-
-def _try_load(path: str):
-    try:
-        return load_json(path)
-    except (OSError, ValueError):
-        return None

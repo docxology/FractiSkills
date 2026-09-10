@@ -102,6 +102,9 @@ def build_analysis(
         )
     word_counts = [skill["word_count"] for skill in skills] or [0]
     augmentation = _augmentation_receipts(output_dir)
+    augmentation_by_page: dict[str, dict] = {}
+    for receipt in augmentation:
+        augmentation_by_page[str(receipt.get("page_url"))] = receipt
     augmentation_ok = [receipt for receipt in augmentation if receipt.get("ok")]
     aliases = [
         {"url": entry.url, "aliases": list(entry.alias_urls)}
@@ -120,12 +123,59 @@ def build_analysis(
         if not entry.via_sitemap:
             bucket["via_crawl_only"] += 1
     for skill in skills:
+        skill["augmented"] = any(url in augmentation_by_page for url in skill["source_urls"])
+        skill["augmentation_ok"] = any(
+            augmentation_by_page.get(url, {}).get("ok") for url in skill["source_urls"]
+        )
         bucket = sections.setdefault(
             skill["area"],
             {"section": skill["area"], "pages": 0, "via_sitemap": 0, "via_crawl_only": 0},
         )
         bucket["skills"] = bucket.get("skills", 0) + 1
         bucket["words"] = bucket.get("words", 0) + skill["word_count"]
+    # Resolve inbound-link targets to inventory pages: a link to a redirect
+    # stub or declared canonical duplicate counts toward the page it
+    # forwards to; only links to discovered pages are counted.
+    page_urls = {entry.url for entry in inventory.entries}
+    alias_resolution: dict[str, str] = {}
+    for entry in inventory.entries:
+        for alias in entry.alias_urls:
+            alias_resolution[alias] = entry.url
+
+    def _resolve_target(link: str) -> str | None:
+        current = link
+        seen: set[str] = set()
+        while current not in page_urls and current not in seen:
+            seen.add(current)
+            if current in alias_resolution:
+                current = alias_resolution[current]
+            else:
+                return current if current in page_urls else None
+        return current if current in page_urls else None
+
+    inbound: dict[str, int] = {}
+    unresolved_targets: dict[str, int] = {}
+    for entry in inventory.entries:
+        for link in entry.links:
+            resolved = _resolve_target(link)
+            if resolved is None:
+                unresolved_targets[link] = unresolved_targets.get(link, 0) + 1
+                continue
+            inbound[resolved] = inbound.get(resolved, 0) + 1
+    section_of = {entry.url: entry.section for entry in inventory.entries}
+    path_of = {entry.url: entry.path for entry in inventory.entries}
+    top_indegree = sorted(inbound.items(), key=lambda item: (-item[1], item[0]))[:15]
+    section_outbound: dict[str, int] = {}
+    for entry in inventory.entries:
+        section_outbound[entry.section] = (
+            section_outbound.get(entry.section, 0) + len(entry.links)
+        )
+    depth_counts: dict[str, int] = {}
+    for entry in inventory.entries:
+        depth = str(entry.crawl_depth) if entry.crawl_depth is not None else "unfetched"
+        depth_counts[depth] = depth_counts.get(depth, 0) + 1
+    augmented_words = [skill["word_count"] for skill in skills if skill["augmentation_ok"]]
+    static_words = [skill["word_count"] for skill in skills if not skill["augmentation_ok"]]
     run_manifests = _load_run_manifests(output_dir)
     successful_runs = {
         name: manifest
@@ -160,11 +210,38 @@ def build_analysis(
             }
             for name, bucket in sorted(sections.items())
         ],
+        "indegree": {
+            "top": [
+                {
+                    "url": url,
+                    "path": path_of.get(url, url),
+                    "section": section_of.get(url, "(unknown)"),
+                    "inbound": count,
+                }
+                for url, count in top_indegree
+            ],
+            "linked_pages": len(inbound),
+            "unresolved_target_count": sum(unresolved_targets.values()),
+            "unresolved_top": sorted(
+                unresolved_targets.items(), key=lambda item: (-item[1], item[0])
+            )[:10],
+        },
+        "section_outbound": dict(sorted(section_outbound.items(), key=lambda item: -item[1])),
+        "depth_histogram": dict(
+            sorted(
+                depth_counts.items(),
+                key=lambda item: (item[0] == "unfetched", item[0]),
+            )
+        ),
         "skills": {
             "count": len(skills),
             "total_words": sum(word_counts),
             "median_words": statistics.median(word_counts),
             "total_chars": sum(skill["body_chars"] for skill in skills),
+            "augmented_count": len(augmented_words),
+            "static_count": len(static_words),
+            "median_words_augmented": statistics.median(augmented_words) if augmented_words else 0,
+            "median_words_static": statistics.median(static_words) if static_words else 0,
             "records": skills,
         },
         "augmentation": {
@@ -177,6 +254,14 @@ def build_analysis(
         "aliases": aliases,
         "runs": {
             "successful": sorted(successful_runs),
+            "pipeline_version": next(
+                (
+                    str(m.get("pipeline_version"))
+                    for m in successful_runs.values()
+                    if m.get("pipeline_version")
+                ),
+                "",
+            ),
             "request_count": sum(
                 manifest.get("request_count", 0) for manifest in successful_runs.values()
             ),
@@ -223,5 +308,7 @@ def write_skills_csv(skills: list[dict], output_dir: str) -> None:
         for skill in skills:
             row = dict(skill)
             row.pop("description", None)
+            row.pop("augmented", None)
+            row.pop("augmentation_ok", None)
             row["source_urls"] = " ".join(row.get("source_urls", []))
             writer.writerow(row)
