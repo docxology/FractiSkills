@@ -163,7 +163,7 @@ def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
 
 def _skill_links(skill: dict, analysis: dict) -> list[str]:
     """Outbound same-origin links quoted by one skill's source page."""
-    links_by_page = analysis.get("inventory", {}).get("_links_by_page", {})
+    links_by_page = analysis.get("links_by_page", {})
     for url in skill["source_urls"]:
         if url in links_by_page:
             return list(links_by_page[url])
