@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4e2b579d1e3dda602ad2934f7bb88cc55ccd3cfc5b8ac6e0c9194a3c2b60a117",
+      "fetched_at": "2026-09-10T22:17:32.461278+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "status_code": 200,
+      "title": "Deck 2 — Core · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core"
+    }
+  ],
+  "target_id": "voyage-deck-2-core"
+}

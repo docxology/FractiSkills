@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8fe4004a8fdfc45109969554208e50fc6e64260c5d2404b9f0e22ca2215b57b5",
+      "fetched_at": "2026-09-10T22:17:41.142266+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "status_code": 200,
+      "title": "✦ Luxury redefined · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined"
+    }
+  ],
+  "target_id": "voyage-luxury-redefined"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "059405fe3ad94b0e7b5f0b45d53fee3efe2ac5319a95ba878e08a8591e743b27",
+      "fetched_at": "2026-09-10T22:16:40.900593+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-superposition-reno-interpretation",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-superposition-reno-interpretation",
+      "status_code": 200,
+      "title": "Holographic Mirror-Angle Multiplicity & Quantum Re-Interpretation · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-superposition-reno-interpretation"
+    }
+  ],
+  "target_id": "ship-blog-tbme-superposition-reno-interpretation"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d35b7d007b99db781fc5aa17a533ff20ad213cb65915d0563a740ff535a35704",
+      "fetched_at": "2026-09-10T22:16:16.458230+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-prompt-capture",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-prompt-capture",
+      "status_code": 200,
+      "title": "Omni-Lattice Unification IX · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-prompt-capture"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-prompt-capture"
+}

@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "f77290132c4583ef0f3ca51c59056efce416e6451c5474d24050f2a5a992f1ab",
+    "references/sources.json": "d60669ac74ac0fd11a60544874aae329695033a0330f60e724a5429ccfb359a5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d9f0ce5114c0d623fa126594e87a3e1d3dbf97dd7ca9d5240c55e1924dd1294d",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "5cbdd51d95a997ee21d5b0c7468938776d6bd1832f80c640e700cb9a299b2e18"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 275,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:13:59.653658+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-pdvsa-gateway-ops-mockup-2026-09",
+        "content_sha256": "f6497deb7e2528c0a9478de62b5c179b6addfd2cede711768a8c397dd0450dc4",
+        "error": null,
+        "etag": "W/\"6112-r8Hr77+AhDSgE5+6RNrAIa5TUeA\"",
+        "fetched_at": "2026-09-10T22:13:59.927707+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09",
+        "status_code": 200,
+        "text_chars": 14353,
+        "title": "PDVSA Gateway Ops Mockup — Today’s Industry UI vs EGS Lattice-Linear Gateway"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-pdvsa-gateway-ops-mockup-2026-09",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Pdvsa Gateway Ops Mockup 2026 09",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:13:58.897852+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-pdvsa-gateway-ops-mockup-2026-09",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 48,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:13:58.895896+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Pdvsa Gateway Ops Mockup 2026 09",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-pdvsa-gateway-ops-mockup-2026-09",
+  "skill_sha256": "f77290132c4583ef0f3ca51c59056efce416e6451c5474d24050f2a5a992f1ab",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-pdvsa-gateway-ops-mockup-2026-09"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-pdvsa-gateway-ops-mockup-2026-09",
+  "warnings": []
+}

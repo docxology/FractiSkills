@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "381579cd134c309083d9f2954724f4c2fa2804c81729f065676fbde5f2d5d3f6",
+      "fetched_at": "2026-09-10T22:12:04.212021+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "status_code": 200,
+      "title": "Concierto de El Gran Sol: “The Shift” · Concert Program · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program"
+    }
+  ],
+  "target_id": "concierto-program"
+}

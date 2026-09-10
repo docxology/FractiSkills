@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "8b0f60d00c5e87332ffab84b0685ee69d048048e0f4fa6a2aac5940d51482959",
+    "references/sources.json": "db7e68ea5e70ea062f754f36ca376398c6d7d4dbc6501a6a1049c6feaeda598d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b80c0abd1a69170babf2a6cb6f99e0800b6f3a8d181e75adfa73041e0741a869",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "08fed4874aeb939bd3dd2f265b0de61bab35b89cc3e4de21c181094226d3417e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:27.751405+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-geomagnetic-herbivore-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Geomagnetic Herbivore 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "content_sha256": "c8793ff3f1d54da89a4baebd6826dcea3683750a2d700a3e6478298879f8bc82",
+      "fetched_at": "2026-09-10T22:15:27.076160+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "status_code": 200,
+      "text_sha256": "bad8905cedbfb4b4c36da1332edb12612bc43d12daf182cda982782dab212a43",
+      "title": "Geomagnetic Influences on Bison & Large Herbivore Movement · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-geomagnetic-herbivore-2026",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3694,
+      "duration_ms": 54,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:27.071184+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Geomagnetic Herbivore 2026",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-geomagnetic-herbivore-2026",
+  "skill_sha256": "8b0f60d00c5e87332ffab84b0685ee69d048048e0f4fa6a2aac5940d51482959",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026"
+  ],
+  "target_id": "ship-blog-geomagnetic-herbivore-2026",
+  "warnings": []
+}

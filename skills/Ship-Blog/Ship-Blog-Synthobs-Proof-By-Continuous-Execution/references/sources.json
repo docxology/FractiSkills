@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "522a940357ab276ffa26bdf0f8c30cc1b68e5c4ca4fbd9e9df9dd9e58761dcdd",
+      "fetched_at": "2026-09-10T22:16:25.498949+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-proof-by-continuous-execution",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-proof-by-continuous-execution",
+      "status_code": 200,
+      "title": "Proof by Continuous Execution · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-proof-by-continuous-execution"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-proof-by-continuous-execution"
+}

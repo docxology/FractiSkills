@@ -1,0 +1,107 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "3ad5201560cb410fefb7d440bee3f4ec108318c01bd04026260c989f3363ef5d",
+    "references/sources.json": "a0a31424d9603e7a31f9af9ffe947ff057943fe565bfd5f6376a2d2f09dfa6aa"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "09e5f959fa1a600bd1c11a3d98fded20d75aa6445a1d881f7f03526e3589246c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 1,
+    "target_fingerprint": "225cbb86912620d551e5c45bc4394d01bb80a9927b551c80d62a9660945ab5d1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:51.897015+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-questfest-puerto-reno",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Questfest Puerto Reno",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html",
+      "content_sha256": "48e1de489a0707a5b5d7d586670cc3a3fdc595912f9c4cb22523ed3f7eeaa4be",
+      "fetched_at": "2026-09-10T22:14:51.459817+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html",
+      "status_code": 200,
+      "text_sha256": "e4a0f4d8cd97a41d637e3820ea277d2a6055a7861297e0f796db3749e8f3d25f",
+      "title": "QUESTFEST · Puerto Reno · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-questfest-puerto-reno",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5066,
+      "duration_ms": 33,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:51.447437+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Questfest Puerto Reno",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-questfest-puerto-reno",
+  "skill_sha256": "3ad5201560cb410fefb7d440bee3f4ec108318c01bd04026260c989f3363ef5d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-questfest-puerto-reno.html"
+  ],
+  "target_id": "interfaces-nesting-nest-questfest-puerto-reno-html",
+  "warnings": []
+}

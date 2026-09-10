@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "fa0aecb1ec878ad4992482ca4cd9a3d6994880cf709ae42fdff938adb63721e7",
+    "references/sources.json": "6bc56b94f03840d7ce02b74ce4980f34a6638916fd0f6880ec73820203ac88d1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1e78bd40b69dba99c69ffc1eea04b518005ac94d3284870ac91ba0e21d5fb74a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "30333fce58ff7707eb77f8911a6e571e9f2e269ae4f7d271adb9ac127aad17fb"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 187,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:13:53.784334+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-omni-lattice-report-card-q3-2026",
+        "content_sha256": "e60228c90e94e5c78a3a91ce5c9cd692f1b53a4a95aabe4219e46ead2a48b050",
+        "error": null,
+        "etag": "W/\"4191-AmJSZ3PGtw3kXXIQblvOM5lhPS0\"",
+        "fetched_at": "2026-09-10T22:13:53.971411+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026",
+        "status_code": 200,
+        "text_chars": 10183,
+        "title": "Omni-Lattice Report Card Q3 2026"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-omni-lattice-report-card-q3-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Omni Lattice Report Card Q3 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:13:53.323496+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-omni-lattice-report-card-q3-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 53,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:13:53.321290+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Omni Lattice Report Card Q3 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-omni-lattice-report-card-q3-2026",
+  "skill_sha256": "fa0aecb1ec878ad4992482ca4cd9a3d6994880cf709ae42fdff938adb63721e7",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-omni-lattice-report-card-q3-2026"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-omni-lattice-report-card-q3-2026",
+  "warnings": []
+}

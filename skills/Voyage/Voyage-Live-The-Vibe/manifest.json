@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "e867c1935f65901acececd2cf0aa171ce34d59ef1203521dbd8e2082e20c761a",
+    "references/sources.json": "9e82bdfaf7e96debf2c490f508dc01907b078d224a67880372bb4c07698e2baf"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0f83ef5a106502630ccb2ca29e6369fbd9f3c0146a2ab78f1cc63c1b420f983b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "8e43d607c83461c1ce5b242ca95a839f300db5ff6c4b3c8cfda65752868756ee"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:40.990174+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-live-the-vibe",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Live The Vibe",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "content_sha256": "cf0506c748a60e58c98e704f0ef821b6e8fea367bd15205cc34067d7e2c9faba",
+      "fetched_at": "2026-09-10T22:17:40.759452+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "status_code": 200,
+      "text_sha256": "f8d452b8cf503c34b9c0d8fadbb55809aee3d423e75351bfdbce32349adb0451",
+      "title": "Live the vibe · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-live-the-vibe",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4153,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:40.755290+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe"
+    }
+  ],
+  "requested_skill_name": "Voyage Live The Vibe",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-live-the-vibe",
+  "skill_sha256": "e867c1935f65901acececd2cf0aa171ce34d59ef1203521dbd8e2082e20c761a",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe"
+  ],
+  "target_id": "voyage-live-the-vibe",
+  "warnings": []
+}

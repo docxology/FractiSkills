@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f1a4371568144e3a898a84b2d53c75e31ed0dca3efaeefbce73dced8fa990a4c",
+      "fetched_at": "2026-09-10T22:15:57.424489+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "status_code": 200,
+      "title": "Quakes and solar weather on the same bulletin · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather"
+    }
+  ],
+  "target_id": "ship-blog-quakes-and-solar-weather"
+}

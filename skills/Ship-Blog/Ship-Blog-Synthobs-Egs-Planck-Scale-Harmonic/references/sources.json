@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0785cc21663e570529ae97ceb7e1bef35920c221396ffc4ced6280f131013b2f",
+      "fetched_at": "2026-09-10T22:16:07.731925+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-planck-scale-harmonic",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-planck-scale-harmonic",
+      "status_code": 200,
+      "title": "A Scale-Harmonic Reinterpretation of the Planck Scale · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-planck-scale-harmonic"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-egs-planck-scale-harmonic"
+}

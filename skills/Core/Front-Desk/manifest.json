@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "104c5c55137ef89e83292c917bc9f957fea801f9120d9bd4913bd561c478a4bf",
+    "references/sources.json": "4304e415ad651747492fcfdccaab8e99d4370861cd805d207d238d877b074fec"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "924cea65c1b54e58eea410309a24e04a59bbb76c38a8f248584a36c71ac66dc1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "7f2585cd886d644c8fcc4a439859097a3f6a5785ff1007edda5164a9f2d295b7"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:06.412699+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "front-desk",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Front Desk",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "content_sha256": "27b17ea369ed5fea9979be453d60447f2a526564dc370ba7e86c2dd7481062ed",
+      "fetched_at": "2026-09-10T22:12:04.925039+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "status_code": 200,
+      "text_sha256": "5f7ddca1dc615efca58c57d3d6e171af194270c9631d5c557802b23868c2b52d",
+      "title": "Front Desk · SS Vibelandia check-in",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "warnings": []
+    }
+  ],
+  "portable_name": "front-desk",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 22584,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:04.920498+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk"
+    }
+  ],
+  "requested_skill_name": "Front Desk",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "front-desk",
+  "skill_sha256": "104c5c55137ef89e83292c917bc9f957fea801f9120d9bd4913bd561c478a4bf",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/front-desk"
+  ],
+  "target_id": "front-desk",
+  "warnings": []
+}

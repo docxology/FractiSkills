@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "cb5bd1c53e13f10b630e9384ac057b30060be2a74f2a423af9b5aa93b0ee4612",
+    "references/sources.json": "d19e4c12a43d118e75aa2bb91c2a125ed618570d8e87a3edf89f802cda059346"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "600c947948a1eb049724c7e93a08247ecd5b1f53ba44c9a71225446c6739e702",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "f63af1430db5519f2708afc547df97e2b617f8934afcd2c4344e662e1bf2a6c9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:53.714589+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-prime-indexed-volumetric-storage",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Prime Indexed Volumetric Storage",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "content_sha256": "3f9a9e923265115c78c44d8f2bc1809d9d2770e4fe4346c513762335bd8d15c2",
+      "fetched_at": "2026-09-10T22:15:53.321148+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "status_code": 200,
+      "text_sha256": "3217a5d051b49260ca29fb43b515dcd6bef3929132364b7e8fbb48218fefba89",
+      "title": "Storage without the parity tax — prime vaults for memory · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-prime-indexed-volumetric-storage",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10830,
+      "duration_ms": 53,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:53.308932+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Prime Indexed Volumetric Storage",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-prime-indexed-volumetric-storage",
+  "skill_sha256": "cb5bd1c53e13f10b630e9384ac057b30060be2a74f2a423af9b5aa93b0ee4612",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage"
+  ],
+  "target_id": "ship-blog-prime-indexed-volumetric-storage",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "45063fa019afccd3bf5e5ab89a6b9e688c43fe60243923d20254b242f4c8e994",
+      "fetched_at": "2026-09-10T22:14:48.637294+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-dph-gpu.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-dph-gpu.html",
+      "status_code": 200,
+      "title": "Holographic code layer · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-dph-gpu.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-dph-gpu-html"
+}

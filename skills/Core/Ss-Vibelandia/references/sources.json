@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ec825dbe06dae4bc0160415ce828e46bda8b8be8ac9639a7c637e9b38e6cdc80",
+      "fetched_at": "2026-09-10T22:12:19.200832+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ss-vibelandia",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ss-vibelandia",
+      "status_code": 200,
+      "title": "SS Vibelandia · The Noah’s Ark of the Intelligence Age",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ss-vibelandia"
+    }
+  ],
+  "target_id": "ss-vibelandia"
+}

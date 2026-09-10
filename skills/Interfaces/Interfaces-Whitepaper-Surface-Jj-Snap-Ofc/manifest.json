@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "9159bd9bef809f711b914f3b49c12a724dda63dbdf72c98a3adaf66c103219ab",
+    "references/sources.json": "c6915328315874edd979191814cc41b8031f9df26b16a6d8ba12ae6eadb4a549"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "32fbc8dc500146f08f73868dad3c575e7118fe7ac59583d1a90f75e9f4b14824",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "b608a90ec76b3fcf42785b10daeade0715641905d699861daf10f041961d501b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 211,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:13:00.624008+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=jj-snap-ofc",
+        "content_sha256": "86dc05e9dc998ab8b6d3fe496fe4c9d34267b8e305f83b0d07f206360d61d523",
+        "error": null,
+        "etag": "W/\"249c-bPfbZ8w1F9DXFIwnJNPIgHWDvEQ\"",
+        "fetched_at": "2026-09-10T22:13:00.834527+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc",
+        "status_code": 200,
+        "text_chars": 5057,
+        "title": "JJ Snap · OFC whitepaper"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-jj-snap-ofc",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Jj Snap Ofc",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:13:00.486558+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-jj-snap-ofc",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 46,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:13:00.484362+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Jj Snap Ofc",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-jj-snap-ofc",
+  "skill_sha256": "9159bd9bef809f711b914f3b49c12a724dda63dbdf72c98a3adaf66c103219ab",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=jj-snap-ofc"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-jj-snap-ofc",
+  "warnings": []
+}

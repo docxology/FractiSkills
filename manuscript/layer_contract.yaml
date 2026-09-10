@@ -1,0 +1,16 @@
+# Layer contract
+
+| Surface | Rule |
+| --- | --- |
+| `src/fractiskills/models.py` | Deterministic contracts and IO helpers — no network, no imports of sibling stages |
+| `src/fractiskills/profiles.py` | Deterministic profile compilation — no network |
+| `src/fractiskills/discover.py` | Acquisition boundary: sitemap GET + one bounded Skillarum BFS crawl; owns `output/data/inventory.json` |
+| `src/fractiskills/generator.py` | Augmentation boundary: same-origin JSON GETs for declared bindings only; everything else offline |
+| `src/fractiskills/pipeline.py` | Stage orchestration; page acquisition delegated to `skillarum.pipeline`/`skillarum.render` |
+| `src/fractiskills/analysis.py`, `figures.py`, `publication.py` | Research layer — reads persisted artifacts, never acquires pages |
+| `src/fractiskills/cli.py`, `scripts/` | Thin dispatch only |
+| Live counts | Bound as manuscript tokens from persisted artifacts; never hand-typed |
+
+Enforced by review and by the hermetic test suite: no test may read pre-existing
+`output/` or `skills/` artifacts, and all network-touching tests run against
+local fixture servers with `evidence_origin="fixture"`.

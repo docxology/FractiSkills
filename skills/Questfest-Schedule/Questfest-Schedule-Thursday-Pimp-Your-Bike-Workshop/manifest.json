@@ -1,0 +1,107 @@
+{
+  "area": "Questfest-Schedule",
+  "artifact_hashes": {
+    "SKILL.md": "b25db1f42547a8285c7905f4386deeb31a166ddd1cc447c1ead29eba194fd60f",
+    "references/sources.json": "b38f17430bd1c3365f96d5078af3d7bf24e3ffde3b44a921ac7c69f31d9e8ba9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2df1d0888877aa615a399c4212dd039264341057b70d072354949ffc8bb43465",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "86befd23943bea57ae561cc701017c53ee4d1f2a2f3211bb95df9011956a25b4",
+    "request_count": 1,
+    "target_fingerprint": "efb9d9aa4f6922029813f3b825b70b8c21900f282d6fa1ad334cd6351fb3af8c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:13.439840+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "questfest-schedule-thursday-pimp-your-bike-workshop",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Questfest Schedule Thursday Pimp Your Bike Workshop",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "1f17e8eebf18c1a20aba0eb93abd21022fff23754ccaa9385063f5e53840b4ea",
+      "fetched_at": "2026-09-10T22:15:12.828729+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pimp-your-bike-workshop",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pimp-your-bike-workshop",
+      "status_code": 200,
+      "text_sha256": "947307b0a91a8d8af983f73250166145756e89614c9bc65e561658452c648e1b",
+      "title": "QUESTFEST Schedule · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pimp-your-bike-workshop",
+      "warnings": []
+    }
+  ],
+  "portable_name": "questfest-schedule-thursday-pimp-your-bike-workshop",
+  "profile_fingerprint": "86befd23943bea57ae561cc701017c53ee4d1f2a2f3211bb95df9011956a25b4",
+  "profile_id": "ssvibelandia-questfest-schedule",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Questfest-Schedule",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3109,
+      "duration_ms": 47,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:12.825305+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pimp-your-bike-workshop"
+    }
+  ],
+  "requested_skill_name": "Questfest Schedule Thursday Pimp Your Bike Workshop",
+  "run_id": "ssvibelandia-questfest-schedule--5b99a73d9c2b83b2cf47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "questfest-schedule-thursday-pimp-your-bike-workshop",
+  "skill_sha256": "b25db1f42547a8285c7905f4386deeb31a166ddd1cc447c1ead29eba194fd60f",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pimp-your-bike-workshop"
+  ],
+  "target_id": "questfest-schedule-thursday-pimp-your-bike-workshop",
+  "warnings": []
+}

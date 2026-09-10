@@ -1,0 +1,109 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "ba1bc2ea1f8b1cad3cf0af35b94553a2c1cc7ba8bb73fdca86db744504af3aaa",
+    "references/sources.json": "36c4bf37ad3dd3cccf82e9f38fb97bf0a1345e277b9d7533a46505da514d9bc1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "bb6f2b0d2a072aff0ed3c7bc54888dba88deb6de973acafd27a97c246c9c0f78",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "e2851633f23fecff47b9bfbb3858c888bc12ef38c0a269670528df8bf56d7dad"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:14.084055+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "meet-the-crew",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Meet The Crew",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew",
+      "content_sha256": "6c4b0b906cbf1f51dfea75807b9f1a17a12f3a352d91b7ae2023cd60de8d295d",
+      "fetched_at": "2026-09-10T22:12:13.953104+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew",
+      "status_code": 200,
+      "text_sha256": "3a0f8fd7629dec2310e60f9a6989c89e19ed7145501afbdcecf11fdf2900d36f",
+      "title": "Meet the crew · Spirit crew · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "meet-the-crew",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13748,
+      "duration_ms": 46,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:13.905014+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew"
+    }
+  ],
+  "requested_skill_name": "Meet The Crew",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "meet-the-crew",
+  "skill_sha256": "ba1bc2ea1f8b1cad3cf0af35b94553a2c1cc7ba8bb73fdca86db744504af3aaa",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/meet-the-crew"
+  ],
+  "target_id": "meet-the-crew",
+  "warnings": []
+}

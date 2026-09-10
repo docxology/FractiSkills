@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "c4c6bedb0ec2e67ebd33691e77b76d2fd635c0835754138f13c7912483cbe316",
+    "references/sources.json": "8cdfe6f7e868056376e81d48dc242f524e5b96673e3578cdb3df3861f5b51960"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "7e41b661d6a12ace40782b63985fdee9f6a04127b7c688b8b0b1740e8b35d477",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "cc6c3da9ef71abd250865f3cf3c384b3e98103d1b6b7a6b272e99160784af6c8"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:06.998169+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "frontier",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Frontier",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "content_sha256": "4673ba52bae2f117dcf2d739a4b0dc9521858c80b51dc710590e2ef95af8f153",
+      "fetched_at": "2026-09-10T22:12:06.934205+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "status_code": 200,
+      "text_sha256": "829e13347f036393a78f2e5c5eed613b0883627f6c96f24f7da2dad1a1b86665",
+      "title": "What It Means to Be Frontier · Trail + self-test + Where Am I · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "warnings": []
+    }
+  ],
+  "portable_name": "frontier",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15057,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:06.927297+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/frontier"
+    }
+  ],
+  "requested_skill_name": "Frontier",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "frontier",
+  "skill_sha256": "c4c6bedb0ec2e67ebd33691e77b76d2fd635c0835754138f13c7912483cbe316",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/frontier"
+  ],
+  "target_id": "frontier",
+  "warnings": []
+}

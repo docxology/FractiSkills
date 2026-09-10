@@ -1,0 +1,109 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "066917166bec6cc3c2495371b418eaee1ba702cf52eb235a22288bd88ea438f6",
+    "references/sources.json": "fd8105cbd8a3bee95bf9a0b13064289dadb7c2e7b24c6db54a7f9b627b4a7e01"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "94128ac2c4f6d721e97cebda8c8ed5fadbc4f42a6d966446061e0dc298c5bb26",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "1d5c7c3f015ce8e427447e01cb6d21e6515ae9ecf5317790f57eb942a2f2111a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:02.124880+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-sna-tcpip-gateway-omni-lattice",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Sna Tcpip Gateway Omni Lattice",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "content_sha256": "7b5c46c7ae2a5315d084361f9f0cbd4b0c8653714cbd72c4fb3064af210435bc",
+      "fetched_at": "2026-09-10T22:16:01.830987+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "status_code": 200,
+      "text_sha256": "d4f75b0c218ea12b559dbc9a6498fb1fe7ba2fd2063a9194af26a3ef20a4435e",
+      "title": "When SNA met TCP/IP — and why CEOs hire the bridge again · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "warnings": [
+        "invalid link ignored (mailto:valetpru@gmail.com?subject=Lattice%20Chat%20CEO%20inquiry): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "ship-blog-sna-tcpip-gateway-omni-lattice",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10650,
+      "duration_ms": 45,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:01.818771+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Sna Tcpip Gateway Omni Lattice",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-sna-tcpip-gateway-omni-lattice",
+  "skill_sha256": "066917166bec6cc3c2495371b418eaee1ba702cf52eb235a22288bd88ea438f6",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice"
+  ],
+  "target_id": "ship-blog-sna-tcpip-gateway-omni-lattice",
+  "warnings": []
+}

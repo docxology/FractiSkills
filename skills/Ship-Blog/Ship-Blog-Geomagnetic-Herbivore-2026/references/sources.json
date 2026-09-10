@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c8793ff3f1d54da89a4baebd6826dcea3683750a2d700a3e6478298879f8bc82",
+      "fetched_at": "2026-09-10T22:15:27.076160+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026",
+      "status_code": 200,
+      "title": "Geomagnetic Influences on Bison & Large Herbivore Movement · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/geomagnetic-herbivore-2026"
+    }
+  ],
+  "target_id": "ship-blog-geomagnetic-herbivore-2026"
+}

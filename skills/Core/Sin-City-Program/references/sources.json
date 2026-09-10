@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a0bcc5551e31406f395289a6f38b9d902817df9bae72a8281635d7400cf349cc",
+      "fetched_at": "2026-09-10T22:12:18.352478+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/sin-city-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/sin-city-program",
+      "status_code": 200,
+      "title": "Sin City Night Program · J.S. Bach · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/sin-city-program"
+    }
+  ],
+  "target_id": "sin-city-program"
+}

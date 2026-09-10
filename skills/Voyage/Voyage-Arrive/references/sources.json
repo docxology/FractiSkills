@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "76f3a7a9cc19288db4e8b31ddab220b0f0d1c2c27640550f3ee0af2c42735c47",
+      "fetched_at": "2026-09-10T22:17:24.937740+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/arrive",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/arrive",
+      "status_code": 200,
+      "title": "Arrive · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/arrive"
+    }
+  ],
+  "target_id": "voyage-arrive"
+}

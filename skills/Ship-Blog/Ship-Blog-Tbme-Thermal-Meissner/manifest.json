@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "3c7764add24fd1838c8ee20ecf42305bf03d60e130b6927383f3bb4ed32acf99",
+    "references/sources.json": "53d0c8f57bbf062a1e4cd7705cad9b439ac17e8c4b45f9fb6be8b8f568dee4bb"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6024795b95d6d7c7c6323ba4ff041444ddcacff2b5cf032726eba9c0165e601e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "d4fb8cc5f97a77775f22859f1f08a97ad05a6b2449d70b1bde6ab6b060221288"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:41.564230+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tbme-thermal-meissner",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tbme Thermal Meissner",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner",
+      "content_sha256": "1ca7a2cd2624d0a3ff0ecc6300db351120f865546b16d7c426389beafeddb48c",
+      "fetched_at": "2026-09-10T22:16:41.184073+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner",
+      "status_code": 200,
+      "text_sha256": "9a1134ec2badf1b1eac040e5736e50387788b4d2349143fdb180c5b527bacdb1",
+      "title": "Thermal Decoupling, Externalized Magnetism, and Phase Coherence Dynamics in Supercond… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tbme-thermal-meissner",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4116,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:41.179669+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tbme Thermal Meissner",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tbme-thermal-meissner",
+  "skill_sha256": "3c7764add24fd1838c8ee20ecf42305bf03d60e130b6927383f3bb4ed32acf99",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-thermal-meissner"
+  ],
+  "target_id": "ship-blog-tbme-thermal-meissner",
+  "warnings": []
+}

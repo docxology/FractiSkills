@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "66f61e3c53e00eb7a9e40b706c6616c4d3ad73a5b230f0d8344b1421b7ca805f",
+    "references/sources.json": "3c2e4f4ed75f73278acfb7bc84c359aac2957a50a9b7cc1d0df72736b8886387"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6c80a587c644e57b3166e37bbbfcae88bb03dd17c0446319e3ab5e79530a29d8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "31fa9de86705cd4a7398c5be1e5652db0ff31e4831111e4f5cd97fbcfd556dc9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 202,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:13:39.146183+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-infinite-octave-prime-parity-2026-09",
+        "content_sha256": "4c7866167e6ec01ce2ad40f455ab8d35477af1ba4887a17d92c652c15b8c1bda",
+        "error": null,
+        "etag": "W/\"3dfe-3xf4WSRxwrytLUaBrHeBXXQh0Ew\"",
+        "fetched_at": "2026-09-10T22:13:39.348233+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09",
+        "status_code": 200,
+        "text_chars": 9716,
+        "title": "Rigorous Mathematical and Empirical Validation of the Infinite Octave Prime-Parity Framework"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-infinite-octave-prime-parity-2026-09",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Infinite Octave Prime Parity 2026 09",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:13:38.967986+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-infinite-octave-prime-parity-2026-09",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 33,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:13:38.965720+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Infinite Octave Prime Parity 2026 09",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-infinite-octave-prime-parity-2026-09",
+  "skill_sha256": "66f61e3c53e00eb7a9e40b706c6616c4d3ad73a5b230f0d8344b1421b7ca805f",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-infinite-octave-prime-parity-2026-09"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-infinite-octave-prime-parity-2026-09",
+  "warnings": []
+}

@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "8fa559b476f786a833a7c9ff87737e17bfe67e5348481bdcfd264a7d3a001c12",
+    "references/sources.json": "5d556e0cdafb980b6288e0fe3b468c31bb9e4dce25f222971661682205007638"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "56b02c79b99006dfc41e485debafbd87a6ae1e643cdf1ecd5c55021aca18d51a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "cd91961bb79fa6a061d4095b1b5231ac1f0b0bf4f4aac203e4b0df1171b1a019"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:38.050312+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-frontiersman",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Frontiersman",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "content_sha256": "48a4c92154e4080584896859e4611c05b5c3420408a4e88ffdb9e7bc7579ccbb",
+      "fetched_at": "2026-09-10T22:17:37.842591+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "status_code": 200,
+      "text_sha256": "bd89e7a70fd9646f4d9c3a59f28ea09aec843b0bcaec7d3500106e34698e6d22",
+      "title": "☀ Frontiersman · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-frontiersman",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4533,
+      "duration_ms": 66,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:37.836151+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman"
+    }
+  ],
+  "requested_skill_name": "Voyage Frontiersman",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-frontiersman",
+  "skill_sha256": "8fa559b476f786a833a7c9ff87737e17bfe67e5348481bdcfd264a7d3a001c12",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman"
+  ],
+  "target_id": "voyage-frontiersman",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "34252b1ecee8400a7f3a0b8bc5d7e1eb3bc9e7e48ea532ffefb19a2efd824ffe",
+      "fetched_at": "2026-09-10T22:16:42.357604+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "status_code": 200,
+      "title": "The 99 Octave engine as a tensor filing cabinet · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave"
+    }
+  ],
+  "target_id": "ship-blog-tensor-decoupling-99-octave"
+}

@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "97e00d82c084610348df6d11c414f50142d53796490933bb7f69fef5d1bf6404",
+    "references/sources.json": "8bae771a8c78ba543b341b523125ffc705acf0c74466ab04a5561556ad113174"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "277c6a8d025b1cb328215cdeffa95f0083313ab232921465df90050787bcd8bb",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "4fa27b06c530f6766f1bb067bbd0bd030fa4fc8aa9ee1dcbf112452a2b6526ec"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:33.060165+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-deck-2-core",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Deck 2 Core",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "content_sha256": "4e2b579d1e3dda602ad2934f7bb88cc55ccd3cfc5b8ac6e0c9194a3c2b60a117",
+      "fetched_at": "2026-09-10T22:17:32.461278+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "status_code": 200,
+      "text_sha256": "63c6149d98bc0a7e1c914a4fec492e37bc071a987e695e659110f128bd9e5bad",
+      "title": "Deck 2 — Core · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-deck-2-core",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4367,
+      "duration_ms": 44,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:32.453804+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core"
+    }
+  ],
+  "requested_skill_name": "Voyage Deck 2 Core",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-deck-2-core",
+  "skill_sha256": "97e00d82c084610348df6d11c414f50142d53796490933bb7f69fef5d1bf6404",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-2-core"
+  ],
+  "target_id": "voyage-deck-2-core",
+  "warnings": []
+}

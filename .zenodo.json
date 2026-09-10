@@ -1,0 +1,21 @@
+{
+  "title": "FractiSkills: One Portable Agent Skill per Page",
+  "description": "One portable agent SKILL.md per page of the SS Vibelandia Omniversal Canvas, rendered with Skillarum, organized by site section, with deterministic figures and a token-hydrated manuscript.",
+  "creators": [
+    {
+      "name": "Friedman, Daniel Ari",
+      "affiliation": "Active Inference Institute",
+      "orcid": "0000-0001-6232-9096"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "agent skills",
+    "SKILL.md",
+    "Skillarum",
+    "web scraping",
+    "reproducible research"
+  ],
+  "access_right": "open",
+  "upload_type": "publication"
+}

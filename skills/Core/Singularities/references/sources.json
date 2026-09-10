@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e18b383f3121040d6648b2847efb5c1218e78f79951b462e5c3b6927f0414c9a",
+      "fetched_at": "2026-09-10T22:12:18.922532+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "status_code": 200,
+      "title": "Awareness Singularities S0–S81 · SynthOBS · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/singularities"
+    }
+  ],
+  "target_id": "singularities"
+}

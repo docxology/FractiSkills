@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "98b80f8677e70fcff67703b5642dfb5e28b79a336e67eea5dba046c346a021a6",
+    "references/sources.json": "6cb84fadb860117889e46c80c04c3bccf22be0d7c3c7d541cc1a3d8e2224c8c3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "30341b62edf29471998be8a9aa8a1e0e0b9b131f1b89fa7e0f6ddc0d0360b6cf",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "3fa3163c1eee2d4e2ab2587a35ecb3468e8df7e5aeba2a8929b621f8136b4a61"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:41.743405+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-prepare",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Prepare",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare",
+      "content_sha256": "593933f4bec22e921f92af1dabbe9c105cd06120274659f44dae6cf86f9f5a4f",
+      "fetched_at": "2026-09-10T22:17:41.504926+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare",
+      "status_code": 200,
+      "text_sha256": "2d8f665aa17cd8117233fd458cd6dbc16cce02897f4d17cb536d4d6459d0ca58",
+      "title": "Prepare · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-prepare",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4177,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:41.500333+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare"
+    }
+  ],
+  "requested_skill_name": "Voyage Prepare",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-prepare",
+  "skill_sha256": "98b80f8677e70fcff67703b5642dfb5e28b79a336e67eea5dba046c346a021a6",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/prepare"
+  ],
+  "target_id": "voyage-prepare",
+  "warnings": []
+}

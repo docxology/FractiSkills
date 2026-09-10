@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "943376a5c269740c0761b27e91284564f7709ff0179968f3db1a7a82794f3992",
+    "references/sources.json": "68f60a68887f9f532713ff43248fdc07812a49329b9b0c85bfc8317fe6a9e6fe"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1a7ffae9b5f75a8f34cb52d2270f067b0d81ac8c67b4dd0bc7eecb3fd072cfed",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "e78d402bc8e82fa623ecadfbfb94c775acb2e4f116ae908f6c882459e63a40b5"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:37.241064+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-questfest-2026-frontier-guide",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Questfest 2026 Frontier Guide",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "content_sha256": "4fd206d96a5dc453f3f7cbd4493be0ebc1b6051c51fd5964e77360e7b3beab97",
+      "fetched_at": "2026-09-10T22:12:36.543143+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "status_code": 200,
+      "text_sha256": "ae187e2a696aa17853405090aeba6b11165affc6c64d9620cd2e559dbf5b5ba3",
+      "title": "Ship Map · SS VIBELANDIA QUESTFEST 24×365",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-questfest-2026-frontier-guide",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 29097,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:36.536120+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Questfest 2026 Frontier Guide",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-questfest-2026-frontier-guide",
+  "skill_sha256": "943376a5c269740c0761b27e91284564f7709ff0179968f3db1a7a82794f3992",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html"
+  ],
+  "target_id": "interfaces-questfest-2026-frontier-guide-html",
+  "warnings": []
+}

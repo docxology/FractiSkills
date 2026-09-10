@@ -1,0 +1,109 @@
+{
+  "area": "Journey",
+  "artifact_hashes": {
+    "SKILL.md": "19cba39c5b10055663a8814a7f289b4cae4f62edee0709bb538d2030c82d6a8b",
+    "references/sources.json": "e899a95f1ff0b9536f0f2c2a557b9dda5f6c46d74ef4a913f00758ca4af06a57"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "98fbe54f860081f2a1939dbbcca64703db45ef9876ecd0fa6927ac1560c11931",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+    "request_count": 1,
+    "target_fingerprint": "fe1d8b3c46bee0cfed1b0c4ec80772567439d366ef210bd73a3ff53c76a32311"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:59.921488+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "journey-cartagena-spice-stone",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Journey Cartagena Spice Stone",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "content_sha256": "739369ca8697f65fb1247c53a550ef0cd9c8c9ea9f0f51cb967d5984c25d6fe4",
+      "fetched_at": "2026-09-10T22:14:58.515155+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "status_code": 200,
+      "text_sha256": "7bbdbdb164b97d080217b5879e2f21d957bcb0c08e2afc7a58e36c053029fc78",
+      "title": "Cartagena · Spice & Stone · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Journey%20inquiry%20—%20Cartagena%20%C2%B7%20Spice%20%26%20Stone): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "journey-cartagena-spice-stone",
+  "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+  "profile_id": "ssvibelandia-journey",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Journey",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5064,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:58.508295+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone"
+    }
+  ],
+  "requested_skill_name": "Journey Cartagena Spice Stone",
+  "run_id": "ssvibelandia-journey--2dc97e59f0a891e4884a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "journey-cartagena-spice-stone",
+  "skill_sha256": "19cba39c5b10055663a8814a7f289b4cae4f62edee0709bb538d2030c82d6a8b",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone"
+  ],
+  "target_id": "journey-cartagena-spice-stone",
+  "warnings": []
+}

@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "e729cd8748d5c3a8235ebf8fa23e4d5fff70600d7c9265d2c7cfaeb67b471c30",
+    "references/sources.json": "3c6153901107b9a9f4a640c2921bdfbb4aa6f47042a53c260f78c8bf45da85c2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1f3c9e5213ce491018094286ff18d6637d4d01324147b97b7710d56985916765",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "78e625c21e09d2239d72f5303ab223757c433801f3e93e3c61d2003aecc53528"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 211,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:54.991490+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=geomagnetic-herbivore-2026",
+        "content_sha256": "524702709587e11c0045ea8d8c601231a7db6712f89c8f282e899d2f1e5403e5",
+        "error": null,
+        "etag": "W/\"4916-kSh3hOG2dMnF+f+bFhubX6h0gwY\"",
+        "fetched_at": "2026-09-10T22:12:55.202554+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026",
+        "status_code": 200,
+        "text_chars": 11911,
+        "title": "Geomagnetic Influences on Bison & Large Herbivore Movement · Recent Anomaly Detection Module"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-geomagnetic-herbivore-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Geomagnetic Herbivore 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:12:54.446787+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-geomagnetic-herbivore-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:54.444902+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Geomagnetic Herbivore 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-geomagnetic-herbivore-2026",
+  "skill_sha256": "e729cd8748d5c3a8235ebf8fa23e4d5fff70600d7c9265d2c7cfaeb67b471c30",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=geomagnetic-herbivore-2026"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-geomagnetic-herbivore-2026",
+  "warnings": []
+}

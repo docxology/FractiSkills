@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5009755a679ba5bf2c56227cb5c50055aa2a2b7d0e0dbde728b9c37d8a1efb45",
+      "fetched_at": "2026-09-10T22:15:46.247972+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-cloud-antenna",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-cloud-antenna",
+      "status_code": 200,
+      "title": "Cloud racks as an antenna story — MRI simulation, not a magnet · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-cloud-antenna"
+    }
+  ],
+  "target_id": "ship-blog-mri-cloud-antenna"
+}

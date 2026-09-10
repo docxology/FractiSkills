@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6781aef006b592a14a00d38df032025413ecf5a03cc273da91a139b1e44e990d",
+      "fetched_at": "2026-09-10T22:16:06.474337+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-81-electrons",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-81-electrons",
+      "status_code": 200,
+      "title": "The 81-Digit Electronic Lattice · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-81-electrons"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-egs-81-electrons"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "326fb1291627c525dd68b1ab0af958c6eb2faed3eab0beea65ce78ba89062078",
+      "fetched_at": "2026-09-10T22:12:30.876847+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/goldilocks-beehive-residency.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/goldilocks-beehive-residency.html",
+      "status_code": 200,
+      "title": "Goldilocks Syntheverse Beehive Residency · Machote Moderno members",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/goldilocks-beehive-residency.html"
+    }
+  ],
+  "target_id": "interfaces-goldilocks-beehive-residency-html"
+}

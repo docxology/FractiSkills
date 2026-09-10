@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "3d61aa343ff6537281c404fc6d0a3ad4d1ed0242f8e78db158df7d2c7e28f958",
+    "references/sources.json": "1091ec3dbdc988c4e17592ecac554af659292cec1cdfcceafbf754f65fb1f0c7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b9c93955651d757cab96aa280244d489d96a077ef2b8f0a3338781972a6a02b0",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "681d28e9fdd85e58f057f7cf9b19ceb4e5511eea8116097fa91529c68ad48504"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 127,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:54.707289+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=nspfrnp-snap-peer-review-audit",
+        "content_sha256": "aa7ba08b6bc7c5cdf29101c39ca19eff0bf21df043bf85c845c7590d320997b4",
+        "error": null,
+        "etag": "W/\"22a2-fBjNC9LlcS+Rin0gGKReHxB84SE\"",
+        "fetched_at": "2026-09-10T22:17:54.833891+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit",
+        "status_code": 200,
+        "text_chars": 4528,
+        "title": "NSPFRNP Snap · Peer-Review Audit Loop · SynthOBS Autonomous Agent"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-nspfrnp-snap-peer-review-audit",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Nspfrnp Snap Peer Review Audit",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:54.278721+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-nspfrnp-snap-peer-review-audit",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 39,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:54.276398+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Nspfrnp Snap Peer Review Audit",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-nspfrnp-snap-peer-review-audit",
+  "skill_sha256": "3d61aa343ff6537281c404fc6d0a3ad4d1ed0242f8e78db158df7d2c7e28f958",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/nspfrnp-snap-peer-review-audit"
+  ],
+  "target_id": "whitepaper-nspfrnp-snap-peer-review-audit",
+  "warnings": []
+}

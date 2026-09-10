@@ -1,0 +1,109 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "47d1c48c13aa2c4459f29df7c35aecabdf18aff45e84e85a325af0a10f6d2446",
+    "references/sources.json": "2b31cf34d2a0f8a123cf53951aab755d6cee20c54f0f31de32857b686b20a2b5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "aaea984106cfbd9554da54dbd78aa3b4295de6765dbe8b27c32d56575506c6f1",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "00baeff1db0bb6d7a97c14218087e37b520397738005c8972a62cfa275913064"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:38.136289+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-questfest-bridge",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Questfest Bridge",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "89808458dcdbfa4f36ab8a1b3106d9fc225d457b1e273ad7a843dd2709b38a90",
+      "fetched_at": "2026-09-10T22:12:37.368144+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Jukebox · SS Vibelandia QUESTFEST",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-questfest-bridge",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 1021,
+      "duration_ms": 68,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:37.366029+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/"
+    }
+  ],
+  "requested_skill_name": "Interfaces Questfest Bridge",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-questfest-bridge",
+  "skill_sha256": "47d1c48c13aa2c4459f29df7c35aecabdf18aff45e84e85a325af0a10f6d2446",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/"
+  ],
+  "target_id": "interfaces-questfest-bridge",
+  "warnings": []
+}

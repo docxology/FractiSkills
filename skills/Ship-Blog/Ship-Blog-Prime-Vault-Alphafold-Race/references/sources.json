@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "03afb58f8db16dc87494e7b288b67e5a0aa1130b042e681deb1f261f06cd227d",
+      "fetched_at": "2026-09-10T22:15:53.991735+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-alphafold-race",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-alphafold-race",
+      "status_code": 200,
+      "title": "Prime-Vault vs ColabFold — race results · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-alphafold-race"
+    }
+  ],
+  "target_id": "ship-blog-prime-vault-alphafold-race"
+}

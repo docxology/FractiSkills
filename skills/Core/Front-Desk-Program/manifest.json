@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "016c01094a47bbf751f0ff9a7f486c7d219a3f828a1f2c7a5e6c22a70ec774e1",
+    "references/sources.json": "a0915b91a2063a6751b840f67ba9a97c67cc353a01a076db85d433d18bd5cb05"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "138027286a734abe73cd1fab660da559b323612f7b01119a54b3fd7d303fef89",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "646a28f97fe65dbfa100abfbe93e118d31114f3c6e7c9430ea9c74bd3f3c3ea3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:06.796557+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "front-desk-program",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Front Desk Program",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "content_sha256": "7b7b6e33973c2b131943a90fc2906a29c204a97b3db0dc5c60ab37bc1da3789c",
+      "fetched_at": "2026-09-10T22:12:06.728221+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "status_code": 200,
+      "text_sha256": "8cce6765e711371d56b97c72d98112a28203bd69305de5b79c9c4a879cceca0e",
+      "title": "Front Desk Check-In Program · J.S. Bach · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "warnings": []
+    }
+  ],
+  "portable_name": "front-desk-program",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 32187,
+      "duration_ms": 55,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:06.710473+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program"
+    }
+  ],
+  "requested_skill_name": "Front Desk Program",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "front-desk-program",
+  "skill_sha256": "016c01094a47bbf751f0ff9a7f486c7d219a3f828a1f2c7a5e6c22a70ec774e1",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/front-desk-program"
+  ],
+  "target_id": "front-desk-program",
+  "warnings": []
+}

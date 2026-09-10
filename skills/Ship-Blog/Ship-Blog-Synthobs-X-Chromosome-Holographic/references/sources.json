@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "44ea4d7ffee8ddb9a9162eec50ca7afb3f1ef33bf763c57ca17b340130abf75d",
+      "fetched_at": "2026-09-10T22:16:32.152445+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-x-chromosome-holographic",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-x-chromosome-holographic",
+      "status_code": 200,
+      "title": "Decoded Genomic Script · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-x-chromosome-holographic"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-x-chromosome-holographic"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "9cc67e69b1a5569275b2e05ec27bd3a6a1d3ecd2d06c75605bfb662787a89a6a",
+    "references/sources.json": "615c1f43b3e9988210669483a0b76817e6ee3bcdfd482f5925eef9b08efb7c33"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "34005d2a0dc6b001af1ff24d246b6d3588a27f9aaeeb78211b20fd184295e432",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "b6adbbacc388241a6aaba8374bff924e6e9289f347d726ccd70080acc22e86f1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:43.834839+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-topology-of-the-void",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Topology Of The Void",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "content_sha256": "eeb2ebb39525cc5a1461aaf9d8a9b526a8a65b441664dbd676484b1bbadeab58",
+      "fetched_at": "2026-09-10T22:16:43.523878+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "status_code": 200,
+      "text_sha256": "0b29a15ffb94481455e13ecfd534cc30dc0b1e8c10bfcf9d965e3e9d48bc1fd2",
+      "title": "Topology of the Void · Zero as Equilibrium · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-topology-of-the-void",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10098,
+      "duration_ms": 165,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:43.514545+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Topology Of The Void",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-topology-of-the-void",
+  "skill_sha256": "9cc67e69b1a5569275b2e05ec27bd3a6a1d3ecd2d06c75605bfb662787a89a6a",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void"
+  ],
+  "target_id": "ship-blog-topology-of-the-void",
+  "warnings": []
+}

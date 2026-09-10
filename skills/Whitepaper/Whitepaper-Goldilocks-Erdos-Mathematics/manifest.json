@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "af227504d4fd0a58280a2db37267762c21f3f4eea98ffbf9ac58320f5c45f288",
+    "references/sources.json": "fb9f43d6d5f8abd8f17bd8e4398d9f4f38ddb9063d73f5900c7aef0c49907457"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cc96f29fe452ae6e7da48dfc76a07a985d61a04461305176f232fa86472f0d91",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "f8c9a4a2d2bf664ddd05bb7778d6d3243cb5900bee8c689a00e1aec6fabade35"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 120,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:46.847358+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=goldilocks-erdos-mathematics",
+        "content_sha256": "937075af34802660da62f7f951b6398fe72d7f003450b271b2ff7d9589e2bd79",
+        "error": null,
+        "etag": "W/\"58bf-6fhmKAkEDT6E1MymkSu37fbx7mM\"",
+        "fetched_at": "2026-09-10T22:17:46.943409+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+        "status_code": 200,
+        "text_chars": 15695,
+        "title": "The New Goldilocks Game Mathematics · Mathematical AI Bridge + 344 Erdős Resolutions"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-goldilocks-erdos-mathematics",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Goldilocks Erdos Mathematics",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:46.457137+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-goldilocks-erdos-mathematics",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 39,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:46.455228+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Goldilocks Erdos Mathematics",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-goldilocks-erdos-mathematics",
+  "skill_sha256": "af227504d4fd0a58280a2db37267762c21f3f4eea98ffbf9ac58320f5c45f288",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics"
+  ],
+  "target_id": "whitepaper-goldilocks-erdos-mathematics",
+  "warnings": []
+}

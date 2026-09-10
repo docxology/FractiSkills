@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "272d3f7e45a49ec0d3070cb01e12fa9e28855501436f8588286cdf7e5cf5dda9",
+    "references/sources.json": "fdf6a2eb12bbb3e44d15984b89b4d3ef3bbe34567ba9c6abd8b00c84dc434fe4"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "fc550f6c3cfab2f6172fb18256f5fd422d28cde41e61b27dd75d98cbee9d1e78",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "0a66aee04beca59222db9268c8d50bec82944cac058bf13f65fc49bd288f7ce0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 216,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:18:32.469681+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-y-chromosome-holographic",
+        "content_sha256": "46f5ff880a697c42787767ba740355fb4cba51b2afaa7f2b14566308caf7c461",
+        "error": null,
+        "etag": "W/\"2b45-d9XvaM+9GEK2yC3NAp4qsPuxrl0\"",
+        "fetched_at": "2026-09-10T22:18:32.685664+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic",
+        "status_code": 200,
+        "text_chars": 5430,
+        "title": "Decoded Genomic Script: The Human Y Chromosome Holographic Operator Translation"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-synthobs-y-chromosome-holographic",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Synthobs Y Chromosome Holographic",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:18:32.223020+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-synthobs-y-chromosome-holographic",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 42,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:18:32.221058+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Synthobs Y Chromosome Holographic",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-synthobs-y-chromosome-holographic",
+  "skill_sha256": "272d3f7e45a49ec0d3070cb01e12fa9e28855501436f8588286cdf7e5cf5dda9",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-y-chromosome-holographic"
+  ],
+  "target_id": "whitepaper-synthobs-y-chromosome-holographic",
+  "warnings": []
+}

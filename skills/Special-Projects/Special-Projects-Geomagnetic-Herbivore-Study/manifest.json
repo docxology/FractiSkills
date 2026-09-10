@@ -1,0 +1,124 @@
+{
+  "area": "Special-Projects",
+  "artifact_hashes": {
+    "SKILL.md": "55a04c821457bbce256451df8a3fa65af5aa984fb3a6fe6c8a411e8c07b640e6",
+    "references/sources.json": "3e08447a74e2cc99a20364be90a6526bdebe89d54ee7ab702acbece5c7e618e7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e2a25c01e7864e10407d5df95828819ae73974b0567ab0a78dbd38a4cd2d12c7",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "f09f941955d3d17251badf93c3f19a359ef0a963e89407ebd67e0bdeec8ce4b5",
+    "request_count": 1,
+    "target_fingerprint": "a986c9d5c9236861db60077bdcba89936196e02d2b5767fecdf168185cd033c1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 30154,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:51.110672+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/turner-recent-anomaly-report",
+        "content_sha256": "",
+        "error": "ReadTimeout: The read operation timed out",
+        "etag": null,
+        "fetched_at": "2026-09-10T22:17:21.188487+00:00",
+        "ok": false,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+        "status_code": 0,
+        "text_chars": 0,
+        "title": null
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "special-projects-geomagnetic-herbivore-study",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Special Projects Geomagnetic Herbivore Study",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": [
+      "augmentation failed for https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study: ReadTimeout: The read operation timed out"
+    ]
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "content_sha256": "ecd59afa73b47e6e440aa8784f420c51c53870b4a161736c7acbff240b64f003",
+      "fetched_at": "2026-09-10T22:16:50.803035+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "status_code": 200,
+      "text_sha256": "15b5138a6bbe642c09cdc0a3527b5348fc0e4041bb7be41194dc8935b1cd7fd0",
+      "title": "Geomagnetic Herbivore Study · Multi-Taxa Wavefield",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=GEOMAG-HERBIVORE-2026%20review): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "special-projects-geomagnetic-herbivore-study",
+  "profile_fingerprint": "f09f941955d3d17251badf93c3f19a359ef0a963e89407ebd67e0bdeec8ce4b5",
+  "profile_id": "ssvibelandia-special-projects",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Special-Projects",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 8478,
+      "duration_ms": 33,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:50.797625+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study"
+    }
+  ],
+  "requested_skill_name": "Special Projects Geomagnetic Herbivore Study",
+  "run_id": "ssvibelandia-special-projects--037f1bf17233efbccbed",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "special-projects-geomagnetic-herbivore-study",
+  "skill_sha256": "55a04c821457bbce256451df8a3fa65af5aa984fb3a6fe6c8a411e8c07b640e6",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study"
+  ],
+  "target_id": "special-projects-geomagnetic-herbivore-study",
+  "warnings": []
+}

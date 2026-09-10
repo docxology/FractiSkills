@@ -1,0 +1,109 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "7e52b3c7290ed46b3a1094b1cfe304cb5ef2d3f2b0ecd458d7d70909ba322d78",
+    "references/sources.json": "c2bb75a9a65812400c9be33a0366a0ffbf8fd40ba97ead3c1be3094878c94475"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8e178dff08ae102c5cba392488a97d6fcac09a078d0b77c17b34f8d921b23d3b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "1911e675b4a52575e765718ab4cbec52f1f5caf1fc7fc29a0b3f07403e15a869"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:03.066537+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ai-transparency",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ai Transparency",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "content_sha256": "ca1b5571ba71ac41ae9ba336e357428ef8cdaa96732035d7d4d66df2f1d119b4",
+      "fetched_at": "2026-09-10T22:12:03.001114+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "status_code": 200,
+      "text_sha256": "2058b5e9ddcbb162740ddef43f2b6ae827933fdddee293a720f68751d0a85665",
+      "title": "AI transparency · FractiAI · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=AI%20transparency%20%2F%20EU%20AI%20Act): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "ai-transparency",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 6068,
+      "duration_ms": 85,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:02.995571+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency"
+    }
+  ],
+  "requested_skill_name": "Ai Transparency",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ai-transparency",
+  "skill_sha256": "7e52b3c7290ed46b3a1094b1cfe304cb5ef2d3f2b0ecd458d7d70909ba322d78",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ai-transparency"
+  ],
+  "target_id": "ai-transparency",
+  "warnings": []
+}

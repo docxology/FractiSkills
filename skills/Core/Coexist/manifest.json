@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "65c2dfa03a3e820f8c0d1a18bee9ebb3bbdff94c0c644094b6b1ab1b807542a2",
+    "references/sources.json": "aeecb0238e14572d9fa5364b4ee37e1d6b869babe3948af850a71bc2498910d2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8a782fb935981cf7dce1cbc2d03b8fe69d72be750a18c389e9702780720caf69",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "d876f3d330e7a99cfb1c3ce1ed5b145a02cae5935e5672d647dccc8d067430e4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:03.986648+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "coexist",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Coexist",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "content_sha256": "fea8012f4a21b5386356c86f8fca7290ad8c3f52c027bb0d0ec0b096efbe34e4",
+      "fetched_at": "2026-09-10T22:12:03.829541+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "status_code": 200,
+      "text_sha256": "9744f8911fbd8ec3a0fd94cc8697c5f816ea1bbbb34292948a96b240be254d12",
+      "title": "Coexisting with AI and Super AI · Which Quadrant Are You? · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "warnings": []
+    }
+  ],
+  "portable_name": "coexist",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16844,
+      "duration_ms": 47,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:03.815072+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/coexist"
+    }
+  ],
+  "requested_skill_name": "Coexist",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "coexist",
+  "skill_sha256": "65c2dfa03a3e820f8c0d1a18bee9ebb3bbdff94c0c644094b6b1ab1b807542a2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/coexist"
+  ],
+  "target_id": "coexist",
+  "warnings": []
+}

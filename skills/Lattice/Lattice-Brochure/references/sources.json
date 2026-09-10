@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-lattice",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5ef75a8a186ba55b7b0780d461ee22524188c9ee4f50ea910e55dd5145fc5048",
+      "fetched_at": "2026-09-10T22:15:05.213630+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/brochure",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/brochure",
+      "status_code": 200,
+      "title": "Infinite Octaves Omniversal Lattice Chat Agent V1.618 · Next layer in the stack · Product brochure · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/brochure"
+    }
+  ],
+  "target_id": "lattice-brochure"
+}

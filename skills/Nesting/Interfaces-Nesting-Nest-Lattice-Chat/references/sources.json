@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e39a00b7c90c315d29f9b8a0417393d3cf260e8678d0b6924a312d9d88c625c9",
+      "fetched_at": "2026-09-10T22:14:50.644838+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-lattice-chat.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-lattice-chat.html",
+      "status_code": 200,
+      "title": "Lattice Chat Agent V1.618 · Next layer · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-lattice-chat.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-lattice-chat-html"
+}

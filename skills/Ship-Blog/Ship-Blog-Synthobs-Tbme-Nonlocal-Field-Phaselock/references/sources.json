@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b4f7f43e17021a19f3a479d5654c79e496756566bb1fe7b9dbbc63990e8971bf",
+      "fetched_at": "2026-09-10T22:16:27.311621+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-nonlocal-field-phaselock",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-nonlocal-field-phaselock",
+      "status_code": 200,
+      "title": "Empirical Validation of Non-Local Field Phase-Locking · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-nonlocal-field-phaselock"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-tbme-nonlocal-field-phaselock"
+}

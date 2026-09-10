@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8fe3f05880ebb557515669042bb0dd093d491eb5e01438adcf72d7c6e4afb2d4",
+      "fetched_at": "2026-09-10T22:17:36.961434+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/decks",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/decks",
+      "status_code": 200,
+      "title": "Voyage Map · Story · Experiences · Homes · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/decks"
+    }
+  ],
+  "target_id": "voyage-decks"
+}

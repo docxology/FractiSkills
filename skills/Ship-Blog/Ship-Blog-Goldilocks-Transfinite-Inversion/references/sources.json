@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "02919289d5b285171d52d5b0fc6f2ca074a91fa6fcf483fadba394bc406b4ac6",
+      "fetched_at": "2026-09-10T22:15:30.346071+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-transfinite-inversion",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-transfinite-inversion",
+      "status_code": 200,
+      "title": "Transfinite Inversion Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-transfinite-inversion"
+    }
+  ],
+  "target_id": "ship-blog-goldilocks-transfinite-inversion"
+}

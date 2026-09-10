@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "00e97f2002ca5aa446e970f0aff02fbbd608d305daad1fad9aff4f37e1fcdf33",
+      "fetched_at": "2026-09-10T22:16:18.830392+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-thalia-goldilocks",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-thalia-goldilocks",
+      "status_code": 200,
+      "title": "Omni-Lattice · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-thalia-goldilocks"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-thalia-goldilocks"
+}

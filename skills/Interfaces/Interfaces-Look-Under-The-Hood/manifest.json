@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "ab8a02c9d59c5e99efa4fe64491be4d616de365ff02fa32eb59b8539901232f0",
+    "references/sources.json": "8957806ea0a75335dbebb87b280993ac256da9daf885bfdd43f487f4b5472d4b"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "09dd5ab726a7adc1a038894762ff108dc9219c118a20052c3e09f83fb84ccb46",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "3cf59186d8de62a88a7464c19762ec4867a98d011863cc24f99a04d7391b06ab"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:32.978068+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-look-under-the-hood",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Look Under The Hood",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "content_sha256": "368f31758356eb5e05d5a170d4923371f87bdb4eb0635f32c3e30586b4d7f7c0",
+      "fetched_at": "2026-09-10T22:12:32.342452+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "status_code": 200,
+      "text_sha256": "9709c20fd55f0f8cf770e5e622085fbede2b98498099cbe5c6539fb9002d0170",
+      "title": "Look Under the Hood · Omni-Lattice Engine · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-look-under-the-hood",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15435,
+      "duration_ms": 48,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:32.324990+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Look Under The Hood",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-look-under-the-hood",
+  "skill_sha256": "ab8a02c9d59c5e99efa4fe64491be4d616de365ff02fa32eb59b8539901232f0",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html"
+  ],
+  "target_id": "interfaces-look-under-the-hood-html",
+  "warnings": []
+}

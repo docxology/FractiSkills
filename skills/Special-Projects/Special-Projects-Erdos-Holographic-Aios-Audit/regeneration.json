@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "f09f941955d3d17251badf93c3f19a359ef0a963e89407ebd67e0bdeec8ce4b5",
+  "profile_id": "ssvibelandia-special-projects",
+  "requested_skill_name": "Special Projects Erdos Holographic Aios Audit",
+  "run_id": "ssvibelandia-special-projects--037f1bf17233efbccbed",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit"
+  ],
+  "target_id": "special-projects-erdos-holographic-aios-audit"
+}

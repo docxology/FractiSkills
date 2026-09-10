@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fb7e3adf49bb7d45dc92bb25243a8d5144289d189978199845a7cfaa16547227",
+      "fetched_at": "2026-09-10T22:15:34.453525+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-singularity-crystal",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-singularity-crystal",
+      "status_code": 200,
+      "title": "Holographic Singularity Crystal · Net Zero · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-singularity-crystal"
+    }
+  ],
+  "target_id": "ship-blog-holographic-singularity-crystal"
+}

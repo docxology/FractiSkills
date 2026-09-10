@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dfaeed7c1794e980b5a0ef86e6e2406f4a925c3e20ea208f6b91bf4421af7319",
+      "fetched_at": "2026-09-10T22:15:37.222336+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/invisible-frontier",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/invisible-frontier",
+      "status_code": 200,
+      "title": "The Invisible Frontier — responding to Bill Gates’s AI warnings · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/invisible-frontier"
+    }
+  ],
+  "target_id": "ship-blog-invisible-frontier"
+}

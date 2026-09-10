@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "007a2ade78b1d00282830eb60bb5e061374ed451b02609f37f5305b0897d46d8",
+      "fetched_at": "2026-09-10T22:14:57.770755+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/boriken-convergence",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/boriken-convergence",
+      "status_code": 200,
+      "title": "Borikén · Great Convergence · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/boriken-convergence"
+    }
+  ],
+  "target_id": "journey-boriken-convergence"
+}

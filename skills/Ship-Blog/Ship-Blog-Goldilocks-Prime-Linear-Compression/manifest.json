@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "5e1d1231ff08d9469d843ab5fcd51315f9ebeb715124fe97ef74e3cef54f898d",
+    "references/sources.json": "354b6b6048ccc45c1ef5dba1c9ff161b6ff0ef517e4a28c1ca78150601f6fa48"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "5d3d835cb8274bf7784102fd8ea1fd376ef587d45dfb07627829c050ad978dfd",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "24876165434a51b7d6783d6d392debc8fbd4a6ea8cb8b18f6d636d2a977dd38a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:30.246319+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-goldilocks-prime-linear-compression",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Goldilocks Prime Linear Compression",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "content_sha256": "f9d92c1493367fa2d9e61921ebceef05fc8f255c991f28045b3a4454745fbfc0",
+      "fetched_at": "2026-09-10T22:15:29.433836+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "status_code": 200,
+      "text_sha256": "84092a798fd42e805922321227eb7b11fc8053fdb94754071c2c94ee55f7b3c1",
+      "title": "Prime-Linear Compression Transform · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-goldilocks-prime-linear-compression",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3848,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:29.428870+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Goldilocks Prime Linear Compression",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-goldilocks-prime-linear-compression",
+  "skill_sha256": "5e1d1231ff08d9469d843ab5fcd51315f9ebeb715124fe97ef74e3cef54f898d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression"
+  ],
+  "target_id": "ship-blog-goldilocks-prime-linear-compression",
+  "warnings": []
+}

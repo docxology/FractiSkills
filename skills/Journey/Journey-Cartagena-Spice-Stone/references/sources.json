@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "739369ca8697f65fb1247c53a550ef0cd9c8c9ea9f0f51cb967d5984c25d6fe4",
+      "fetched_at": "2026-09-10T22:14:58.515155+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone",
+      "status_code": 200,
+      "title": "Cartagena · Spice & Stone · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/cartagena-spice-stone"
+    }
+  ],
+  "target_id": "journey-cartagena-spice-stone"
+}

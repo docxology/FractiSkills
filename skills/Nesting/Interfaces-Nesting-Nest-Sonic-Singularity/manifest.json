@@ -1,0 +1,107 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "11527a46ca95b00e9913daffaae90bd3369cec9d56c78c14951305967a3ecb37",
+    "references/sources.json": "086658567b0dcd88bdf4524f965f1cd03c85adcc8030aaa6671cde47cad139d5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "7ce564dc1836acf944bf9d11e3efab1768d113869e4078bd4fdf4e693ae09619",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 1,
+    "target_fingerprint": "1eba248135fb717f9ff1be4ac1277ea7236d991668efe2842d4422a83f6f8c4f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:53.377809+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-sonic-singularity",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Sonic Singularity",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "content_sha256": "1b3d8088a0ea9629fe9d6134002c478e01c3e1eeca3d0467dd6ad9f59f505740",
+      "fetched_at": "2026-09-10T22:14:53.040109+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "status_code": 200,
+      "text_sha256": "9e44cb8b154bbdfaaf9d86b12c6257811673193dcc85dcb6a7f0adb8ea289fe6",
+      "title": "Sonic Singularity · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-sonic-singularity",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3341,
+      "duration_ms": 32,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:53.034404+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Sonic Singularity",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-sonic-singularity",
+  "skill_sha256": "11527a46ca95b00e9913daffaae90bd3369cec9d56c78c14951305967a3ecb37",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html"
+  ],
+  "target_id": "interfaces-nesting-nest-sonic-singularity-html",
+  "warnings": []
+}

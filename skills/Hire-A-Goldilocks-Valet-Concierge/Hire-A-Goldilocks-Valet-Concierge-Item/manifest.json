@@ -1,0 +1,107 @@
+{
+  "area": "Hire-A-Goldilocks-Valet-Concierge",
+  "artifact_hashes": {
+    "SKILL.md": "88010b3f12ff1ef1e9b2f76e049b24587f49be2220cc93a129964c7dfa7b6e07",
+    "references/sources.json": "96b94bfd58c6228c4743f7c44c2ecdb256244acfe7d98eab4eb80a62e3ed2278"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9be425c02298110e36857b91bfe4354140b8515e1d033586df404533a6008c54",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "9069da73b2e83cd6fdd3bfd85dcc3cf810d35310da3d163cd91605f75a32a2c5",
+    "request_count": 1,
+    "target_fingerprint": "32d6995a980392bb3af51b349726214049342be10b4340b1e89d17fdcb6fc910"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:24.909235+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "hire-a-goldilocks-valet-concierge-item",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Hire A Goldilocks Valet Concierge Item",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "42dbce20b2575745a0acbb1c288ac658b3e9eafc9e92c753e04e376adbb62139",
+      "fetched_at": "2026-09-10T22:12:24.636855+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset",
+      "status_code": 200,
+      "text_sha256": "377f4801c0204119254b7277554482bc5d8d106cb8a4cff4a4455bab5a7c8d29",
+      "title": "Menu item · Valet Pru's Concierge Service",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset",
+      "warnings": []
+    }
+  ],
+  "portable_name": "hire-a-goldilocks-valet-concierge-item",
+  "profile_fingerprint": "9069da73b2e83cd6fdd3bfd85dcc3cf810d35310da3d163cd91605f75a32a2c5",
+  "profile_id": "ssvibelandia-hire-a-goldilocks-valet-concierge",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Hire-A-Goldilocks-Valet-Concierge",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5044,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:24.633582+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset"
+    }
+  ],
+  "requested_skill_name": "Hire A Goldilocks Valet Concierge Item",
+  "run_id": "ssvibelandia-hire-a-goldilocks-valet-concierge--940f17ddfbbe3a10c004",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "hire-a-goldilocks-valet-concierge-item",
+  "skill_sha256": "88010b3f12ff1ef1e9b2f76e049b24587f49be2220cc93a129964c7dfa7b6e07",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset"
+  ],
+  "target_id": "hire-a-goldilocks-valet-concierge-item",
+  "warnings": []
+}

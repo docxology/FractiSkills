@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "b6428261167662a6fe355189a81625f5cf25477506d9fe3f9d1ae35d403033ba",
+    "references/sources.json": "298c6ae6f87b4f052a4e7f8598ea42cdc7ad8f4a0b403f4d7405eea64a4a86d5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "5a33f9fa0839618e4a5237b76a31ff0fe2729d2c15436abc4486e3387d8ac9e6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "fb7199a64c5e785b44fd9c26a15bcb6bc415b827ac1b8ec1a75be61bde5da8e3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 256,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:24.171847+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-tbme-metamorphic-octaves-2026-08",
+        "content_sha256": "87657a7ce3cb2e5400f481f779fbe3bbe7b3a6675a150c195bf6668cc5a38f49",
+        "error": null,
+        "etag": "W/\"665e-0FfpnFDc8zw8BN63+cz86Rvzq14\"",
+        "fetched_at": "2026-09-10T22:14:24.427373+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08",
+        "status_code": 200,
+        "text_chars": 17003,
+        "title": "The Metamorphic Octave Invariant: Scale-Invariant Lithification, 99 Octaves of Thermal-Baric Compression, and Dual-Axis Personal and Professional Metamorphism in Multi-Scale Systems"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-tbme-metamorphic-octaves-2026-08",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Tbme Metamorphic Octaves 2026 08",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:14:23.725625+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-tbme-metamorphic-octaves-2026-08",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 84,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:23.723459+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Tbme Metamorphic Octaves 2026 08",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-tbme-metamorphic-octaves-2026-08",
+  "skill_sha256": "b6428261167662a6fe355189a81625f5cf25477506d9fe3f9d1ae35d403033ba",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-metamorphic-octaves-2026-08"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-tbme-metamorphic-octaves-2026-08",
+  "warnings": []
+}

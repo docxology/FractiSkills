@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d19ba630cc4658d38015844273c31d88a213d2fdf4fca3c2d7f84f510443bcc2",
+      "fetched_at": "2026-09-10T22:15:35.177720+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/human-reality-bridge",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/human-reality-bridge",
+      "status_code": 200,
+      "title": "Humans as reality bridges — routers and awareness wormholes · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/human-reality-bridge"
+    }
+  ],
+  "target_id": "ship-blog-human-reality-bridge"
+}

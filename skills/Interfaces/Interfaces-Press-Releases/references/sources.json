@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "641de3711bdf0e5afe560bb6b3a9ad4663ed294a33b8434f3cc94452ff058465",
+      "fetched_at": "2026-09-10T22:12:36.357637+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-releases.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-releases.html",
+      "status_code": 200,
+      "title": "Press releases · Hero Jo’s Golden Bachdoor Hit Factory · Vibelandia SING 9",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-releases.html"
+    }
+  ],
+  "target_id": "interfaces-press-releases-html"
+}

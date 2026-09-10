@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c2b2edf4702537ebc3539e7761da79f2a4f0033b00e5f5203e8f0c908bf476cd",
+      "fetched_at": "2026-09-10T22:16:42.691386+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tier-c-holographic-wiring",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tier-c-holographic-wiring",
+      "status_code": 200,
+      "title": "Tier C Holographic Wiring · Narrative shelves as live circuits · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tier-c-holographic-wiring"
+    }
+  ],
+  "target_id": "ship-blog-tier-c-holographic-wiring"
+}

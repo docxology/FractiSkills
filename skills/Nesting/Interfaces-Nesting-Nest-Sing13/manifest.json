@@ -1,0 +1,107 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "8c13effaa42182603ba27f5ff96c88a05bf1457a33c06efd66ff186a75cdd113",
+    "references/sources.json": "eee2177d92a0717815148dd9a5f17732ffa3d2ded80fe92bc30ffe5befdfe962"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c88a8df2d7b0598f9dc20dac8be32df3bd6f3cc231d17a7f7ee421331ba26786",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 1,
+    "target_fingerprint": "8ab352b9753ef6c3d5d1cf3429ac4555ab453f6d443df65cb6dfcc14c78eef31"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:52.515263+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-sing13",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Sing13",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html",
+      "content_sha256": "605184bc5bbf61ad663d899d198416d59228b95fe2dbb64aa94892235c85effe",
+      "fetched_at": "2026-09-10T22:14:52.151908+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html",
+      "status_code": 200,
+      "text_sha256": "5f25af6b7d4132f65a4d51ae9d04c62a9e8e999fb37c2abbe5221ef6fb0d352b",
+      "title": "Sonic Singularity Sing! 13 · cloud skin · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-sing13",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4572,
+      "duration_ms": 32,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:52.141181+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Sing13",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-sing13",
+  "skill_sha256": "8c13effaa42182603ba27f5ff96c88a05bf1457a33c06efd66ff186a75cdd113",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sing13.html"
+  ],
+  "target_id": "interfaces-nesting-nest-sing13-html",
+  "warnings": []
+}

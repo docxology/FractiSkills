@@ -1,0 +1,109 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "48eaf520d706b0b9ee173d2f1ded464668dbe012114086c48938c3193b8b90be",
+    "references/sources.json": "6d958284b0ac9efdbade1e2cf06293ff64f43a28fb4ea8f983a4f56bd40c8587"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "03fac3cfef6609623919274d354ebc5713a0f394e78d8843530300b5ba0764db",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "de1483d8ecf3c228217a4f05cb859ee5d4eaad70f5820536c87d57158c38e1ff"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:28.029275+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-commons-guide",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Commons Guide",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html",
+      "content_sha256": "7d72e718928e4996dc7251f05c2d5a0b1fc1257815769ecf41446efe2fbaab67",
+      "fetched_at": "2026-09-10T22:12:27.745094+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html",
+      "status_code": 200,
+      "text_sha256": "11bddd1163d65255aae198bb3587bb73f796f5be2c81b95da867a8621ff3bc7f",
+      "title": "Guide portal · Outfitter & Guide Commander · Puerto Reno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=THE%20COMMONS%20%E2%80%94%20Claim%20station%3A%20Outfitter%20%26%20Guide%20Commander): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-commons-guide",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 7159,
+      "duration_ms": 363,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:27.741893+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Commons Guide",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-commons-guide",
+  "skill_sha256": "48eaf520d706b0b9ee173d2f1ded464668dbe012114086c48938c3193b8b90be",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/guide.html"
+  ],
+  "target_id": "interfaces-commons-guide-html",
+  "warnings": []
+}

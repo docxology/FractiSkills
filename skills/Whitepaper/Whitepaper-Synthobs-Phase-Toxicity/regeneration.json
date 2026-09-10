@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "requested_skill_name": "Whitepaper Synthobs Phase Toxicity",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-phase-toxicity"
+  ],
+  "target_id": "whitepaper-synthobs-phase-toxicity"
+}

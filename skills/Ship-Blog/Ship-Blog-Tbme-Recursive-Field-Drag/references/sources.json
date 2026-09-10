@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a9ab378bb5b24a3e0371ac423d8a18c39281006db99b95cabd8b73a9defade6f",
+      "fetched_at": "2026-09-10T22:16:39.824059+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "status_code": 200,
+      "title": "The Recursive Field-Drag Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag"
+    }
+  ],
+  "target_id": "ship-blog-tbme-recursive-field-drag"
+}

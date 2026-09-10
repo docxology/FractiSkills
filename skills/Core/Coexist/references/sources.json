@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fea8012f4a21b5386356c86f8fca7290ad8c3f52c027bb0d0ec0b096efbe34e4",
+      "fetched_at": "2026-09-10T22:12:03.829541+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/coexist",
+      "status_code": 200,
+      "title": "Coexisting with AI and Super AI · Which Quadrant Are You? · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/coexist"
+    }
+  ],
+  "target_id": "coexist"
+}

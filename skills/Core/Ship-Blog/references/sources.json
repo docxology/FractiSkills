@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a41c786cf465233599686a2a313dd58b33ba69fbfb3e345b0724cdc75ed9574d",
+      "fetched_at": "2026-09-10T22:12:17.400391+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/",
+      "status_code": 200,
+      "title": "Ship blog · All plain-language notes · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/"
+    }
+  ],
+  "target_id": "ship-blog"
+}

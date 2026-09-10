@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "6409b472800e2f98c6d613a75215c9c1de51e861137f5d73ad19d96940556a44",
+    "references/sources.json": "d5a6212a202265b38646520c89f423141511d2373fee89570a5b114f14a79afe"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3ca289c339f982c112e82fa6a0d7d69cfabf9f5171755948f31e85e435717d8a",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "9779223b7c30937854c2650eb25896afce208198dd800ef2ac054e57df66812f"
+  },
+  "effect": "mutating",
+  "effect_floor": "mutating",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:41.736353+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-lattice-vs-vibe-coding",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Lattice Vs Vibe Coding",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "content_sha256": "c11e7d70569187f7f22e1eee9f64542104006f04a29d8567bf164c842bbe8f9a",
+      "fetched_at": "2026-09-10T22:15:40.175643+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "status_code": 200,
+      "text_sha256": "55f63a11eee7cd6bef6797345399a3e7a8621313f283ee4344da5fbba2de135a",
+      "title": "Lattice beats vibe coding on design, write, and deploy · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-lattice-vs-vibe-coding",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5441,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:40.169870+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Lattice Vs Vibe Coding",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-lattice-vs-vibe-coding",
+  "skill_sha256": "6409b472800e2f98c6d613a75215c9c1de51e861137f5d73ad19d96940556a44",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding"
+  ],
+  "target_id": "ship-blog-lattice-vs-vibe-coding",
+  "warnings": []
+}

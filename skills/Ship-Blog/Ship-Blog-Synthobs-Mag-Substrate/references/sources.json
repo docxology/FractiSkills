@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d5c25d9319c92548d06f8e39f1fb7a707ae6f96972edf4453417b3cfd162b757",
+      "fetched_at": "2026-09-10T22:16:11.008406+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-mag-substrate",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-mag-substrate",
+      "status_code": 200,
+      "title": "Magnetism as the Universal Foundational Substrate · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-mag-substrate"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-mag-substrate"
+}

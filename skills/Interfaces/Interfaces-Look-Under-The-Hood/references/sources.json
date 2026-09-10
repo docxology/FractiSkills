@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "368f31758356eb5e05d5a170d4923371f87bdb4eb0635f32c3e30586b4d7f7c0",
+      "fetched_at": "2026-09-10T22:12:32.342452+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html",
+      "status_code": 200,
+      "title": "Look Under the Hood · Omni-Lattice Engine · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-under-the-hood.html"
+    }
+  ],
+  "target_id": "interfaces-look-under-the-hood-html"
+}

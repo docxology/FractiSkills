@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8f360595498baa29f606385bc9927ae598abe13831f71523783c8c9986b24391",
+      "fetched_at": "2026-09-10T22:12:15.615905+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "status_code": 200,
+      "title": "Infinite Octaves Omni-Lattice · Companion Textbook · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook"
+    }
+  ],
+  "target_id": "omni-lattice-textbook"
+}

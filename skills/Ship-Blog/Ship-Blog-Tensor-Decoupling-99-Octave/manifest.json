@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "14de6b7999222fa6035e87fd57517305362a3a32c02e9947cc6a592b8c123a6a",
+    "references/sources.json": "6c319764501594229ccbad2c69ef10b98d2d57395e02d69de694c0ec4c5712bf"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "be2d2253462a89ffc93caa3c2a215104bb8e678a7e44772e17da22863b205fc6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "ca5117a34c8bfcbb3f8734c2645d84aee262148776b7706b00c2a41a3a613126"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:42.633142+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tensor-decoupling-99-octave",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tensor Decoupling 99 Octave",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "content_sha256": "34252b1ecee8400a7f3a0b8bc5d7e1eb3bc9e7e48ea532ffefb19a2efd824ffe",
+      "fetched_at": "2026-09-10T22:16:42.357604+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "status_code": 200,
+      "text_sha256": "f51290f5203031f3055a7df542e97fee4e8a61298f5be3f49e3614f1850c0b70",
+      "title": "The 99 Octave engine as a tensor filing cabinet · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tensor-decoupling-99-octave",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5028,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:42.353251+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tensor Decoupling 99 Octave",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tensor-decoupling-99-octave",
+  "skill_sha256": "14de6b7999222fa6035e87fd57517305362a3a32c02e9947cc6a592b8c123a6a",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tensor-decoupling-99-octave"
+  ],
+  "target_id": "ship-blog-tensor-decoupling-99-octave",
+  "warnings": []
+}

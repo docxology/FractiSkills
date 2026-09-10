@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ed2a6af9339193f28f82192a872d9768a31415af24c50e3b5bfdbb5b61fba312",
+      "fetched_at": "2026-09-10T22:17:27.413159+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-001",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-001",
+      "status_code": 200,
+      "title": "PH-001 · Captain’s Grand Penthouse · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-001"
+    }
+  ],
+  "target_id": "voyage-cabin-ph-001"
+}

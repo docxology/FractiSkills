@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a6d8f7ec9c02763b7b7183e90e1e84200311b23411c7e976358fa408d868e879",
+      "fetched_at": "2026-09-10T22:16:38.330799+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "status_code": 200,
+      "title": "The Universal Toroidal Singularity Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman"
+    }
+  ],
+  "target_id": "ship-blog-tbme-internal-kerr-newman"
+}

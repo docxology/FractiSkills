@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-lattice",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7fcc272585d45bdcb4c58a9a23b29c5e9fb8869bd11cb94c1555251b4d587141",
+      "fetched_at": "2026-09-10T22:15:07.349331+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "status_code": 200,
+      "title": "How it works · Learn more · Infinite Octaves Omniversal Lattice Chat Agent V1.618 · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how"
+    }
+  ],
+  "target_id": "lattice-how"
+}

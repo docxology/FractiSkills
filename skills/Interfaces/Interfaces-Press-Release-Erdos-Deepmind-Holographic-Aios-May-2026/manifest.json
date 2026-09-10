@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "caa16b82a98ffb31463903d0902469e81a1ace6f82603c462bd9408aa72f1144",
+    "references/sources.json": "a28d6c837f290cd1fcd08f4477acbfebd98e0a9b58d5b911608a0462234a599e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9b8db302b61f2ef5958df41247f17d035232671fdee54fba7edf7bdfa7253e8b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "8e48d8ddd7bc5028ea826ff9216217e86a38438b42b9a0dc2b9c952c501f3a76"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:34.213475+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-press-release-erdos-deepmind-holographic-aios-may-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Press Release Erdos Deepmind Holographic Aios May 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "content_sha256": "09d1f755dcefcf9a73f27746a4e0785d491d967bee9839abe8bf035ca36f98aa",
+      "fetched_at": "2026-09-10T22:12:33.287692+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "status_code": 200,
+      "text_sha256": "19cf6721af4f2b3268ef1c2be38cd3724af68bf58c82edfdb87ff27cc7b8770a",
+      "title": "FOR IMMEDIATE RELEASE — Erdős 353 response · Holographic Goldilocks AIOS",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-press-release-erdos-deepmind-holographic-aios-may-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14639,
+      "duration_ms": 39,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:33.280872+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Press Release Erdos Deepmind Holographic Aios May 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-press-release-erdos-deepmind-holographic-aios-may-2026",
+  "skill_sha256": "caa16b82a98ffb31463903d0902469e81a1ace6f82603c462bd9408aa72f1144",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html"
+  ],
+  "target_id": "interfaces-press-release-erdos-deepmind-holographic-aios-may-2026-html",
+  "warnings": []
+}

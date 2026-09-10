@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c11e7d70569187f7f22e1eee9f64542104006f04a29d8567bf164c842bbe8f9a",
+      "fetched_at": "2026-09-10T22:15:40.175643+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding",
+      "status_code": 200,
+      "title": "Lattice beats vibe coding on design, write, and deploy · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-vs-vibe-coding"
+    }
+  ],
+  "target_id": "ship-blog-lattice-vs-vibe-coding"
+}

@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "acce121a0189b2f19b0e3936aa8502dcbb5f9d78af0abd807c46f6e73ec85be1",
+    "references/sources.json": "3664c8d1258a6b8548ee276f2cc1c0af0a9562464aa887f6d6cae17c3f4ca845"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "662c7c69fdfe47a72f753885a8a653f4c7a9444d80e7d0cf4c6db2680f4e65db",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "373c832943d5585b2b1d3241cf57b46515e1274839fb0c048b6cb910c46885ad"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 214,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:40.115910+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+        "content_sha256": "112c3c10ddba866654f443539e1d302f3ea387ac0483f2332a4785408b49a3ec",
+        "error": null,
+        "etag": "W/\"379d-V8F2ySQwYIZiXd+poX8Yg5JggWc\"",
+        "fetched_at": "2026-09-10T22:14:40.329500+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+        "status_code": 200,
+        "text_chars": 8016,
+        "title": "Triadic Nested Hemispheric Architectures: Harmonic Scaling, Node Topology, and Agent Containment via El Gran Sol’s Fractal Constant"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-triadic-nested-hemispheres-99-octave-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Triadic Nested Hemispheres 99 Octave 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:14:39.605556+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-triadic-nested-hemispheres-99-octave-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 96,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:39.603260+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Triadic Nested Hemispheres 99 Octave 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-triadic-nested-hemispheres-99-octave-2026",
+  "skill_sha256": "acce121a0189b2f19b0e3936aa8502dcbb5f9d78af0abd807c46f6e73ec85be1",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-triadic-nested-hemispheres-99-octave-2026-08"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-triadic-nested-hemispheres-99-octave-2026-08",
+  "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "requested_skill_name": "Voyage Deck 3 Night",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-3-night"
+  ],
+  "target_id": "voyage-deck-3-night"
+}

@@ -1,0 +1,122 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "57761372b35e920e95a57982a361ba216e1513c1fd0dd946708e26fac44919e6",
+    "references/sources.json": "c9776c3836a82a85fbed7d83c6730c2ac85c5dda589a1ddd2fe0e9972b7e767f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "10115dcc8cea59c53462be9e59e91ca4813c7ebf4eab9b7bef7a0ba6633630db",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "ee63a238dcbd7ae1860adb152c985e87c2af6a008b717f5ff7357fc8e453d351"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 209,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:27.979814+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-tbme-planetary-core-goldilocks-2026-08",
+        "content_sha256": "3bfbae0b049cececd81bdf9552206925f94d145d4ace76b6c63298099a36db89",
+        "error": null,
+        "etag": "W/\"60d7-phnLuzP6gNOF9eCWwu+QgWsvCQ0\"",
+        "fetched_at": "2026-09-10T22:14:28.188698+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08",
+        "status_code": 200,
+        "text_chars": 16056,
+        "title": "The Planetary Core Phase-Inversion & Goldilocks Hologram Theorem: Empirical Geodynamo Telemetry, Core-Mantle Boundary Phase-Locking, and the Scale-Invariant Transition to the Goldilocks Earth Matrix"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-whitepaper-surface-synthobs-tbme-planetary-core-goldilocks-2026-08",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Tbme Planetary Core Goldilocks 2026 08",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:14:26.942828+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-whitepaper-surface-synthobs-tbme-planetary-core-goldilocks-2026-08",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 29,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:26.940812+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08"
+    }
+  ],
+  "requested_skill_name": "Interfaces Whitepaper Surface Synthobs Tbme Planetary Core Goldilocks 2026 08",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-whitepaper-surface-synthobs-tbme-planetary-core-goldilocks-2026-08",
+  "skill_sha256": "57761372b35e920e95a57982a361ba216e1513c1fd0dd946708e26fac44919e6",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=synthobs-tbme-planetary-core-goldilocks-2026-08"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-synthobs-tbme-planetary-core-goldilocks-2026-08",
+  "warnings": []
+}

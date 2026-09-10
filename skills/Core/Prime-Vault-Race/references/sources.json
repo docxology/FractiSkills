@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "40095d6c761c15b58d633c480fe62aae6aad4b43dea4224b76925113a4232750",
+      "fetched_at": "2026-09-10T22:12:16.055843+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "status_code": 200,
+      "title": "Prime-Vault Race · Results · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race"
+    }
+  ],
+  "target_id": "prime-vault-race"
+}

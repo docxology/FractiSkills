@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "d58619c889b365a85386a484563ecbd6b19490e99de71670bdc1b043cd6bfe42",
+    "references/sources.json": "79441e9f3ccaceb866f42b9a509e24d28fd422880b2e5ffd1ddda85818b3a834"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "7bc55f320efbf6e49cf3d2ba9f08a89deb2c01a112ae47d2aa736a3790e200df",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "1e18fd75e99ea00c0eaf34f49c6b50eb4f2ff804c01929f25b8304b0220643ee"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:41.391866+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-luxury-redefined",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Luxury Redefined",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "content_sha256": "8fe4004a8fdfc45109969554208e50fc6e64260c5d2404b9f0e22ca2215b57b5",
+      "fetched_at": "2026-09-10T22:17:41.142266+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "status_code": 200,
+      "text_sha256": "a1b9314be2d9db5d6ea64b31fc5f584a2d6849fdb7c9286f192a826c42209b42",
+      "title": "✦ Luxury redefined · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-luxury-redefined",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4238,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:41.138096+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined"
+    }
+  ],
+  "requested_skill_name": "Voyage Luxury Redefined",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-luxury-redefined",
+  "skill_sha256": "d58619c889b365a85386a484563ecbd6b19490e99de71670bdc1b043cd6bfe42",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/luxury-redefined"
+  ],
+  "target_id": "voyage-luxury-redefined",
+  "warnings": []
+}

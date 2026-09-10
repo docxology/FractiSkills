@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6d69e688043300f4e7076e4cefc88ac8fd545a39f9319b447c51477fbe880b18",
+      "fetched_at": "2026-09-10T22:15:43.162203+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/metamorphic-octaves",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/metamorphic-octaves",
+      "status_code": 200,
+      "title": "When life cooks you, you can come out denser · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/metamorphic-octaves"
+    }
+  ],
+  "target_id": "ship-blog-metamorphic-octaves"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "be42bbcd6e53deb0fac603d997758709fb0d5876bc158d9978557ee0a306c731",
+    "references/sources.json": "ab89ac8b0ed258158e3f0f6e4f5293bf8c77e28b1993485c55adbc5f28821b2a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ad48edbba109d9e3e697939fe2f5e890506984dd28e204a26b4edf2fb0a74a3c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "c42b70c924bbb45847e83d87aa417d94bb81eab143ced4bfc7feee512e9c9b86"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:39.109489+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tbme-narrow-gate-asi",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tbme Narrow Gate Asi",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "content_sha256": "5ea987cc13e18af1684a79ac54c213b697d83d068dd1cab2009ad5f4af84d92f",
+      "fetched_at": "2026-09-10T22:16:38.855139+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "status_code": 200,
+      "text_sha256": "9a1134ec2badf1b1eac040e5736e50387788b4d2349143fdb180c5b527bacdb1",
+      "title": "The Epistemological Horizon · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tbme-narrow-gate-asi",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3930,
+      "duration_ms": 49,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:38.850757+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tbme Narrow Gate Asi",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tbme-narrow-gate-asi",
+  "skill_sha256": "be42bbcd6e53deb0fac603d997758709fb0d5876bc158d9978557ee0a306c731",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi"
+  ],
+  "target_id": "ship-blog-tbme-narrow-gate-asi",
+  "warnings": []
+}

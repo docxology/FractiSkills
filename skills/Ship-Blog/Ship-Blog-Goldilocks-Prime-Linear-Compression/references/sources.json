@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f9d92c1493367fa2d9e61921ebceef05fc8f255c991f28045b3a4454745fbfc0",
+      "fetched_at": "2026-09-10T22:15:29.433836+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression",
+      "status_code": 200,
+      "title": "Prime-Linear Compression Transform · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-prime-linear-compression"
+    }
+  ],
+  "target_id": "ship-blog-goldilocks-prime-linear-compression"
+}

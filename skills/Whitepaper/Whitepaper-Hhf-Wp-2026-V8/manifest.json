@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "68048c8a70561bd27912cd156673dbf16ad7e7a30c6b18d91e4e18174f380ff6",
+    "references/sources.json": "a88a2d5aa3f5df645a196940c3af31ea392683d1a0081b99d27c63660fe0e33c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "47663c3dce4c7c67ba9987e8c74ed00114a613542798553b74598ec42b0b1fed",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "6608bc03e8757a946ffe01a684f022f8631a5e2f6baafc07e98084be7efef5f0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 116,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:47.906341+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=hhf-wp-2026-v8",
+        "content_sha256": "ad01aa5295b3910229e4eca882e227f2920e7d942335a468628d4958cec3b2d4",
+        "error": null,
+        "etag": "W/\"47a8-0LlPCXJi1Ng4ltdVntK5jGPfjH0\"",
+        "fetched_at": "2026-09-10T22:17:48.022348+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8",
+        "status_code": 200,
+        "text_chars": 13289,
+        "title": "THE NEW 13D HOLOGRAPHIC AI OPERATING SYSTEM TRIALS ARE LIVE: VALUATION REALIGNMENT & INDUSTRIAL IMPLICATIONS FOR THE TECH GIANTS"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-hhf-wp-2026-v8",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Hhf Wp 2026 V8",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:47.625486+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-hhf-wp-2026-v8",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:47.623462+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Hhf Wp 2026 V8",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-hhf-wp-2026-v8",
+  "skill_sha256": "68048c8a70561bd27912cd156673dbf16ad7e7a30c6b18d91e4e18174f380ff6",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/hhf-wp-2026-v8"
+  ],
+  "target_id": "whitepaper-hhf-wp-2026-v8",
+  "warnings": []
+}

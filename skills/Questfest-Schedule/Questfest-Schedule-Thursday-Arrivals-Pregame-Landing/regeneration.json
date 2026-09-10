@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "86befd23943bea57ae561cc701017c53ee4d1f2a2f3211bb95df9011956a25b4",
+  "profile_id": "ssvibelandia-questfest-schedule",
+  "requested_skill_name": "Questfest Schedule Thursday Arrivals Pregame Landing",
+  "run_id": "ssvibelandia-questfest-schedule--5b99a73d9c2b83b2cf47",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-arrivals-pregame-landing"
+  ],
+  "target_id": "questfest-schedule-thursday-arrivals-pregame-landing"
+}

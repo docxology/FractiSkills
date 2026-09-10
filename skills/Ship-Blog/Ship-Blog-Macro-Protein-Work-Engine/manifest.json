@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "439eafb0c36a85383b5f9f29ed355d6a5c9d5ffcfb1f3d2abd73715f10a55ea7",
+    "references/sources.json": "af1fab67e041a3ade9a8ba9d5d5d4bee103fc54018672fd2bf815681c3a2228c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d6c6884f27293fd613ac815b67c9f881de25c6b070d0e170370f7b1594ddf701",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "0fb53d58ab6fd9d07df2b4e5b3e7a7473a2ff6897d0f9b0f9052d340ecd3d8c1"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:42.346345+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-macro-protein-work-engine",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Macro Protein Work Engine",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "content_sha256": "fd35810c887a75172a06b236b3fed643cfc3e8a17c2e6590506456d9641b2633",
+      "fetched_at": "2026-09-10T22:15:41.880265+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "status_code": 200,
+      "text_sha256": "b190f43869e96107b1b16ebfe08e81838664838b05e080da297f9b83954d14d8",
+      "title": "Bodies as work engines — filing life in octave band 13–17 · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-macro-protein-work-engine",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10692,
+      "duration_ms": 54,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:41.870053+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Macro Protein Work Engine",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-macro-protein-work-engine",
+  "skill_sha256": "439eafb0c36a85383b5f9f29ed355d6a5c9d5ffcfb1f3d2abd73715f10a55ea7",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine"
+  ],
+  "target_id": "ship-blog-macro-protein-work-engine",
+  "warnings": []
+}

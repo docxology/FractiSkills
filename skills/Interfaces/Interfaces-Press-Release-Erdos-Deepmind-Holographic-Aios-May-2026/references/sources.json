@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "09d1f755dcefcf9a73f27746a4e0785d491d967bee9839abe8bf035ca36f98aa",
+      "fetched_at": "2026-09-10T22:12:33.287692+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html",
+      "status_code": 200,
+      "title": "FOR IMMEDIATE RELEASE — Erdős 353 response · Holographic Goldilocks AIOS",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-erdos-deepmind-holographic-aios-may-2026.html"
+    }
+  ],
+  "target_id": "interfaces-press-release-erdos-deepmind-holographic-aios-may-2026-html"
+}

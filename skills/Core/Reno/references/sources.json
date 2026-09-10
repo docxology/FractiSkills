@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8c05691b1215ce4a2a148e26da66838ff0424091b3dae6b6304c26c8a2de718c",
+      "fetched_at": "2026-09-10T22:12:16.889548+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "status_code": 200,
+      "title": "The Reno Interpretation · Mirror Lattice · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reno"
+    }
+  ],
+  "target_id": "reno"
+}

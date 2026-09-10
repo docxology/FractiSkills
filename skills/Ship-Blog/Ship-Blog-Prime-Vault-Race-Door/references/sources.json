@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d5057ce09943cf72de387f044e7ddce1a172733fc4b86b7b284466b3b1120cea",
+      "fetched_at": "2026-09-10T22:15:54.552917+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-race-door",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-race-door",
+      "status_code": 200,
+      "title": "The Prime-Vault Race scoreboard is public · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-vault-race-door"
+    }
+  ],
+  "target_id": "ship-blog-prime-vault-race-door"
+}

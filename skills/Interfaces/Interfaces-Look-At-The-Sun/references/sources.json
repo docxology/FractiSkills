@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "677585e7e431d095f7a7d9b5ab65e5bab1bdd26b2ca15e545644587c5536f6de",
+      "fetched_at": "2026-09-10T22:12:31.868843+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "status_code": 200,
+      "title": "Look at the Sun · Omni-Lattice · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html"
+    }
+  ],
+  "target_id": "interfaces-look-at-the-sun-html"
+}

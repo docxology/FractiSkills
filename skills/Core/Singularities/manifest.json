@@ -1,0 +1,109 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "3dc6a05d8e5876786d0537f96a760a040f4c0f73d112797e25925ed1514076ab",
+    "references/sources.json": "461dea6e15870a3fe4c9af3b64352265d2ebe2fc7cecd67459c29286e5fe06f7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "75a7234c9a1f3fa4b110f8a8db3f02afb7b7d7e85aeeb446ba10190745b5e955",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "aee258a4113e5cfd21a6cda1ab33522070ae0eee15e60f887ea7f0977ad943f0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:19.044790+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "singularities",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Singularities",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "content_sha256": "e18b383f3121040d6648b2847efb5c1218e78f79951b462e5c3b6927f0414c9a",
+      "fetched_at": "2026-09-10T22:12:18.922532+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "status_code": 200,
+      "text_sha256": "4d0aa08682499248c1833bb0b4f1dd4d0c618830034bf641089075bdab8658a7",
+      "title": "Awareness Singularities S0–S81 · SynthOBS · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/singularities",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Lattice%20Chat%20V1.618%20%E2%80%94%20free%20trial&body=Hello%2C%0A%0AI%20would%20like%): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "singularities",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 8931,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:18.917942+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/singularities"
+    }
+  ],
+  "requested_skill_name": "Singularities",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "singularities",
+  "skill_sha256": "3dc6a05d8e5876786d0537f96a760a040f4c0f73d112797e25925ed1514076ab",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/singularities"
+  ],
+  "target_id": "singularities",
+  "warnings": []
+}

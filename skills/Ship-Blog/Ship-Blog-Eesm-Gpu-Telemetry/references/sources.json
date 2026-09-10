@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1c125080b4d7e220733618a790ff6786d6b796a8053dfc5e3a009da6d91aee90",
+      "fetched_at": "2026-09-10T22:15:23.666161+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eesm-gpu-telemetry",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eesm-gpu-telemetry",
+      "status_code": 200,
+      "title": "Epigenetic Execution-State Modeling for Causal Invariance in GPU Performance Telemetry · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eesm-gpu-telemetry"
+    }
+  ],
+  "target_id": "ship-blog-eesm-gpu-telemetry"
+}

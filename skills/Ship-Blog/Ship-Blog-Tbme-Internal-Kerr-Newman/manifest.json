@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "ddde7a49524ae240ac6b5857a9016fbdeb9d9d27a66a4da589c9189cbaf1e11d",
+    "references/sources.json": "56d0c458331ba9b86a349ff6d0a47a8400e2f52da9be6d59a86f8f7ac04b5de6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "60f7adebc2b62f0ed4c2761a13db6ff0a0155b62d58fbecaeb4c30dc101cc690",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "8da1500a459c1901502a93fd1b135c53af28d0b65748cdd48202c85b94610cff"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:38.605178+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tbme-internal-kerr-newman",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tbme Internal Kerr Newman",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "content_sha256": "a6d8f7ec9c02763b7b7183e90e1e84200311b23411c7e976358fa408d868e879",
+      "fetched_at": "2026-09-10T22:16:38.330799+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "status_code": 200,
+      "text_sha256": "9a1134ec2badf1b1eac040e5736e50387788b4d2349143fdb180c5b527bacdb1",
+      "title": "The Universal Toroidal Singularity Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tbme-internal-kerr-newman",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3990,
+      "duration_ms": 47,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:38.325842+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tbme Internal Kerr Newman",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tbme-internal-kerr-newman",
+  "skill_sha256": "ddde7a49524ae240ac6b5857a9016fbdeb9d9d27a66a4da589c9189cbaf1e11d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-internal-kerr-newman"
+  ],
+  "target_id": "ship-blog-tbme-internal-kerr-newman",
+  "warnings": []
+}

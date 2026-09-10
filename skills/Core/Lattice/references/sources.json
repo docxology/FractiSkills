@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1a870e5fe8a8f65fc841d7da9d2ae835511ac942d46faf672295813b3af19285",
+      "fetched_at": "2026-09-10T22:12:13.077229+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice",
+      "status_code": 200,
+      "title": "Infinite Octaves Omniversal Lattice Chat Agent V1.618 · Next layer after Cursor & Claude Code · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice"
+    }
+  ],
+  "target_id": "lattice"
+}

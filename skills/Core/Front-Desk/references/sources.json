@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "27b17ea369ed5fea9979be453d60447f2a526564dc370ba7e86c2dd7481062ed",
+      "fetched_at": "2026-09-10T22:12:04.925039+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk",
+      "status_code": 200,
+      "title": "Front Desk · SS Vibelandia check-in",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk"
+    }
+  ],
+  "target_id": "front-desk"
+}

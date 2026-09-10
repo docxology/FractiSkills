@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-hire-a-goldilocks-valet-concierge",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "42dbce20b2575745a0acbb1c288ac658b3e9eafc9e92c753e04e376adbb62139",
+      "fetched_at": "2026-09-10T22:12:24.636855+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset",
+      "status_code": 200,
+      "title": "Menu item · Valet Pru's Concierge Service",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/item?item=ecoreset"
+    }
+  ],
+  "target_id": "hire-a-goldilocks-valet-concierge-item"
+}

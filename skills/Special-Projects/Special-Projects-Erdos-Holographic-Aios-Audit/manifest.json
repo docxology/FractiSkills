@@ -1,0 +1,119 @@
+{
+  "area": "Special-Projects",
+  "artifact_hashes": {
+    "SKILL.md": "7f023435d254799c4e427e098548a4231a97e7adee587aecf1d48dbcec3bdc60",
+    "references/sources.json": "512491d499411fc7132932ca2a9e5e20e4e9a5f918cc07472b1a4827ab961e13"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3356881988553faf434e539e1e38af7adb2410131c278dab25d8218a1e642b76",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "f09f941955d3d17251badf93c3f19a359ef0a963e89407ebd67e0bdeec8ce4b5",
+    "request_count": 2,
+    "target_fingerprint": "2ce4b9292e6ab6048c616578a98f3398d6392bf9af1016166cfedd8705370494"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:50.606933+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "special-projects-erdos-holographic-aios-audit",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Special Projects Erdos Holographic Aios Audit",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit",
+      "content_sha256": "86bc192a9ef89f8d0a4b15ccfaa62cec1270e4565c0f094e4961997da40ca955",
+      "fetched_at": "2026-09-10T22:16:50.258401+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit",
+      "status_code": 200,
+      "text_sha256": "de8415f7dcd001154df51fb4267fd06939334107e1055aee535c2e1f2aadedf4",
+      "title": "Erdős 353 · Holographic Goldilocks AIOS Audit · Syntheverse",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit",
+      "warnings": []
+    }
+  ],
+  "portable_name": "special-projects-erdos-holographic-aios-audit",
+  "profile_fingerprint": "f09f941955d3d17251badf93c3f19a359ef0a963e89407ebd67e0bdeec8ce4b5",
+  "profile_id": "ssvibelandia-special-projects",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Special-Projects",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 99,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:49.796404+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 16773,
+      "duration_ms": 52,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:50.254624+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit"
+    }
+  ],
+  "requested_skill_name": "Special Projects Erdos Holographic Aios Audit",
+  "run_id": "ssvibelandia-special-projects--037f1bf17233efbccbed",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "special-projects-erdos-holographic-aios-audit",
+  "skill_sha256": "7f023435d254799c4e427e098548a4231a97e7adee587aecf1d48dbcec3bdc60",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/special-projects/erdos-holographic-aios-audit"
+  ],
+  "target_id": "special-projects-erdos-holographic-aios-audit",
+  "warnings": []
+}

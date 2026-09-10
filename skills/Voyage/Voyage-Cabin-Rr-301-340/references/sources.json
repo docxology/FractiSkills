@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f9d61200e9f50145698881267239033a9e998669f57eb15856c0dbcb37451d78",
+      "fetched_at": "2026-09-10T22:17:29.086395+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-rr-301-340",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-rr-301-340",
+      "status_code": 200,
+      "title": "RR-301–340 · South Seas Veranda Condos · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-rr-301-340"
+    }
+  ],
+  "target_id": "voyage-cabin-rr-301-340"
+}

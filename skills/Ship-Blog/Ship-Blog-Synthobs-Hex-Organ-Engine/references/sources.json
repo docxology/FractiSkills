@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e93ca385603fd13b88a81a915599c2bc2088e4a3661502b5f92510ac219ac9fd",
+      "fetched_at": "2026-09-10T22:16:09.141438+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-hex-organ-engine",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-hex-organ-engine",
+      "status_code": 200,
+      "title": "Syntheverse Observatory · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-hex-organ-engine"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-hex-organ-engine"
+}

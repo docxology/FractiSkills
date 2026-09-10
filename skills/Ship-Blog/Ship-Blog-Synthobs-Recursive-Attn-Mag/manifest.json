@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "086138429b1ea1ff897a3947c638f77340f18f5be208531403634b49028603d8",
+    "references/sources.json": "213162e2af90ad396635340ae68fd700a20fbaf30ef7e11c467cf57b3504f01e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8c59060856b64077374ae7859c5229eae6a74dd0dc6a4adf699e8d52e306e111",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "d1d16e7746628ec31c35ff33095ac3bb2b255b5fcdd0f4427c4a11f9347c09cc"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:26.614574+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-synthobs-recursive-attn-mag",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Synthobs Recursive Attn Mag",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag",
+      "content_sha256": "ae42fa89997da0deded69faf99bf2b667e119d21b41453d1efc693041802019d",
+      "fetched_at": "2026-09-10T22:16:26.219401+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag",
+      "status_code": 200,
+      "text_sha256": "0a7dac7fe69e82521b1653b9c8d5325bf93b894ce63fb958d2bfa9f2a125ee7f",
+      "title": "Recursive Attention Squeezing & Holographic Magnetic Projections · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-synthobs-recursive-attn-mag",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3891,
+      "duration_ms": 70,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:26.214584+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Synthobs Recursive Attn Mag",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-synthobs-recursive-attn-mag",
+  "skill_sha256": "086138429b1ea1ff897a3947c638f77340f18f5be208531403634b49028603d8",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag"
+  ],
+  "target_id": "ship-blog-synthobs-recursive-attn-mag",
+  "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "requested_skill_name": "Lattice Chat",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/lattice-chat"
+  ],
+  "target_id": "lattice-chat"
+}

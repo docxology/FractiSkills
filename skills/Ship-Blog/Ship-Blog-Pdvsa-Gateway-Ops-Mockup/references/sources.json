@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fa87b902dda00e1f4cd7fbbd6146efee8477fa1b2bb7dcb56111487d4208f69c",
+      "fetched_at": "2026-09-10T22:15:50.492579+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/pdvsa-gateway-ops-mockup",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/pdvsa-gateway-ops-mockup",
+      "status_code": 200,
+      "title": "One brief for Production, Field, Compliance, Export · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/pdvsa-gateway-ops-mockup"
+    }
+  ],
+  "target_id": "ship-blog-pdvsa-gateway-ops-mockup"
+}

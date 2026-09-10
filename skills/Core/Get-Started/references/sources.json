@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7770a861bc6ed5ffd6712ef006b85cb663c2e900f0805a588b11d430577505ae",
+      "fetched_at": "2026-09-10T22:12:09.952686+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "status_code": 200,
+      "title": "Welcome aboard · SS Vibelandia · Goldilocks Cruiseship",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/get-started"
+    }
+  ],
+  "target_id": "get-started"
+}

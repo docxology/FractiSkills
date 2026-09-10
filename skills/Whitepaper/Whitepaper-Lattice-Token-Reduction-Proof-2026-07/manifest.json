@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "bf96b94fd393291083d4cd68096088eee28499b6bc86054ca29c6aa7abcd10ad",
+    "references/sources.json": "584056775be48ef156636c52e68a9c0a4a782ba6517670c6cd8fbe8df787164c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f61e0f4340736d1fd9c809974589471847c62ced7acd2e57bb1a8d39708ea656",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "75c49a027d693a4ab78a3689c2cdcc20ad35bf950edf63377c5fe6dad539ac8a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 115,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:52.689801+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=lattice-token-reduction-proof-2026-07",
+        "content_sha256": "6daa7556bdd571d72ecb720aa9dfd80c1ac69c51e5d9940e559edba82993c852",
+        "error": null,
+        "etag": "W/\"19cc-GQA3jSgzld82Sf7Be3yLNEQ3Oz8\"",
+        "fetched_at": "2026-09-10T22:17:52.804948+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07",
+        "status_code": 200,
+        "text_chars": 3010,
+        "title": "Lattice Chat Agent V1.618 · Nested + pointer context load (structural estimate)"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-lattice-token-reduction-proof-2026-07",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Lattice Token Reduction Proof 2026 07",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:51.909609+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-lattice-token-reduction-proof-2026-07",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 127,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:51.907615+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Lattice Token Reduction Proof 2026 07",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-lattice-token-reduction-proof-2026-07",
+  "skill_sha256": "bf96b94fd393291083d4cd68096088eee28499b6bc86054ca29c6aa7abcd10ad",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-token-reduction-proof-2026-07"
+  ],
+  "target_id": "whitepaper-lattice-token-reduction-proof-2026-07",
+  "warnings": []
+}

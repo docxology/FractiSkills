@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e8dd6614da56a901233bbdcae19638cf95b28c42656f871727a06090be962a5e",
+      "fetched_at": "2026-09-10T22:12:28.225126+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "status_code": 200,
+      "title": "Host portal · Downtown Citadel Host · Puerto Reno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html"
+    }
+  ],
+  "target_id": "interfaces-commons-host-html"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "333bb24e6f682615323a173e50cfd283b59fcb55a36a3d81154486bc4ad09200",
+      "fetched_at": "2026-09-10T22:12:10.446730+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/goldilocks-players-guide",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/goldilocks-players-guide",
+      "status_code": 200,
+      "title": "Holographic Goldilocks Players Guide · Free · SS Vibelandia QUESTFEST",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/goldilocks-players-guide"
+    }
+  ],
+  "target_id": "goldilocks-players-guide"
+}

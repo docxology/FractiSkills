@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d3956c57479e6632000e3453fcd45d17f388c867a6a02a2fd39ed0d8b9ed5d23",
+      "fetched_at": "2026-09-10T22:15:56.763126+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/proton-space-electron-theater",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/proton-space-electron-theater",
+      "status_code": 200,
+      "title": "Proton Space · Electron Theater · Φ Duality · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/proton-space-electron-theater"
+    }
+  ],
+  "target_id": "ship-blog-proton-space-electron-theater"
+}

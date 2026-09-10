@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "43fd45a3ecaef16010eda99959e0ba8958250507a2e2041c33a3faeb944c8725",
+      "fetched_at": "2026-09-10T22:15:59.434000+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/recursive-attention-loop",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/recursive-attention-loop",
+      "status_code": 200,
+      "title": "Recursive Attention Coherence · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/recursive-attention-loop"
+    }
+  ],
+  "target_id": "ship-blog-recursive-attention-loop"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e313c6d355c52314a31c2652d71476b06a680e86b1aeb92a86464d02718be250",
+      "fetched_at": "2026-09-10T22:12:12.403254+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "status_code": 200,
+      "title": "Journeys · Adventures aboard SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey"
+    }
+  ],
+  "target_id": "journey"
+}

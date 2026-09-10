@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c73cddb45ea418b928d88ec0c0fe8ab33261f4112b001640d823f6042afc4b3a",
+      "fetched_at": "2026-09-10T22:14:48.912540+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "status_code": 200,
+      "title": "Goldilocks Syntheverse Beehive Residency · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-goldilocks-beehive-html"
+}

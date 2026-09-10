@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6e40ca8ef5108016843b300c922688b38e84f8cbcf67a57acdb0ae19c3c55ef3",
+      "fetched_at": "2026-09-10T22:16:09.950250+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-holographic-operators",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-holographic-operators",
+      "status_code": 200,
+      "title": "Holographic Operators · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-holographic-operators"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-holographic-operators"
+}

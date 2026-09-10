@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c48efb958c5bec008c77ac7313614775684bdf69e09ab4f0fce01c36ed20e66d",
+      "fetched_at": "2026-09-10T22:15:25.267205+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "status_code": 200,
+      "title": "Frontiersman Voyage — one tribe, many homes · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage"
+    }
+  ],
+  "target_id": "ship-blog-frontiersman-voyage"
+}

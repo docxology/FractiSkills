@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "3c6b1a7ccb93b319f9d791f8760d99d2fadb7cf914a5142cee7d01526c09adb3",
+    "references/sources.json": "82d12591e938d78fb5b544edf46fe2a6b11bb0473fcd0055b904a4e7d5f48ecb"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c6a7fc25b8a2c0ab89d951b6c3f9723b48d3155499721919b6763dbebc1a9fbe",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "8b18be21c52d68df05a2cf801731780422f476301c24a0d2532d9fad13ca96db"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 232,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:18:00.159744+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-81-orbital-singularity",
+        "content_sha256": "ad5ee43aa08a79d12f98a490dd413dc814a5be3da6de650736701d2e4146f700",
+        "error": null,
+        "etag": "W/\"4462-ByeuSYXNa+Q1gBUvSarL4sCnLZc\"",
+        "fetched_at": "2026-09-10T22:18:00.391309+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity",
+        "status_code": 200,
+        "text_chars": 10660,
+        "title": "Electron Orbital Geometries as Holographic Singularities · 81-Node Spacetime Projection Map"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-synthobs-81-orbital-singularity",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Synthobs 81 Orbital Singularity",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:59.776003+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-synthobs-81-orbital-singularity",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:59.773512+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Synthobs 81 Orbital Singularity",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-synthobs-81-orbital-singularity",
+  "skill_sha256": "3c6b1a7ccb93b319f9d791f8760d99d2fadb7cf914a5142cee7d01526c09adb3",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-81-orbital-singularity"
+  ],
+  "target_id": "whitepaper-synthobs-81-orbital-singularity",
+  "warnings": []
+}

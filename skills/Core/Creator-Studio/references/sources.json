@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bab6e61690c5a85b7cc214122602e6da79ca19422f6e8707afdfeefe693ff1df",
+      "fetched_at": "2026-09-10T22:12:04.603467+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "status_code": 200,
+      "title": "Creator Studio · Deck 2 Core · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio"
+    }
+  ],
+  "target_id": "creator-studio"
+}

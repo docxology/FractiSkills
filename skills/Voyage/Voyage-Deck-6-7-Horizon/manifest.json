@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "5dbbe49c79eb2735e2bcb50e77ecf9d38640a3c1a2429dbb33bb41fe22b269c5",
+    "references/sources.json": "956534015d985bc27a2beb698fc789c233c0b3950cf133f96e9769668a94859b"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ea40ab745d1f384f86ab999e7494bdc1221c79a00e288d3ea8f29b938e5d4ad8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "88b1b8b53af1af531c9877263824ae2c052e46e4cada509a14679388aeb8c277"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:35.366730+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-deck-6-7-horizon",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Deck 6 7 Horizon",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "content_sha256": "28785dfffb80cf8e63af986683de004b55c52b37b15771a435bd45e203762db2",
+      "fetched_at": "2026-09-10T22:17:34.807699+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "status_code": 200,
+      "text_sha256": "ea8c87e5d6bdd77ee726c73ef8c02d9960ef9a70f8a369cc118e95d619933926",
+      "title": "Decks 6–7 — Horizon · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-deck-6-7-horizon",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4241,
+      "duration_ms": 31,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:34.801503+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon"
+    }
+  ],
+  "requested_skill_name": "Voyage Deck 6 7 Horizon",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-deck-6-7-horizon",
+  "skill_sha256": "5dbbe49c79eb2735e2bcb50e77ecf9d38640a3c1a2429dbb33bb41fe22b269c5",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon"
+  ],
+  "target_id": "voyage-deck-6-7-horizon",
+  "warnings": []
+}

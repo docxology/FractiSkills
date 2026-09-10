@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "40987bc841f87b9b6651f601af441d5c5e7a3d6959041f3eb17b6681cad5ba02",
+      "fetched_at": "2026-09-10T22:17:35.693719+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "status_code": 200,
+      "title": "Deck 8 — Veranda · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda"
+    }
+  ],
+  "target_id": "voyage-deck-8-veranda"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "75a824367969a6716662be7d8413f5d9516b1936e73c7d77222408e39bb0685b",
+      "fetched_at": "2026-09-10T22:15:47.324746+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/multidimensional-holographic-rhyme",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/multidimensional-holographic-rhyme",
+      "status_code": 200,
+      "title": "Multi-Dimensional Holographic Rhyme · xD±yD · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/multidimensional-holographic-rhyme"
+    }
+  ],
+  "target_id": "ship-blog-multidimensional-holographic-rhyme"
+}

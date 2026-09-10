@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c4cc5ab7a21827bed2ffd8a5ea258f4c466a63d90831c668640543477808ad22",
+      "fetched_at": "2026-09-10T22:16:04.779201+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-81-orbital-singularity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-81-orbital-singularity",
+      "status_code": 200,
+      "title": "Electron Orbital Geometries as Holographic Singularities · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-81-orbital-singularity"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-81-orbital-singularity"
+}

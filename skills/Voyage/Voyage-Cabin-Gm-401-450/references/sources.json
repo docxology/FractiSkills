@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "29e13906fe685d65ab3cfb3cd46e94bdddce633d0d2cd19b8c0e192f37233906",
+      "fetched_at": "2026-09-10T22:17:26.737877+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "status_code": 200,
+      "title": "GM-401–450 · Grove Mezzanine Lofts · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450"
+    }
+  ],
+  "target_id": "voyage-cabin-gm-401-450"
+}

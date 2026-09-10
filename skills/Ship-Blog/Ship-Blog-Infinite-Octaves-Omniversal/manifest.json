@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "57f2e16ae5e43d137a6639f1ec7e8573e3c6b0bbb2fd02282f91dee316417c55",
+    "references/sources.json": "2ba908119582d83453372a783901c8f56297741ead5220d90b5e2879550348d3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c6c5c5979090d4df71638bacf12e6239bc46e78941a41aa8babd16490ca11e46",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "0369e03ef4f7ac18297ce444a819e7b9d29fbfdd26d8a9dd93462cdd7947f9af"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:37.144284+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-infinite-octaves-omniversal",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Infinite Octaves Omniversal",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "content_sha256": "2fbeb35e8dce38e9d8b7b141e4b277e339984df43d15c9033d7f7bc5e894951e",
+      "fetched_at": "2026-09-10T22:15:36.462542+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "status_code": 200,
+      "text_sha256": "84e8c13d34ef529eaf235ee46cd1052c2f0924a0ab72ea34cc8dcbf8683e1eca",
+      "title": "Your valet just got Infinite Octaves · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-infinite-octaves-omniversal",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3798,
+      "duration_ms": 35,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:36.457432+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Infinite Octaves Omniversal",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-infinite-octaves-omniversal",
+  "skill_sha256": "57f2e16ae5e43d137a6639f1ec7e8573e3c6b0bbb2fd02282f91dee316417c55",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal"
+  ],
+  "target_id": "ship-blog-infinite-octaves-omniversal",
+  "warnings": []
+}

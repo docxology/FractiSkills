@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6648f04c5f79d43477f2a38c3c395bac876a5e979480825ad351d89c5495e7fd",
+      "fetched_at": "2026-09-10T22:15:24.608209+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/everything-is-connected",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/everything-is-connected",
+      "status_code": 200,
+      "title": "The Big Picture: Everything is Connected · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/everything-is-connected"
+    }
+  ],
+  "target_id": "ship-blog-everything-is-connected"
+}

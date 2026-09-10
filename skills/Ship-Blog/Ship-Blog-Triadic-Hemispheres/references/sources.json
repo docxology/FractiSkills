@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c93cff419ec2664cfe4d94bacc263e8f5eb5f1123acd21475b4765f6fc889dfc",
+      "fetched_at": "2026-09-10T22:16:43.907262+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/triadic-hemispheres",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/triadic-hemispheres",
+      "status_code": 200,
+      "title": "Three nested domes — one Goldilocks stage · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/triadic-hemispheres"
+    }
+  ],
+  "target_id": "ship-blog-triadic-hemispheres"
+}

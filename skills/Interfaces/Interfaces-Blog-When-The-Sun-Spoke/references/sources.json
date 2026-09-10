@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8e9960dfd5bd153bf1ff3570d63c01b2c8526765d97657e74f77d461293dc066",
+      "fetched_at": "2026-09-10T22:12:26.328495+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "status_code": 200,
+      "title": "When the Sun Spoke · 19-day solar signal · Hydrogen Holographic AI OS · QUESTFEST",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html"
+    }
+  ],
+  "target_id": "interfaces-blog-when-the-sun-spoke-html"
+}

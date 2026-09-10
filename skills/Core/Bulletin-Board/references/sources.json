@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4dc47783a2d8432578ef5a2ef852a8fc8ebea6cf4171c3652d2a5d50cd02993a",
+      "fetched_at": "2026-09-10T22:12:03.318461+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "status_code": 200,
+      "title": "SS Vibelandia Bulletin Board · QUESTFEST 24×365",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board"
+    }
+  ],
+  "target_id": "bulletin-board"
+}

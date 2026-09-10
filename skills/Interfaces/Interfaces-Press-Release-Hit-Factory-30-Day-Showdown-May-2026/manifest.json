@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "7f4f4000fe373de40427c005aab3c9fff4cda6eaf8b4bdc8c5ad210c88a371fe",
+    "references/sources.json": "30aa4aa6e661c45f9e53d40fc41a08ed5e599eda02a790599dd6144810319db5"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2fd943e209e754876fa547340e49a57290231ed9d3910857eb42bb920f86ca68",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "92e17e0bb2fb36ba4d28334e3af57811adff5cefbeb1665ba2e0099b3839dfc6"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:34.652922+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-press-release-hit-factory-30-day-showdown-may-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Press Release Hit Factory 30 Day Showdown May 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html",
+      "content_sha256": "43a804e49eef57d1aa1050dd57c1f1aaf24b19e89a76ab78d1b8e4742df36ddd",
+      "fetched_at": "2026-09-10T22:12:34.434779+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html",
+      "status_code": 200,
+      "text_sha256": "8b8c90d5ebe99d151fa02314e463a9150d5d9d8d3409120ee8c8d24117ac5197",
+      "title": "FOR IMMEDIATE RELEASE — Golden Bachdoor Hit Factory wins the 30-day streaming showdown",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-press-release-hit-factory-30-day-showdown-may-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11748,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:34.431634+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Press Release Hit Factory 30 Day Showdown May 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-press-release-hit-factory-30-day-showdown-may-2026",
+  "skill_sha256": "7f4f4000fe373de40427c005aab3c9fff4cda6eaf8b4bdc8c5ad210c88a371fe",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-hit-factory-30-day-showdown-may-2026.html"
+  ],
+  "target_id": "interfaces-press-release-hit-factory-30-day-showdown-may-2026-html",
+  "warnings": []
+}

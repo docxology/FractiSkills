@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1daf2f349471b53671e8a382fecbb4afe7c2f2442e08fe91ff820e829f3142ba",
+      "fetched_at": "2026-09-10T22:17:37.466637+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/fractal-harmonics",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/fractal-harmonics",
+      "status_code": 200,
+      "title": "Φ Fractal harmonics · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/fractal-harmonics"
+    }
+  ],
+  "target_id": "voyage-fractal-harmonics"
+}

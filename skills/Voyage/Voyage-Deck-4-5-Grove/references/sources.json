@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "abf7df5c23796770aafd6b8a7a688c38ef4000d1f0a78b36902cfc144e1330f4",
+      "fetched_at": "2026-09-10T22:17:33.938554+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "status_code": 200,
+      "title": "Decks 4–5 — Grove · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove"
+    }
+  ],
+  "target_id": "voyage-deck-4-5-grove"
+}

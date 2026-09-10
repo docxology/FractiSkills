@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "89fb3ef9cddd059edd6cadf94e20ca7f6770bcc60b43987b1bd21a37485bb4f9",
+    "references/sources.json": "cd2b68dfbf43b71ac6d10b4e771695431fd68730d8de446a97f56a0dde2cf357"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e67537e4fc271e822b92359e137e5718cf0b1fab8556d55c512f5b6204a5b9b3",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "670b03e98f458868e6e62199329d86ea691d53579b2bd10d7883db67da96ec53"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 216,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:18:12.493710+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-mag-substrate",
+        "content_sha256": "0f1bad36f3e8c1656dd7556d9b6478470df5f4dbeae4f98c5328b1c0cce2a2a8",
+        "error": null,
+        "etag": "W/\"5054-kmGPSknGVnDvs4gqwnrWsNSY4Ng\"",
+        "fetched_at": "2026-09-10T22:18:12.709118+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate",
+        "status_code": 200,
+        "text_chars": 12971,
+        "title": "Magnetism as the Universal Foundational Substrate"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-synthobs-mag-substrate",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Synthobs Mag Substrate",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:18:12.044881+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-synthobs-mag-substrate",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 50,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:18:12.042472+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Synthobs Mag Substrate",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-synthobs-mag-substrate",
+  "skill_sha256": "89fb3ef9cddd059edd6cadf94e20ca7f6770bcc60b43987b1bd21a37485bb4f9",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-mag-substrate"
+  ],
+  "target_id": "whitepaper-synthobs-mag-substrate",
+  "warnings": []
+}

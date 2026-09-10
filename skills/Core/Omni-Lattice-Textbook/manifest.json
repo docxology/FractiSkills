@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "70f857320c2ae4a6dc1399e56693303bd7ee87e148b86f792ebde8729ffb111b",
+    "references/sources.json": "82aa22afd17841b6b1326ed092c69f10677896f734c4aa0536249feda3f7c587"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "e5686cffeaaa2b759497dda04b1a8a35bd23721577ac1283825ca4e61b45f9a2",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "d820d4cd3144f594c2fcbd4150e88b66cefde09c424def30d0aa19a5b477996c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:15.710635+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "omni-lattice-textbook",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Omni Lattice Textbook",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "content_sha256": "8f360595498baa29f606385bc9927ae598abe13831f71523783c8c9986b24391",
+      "fetched_at": "2026-09-10T22:12:15.615905+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "status_code": 200,
+      "text_sha256": "77b8efcb5df8587d1780525256e572afcccbd4f5ccd26d4ddd569c7027c15423",
+      "title": "Infinite Octaves Omni-Lattice · Companion Textbook · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook",
+      "warnings": []
+    }
+  ],
+  "portable_name": "omni-lattice-textbook",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 74444,
+      "duration_ms": 113,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:15.601728+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook"
+    }
+  ],
+  "requested_skill_name": "Omni Lattice Textbook",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "omni-lattice-textbook",
+  "skill_sha256": "70f857320c2ae4a6dc1399e56693303bd7ee87e148b86f792ebde8729ffb111b",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-textbook"
+  ],
+  "target_id": "omni-lattice-textbook",
+  "warnings": []
+}

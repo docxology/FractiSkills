@@ -1,0 +1,107 @@
+{
+  "area": "Questfest-Schedule",
+  "artifact_hashes": {
+    "SKILL.md": "3279051842c88ee3ebd1b68e17deed52dff868b6edb3add126e288b57c261cf5",
+    "references/sources.json": "64305809308919257930b0f34f51b660cab51c80e22091b98a4f4632313e4dc9"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "2211080c17dd9f446111d776e29928bc837e4639827701c3892d6fca6e950347",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "86befd23943bea57ae561cc701017c53ee4d1f2a2f3211bb95df9011956a25b4",
+    "request_count": 1,
+    "target_fingerprint": "313353bc7a8918aa56816544bffbe395b166390f8b1d3da033bc64fea818697a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:14.458483+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "questfest-schedule-thursday-pregame-balling-man-cave",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Questfest Schedule Thursday Pregame Balling Man Cave",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "1f17e8eebf18c1a20aba0eb93abd21022fff23754ccaa9385063f5e53840b4ea",
+      "fetched_at": "2026-09-10T22:15:13.530973+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave",
+      "status_code": 200,
+      "text_sha256": "947307b0a91a8d8af983f73250166145756e89614c9bc65e561658452c648e1b",
+      "title": "QUESTFEST Schedule · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave",
+      "warnings": []
+    }
+  ],
+  "portable_name": "questfest-schedule-thursday-pregame-balling-man-cave",
+  "profile_fingerprint": "86befd23943bea57ae561cc701017c53ee4d1f2a2f3211bb95df9011956a25b4",
+  "profile_id": "ssvibelandia-questfest-schedule",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Questfest-Schedule",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3109,
+      "duration_ms": 45,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:13.525607+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave"
+    }
+  ],
+  "requested_skill_name": "Questfest Schedule Thursday Pregame Balling Man Cave",
+  "run_id": "ssvibelandia-questfest-schedule--5b99a73d9c2b83b2cf47",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "questfest-schedule-thursday-pregame-balling-man-cave",
+  "skill_sha256": "3279051842c88ee3ebd1b68e17deed52dff868b6edb3add126e288b57c261cf5",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave"
+  ],
+  "target_id": "questfest-schedule-thursday-pregame-balling-man-cave",
+  "warnings": []
+}

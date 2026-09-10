@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bc4ac857cb28ba46c44d49079b225e0a8f5b45cf6fe981b2535c971467046905",
+      "fetched_at": "2026-09-10T22:16:00.386772+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sing-muse-omniversal-lattice",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sing-muse-omniversal-lattice",
+      "status_code": 200,
+      "title": "Sing, Muse, of the Omniversal Lattice · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sing-muse-omniversal-lattice"
+    }
+  ],
+  "target_id": "ship-blog-sing-muse-omniversal-lattice"
+}

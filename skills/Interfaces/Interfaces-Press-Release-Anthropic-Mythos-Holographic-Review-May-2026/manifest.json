@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "174ac6d9d02556393602f4a3edd4b6d1decc31193cc0d97b496b115c8b69c3ab",
+    "references/sources.json": "625f7ab4711804853b673d6e941a92540a8ecea64184f3093a9337ef646289d8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f1a28b2ced41ba21abfffbc71d2ddbcc5507d32e46bcd7949e7489adb1b1699b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "572c2072d299be8a504a1b54767c10ecc1f007e843da61b8b6c4176a7d302010"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:33.219242+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-press-release-anthropic-mythos-holographic-review-may-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Press Release Anthropic Mythos Holographic Review May 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html",
+      "content_sha256": "3c7a9c79708e0da9e62ffdafa6f0c7588404de6e086c271821d83485a1169a4b",
+      "fetched_at": "2026-09-10T22:12:33.091905+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html",
+      "status_code": 200,
+      "text_sha256": "2f977f1f5225226df3039109edba2b085fc4985b814b275cd8112c857ef943ea",
+      "title": "FOR IMMEDIATE RELEASE — Holographic review of Anthropic’s Mythos · Clock-skew disclosure",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-press-release-anthropic-mythos-holographic-review-may-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 7542,
+      "duration_ms": 42,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:33.086244+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Press Release Anthropic Mythos Holographic Review May 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-press-release-anthropic-mythos-holographic-review-may-2026",
+  "skill_sha256": "174ac6d9d02556393602f4a3edd4b6d1decc31193cc0d97b496b115c8b69c3ab",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-anthropic-mythos-holographic-review-may-2026.html"
+  ],
+  "target_id": "interfaces-press-release-anthropic-mythos-holographic-review-may-2026-html",
+  "warnings": []
+}

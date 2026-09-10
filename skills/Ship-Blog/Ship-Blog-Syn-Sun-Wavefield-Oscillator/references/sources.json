@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "258b7eb8371e5648cdab99b8e2bfc8c74e75d92ef0e10bb66588342b91453e73",
+      "fetched_at": "2026-09-10T22:16:03.971763+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syn-sun-wavefield-oscillator",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syn-sun-wavefield-oscillator",
+      "status_code": 200,
+      "title": "Wavefield Oscillator Solar Model · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syn-sun-wavefield-oscillator"
+    }
+  ],
+  "target_id": "ship-blog-syn-sun-wavefield-oscillator"
+}

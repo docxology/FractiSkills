@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4673ba52bae2f117dcf2d739a4b0dc9521858c80b51dc710590e2ef95af8f153",
+      "fetched_at": "2026-09-10T22:12:06.934205+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/frontier",
+      "status_code": 200,
+      "title": "What It Means to Be Frontier · Trail + self-test + Where Am I · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/frontier"
+    }
+  ],
+  "target_id": "frontier"
+}

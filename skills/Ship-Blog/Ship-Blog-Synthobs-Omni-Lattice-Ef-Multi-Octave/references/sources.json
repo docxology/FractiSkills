@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "16e9b882ca3609e802ed5a32ce974cee417bff16b29df9a9c3a0f1998a3d77b4",
+      "fetched_at": "2026-09-10T22:16:12.679287+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-ef-multi-octave",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-ef-multi-octave",
+      "status_code": 200,
+      "title": "Unified Multi-Octave Scale-Invariant Architecture of El Gran Sol’s Fractal Constant (… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-ef-multi-octave"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-ef-multi-octave"
+}

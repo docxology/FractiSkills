@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "eb2f425cd2de1a88021288c8e0999f53cebbdd03b4b766efc52b577494cb278d",
+      "fetched_at": "2026-09-10T22:12:40.379003+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html",
+      "status_code": 200,
+      "title": "VALETPRU-AGENT · ACTIVATED · Capitan Bridge Console",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html"
+    }
+  ],
+  "target_id": "interfaces-valetpru-agent-mode-html"
+}

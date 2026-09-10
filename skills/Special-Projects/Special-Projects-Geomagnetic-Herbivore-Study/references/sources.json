@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-special-projects",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ecd59afa73b47e6e440aa8784f420c51c53870b4a161736c7acbff240b64f003",
+      "fetched_at": "2026-09-10T22:16:50.803035+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study",
+      "status_code": 200,
+      "title": "Geomagnetic Herbivore Study · Multi-Taxa Wavefield",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/geomagnetic-herbivore-study"
+    }
+  ],
+  "target_id": "special-projects-geomagnetic-herbivore-study"
+}

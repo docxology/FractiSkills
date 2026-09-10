@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a82990ab5603e33849f9f7349cfea93f8ca0ee9afc6e3214bb7ba8f942897a55",
+      "fetched_at": "2026-09-10T22:16:07.210262+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-euler-phase-lock",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-euler-phase-lock",
+      "status_code": 200,
+      "title": "Phase-Locked Scale Invariance · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-euler-phase-lock"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-egs-euler-phase-lock"
+}

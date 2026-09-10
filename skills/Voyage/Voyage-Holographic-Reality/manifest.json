@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "fc82714cca9bb0eb6414da10741e88fb365475489f9f00766735682c60319ffc",
+    "references/sources.json": "28f692a4e932bc4825fd1072ed4fb91a84ffba3c4991f4c7ff5daf8b20a3eaaf"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1ffac48a87a595d4f2ee1cdae78e97d72ed015dd3a75ed11028f05be25a20bce",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "dd31fdc875d88c8090c388c66a0a0f82f45ca34c7c48de2d74b9ff2e7b6d1869"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:38.527055+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-holographic-reality",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Holographic Reality",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "content_sha256": "ee8ce60aaf96c8a9dc4cb9e1b476652cb55b2771837e12dedca07f4e5fe92978",
+      "fetched_at": "2026-09-10T22:17:38.214899+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "status_code": 200,
+      "text_sha256": "31ab7936bc968afad1f1a3ed25ec4302c17e80d64873d6a3561a28b34d2d77f9",
+      "title": "◈ Holographic reality · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-holographic-reality",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4428,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:38.208903+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality"
+    }
+  ],
+  "requested_skill_name": "Voyage Holographic Reality",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-holographic-reality",
+  "skill_sha256": "fc82714cca9bb0eb6414da10741e88fb365475489f9f00766735682c60319ffc",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality"
+  ],
+  "target_id": "voyage-holographic-reality",
+  "warnings": []
+}

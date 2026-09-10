@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-questfest-schedule",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1f17e8eebf18c1a20aba0eb93abd21022fff23754ccaa9385063f5e53840b4ea",
+      "fetched_at": "2026-09-10T22:15:13.530973+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave",
+      "status_code": 200,
+      "title": "QUESTFEST Schedule · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/questfest-schedule/thursday-pregame-balling-man-cave"
+    }
+  ],
+  "target_id": "questfest-schedule-thursday-pregame-balling-man-cave"
+}

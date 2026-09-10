@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dd5c644ded950df9091550ff062bff0985583866987b012b7de6c294da0f308a",
+      "fetched_at": "2026-09-10T22:17:30.663046+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-st-601-680",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-st-601-680",
+      "status_code": 200,
+      "title": "ST-601–680 · Lattice Studio Staterooms · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-st-601-680"
+    }
+  ],
+  "target_id": "voyage-cabin-st-601-680"
+}

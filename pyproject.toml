@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fractiskills"
+description = "One portable agent SKILL per page of the SS Vibelandia Omniversal Canvas, rendered with Skillarum, with figures and a reproducible manuscript"
+requires-python = ">=3.10"
+dynamic = ["version"]
+license = { text = "MIT" }
+authors = [
+    { name = "Daniel Ari Friedman", email = "daniel@activeinference.institute" },
+]
+dependencies = [
+    "skillarum @ git+https://github.com/docxology/Skillarum@v0.2.0",
+    "matplotlib>=3.8",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=7.0",
+    "coverage[toml]>=7.10.6",
+    "ruff>=0.6",
+    "pytest-httpserver>=1.1.5",
+]
+
+[project.scripts]
+fractiskills = "fractiskills.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = { attr = "fractiskills.__version__" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v --tb=short --strict-markers"
+markers = [
+    "live: opt-in tests that touch the real public site (FRACTISKILLS_RUN_LIVE=1)",
+]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+patch = ["subprocess"]
+omit = ["*/__init__.py", "*/__main__.py"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]

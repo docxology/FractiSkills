@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "77c06693b863c16ddafd0cb8fbb276a782a4e1ed399a7f807bd34dda7094a1c4",
+    "references/sources.json": "257e65a87f8290727d75850b9c7d30ddd8243d96ad93ad0a16e0b7b220a6f66d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d7b4daea7e2955bc7f60663ff063269fcef9a8250040c09eda0acd10b83bb198",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "fc5c79b572fe0a6fda33765990afa22be649129cfa661c45b8d45f88288a62e9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:16.098291+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "prime-vault-race",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Prime Vault Race",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "content_sha256": "40095d6c761c15b58d633c480fe62aae6aad4b43dea4224b76925113a4232750",
+      "fetched_at": "2026-09-10T22:12:16.055843+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "status_code": 200,
+      "text_sha256": "553ff5b7c6c04f473dd89912a4be2594b5ca32fdda97654dc10b84c81b63a44d",
+      "title": "Prime-Vault Race · Results · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race",
+      "warnings": []
+    }
+  ],
+  "portable_name": "prime-vault-race",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5848,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:16.049630+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race"
+    }
+  ],
+  "requested_skill_name": "Prime Vault Race",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "prime-vault-race",
+  "skill_sha256": "77c06693b863c16ddafd0cb8fbb276a782a4e1ed399a7f807bd34dda7094a1c4",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/prime-vault-race"
+  ],
+  "target_id": "prime-vault-race",
+  "warnings": []
+}

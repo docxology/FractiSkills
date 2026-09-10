@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "67e2f3af91abe7af1564f720eb432c3a6ce2f06ade5622b695359726451ec159",
+      "fetched_at": "2026-09-10T22:16:45.982978+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "status_code": 200,
+      "title": "Zero-Octave · Y Goldilocks · Fibonacci Vaults · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks"
+    }
+  ],
+  "target_id": "ship-blog-zero-octave-y-goldilocks"
+}

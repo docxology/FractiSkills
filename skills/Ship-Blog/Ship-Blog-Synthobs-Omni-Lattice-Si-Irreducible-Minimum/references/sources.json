@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "9b8a25e991bb1f4987db6b16a0ad01f941bd795f600883682c1e44d87da34300",
+      "fetched_at": "2026-09-10T22:16:18.054076+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "status_code": 200,
+      "title": "Omni-Lattice · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-si-irreducible-minimum"
+}

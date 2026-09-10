@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8a431d93a37adaf093ab24f480f2f10220e9f11c0f567d5417e21249e828e553",
+      "fetched_at": "2026-09-10T22:16:06.791180+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-epigenetic-phase-locking",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-epigenetic-phase-locking",
+      "status_code": 200,
+      "title": "Epigenetic Phase-Locking of Pancreatic and Hypothalamic Loci via Recursive Geometric… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-egs-epigenetic-phase-locking"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-egs-epigenetic-phase-locking"
+}

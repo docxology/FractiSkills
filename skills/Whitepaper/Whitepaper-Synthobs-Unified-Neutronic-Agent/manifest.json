@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "211281698a1e1d63dbe8808a2d3d6648409e61c1719afc3430b9f884fa80954d",
+    "references/sources.json": "eaa1879d15d65c8aed3c07c99c751f06e25a26af2177f8cd6e0db2dc849d6b73"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "283d34214e21a98476bebdaba4b7ac07ad56f1b5558962a220d703697825ed6c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "33540ccd78bd850c7847d0a4d21bff7245f3843b74b3f36333b4b0745799cd9b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 211,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:18:30.547622+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-unified-neutronic-agent",
+        "content_sha256": "1fe5b11595c2bbcad0ddaed76be0b3f0cf9e2ede32194da599174afe146e303a",
+        "error": null,
+        "etag": "W/\"53f4-/GtIR1M6Mz9BT/PExXrolHUyiVE\"",
+        "fetched_at": "2026-09-10T22:18:30.758625+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent",
+        "status_code": 200,
+        "text_chars": 13156,
+        "title": "The Unified Neutronic Agent Paper: Modeling Neutrons, Isotopic Load Balancing, and Cross-Domain Metaphors in the Lattice Framework"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-synthobs-unified-neutronic-agent",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Synthobs Unified Neutronic Agent",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:18:30.203549+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-synthobs-unified-neutronic-agent",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:18:30.201334+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Synthobs Unified Neutronic Agent",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-synthobs-unified-neutronic-agent",
+  "skill_sha256": "211281698a1e1d63dbe8808a2d3d6648409e61c1719afc3430b9f884fa80954d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-unified-neutronic-agent"
+  ],
+  "target_id": "whitepaper-synthobs-unified-neutronic-agent",
+  "warnings": []
+}

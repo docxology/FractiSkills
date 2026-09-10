@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8b8f372b912e896c2e26c90d2978cff5745eb488cc09ce9f754c4d3a04073af7",
+      "fetched_at": "2026-09-10T22:15:42.424983+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/magneto-harmonic-stellar",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/magneto-harmonic-stellar",
+      "status_code": 200,
+      "title": "Stars as magnets that hum · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/magneto-harmonic-stellar"
+    }
+  ],
+  "target_id": "ship-blog-magneto-harmonic-stellar"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4fd206d96a5dc453f3f7cbd4493be0ebc1b6051c51fd5964e77360e7b3beab97",
+      "fetched_at": "2026-09-10T22:12:36.543143+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html",
+      "status_code": 200,
+      "title": "Ship Map · SS VIBELANDIA QUESTFEST 24×365",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-2026-frontier-guide.html"
+    }
+  ],
+  "target_id": "interfaces-questfest-2026-frontier-guide-html"
+}

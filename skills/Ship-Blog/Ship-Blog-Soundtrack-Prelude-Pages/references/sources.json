@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d1e7d796d196bde7dd5416515426ea9baee1e68e551c57d893542a32e8656383",
+      "fetched_at": "2026-09-10T22:16:02.270777+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/soundtrack-prelude-pages",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/soundtrack-prelude-pages",
+      "status_code": 200,
+      "title": "Soundtrack preludes — pages that breathe with music · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/soundtrack-prelude-pages"
+    }
+  ],
+  "target_id": "ship-blog-soundtrack-prelude-pages"
+}

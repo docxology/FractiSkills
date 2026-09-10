@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "45e4d9d5b854639e1f9aea6cb643829e9a7111e0cfb6c63c591248a27192cc0a",
+      "fetched_at": "2026-09-10T22:16:36.271183+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-apiary",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-apiary",
+      "status_code": 200,
+      "title": "If AI keeps the hive, humans still make the honey · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-apiary"
+    }
+  ],
+  "target_id": "ship-blog-tbme-egs-apiary"
+}

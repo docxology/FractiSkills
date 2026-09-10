@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "44c1b3f67dd9ea7061cb404ec5bcf66f4ecc3d4f6c9f4ab5474896175f0a116c",
+      "fetched_at": "2026-09-10T22:15:20.571454+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/coexist-with-ai",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/coexist-with-ai",
+      "status_code": 200,
+      "title": "Coexisting with AI and Super AI — which quadrant are you? · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/coexist-with-ai"
+    }
+  ],
+  "target_id": "ship-blog-coexist-with-ai"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ba030d3327af0d320e3a380d3bd5bd7236962cf60bd08f794775e1ebe93ffbd4",
+      "fetched_at": "2026-09-10T22:16:28.884137+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-three-foundational-proteins",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-three-foundational-proteins",
+      "status_code": 200,
+      "title": "Holographic Decoding of the Three Foundational Biological Proteins · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-three-foundational-proteins"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-three-foundational-proteins"
+}

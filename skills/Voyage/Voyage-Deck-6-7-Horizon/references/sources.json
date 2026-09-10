@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "28785dfffb80cf8e63af986683de004b55c52b37b15771a435bd45e203762db2",
+      "fetched_at": "2026-09-10T22:17:34.807699+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon",
+      "status_code": 200,
+      "title": "Decks 6–7 — Horizon · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-6-7-horizon"
+    }
+  ],
+  "target_id": "voyage-deck-6-7-horizon"
+}

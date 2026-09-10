@@ -1,0 +1,119 @@
+{
+  "area": "About",
+  "artifact_hashes": {
+    "SKILL.md": "397801199435acee42943795c6554913ae4dfe74c7725b1e1d0562c644f2eb13",
+    "references/sources.json": "4b506fc4137856acbbdf859a674c1b57784141387454c470ea29c529346b693f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a27cd409ff88eac184c80258d2e2227ca174927c5e2936292705452e5abcfc34",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "c714908880970d500c794aacc55f4acbec334e4321cc6e01c0e08cecffb04a54",
+    "request_count": 2,
+    "target_fingerprint": "6bb5bb164aa899f0961550b72a008565d456d236fcb269498b454b1ad84d73b9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:22.333904+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "about-reno-holographic-swamp-beats-caliente",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "About Reno Holographic Swamp Beats Caliente",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "content_sha256": "f852bdf23e4a00099f3dc1402f0085477f565816886e48ab64266edbb5a4863b",
+      "fetched_at": "2026-09-10T22:12:21.904419+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "status_code": 200,
+      "text_sha256": "75fefecf058a2f37fa2335be8f80c0c5844b8c243c2ca652ba5c1c76ebe88fc2",
+      "title": "About · Sonic Singularity · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "warnings": []
+    }
+  ],
+  "portable_name": "about-reno-holographic-swamp-beats-caliente",
+  "profile_fingerprint": "c714908880970d500c794aacc55f4acbec334e4321cc6e01c0e08cecffb04a54",
+  "profile_id": "ssvibelandia-about",
+  "profile_name": "SS Vibelandia Omniversal Canvas: About",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 103,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:21.436987+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 22477,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:21.881593+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente"
+    }
+  ],
+  "requested_skill_name": "About Reno Holographic Swamp Beats Caliente",
+  "run_id": "ssvibelandia-about--5ad94d7f10375e447dd4",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "about-reno-holographic-swamp-beats-caliente",
+  "skill_sha256": "397801199435acee42943795c6554913ae4dfe74c7725b1e1d0562c644f2eb13",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente"
+  ],
+  "target_id": "about-reno-holographic-swamp-beats-caliente",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "49f22feb06b1b1df9db59ddbe763cc67972bfc37569bb5028765c02641aac10c",
+      "fetched_at": "2026-09-10T22:12:02.692475+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/",
+      "status_code": 200,
+      "title": "Holographic Goldilocks SuperAI Basecamp · Valet Pru",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/"
+    }
+  ],
+  "target_id": "skill"
+}

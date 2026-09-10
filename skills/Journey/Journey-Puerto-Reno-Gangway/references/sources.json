@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6e90c2c82cd9c8abf1afbe35561595407861c30991b83614cf366bf193d46a87",
+      "fetched_at": "2026-09-10T22:15:00.059593+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/puerto-reno-gangway",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/puerto-reno-gangway",
+      "status_code": 200,
+      "title": "Puerto Reno · Gangway Night · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/puerto-reno-gangway"
+    }
+  ],
+  "target_id": "journey-puerto-reno-gangway"
+}

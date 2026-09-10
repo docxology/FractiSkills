@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "88b66bd9fa5247438777bef2fb26693c9dd37bec7ee81b7f0392cc02e50d17be",
+    "references/sources.json": "c867eba1128ea2620c3f55aab10601e7763e75d0cfcffe93e79828abfa2ce729"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "bb0630e3f627e751b13f0582969877f72436c3efd8603077f2c170c25d49787c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "c69034c2e2038a27b8f5fe016fc0aa53ab2f254b24dbb36b52a561e63d7f9010"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:36.071745+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-deck-8-veranda",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Deck 8 Veranda",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "content_sha256": "40987bc841f87b9b6651f601af441d5c5e7a3d6959041f3eb17b6681cad5ba02",
+      "fetched_at": "2026-09-10T22:17:35.693719+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "status_code": 200,
+      "text_sha256": "d906db0d6481ebbb324253501d8c1ce1462fed6dd1b63049fe6ee2b5985f980d",
+      "title": "Deck 8 — Veranda · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-deck-8-veranda",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4438,
+      "duration_ms": 33,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:35.687946+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda"
+    }
+  ],
+  "requested_skill_name": "Voyage Deck 8 Veranda",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-deck-8-veranda",
+  "skill_sha256": "88b66bd9fa5247438777bef2fb26693c9dd37bec7ee81b7f0392cc02e50d17be",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-8-veranda"
+  ],
+  "target_id": "voyage-deck-8-veranda",
+  "warnings": []
+}

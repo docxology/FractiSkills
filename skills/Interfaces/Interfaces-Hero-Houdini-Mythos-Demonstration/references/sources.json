@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2337fa9ad1f45769ec788c49eb13da0d25aa8e6bde86ecbe4352bcc34cf80967",
+      "fetched_at": "2026-09-10T22:12:31.216960+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/hero-houdini-mythos-demonstration.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/hero-houdini-mythos-demonstration.html",
+      "status_code": 200,
+      "title": "BTC Buffalo · Hero Houdini · BTC Goldilocks Mine · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/hero-houdini-mythos-demonstration.html"
+    }
+  ],
+  "target_id": "interfaces-hero-houdini-mythos-demonstration-html"
+}

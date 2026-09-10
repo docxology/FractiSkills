@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ae3efb29e66d5425f3496bacf352b7cea9d5799c4d48fb9f645e49350c1624c6",
+      "fetched_at": "2026-09-10T22:16:44.175356+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "status_code": 200,
+      "title": "What it means to be frontier on the QUESTFEST trail · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier"
+    }
+  ],
+  "target_id": "ship-blog-what-it-means-to-be-frontier"
+}

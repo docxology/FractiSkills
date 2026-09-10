@@ -1,0 +1,110 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "b7ff5f464c45755d753910dcc7454a097b0ea1b5af2d240457813dbe66dd4c66",
+    "references/sources.json": "5f543323fc7c1b215e09e1c5fdd26b3fe5a2e1a47249ef52ce60b6102dc04c35"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3d0dbaf9ab1047450dcdc00adb09b6467666856e36739372bc44c115b0f21425",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "bde84c494501e0ca6c2a20bb4d274cfb571d8c510bc697eaa0c14ed87175563e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:40.130749+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-inquire",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Inquire",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire",
+      "content_sha256": "caaab5ce7e44a02812b7e2f4d70f39d5c6972a58188c430baf5e53b03ec95446",
+      "fetched_at": "2026-09-10T22:17:39.587931+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire",
+      "status_code": 200,
+      "text_sha256": "48f2e650636b06f71bb543773cb4233ad9c6846da35fc75e98b990acd27b9640",
+      "title": "Inquire · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=SS%20Vibelandia%20inquiry): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-inquire",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4415,
+      "duration_ms": 40,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:39.583467+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire"
+    }
+  ],
+  "requested_skill_name": "Voyage Inquire",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-inquire",
+  "skill_sha256": "b7ff5f464c45755d753910dcc7454a097b0ea1b5af2d240457813dbe66dd4c66",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/inquire"
+  ],
+  "target_id": "voyage-inquire",
+  "warnings": []
+}

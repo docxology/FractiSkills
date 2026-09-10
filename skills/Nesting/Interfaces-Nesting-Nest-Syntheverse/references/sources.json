@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c592e6fef92e2d16ae02d4a212a8b12d92e0562af6b5ca7b40923947ab43eeed",
+      "fetched_at": "2026-09-10T22:14:53.729788+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-syntheverse.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-syntheverse.html",
+      "status_code": 200,
+      "title": "Syntheverse · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-syntheverse.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-syntheverse-html"
+}

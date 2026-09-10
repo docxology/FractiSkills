@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "881b4f840bc3cd52325fa50557f26304c0b87d9714bccc27b3c808c09b3c2d31",
+    "references/sources.json": "8692c0502c6ebfe68e437f49e9cbd22e58e776a1689132eddf5539df1ef5ea5a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "8b5a304761ae254e1325c0c55d11a271949834b88c2bc95dd2a7b40b5c3aa823",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "5e6cec6ffcc49bf412df69934555421b512b50a3572eaacd58af951f2d41591c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:04.658394+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "creator-studio",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Creator Studio",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "content_sha256": "bab6e61690c5a85b7cc214122602e6da79ca19422f6e8707afdfeefe693ff1df",
+      "fetched_at": "2026-09-10T22:12:04.603467+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "status_code": 200,
+      "text_sha256": "202acb7b0195d477b33a65b889408044b804a3d8e172125622551a8dac6e20d4",
+      "title": "Creator Studio · Deck 2 Core · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio",
+      "warnings": []
+    }
+  ],
+  "portable_name": "creator-studio",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 13437,
+      "duration_ms": 48,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:04.600307+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/creator-studio"
+    }
+  ],
+  "requested_skill_name": "Creator Studio",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "creator-studio",
+  "skill_sha256": "881b4f840bc3cd52325fa50557f26304c0b87d9714bccc27b3c808c09b3c2d31",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/creator-studio"
+  ],
+  "target_id": "creator-studio",
+  "warnings": []
+}

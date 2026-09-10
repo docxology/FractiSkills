@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "28cc882ee967b6ca60c20585cf1ef2f4ad318bd56baee88f7d3ab52c0d02f8fa",
+    "references/sources.json": "ea8276a0019478d19530394f00c12ff6c4cfd13ac74878b78d231e7e160d4b4a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "77021a1c252ed05b53cf82677de0e9170bb936c40c398d1bb7b4a100f3689f0b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "9c8ee1a5e06fc00fa1aea265a26502164e8c7bf214d4980073dd1c50c56627a8"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:10.150499+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "get-started",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Get Started",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "content_sha256": "7770a861bc6ed5ffd6712ef006b85cb663c2e900f0805a588b11d430577505ae",
+      "fetched_at": "2026-09-10T22:12:09.952686+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "status_code": 200,
+      "text_sha256": "577ebe494241c2499e50976ff57e2224ff61e13b6eae8de987eee8f5ae031034",
+      "title": "Welcome aboard · SS Vibelandia · Goldilocks Cruiseship",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/get-started",
+      "warnings": []
+    }
+  ],
+  "portable_name": "get-started",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 21347,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:09.948409+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/get-started"
+    }
+  ],
+  "requested_skill_name": "Get Started",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "get-started",
+  "skill_sha256": "28cc882ee967b6ca60c20585cf1ef2f4ad318bd56baee88f7d3ab52c0d02f8fa",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/get-started"
+  ],
+  "target_id": "get-started",
+  "warnings": []
+}

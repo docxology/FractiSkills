@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0086afbe8e224a6c66fdb74776c778e4251af5357703449ebf8ed7fd36b44d49",
+      "fetched_at": "2026-09-10T22:15:27.862837+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-geomagnetic-wavefield-multitaxa",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-geomagnetic-wavefield-multitaxa",
+      "status_code": 200,
+      "title": "Unified Geomagnetic Wavefields & Multi-Taxa Ungulate Migration Corridors on the Great… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-geomagnetic-wavefield-multitaxa"
+    }
+  ],
+  "target_id": "ship-blog-goldilocks-geomagnetic-wavefield-multitaxa"
+}

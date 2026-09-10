@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3f9a9e923265115c78c44d8f2bc1809d9d2770e4fe4346c513762335bd8d15c2",
+      "fetched_at": "2026-09-10T22:15:53.321148+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage",
+      "status_code": 200,
+      "title": "Storage without the parity tax — prime vaults for memory · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/prime-indexed-volumetric-storage"
+    }
+  ],
+  "target_id": "ship-blog-prime-indexed-volumetric-storage"
+}

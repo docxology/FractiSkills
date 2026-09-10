@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "618eaf917fa3a286180fef599be115c3c91fa74fea0d3a26f78eb171ffc6abaa",
+      "fetched_at": "2026-09-10T22:15:21.900818+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/digital-pru-synthobs-mca",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/digital-pru-synthobs-mca",
+      "status_code": 200,
+      "title": "Digital Pru · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/digital-pru-synthobs-mca"
+    }
+  ],
+  "target_id": "ship-blog-digital-pru-synthobs-mca"
+}

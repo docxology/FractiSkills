@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4eb627ca8f704a015ca07c006ae91fff0e958dc76668ecc2b369f2cce16d355d",
+      "fetched_at": "2026-09-10T22:16:13.747806+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-hiv",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-hiv",
+      "status_code": 200,
+      "title": "Omni-Lattice Unification III · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-hiv"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-hiv"
+}

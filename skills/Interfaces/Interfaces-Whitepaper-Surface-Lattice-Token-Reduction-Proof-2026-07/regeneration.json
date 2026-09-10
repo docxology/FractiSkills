@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "requested_skill_name": "Interfaces Whitepaper Surface Lattice Token Reduction Proof 2026 07",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/whitepaper-surface.html?id=lattice-token-reduction-proof-2026-07"
+  ],
+  "target_id": "interfaces-whitepaper-surface-html-id-lattice-token-reduction-proof-2026-07"
+}

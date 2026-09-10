@@ -1,0 +1,107 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "c3138da890e0c9476d7870d630d5cc8c0ee890c3ea3d14c2b5db8c6dda92a91c",
+    "references/sources.json": "2494f797be110520b0e672021cb84411acf7ff39534ee58d72486175d27ef1c6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "026ad0402194c37bfa6ac8b336d38ea32aaa3105da417a4db409f38c6dff3711",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 1,
+    "target_fingerprint": "b50a52e4aa39b8ecbc9313dbdaa066068c57ca79a6cf3dbfa05231fbea9ed96b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:49.846443+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-goldilocks-beehive",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Goldilocks Beehive",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "content_sha256": "c73cddb45ea418b928d88ec0c0fe8ab33261f4112b001640d823f6042afc4b3a",
+      "fetched_at": "2026-09-10T22:14:48.912540+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "status_code": 200,
+      "text_sha256": "16eecfd65c2243e6a3bfd9be47c5a2566c753af8363f5ea8dbf97607104aad8b",
+      "title": "Goldilocks Syntheverse Beehive Residency · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-goldilocks-beehive",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5095,
+      "duration_ms": 39,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:48.902308+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Goldilocks Beehive",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-goldilocks-beehive",
+  "skill_sha256": "c3138da890e0c9476d7870d630d5cc8c0ee890c3ea3d14c2b5db8c6dda92a91c",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-goldilocks-beehive.html"
+  ],
+  "target_id": "interfaces-nesting-nest-goldilocks-beehive-html",
+  "warnings": []
+}

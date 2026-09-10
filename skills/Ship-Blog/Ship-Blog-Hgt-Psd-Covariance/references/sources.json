@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8f69fbcebfee4f856e3ce4a191f951ece5847615bb6d2e1111d6eba395c4505f",
+      "fetched_at": "2026-09-10T22:15:31.616876+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/hgt-psd-covariance",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/hgt-psd-covariance",
+      "status_code": 200,
+      "title": "Hierarchical Genomic Tokenization and Structured PSD Covariance Operators · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/hgt-psd-covariance"
+    }
+  ],
+  "target_id": "ship-blog-hgt-psd-covariance"
+}

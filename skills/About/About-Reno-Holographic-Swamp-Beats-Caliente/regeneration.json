@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "c714908880970d500c794aacc55f4acbec334e4321cc6e01c0e08cecffb04a54",
+  "profile_id": "ssvibelandia-about",
+  "requested_skill_name": "About Reno Holographic Swamp Beats Caliente",
+  "run_id": "ssvibelandia-about--5ad94d7f10375e447dd4",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente"
+  ],
+  "target_id": "about-reno-holographic-swamp-beats-caliente"
+}

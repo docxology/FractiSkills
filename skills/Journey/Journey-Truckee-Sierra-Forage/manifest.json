@@ -1,0 +1,109 @@
+{
+  "area": "Journey",
+  "artifact_hashes": {
+    "SKILL.md": "a59dc658555d9260b4f6d260dea83cc602ca85e0102a869d15dc0e8454491e61",
+    "references/sources.json": "e5a4a31879baa63e766dd22930051ff289ca9e2941d6339fcf2a274f5416b7d8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "bbe85d20cfe50624b888ab6a635b2e6257f6c42466b1e33ed87cc06fbf20264e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+    "request_count": 1,
+    "target_fingerprint": "7161817cdb14bb6a164baf08eec3eada5b1da87f920d248d9cb4dae8b43a9a41"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:04.017542+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "journey-truckee-sierra-forage",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Journey Truckee Sierra Forage",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "content_sha256": "dded3088179ba614009b181e25264994776328b4743a6658febc4c2ae32e7097",
+      "fetched_at": "2026-09-10T22:15:02.470842+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "status_code": 200,
+      "text_sha256": "84ae661e6d645a5d4c42b0e7de262df70920d6b771a1001e84444ec4bff3a3bb",
+      "title": "Truckee River & High Sierra Forage · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Journey%20inquiry%20—%20Truckee%20River%20%26%20High%20Sierra%20Forage): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "journey-truckee-sierra-forage",
+  "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+  "profile_id": "ssvibelandia-journey",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Journey",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4909,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:02.465276+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage"
+    }
+  ],
+  "requested_skill_name": "Journey Truckee Sierra Forage",
+  "run_id": "ssvibelandia-journey--2dc97e59f0a891e4884a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "journey-truckee-sierra-forage",
+  "skill_sha256": "a59dc658555d9260b4f6d260dea83cc602ca85e0102a869d15dc0e8454491e61",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage"
+  ],
+  "target_id": "journey-truckee-sierra-forage",
+  "warnings": []
+}

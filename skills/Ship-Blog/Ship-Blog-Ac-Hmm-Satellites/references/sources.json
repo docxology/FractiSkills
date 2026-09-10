@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ccc19b700e8065d580b22e7376d4f0b7cce759305a229f5c3c63ed096be88243",
+      "fetched_at": "2026-09-10T22:15:15.510435+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "status_code": 200,
+      "title": "Scalable Context-Conditioned Sequence Modeling in Repetitive Genomic Regions via Spar… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites"
+    }
+  ],
+  "target_id": "ship-blog-ac-hmm-satellites"
+}

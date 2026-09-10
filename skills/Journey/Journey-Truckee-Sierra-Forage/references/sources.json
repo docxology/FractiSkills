@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dded3088179ba614009b181e25264994776328b4743a6658febc4c2ae32e7097",
+      "fetched_at": "2026-09-10T22:15:02.470842+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage",
+      "status_code": 200,
+      "title": "Truckee River & High Sierra Forage · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/truckee-sierra-forage"
+    }
+  ],
+  "target_id": "journey-truckee-sierra-forage"
+}

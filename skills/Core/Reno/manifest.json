@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "04a12da6375810b69e3ee3f5228c1e40f8d4b3de0a79d90d22d82843c376f6b2",
+    "references/sources.json": "ebd059e1770f8981eb0553dfe91e984a0cbeaa650f3e3dd64ca67132be2aa3a8"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b044f8c8745ec7880b98f42ac053eac9f6346008876bbf64df76c894d263df2c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "58c765d1c46d7393b36de56fdfd0831080207440eca984e3801b49afd0899c57"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:17.002982+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "reno",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Reno",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "content_sha256": "8c05691b1215ce4a2a148e26da66838ff0424091b3dae6b6304c26c8a2de718c",
+      "fetched_at": "2026-09-10T22:12:16.889548+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "status_code": 200,
+      "text_sha256": "0e14d43f5838aa9fb638c2582cd98970a3c73e69beca7cf1d4e83a405aa32697",
+      "title": "The Reno Interpretation · Mirror Lattice · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reno",
+      "warnings": []
+    }
+  ],
+  "portable_name": "reno",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 30219,
+      "duration_ms": 49,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:16.885057+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reno"
+    }
+  ],
+  "requested_skill_name": "Reno",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "reno",
+  "skill_sha256": "04a12da6375810b69e3ee3f5228c1e40f8d4b3de0a79d90d22d82843c376f6b2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/reno"
+  ],
+  "target_id": "reno",
+  "warnings": []
+}

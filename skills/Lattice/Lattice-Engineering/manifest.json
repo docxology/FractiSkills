@@ -1,0 +1,109 @@
+{
+  "area": "Lattice",
+  "artifact_hashes": {
+    "SKILL.md": "7d3f4706b16ffb15590ae2585409a8c11016a826cfe9900a60d4c6e4fc3ac59e",
+    "references/sources.json": "cc529a8e259641281de55cd7baa688ab8eca8a892580a036ae8693bd69e68a8e"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b57e56ae725d3ab88d399d9b8a145762d2278b354795a7f782b5a0735c1bd660",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+    "request_count": 1,
+    "target_fingerprint": "e9d4800e679ee0493e3a7b70fd97edbc79f9482587b91417a8925a896483e4b4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:07.244049+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "lattice-engineering",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Lattice Engineering",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:15:06.550256+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/engineering",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/engineering",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/engineering",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "lattice-engineering",
+  "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+  "profile_id": "ssvibelandia-lattice",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Lattice",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:06.548498+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/engineering"
+    }
+  ],
+  "requested_skill_name": "Lattice Engineering",
+  "run_id": "ssvibelandia-lattice--0413bc61ac105c707b86",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "lattice-engineering",
+  "skill_sha256": "7d3f4706b16ffb15590ae2585409a8c11016a826cfe9900a60d4c6e4fc3ac59e",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/lattice/engineering"
+  ],
+  "target_id": "lattice-engineering",
+  "warnings": []
+}

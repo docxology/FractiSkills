@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-special-projects",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a429f7802bd9a6f6180cbc95507f785bc5508f01aa9189add9454169d3cb0e6a",
+      "fetched_at": "2026-09-10T22:17:22.512436+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/pdvsa-gateway-ops",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/pdvsa-gateway-ops",
+      "status_code": 200,
+      "title": "PDVSA Gateway Ops · EGS Lattice-Linear Gateway · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/special-projects/pdvsa-gateway-ops"
+    }
+  ],
+  "target_id": "special-projects-pdvsa-gateway-ops"
+}

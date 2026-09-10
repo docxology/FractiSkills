@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "c1be6c9d41f9ebf1a280964147d41c6773bcf40015e755b5788f53a716f778a8",
+    "references/sources.json": "e63974b90b7a6d23c9474583c5e7973f55daaf57968d53f95be4247461eb0c71"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "33657746979cc584766ea009e15070ce80b5425e401ae645c7ea7519f1fe8ca7",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "8e3cf336e0cb581cf7d39addf21a2b2d1c772436848920427f02d570a16d81c0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:32.168373+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-look-at-the-sun",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Look At The Sun",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "content_sha256": "677585e7e431d095f7a7d9b5ab65e5bab1bdd26b2ca15e545644587c5536f6de",
+      "fetched_at": "2026-09-10T22:12:31.868843+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "status_code": 200,
+      "text_sha256": "44eee50b9efd534e229ff349015f73cc49c4054094e54ffa32a9d13b77295e01",
+      "title": "Look at the Sun · Omni-Lattice · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-look-at-the-sun",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 15543,
+      "duration_ms": 70,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:31.849428+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Look At The Sun",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-look-at-the-sun",
+  "skill_sha256": "c1be6c9d41f9ebf1a280964147d41c6773bcf40015e755b5788f53a716f778a8",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/look-at-the-sun.html"
+  ],
+  "target_id": "interfaces-look-at-the-sun-html",
+  "warnings": []
+}

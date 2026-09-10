@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fd35810c887a75172a06b236b3fed643cfc3e8a17c2e6590506456d9641b2633",
+      "fetched_at": "2026-09-10T22:15:41.880265+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine",
+      "status_code": 200,
+      "title": "Bodies as work engines — filing life in octave band 13–17 · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/macro-protein-work-engine"
+    }
+  ],
+  "target_id": "ship-blog-macro-protein-work-engine"
+}

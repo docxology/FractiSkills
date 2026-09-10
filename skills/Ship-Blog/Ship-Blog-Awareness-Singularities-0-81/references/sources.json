@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "de6165a9c24c1e9f9f29df7498102624d9b070b2e590ca72047c744432ef92e6",
+      "fetched_at": "2026-09-10T22:15:17.871850+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "status_code": 200,
+      "title": "Awareness Singularities S₀–S₈₁ · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81"
+    }
+  ],
+  "target_id": "ship-blog-awareness-singularities-0-81"
+}

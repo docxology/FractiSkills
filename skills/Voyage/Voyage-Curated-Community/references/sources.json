@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "07b16b7dcaa6fb5e707badd09b1862c6a78c5b32c1b5b5fc485ee4dfb4adcc88",
+      "fetched_at": "2026-09-10T22:17:31.537525+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/curated-community",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/curated-community",
+      "status_code": 200,
+      "title": "◉ Curated community · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/curated-community"
+    }
+  ],
+  "target_id": "voyage-curated-community"
+}

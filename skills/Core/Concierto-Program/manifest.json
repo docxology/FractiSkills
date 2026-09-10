@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "a8217031b3942ebb2176a3daf3f90c898c6f5335ab603cfa47903771ae8e2af4",
+    "references/sources.json": "7096407268832935af63998809677d9fd4994a7cc824b50b87646f248a5b53f1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b4940046bfa1e188e61ac8077e9db70019d0dfa4011592607242e3c56ef39aa0",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "34b662db0540b6150fff0ccb42ec10c069b886bdb36fb62109eff7fa345feafd"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:04.278276+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "concierto-program",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Concierto Program",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "content_sha256": "381579cd134c309083d9f2954724f4c2fa2804c81729f065676fbde5f2d5d3f6",
+      "fetched_at": "2026-09-10T22:12:04.212021+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "status_code": 200,
+      "text_sha256": "83ee37c1e920863ede79196956289e93e49092eac6d36ff63dedc789ac637bcf",
+      "title": "Concierto de El Gran Sol: “The Shift” · Concert Program · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program",
+      "warnings": []
+    }
+  ],
+  "portable_name": "concierto-program",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 28898,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:04.200092+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/concierto-program"
+    }
+  ],
+  "requested_skill_name": "Concierto Program",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "concierto-program",
+  "skill_sha256": "a8217031b3942ebb2176a3daf3f90c898c6f5335ab603cfa47903771ae8e2af4",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/concierto-program"
+  ],
+  "target_id": "concierto-program",
+  "warnings": []
+}

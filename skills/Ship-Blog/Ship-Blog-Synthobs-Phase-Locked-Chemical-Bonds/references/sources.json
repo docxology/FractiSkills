@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e625b3d9ab7d553cfe4538ea0924bf85925a1ec880d838d8ad493ab505215917",
+      "fetched_at": "2026-09-10T22:16:22.960728+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-locked-chemical-bonds",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-locked-chemical-bonds",
+      "status_code": 200,
+      "title": "Phase-Locked Chemical Bond Metaphors in Agentic Architectures · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-locked-chemical-bonds"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-phase-locked-chemical-bonds"
+}

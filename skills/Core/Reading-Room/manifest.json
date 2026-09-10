@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "5961cc4cbc035f4b3d5439a1e7eb9d7e1b3fce2cb503a20357b6c68ae1660868",
+    "references/sources.json": "089edd08b910820627b028b9318f9e5e3c71bba551f9afd6056e7d43fa06e544"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "be9ebfae62c63145e23605f4e5354198274d3d59f4fe834db446acfae3bd4655",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "3fd4a36055cfa35f91967327866495d8732471f5eab5774afc6a6bdb7f26a726"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:16.320434+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "reading-room",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Reading Room",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "content_sha256": "1179d11f040cd245cffa365da83ace1d54b8b751e9dde0200f9e837b60965f65",
+      "fetched_at": "2026-09-10T22:12:16.204067+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "status_code": 200,
+      "text_sha256": "a1dbb71cc0b791ba0d8979ba8fa1c22786572ce30f53cecbe3a679ef3160813c",
+      "title": "Reading Room · Deep Memory · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "warnings": []
+    }
+  ],
+  "portable_name": "reading-room",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 19456,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:16.201583+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reading-room"
+    }
+  ],
+  "requested_skill_name": "Reading Room",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "reading-room",
+  "skill_sha256": "5961cc4cbc035f4b3d5439a1e7eb9d7e1b3fce2cb503a20357b6c68ae1660868",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/reading-room"
+  ],
+  "target_id": "reading-room",
+  "warnings": []
+}

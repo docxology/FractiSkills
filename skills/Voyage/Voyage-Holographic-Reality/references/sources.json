@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ee8ce60aaf96c8a9dc4cb9e1b476652cb55b2771837e12dedca07f4e5fe92978",
+      "fetched_at": "2026-09-10T22:17:38.214899+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality",
+      "status_code": 200,
+      "title": "◈ Holographic reality · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/holographic-reality"
+    }
+  ],
+  "target_id": "voyage-holographic-reality"
+}

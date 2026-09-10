@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6c30732f6f7103cb02fc15beb6c7cc2e68d6a06ee47f4e78fbe820a75dec1e12",
+      "fetched_at": "2026-09-10T22:15:01.959753+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/tahoe-catamaran",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/tahoe-catamaran",
+      "status_code": 200,
+      "title": "Lake Tahoe · Catamaran Gold · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/tahoe-catamaran"
+    }
+  ],
+  "target_id": "journey-tahoe-catamaran"
+}

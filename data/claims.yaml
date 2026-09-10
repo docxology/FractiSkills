@@ -1,0 +1,61 @@
+# Claim ledger: numeric claims made in the manuscript, each bound to its
+# observation evidence. Regenerate all numbers via the full pipeline; never
+# hand-edit a value without rerunning the pipeline that observes it.
+
+claims:
+  - id: pages-discovered
+    claim: "The 2026-09-10 discovery enumerated 405 distinct pages."
+    value: 405
+    evidence:
+      artifact: output/data/inventory.json
+      field: entries
+      observed: "2026-09-10"
+      origin: live
+  - id: skills-published
+    claim: "One validated skill package per page: 405 of 405."
+    value: 405
+    evidence:
+      artifact: output/data/publish_receipt.json
+      field: count
+      observed: "2026-09-10"
+      origin: live
+  - id: sitemap-undercoverage
+    claim: "360 of 405 pages were crawl-only; the declared sitemap lists 53 URLs of which 45 resolved to distinct pages."
+    value: 360
+    evidence:
+      artifact: output/data/fractiskills_analysis.json
+      field: inventory.via_crawl_only
+      observed: "2026-09-10"
+      origin: live
+  - id: corpus-size
+    claim: "Rendered skills carry 497896 body words in total (median 959 per skill)."
+    value: 497896
+    evidence:
+      artifact: output/data/fractiskills_analysis.json
+      field: skills.total_words
+      observed: "2026-09-10"
+      origin: live
+  - id: augmentation-footprint
+    claim: "169 of 173 augmentation attempts retrieved real documents (1988844-1988848 chars); 4 failed with persisted receipts."
+    value: 169
+    evidence:
+      artifact: output/data/augmentation_receipts.jsonl
+      field: ok-fraction
+      observed: "2026-09-10"
+      origin: live
+  - id: acquisition-cost
+    claim: "The render acquisition cost 417 network requests (conditional revalidation, robots, page fetches)."
+    value: 417
+    evidence:
+      artifact: output/runs/*/manifest.json
+      field: request_count
+      observed: "2026-09-10"
+      origin: live
+  - id: section-count
+    claim: "12 sections partition the 405 pages."
+    value: 12
+    evidence:
+      artifact: output/data/fractiskills_analysis.json
+      field: sections
+      observed: "2026-09-10"
+      origin: live

@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "requested_skill_name": "Ship Blog Synthobs Recursive Attn Mag",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-recursive-attn-mag"
+  ],
+  "target_id": "ship-blog-synthobs-recursive-attn-mag"
+}

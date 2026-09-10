@@ -1,0 +1,119 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "8cf0f2766137e1db9321cd4b7f3da4026e43d4b8d42f78959a4d7dd1c1a8fad4",
+    "references/sources.json": "5089c2aaf0703c54340849a8a193ac5ca01269dca9b42aa418f6bf767dade8e1"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f95cf1fb72b203391d2501893ccd46de6737bee52bd8f23039af528453d7f31f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 2,
+    "target_fingerprint": "914bb079b6f714f16f84f77c88edfa6eb3176510b9ce90cbd954dc2ed3050770"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:48.525955+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-basenet-genesis",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Basenet Genesis",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "content_sha256": "54172d6765f4e8bfa62dcf63c1a4ae09e58a7953242041d6cfce4a0fcd56f762",
+      "fetched_at": "2026-09-10T22:14:48.209925+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "status_code": 200,
+      "text_sha256": "0e4a453ff15f6bd46859151a1c869b3ab19e399ef17eae64ff7328747eda3161",
+      "title": "Base Mainnet · genesis contracts · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-basenet-genesis",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 115,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:47.646269+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 8839,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:48.079207+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Basenet Genesis",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-basenet-genesis",
+  "skill_sha256": "8cf0f2766137e1db9321cd4b7f3da4026e43d4b8d42f78959a4d7dd1c1a8fad4",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html"
+  ],
+  "target_id": "interfaces-nesting-nest-basenet-genesis-html",
+  "warnings": []
+}

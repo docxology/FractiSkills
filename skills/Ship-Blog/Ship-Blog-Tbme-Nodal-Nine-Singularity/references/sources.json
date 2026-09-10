@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "623879548c3f587c498023761d105d8d4756ad3e2d89eb3c5df3a091d2b3486d",
+      "fetched_at": "2026-09-10T22:16:39.278125+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-nodal-nine-singularity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-nodal-nine-singularity",
+      "status_code": 200,
+      "title": "The Nodal Nine Singularity Boundary Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-nodal-nine-singularity"
+    }
+  ],
+  "target_id": "ship-blog-tbme-nodal-nine-singularity"
+}

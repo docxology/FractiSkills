@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "0c061070423c13db58d11600e1b9c55ea1764af3e9069c460ee8bde507ffc3be",
+    "references/sources.json": "bcd513ab4cd3582eccc9c22b132ae24173bfde05b7ec12710ff7febddd5c7287"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0d891684bb2a82e6c7284e7f20775781879c010fe56469c760c618f893503a0f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "c5f4614ffcb250e4be6b11b7460d6995ecd64d5302f5425d71b19afa7c2006ba"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:36.397417+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-infinite-octave-prime-parity",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Infinite Octave Prime Parity",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "content_sha256": "755efc19cfb2cbcf5a3cf6727a52c659dd6efe86b4c7889ea505b899cb7053ab",
+      "fetched_at": "2026-09-10T22:15:35.772919+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "status_code": 200,
+      "text_sha256": "921753bc6e50535b2411a931288c13d9ee45a3ceddd74dfce6f80ff17d3c9e30",
+      "title": "Infinite Octave Prime-Parity · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-infinite-octave-prime-parity",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9964,
+      "duration_ms": 35,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:35.766130+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Infinite Octave Prime Parity",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-infinite-octave-prime-parity",
+  "skill_sha256": "0c061070423c13db58d11600e1b9c55ea1764af3e9069c460ee8bde507ffc3be",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity"
+  ],
+  "target_id": "ship-blog-infinite-octave-prime-parity",
+  "warnings": []
+}

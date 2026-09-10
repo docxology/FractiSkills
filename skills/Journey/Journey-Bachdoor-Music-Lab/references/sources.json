@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2031be26b503a3bc31b8070f24fa20dbd04a344cf454a59b35a0363858d345a3",
+      "fetched_at": "2026-09-10T22:14:56.355859+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "status_code": 200,
+      "title": "Golden Bachdoor · Music Lab · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab"
+    }
+  ],
+  "target_id": "journey-bachdoor-music-lab"
+}

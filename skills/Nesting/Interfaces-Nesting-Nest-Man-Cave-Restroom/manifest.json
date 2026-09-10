@@ -1,0 +1,107 @@
+{
+  "area": "Nesting",
+  "artifact_hashes": {
+    "SKILL.md": "3bb26829fabe9c282a71b7a2650e355e1533320a7503398e64b373db741dc5c5",
+    "references/sources.json": "7509e5b565162b24cffafa7fcc61476a1cffe34619149c96e627b60808bc9677"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1b0f9d9353b25c437de9654436810ce5ade85893f960fd7f5ecee71bf79b9470",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+    "request_count": 1,
+    "target_fingerprint": "55e32978a74df14058513e079b8e2306dea12fd6b3319a34f63b2d424d998927"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:51.280241+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-nesting-nest-man-cave-restroom",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Nesting Nest Man Cave Restroom",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html",
+      "content_sha256": "15845f27a5b08724977e99a00332803fbdac18ed99623d9c905172b1b9a7ae93",
+      "fetched_at": "2026-09-10T22:14:50.974376+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html",
+      "status_code": 200,
+      "text_sha256": "b8299d7f76b1a78b1ae6b1f413d4784b8a27316efeaf5b1b0a545a4989e99a62",
+      "title": "Man cave mirror · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-nesting-nest-man-cave-restroom",
+  "profile_fingerprint": "ddaf71a131450bbf9e79e3fb6cb7caa213fb4050f8e3e70ac0121fab96a0c64e",
+  "profile_id": "ssvibelandia-nesting",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Nesting",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4243,
+      "duration_ms": 29,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:50.967447+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Nesting Nest Man Cave Restroom",
+  "run_id": "ssvibelandia-nesting--e1ced1e248b824ff6bac",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-nesting-nest-man-cave-restroom",
+  "skill_sha256": "3bb26829fabe9c282a71b7a2650e355e1533320a7503398e64b373db741dc5c5",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-man-cave-restroom.html"
+  ],
+  "target_id": "interfaces-nesting-nest-man-cave-restroom-html",
+  "warnings": []
+}

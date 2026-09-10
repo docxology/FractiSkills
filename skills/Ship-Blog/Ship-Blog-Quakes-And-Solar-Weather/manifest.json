@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "1aa9e8e993769ac57cb761de59c1209003c9b61518602c5553aa4d5efcf2402c",
+    "references/sources.json": "d59dd2896d5cee427c1d481c578558058dbb427a3367a940681752faf95caf2f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "88b752346862811e0a6192a9d0c7951ceccb0a78ea4acf71216bcb59d31f23ef",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "e15a8691cae8a2abd66ae3c22fd39dbe8f69af2effb65af062c3e3f16dff6b23"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:59.043636+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-quakes-and-solar-weather",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Quakes And Solar Weather",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "content_sha256": "f1a4371568144e3a898a84b2d53c75e31ed0dca3efaeefbce73dced8fa990a4c",
+      "fetched_at": "2026-09-10T22:15:57.424489+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "status_code": 200,
+      "text_sha256": "0653c05cf95f5237a2bc46063026bbd9d8c3ee718b788785076b9e597d9befc5",
+      "title": "Quakes and solar weather on the same bulletin · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-quakes-and-solar-weather",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4602,
+      "duration_ms": 44,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:57.420292+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Quakes And Solar Weather",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-quakes-and-solar-weather",
+  "skill_sha256": "1aa9e8e993769ac57cb761de59c1209003c9b61518602c5553aa4d5efcf2402c",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/quakes-and-solar-weather"
+  ],
+  "target_id": "ship-blog-quakes-and-solar-weather",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b15fe270921b97a857f3d74081a42b7b6b7285de8a3f082fcec849cf1467e737",
+      "fetched_at": "2026-09-10T22:15:47.947598+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nine-digits-ninety-nine-octaves",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nine-digits-ninety-nine-octaves",
+      "status_code": 200,
+      "title": "Nine digits, ninety-nine octaves — a map you can actually walk · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nine-digits-ninety-nine-octaves"
+    }
+  ],
+  "target_id": "ship-blog-nine-digits-ninety-nine-octaves"
+}

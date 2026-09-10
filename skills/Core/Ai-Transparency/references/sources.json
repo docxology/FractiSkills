@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "ca1b5571ba71ac41ae9ba336e357428ef8cdaa96732035d7d4d66df2f1d119b4",
+      "fetched_at": "2026-09-10T22:12:03.001114+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency",
+      "status_code": 200,
+      "title": "AI transparency · FractiAI · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ai-transparency"
+    }
+  ],
+  "target_id": "ai-transparency"
+}

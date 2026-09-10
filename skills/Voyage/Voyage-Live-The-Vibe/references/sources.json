@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "cf0506c748a60e58c98e704f0ef821b6e8fea367bd15205cc34067d7e2c9faba",
+      "fetched_at": "2026-09-10T22:17:40.759452+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe",
+      "status_code": 200,
+      "title": "Live the vibe · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-the-vibe"
+    }
+  ],
+  "target_id": "voyage-live-the-vibe"
+}

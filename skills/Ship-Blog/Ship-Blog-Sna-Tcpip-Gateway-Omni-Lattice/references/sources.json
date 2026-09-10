@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7b5c46c7ae2a5315d084361f9f0cbd4b0c8653714cbd72c4fb3064af210435bc",
+      "fetched_at": "2026-09-10T22:16:01.830987+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice",
+      "status_code": 200,
+      "title": "When SNA met TCP/IP — and why CEOs hire the bridge again · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/sna-tcpip-gateway-omni-lattice"
+    }
+  ],
+  "target_id": "ship-blog-sna-tcpip-gateway-omni-lattice"
+}

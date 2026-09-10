@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "879064857cda581f4f2f1ed1409833987b447dcd468d467ffb77cfbbff60d549",
+      "fetched_at": "2026-09-10T22:17:36.349219+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "status_code": 200,
+      "title": "Deck 9 — Summit · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit"
+    }
+  ],
+  "target_id": "voyage-deck-9-summit"
+}

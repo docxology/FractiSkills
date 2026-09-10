@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "fe1ec596e3c13944b652661febac72f3a00d753136039c2e25930dc5f3e9d4f6",
+      "fetched_at": "2026-09-10T22:16:24.231349+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-prion-refold",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-prion-refold",
+      "status_code": 200,
+      "title": "Epigenetic Phase-Locking & Prion Refolding Pathways · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-prion-refold"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-prion-refold"
+}

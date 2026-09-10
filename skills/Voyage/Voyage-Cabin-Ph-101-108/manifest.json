@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "f02c2faf8c3f73c05cec5e1fb038c30afd20caac65727503e7c08657bb4ee359",
+    "references/sources.json": "f9d6500d18a6eeb85febde6515aa0402bd61919bfbc020b8a7e49177b433b4c6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1637d4755f37a9b9b282adca365bce44aac36ae56ba0cb9b1f70a508e7034564",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "aec4588e350fafca303a04260bf78cd1c41c831c55569a118b659f62843a6f0e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:28.747847+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-cabin-ph-101-108",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Cabin Ph 101 108",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "content_sha256": "efd681bf69d9042575b309ea7e6e91dfe3fe0d297bd95dc776454e8f13ee8a76",
+      "fetched_at": "2026-09-10T22:17:28.226052+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "status_code": 200,
+      "text_sha256": "55f75ece48c9f6ad0ca1d6dc568559d66bd6bed670006c443337455d5ba3550a",
+      "title": "PH-101–108 · El Gran Sol Grand Penthouses · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-cabin-ph-101-108",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4232,
+      "duration_ms": 49,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:28.220261+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108"
+    }
+  ],
+  "requested_skill_name": "Voyage Cabin Ph 101 108",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-cabin-ph-101-108",
+  "skill_sha256": "f02c2faf8c3f73c05cec5e1fb038c30afd20caac65727503e7c08657bb4ee359",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108"
+  ],
+  "target_id": "voyage-cabin-ph-101-108",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "695e653403710b1ea763138d20c33e8fd6951de70d1c4be2d745d1105aeb3e47",
+      "fetched_at": "2026-09-10T22:16:23.527170+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-toxicity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-toxicity",
+      "status_code": 200,
+      "title": "Phase-Modulated Toxicity & Resonance Safety Transitions · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-phase-toxicity"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-phase-toxicity"
+}

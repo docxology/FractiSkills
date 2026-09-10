@@ -1,0 +1,109 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "6f538125f2f9a8fd18db9fe6358985354908391c0d8ea3f0b5738df4f341d851",
+    "references/sources.json": "3dc6b9850ca63e4d3bba8ebaa52db27de5e52c8dde47721c7be13b9e85f75452"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "92973893390660c00ce781e17866beabebbc770fcf037ac7a7c230a30046ba63",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "261019caa0d18d847f50b89eb3feead65100270bf41e1357d8303c0a6a53eef3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:39.276013+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-sing13-edge-onboarding",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Sing13 Edge Onboarding",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "content_sha256": "bea4594031a8eee450164289484107f7cde15ef8a86f0537a8b12d2f6a4353a1",
+      "fetched_at": "2026-09-10T22:12:38.308063+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "status_code": 200,
+      "text_sha256": "71087011dcf5e9aee7312f8a93b773b23ef1414f77233b549aa53f29505331ee",
+      "title": "Sonic Singularity Sing! 13 · Edge onboarding · plain talk",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=QUESTFEST): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-sing13-edge-onboarding",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 18037,
+      "duration_ms": 32,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:38.283355+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Sing13 Edge Onboarding",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-sing13-edge-onboarding",
+  "skill_sha256": "6f538125f2f9a8fd18db9fe6358985354908391c0d8ea3f0b5738df4f341d851",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html"
+  ],
+  "target_id": "interfaces-sing13-edge-onboarding-html",
+  "warnings": []
+}

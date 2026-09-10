@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b4b1e53f2e288a816a01d6e3786fa46ec2cccdbae68e9e8b036b71ffcdc0b9cf",
+      "fetched_at": "2026-09-10T22:15:17.004857+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/august-12-catalog-window",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/august-12-catalog-window",
+      "status_code": 200,
+      "title": "August 12 is a crowded calendar — not a prophecy · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/august-12-catalog-window"
+    }
+  ],
+  "target_id": "ship-blog-august-12-catalog-window"
+}

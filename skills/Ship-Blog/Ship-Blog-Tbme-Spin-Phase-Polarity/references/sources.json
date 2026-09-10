@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a9a9c90b7b64bab4448fbb0f283a2cb0b2d163c3d4075aaa3b8250d3fdbc6fb9",
+      "fetched_at": "2026-09-10T22:16:40.518907+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spin-phase-polarity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spin-phase-polarity",
+      "status_code": 200,
+      "title": "The Universal Spin-Phase-Polarity Triad Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spin-phase-polarity"
+    }
+  ],
+  "target_id": "ship-blog-tbme-spin-phase-polarity"
+}

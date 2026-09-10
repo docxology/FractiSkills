@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "23c559ccebcd786f6aff407ad80f04a0341151a8ec0097b0f7e3cf2ae3dc63b4",
+      "fetched_at": "2026-09-10T22:15:49.651348+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-nested-agent-lattice",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-nested-agent-lattice",
+      "status_code": 200,
+      "title": "The Architecture of Omniversal Computing · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-nested-agent-lattice"
+    }
+  ],
+  "target_id": "ship-blog-omniversal-nested-agent-lattice"
+}

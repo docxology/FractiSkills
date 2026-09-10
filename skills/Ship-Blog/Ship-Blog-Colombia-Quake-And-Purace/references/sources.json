@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "054cca8c871e5c41fde1c0719333f49f2d51e26e4ec952436abaefe24fc74b62",
+      "fetched_at": "2026-09-10T22:15:20.895887+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/colombia-quake-and-purace",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/colombia-quake-and-purace",
+      "status_code": 200,
+      "title": "Colombia’s quake and Puracé’s orange alert, told as one window · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/colombia-quake-and-purace"
+    }
+  ],
+  "target_id": "ship-blog-colombia-quake-and-purace"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "555224d8dac2489ba06a33712a744b5a2ef30099432c73e99e9c7fd3df3c51db",
+      "fetched_at": "2026-09-10T22:15:39.411934+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-noahs-ark-metaphor",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-noahs-ark-metaphor",
+      "status_code": 200,
+      "title": "System Generation · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/lattice-noahs-ark-metaphor"
+    }
+  ],
+  "target_id": "ship-blog-lattice-noahs-ark-metaphor"
+}

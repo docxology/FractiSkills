@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "aee0cb2158a0796af9a18a7f153ba74c3759e8e321684d645716fbfc53cbe291",
+      "fetched_at": "2026-09-10T22:15:18.331343+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-vs-brute-force",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-vs-brute-force",
+      "status_code": 200,
+      "title": "Awareness vs Brute-Force · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-vs-brute-force"
+    }
+  ],
+  "target_id": "ship-blog-awareness-vs-brute-force"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "4c7a51f178d1ece85b3e530c5a3cde1b4a57d38bf2ced2f0851fcc69b7341308",
+      "fetched_at": "2026-09-10T22:16:01.142355+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/smaller-golden-key-pack",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/smaller-golden-key-pack",
+      "status_code": 200,
+      "title": "A smaller pack for the golden key · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/smaller-golden-key-pack"
+    }
+  ],
+  "target_id": "ship-blog-smaller-golden-key-pack"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e4626a15bc421cf2d6ad54f1804612a670dc6824311df4d2c586d5d9c83e44c0",
+      "fetched_at": "2026-09-10T22:12:15.304145+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-course",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-course",
+      "status_code": 200,
+      "title": "Infinite Octaves Omni-Lattice · Online Course · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/omni-lattice-course"
+    }
+  ],
+  "target_id": "omni-lattice-course"
+}

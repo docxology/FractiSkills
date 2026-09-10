@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1d5186dee72028eb7f935e7dab5459ca239492857d0c5e69fadd6e58c2673afe",
+      "fetched_at": "2026-09-10T22:12:11.936168+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "status_code": 200,
+      "title": "Join the crew · Reality Bridge/Routers · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew"
+    }
+  ],
+  "target_id": "join-the-crew"
+}

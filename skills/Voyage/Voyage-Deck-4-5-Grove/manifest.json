@@ -1,0 +1,110 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "4bbabbf94490f76cf7a0e6c88e96a41831b8ef9a2e3144a6a8d9996689466855",
+    "references/sources.json": "a703809d17484a0f6ac40f6bd9ae1a794b0af40cb1089af923ac89410a7b3e30"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "77ced6ebecafb32d5bc72a5d693532320d95eaa77701ac8f4149c1ccb08dc9ed",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "d7c2579faa06263667fdef32655943fc4dc19ca762769aa79a58ddc82de0d6ec"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:34.413595+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-deck-4-5-grove",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Deck 4 5 Grove",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "content_sha256": "abf7df5c23796770aafd6b8a7a688c38ef4000d1f0a78b36902cfc144e1330f4",
+      "fetched_at": "2026-09-10T22:17:33.938554+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "status_code": 200,
+      "text_sha256": "6f5fc2188b7c743fac2fec875e392022fd6c7865a1086096d81e96567b751349",
+      "title": "Decks 4–5 — Grove · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-deck-4-5-grove",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4448,
+      "duration_ms": 37,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:33.931751+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove"
+    }
+  ],
+  "requested_skill_name": "Voyage Deck 4 5 Grove",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-deck-4-5-grove",
+  "skill_sha256": "4bbabbf94490f76cf7a0e6c88e96a41831b8ef9a2e3144a6a8d9996689466855",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-4-5-grove"
+  ],
+  "target_id": "voyage-deck-4-5-grove",
+  "warnings": []
+}

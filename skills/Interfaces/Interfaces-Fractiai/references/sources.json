@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "733663abe0be068ce1e27c698135787dea953911c3cd3f33e308b345dea10e11",
+      "fetched_at": "2026-09-10T22:12:30.590883+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/fractiai.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/fractiai.html",
+      "status_code": 200,
+      "title": "FractiAI · music, makers, and the Ark · Machote Moderno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/fractiai.html"
+    }
+  ],
+  "target_id": "interfaces-fractiai-html"
+}

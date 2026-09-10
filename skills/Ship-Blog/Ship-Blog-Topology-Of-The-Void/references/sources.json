@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "eeb2ebb39525cc5a1461aaf9d8a9b526a8a65b441664dbd676484b1bbadeab58",
+      "fetched_at": "2026-09-10T22:16:43.523878+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void",
+      "status_code": 200,
+      "title": "Topology of the Void · Zero as Equilibrium · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/topology-of-the-void"
+    }
+  ],
+  "target_id": "ship-blog-topology-of-the-void"
+}

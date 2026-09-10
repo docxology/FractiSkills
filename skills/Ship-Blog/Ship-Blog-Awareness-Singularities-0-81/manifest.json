@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "0aca8247a6f43e8fc02280f4432ef06075596ce1bf1c4c46d6e02609a239da75",
+    "references/sources.json": "ec0fb1a4cc5ecb7f1719da1db0004468b6cbf88f858c747a977c138cac740a4a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ddb8d284849d41d425f6a00409009a0b2d4eb45ffd95c5b90e55816dac2c2738",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "11cc25162fab63e6b30f41ab69038eb27fec3c57a24c8236e77d247334f1881b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:18.261574+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-awareness-singularities-0-81",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Awareness Singularities 0 81",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "content_sha256": "de6165a9c24c1e9f9f29df7498102624d9b070b2e590ca72047c744432ef92e6",
+      "fetched_at": "2026-09-10T22:15:17.871850+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "status_code": 200,
+      "text_sha256": "6fffee58e6c7ec797cc0aeffd3769bfae33e91c73bfa234b82b444e33b72a335",
+      "title": "Awareness Singularities S₀–S₈₁ · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-awareness-singularities-0-81",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3864,
+      "duration_ms": 32,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:17.867488+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Awareness Singularities 0 81",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-awareness-singularities-0-81",
+  "skill_sha256": "0aca8247a6f43e8fc02280f4432ef06075596ce1bf1c4c46d6e02609a239da75",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/awareness-singularities-0-81"
+  ],
+  "target_id": "ship-blog-awareness-singularities-0-81",
+  "warnings": []
+}

@@ -1,0 +1,109 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "6a6963b9e39fdb4952931c755f13a4dc4f25730f0e1a82ae506026c6bbaced04",
+    "references/sources.json": "d6d89a857eb2923c409cd9773ed7999e9bf952d4e3bbb8f50a9b0c1745a0544d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "c61fd87baac97d22f9b3df649c57122d4658ef6e0c5610543b2c208ce7d7f9c0",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "9cd9ebcff27a9cfd1b9a1df409608b59cc5edc11354d27b9924830db08d4e43f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:28.319463+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-commons-host",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Commons Host",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "content_sha256": "e8dd6614da56a901233bbdcae19638cf95b28c42656f871727a06090be962a5e",
+      "fetched_at": "2026-09-10T22:12:28.225126+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "status_code": 200,
+      "text_sha256": "48eb478cdf0709a4300321a02340d8e56bce7ddd5388dac5246e584ae5edfa2e",
+      "title": "Host portal · Downtown Citadel Host · Puerto Reno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=THE%20COMMONS%20%E2%80%94%20Claim%20station%3A%20Downtown%20Citadel%20Host): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-commons-host",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 6743,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:28.221520+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Commons Host",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-commons-host",
+  "skill_sha256": "6a6963b9e39fdb4952931c755f13a4dc4f25730f0e1a82ae506026c6bbaced04",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/host.html"
+  ],
+  "target_id": "interfaces-commons-host-html",
+  "warnings": []
+}

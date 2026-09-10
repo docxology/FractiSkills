@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f0d9236cfe13de1da9677f76664e639e8b7908f109acad5d80e6eb3744aa64d1",
+      "fetched_at": "2026-09-10T22:16:35.008313+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-filaments-reno",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-filaments-reno",
+      "status_code": 200,
+      "title": "Toroidal Micro-Black Hole Dynamics & Filamental Field Radiations · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-filaments-reno"
+    }
+  ],
+  "target_id": "ship-blog-tbme-blackhole-filaments-reno"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d5e9248ebacd58c1274ae1e651dffdaefe814bf12e888f1e80660c18a8c01769",
+      "fetched_at": "2026-09-10T22:15:49.089792+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-goldilocks-rideshare",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-goldilocks-rideshare",
+      "status_code": 200,
+      "title": "Omniversal Goldilocks Rideshare Protocol · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/omniversal-goldilocks-rideshare"
+    }
+  ],
+  "target_id": "ship-blog-omniversal-goldilocks-rideshare"
+}

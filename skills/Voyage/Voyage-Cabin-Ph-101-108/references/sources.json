@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "efd681bf69d9042575b309ea7e6e91dfe3fe0d297bd95dc776454e8f13ee8a76",
+      "fetched_at": "2026-09-10T22:17:28.226052+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108",
+      "status_code": 200,
+      "title": "PH-101–108 · El Gran Sol Grand Penthouses · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-ph-101-108"
+    }
+  ],
+  "target_id": "voyage-cabin-ph-101-108"
+}

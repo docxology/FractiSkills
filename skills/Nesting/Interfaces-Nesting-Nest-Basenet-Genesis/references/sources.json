@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "54172d6765f4e8bfa62dcf63c1a4ae09e58a7953242041d6cfce4a0fcd56f762",
+      "fetched_at": "2026-09-10T22:14:48.209925+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html",
+      "status_code": 200,
+      "title": "Base Mainnet · genesis contracts · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-basenet-genesis.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-basenet-genesis-html"
+}

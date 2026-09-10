@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "dbadb8423a785144d070e44a3be2d9e8a1bbce0cb74ed0c46403cf158a339c0a",
+      "fetched_at": "2026-09-10T22:16:17.263783+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-report-card-q3-2026",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-report-card-q3-2026",
+      "status_code": 200,
+      "title": "Omni-Lattice Report Card Q3 2026 · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-report-card-q3-2026"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-report-card-q3-2026"
+}

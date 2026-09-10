@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "e93ee882a5a5d24e245d09b068845235d061ad9853d15fed0c6a6909d55cfa49",
+    "references/sources.json": "32d68b3b9999389d2527064a9750bbe29d90552b134d9e48ea504c3d04dd3de4"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "82ce9a896081d7018e293c4588c818cb7a2917c2fef94c6a2658000b66bd92da",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "c38f900a496a627742b4a97c8f9e5d9ff3335ca7928bb7c93eca3255ea42374c"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:45.908886+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-y-chromosome-manifestation",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Y Chromosome Manifestation",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "content_sha256": "380640a01106a48247751043cc2101a2814ad792128d8b120cfb7c465b68ff3c",
+      "fetched_at": "2026-09-10T22:16:44.509026+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "status_code": 200,
+      "text_sha256": "932a72924e8249555425d6fdc226674a7483ab3db53557883b9b608d3c15503b",
+      "title": "Y chromosome as Φ manifestation — holographic MSY · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-y-chromosome-manifestation",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4984,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:44.501865+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Y Chromosome Manifestation",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-y-chromosome-manifestation",
+  "skill_sha256": "e93ee882a5a5d24e245d09b068845235d061ad9853d15fed0c6a6909d55cfa49",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation"
+  ],
+  "target_id": "ship-blog-y-chromosome-manifestation",
+  "warnings": []
+}

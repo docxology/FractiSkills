@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c826c24e86a97558493a14c2e9429bf8f172f7a3bf0698416beb404b63229658",
+      "fetched_at": "2026-09-10T22:17:41.844618+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/select",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/select",
+      "status_code": 200,
+      "title": "Select · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/select"
+    }
+  ],
+  "target_id": "voyage-select"
+}

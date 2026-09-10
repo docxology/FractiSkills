@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-journey",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "98581e1e7b4f2a30c41dfabed341d809aeeea0eebfb656ac1f85e1b08abf2a60",
+      "fetched_at": "2026-09-10T22:15:01.291020+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "status_code": 200,
+      "title": "Redwood Sanctuary · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary"
+    }
+  ],
+  "target_id": "journey-redwood-sanctuary"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "81688c7d3d70408b6afa5cb75d6946c6ec46e4963c384b212f8217f67ae61ee4",
+      "fetched_at": "2026-09-10T22:16:06.200881+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-dna-lattice-holograph",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-dna-lattice-holograph",
+      "status_code": 200,
+      "title": "The DNA Lattice Holograph · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-dna-lattice-holograph"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-dna-lattice-holograph"
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "e89616114d04bca0da32807c6645796368d0df811b297742e17fa5e2438421de",
+      "fetched_at": "2026-09-10T22:16:05.768866+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-cytographic-holographic-nucleus",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-cytographic-holographic-nucleus",
+      "status_code": 200,
+      "title": "Cytographic Grammar under the Holographic Nucleus · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-cytographic-holographic-nucleus"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-cytographic-holographic-nucleus"
+}

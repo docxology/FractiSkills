@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7b7b6e33973c2b131943a90fc2906a29c204a97b3db0dc5c60ab37bc1da3789c",
+      "fetched_at": "2026-09-10T22:12:06.728221+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program",
+      "status_code": 200,
+      "title": "Front Desk Check-In Program · J.S. Bach · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/front-desk-program"
+    }
+  ],
+  "target_id": "front-desk-program"
+}

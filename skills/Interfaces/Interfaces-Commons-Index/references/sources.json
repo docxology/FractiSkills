@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "a086386d84e79362c23269234579c4b5451d572dadd4e87bbfd823bedc3f4de8",
+      "fetched_at": "2026-09-10T22:12:28.445510+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/index.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/index.html",
+      "status_code": 200,
+      "title": "Puerto Reno Guest Brochure & Crew Portals · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/index.html"
+    }
+  ],
+  "target_id": "interfaces-commons-index-html"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "928d898583df2aa79d777653980bef52598b58f37f39b24e1b0f3d985b91eb5c",
+    "references/sources.json": "42fbff0b757b4317caf710e6130870fcee977d58ae7dd7f9eb00795f76e51b0c"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1acb5b5069fc0fd077aec8a5935d6065a9066138adb54b3bff5f846b2f6b7736",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "15ca52b3fd025e648c13dd756844f1578f617c92205aa7c5a19004335f378950"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:48.623567+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-nspfrnp-snap-peer-review-audit",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Nspfrnp Snap Peer Review Audit",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit",
+      "content_sha256": "da8869ea319c07809a224ec068836671ae91251474fb7fafc85a982affab74dd",
+      "fetched_at": "2026-09-10T22:15:48.296273+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit",
+      "status_code": 200,
+      "text_sha256": "1f9b515c9d5ef2f08c94d851550f94ab3556e78bb05589098ef52bf54df793ac",
+      "title": "NSPFRNP Snap · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-nspfrnp-snap-peer-review-audit",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3569,
+      "duration_ms": 35,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:48.290078+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Nspfrnp Snap Peer Review Audit",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-nspfrnp-snap-peer-review-audit",
+  "skill_sha256": "928d898583df2aa79d777653980bef52598b58f37f39b24e1b0f3d985b91eb5c",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/nspfrnp-snap-peer-review-audit"
+  ],
+  "target_id": "ship-blog-nspfrnp-snap-peer-review-audit",
+  "warnings": []
+}

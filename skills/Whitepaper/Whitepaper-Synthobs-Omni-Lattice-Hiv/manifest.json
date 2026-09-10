@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "80142cb7ca143b6f50f2d42dba73a990c389003de6a2cb5829a1789e1fa85c08",
+    "references/sources.json": "f65707048182d7f2b8a1e020455f5df6641d2db02b713806009f5fcc7b13fc62"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "9135196b9caf8c82f8ec3a4f79b3aa423ed9a147cb4e01b1052e0af3ae7f8c8c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "f53ec3f0c926d5369f00e8862c539a1e1b7d0262b4b3523bbcfd95cc99b0553d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 203,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:18:15.337954+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=synthobs-omni-lattice-hiv",
+        "content_sha256": "b136c8fb4dea1047595408c8da5978a95c0a30de71675d4c2e38b6a7b8bd534f",
+        "error": null,
+        "etag": "W/\"3e0c-jAFw3Wbhb3WMPkC0mB310v8EvFs\"",
+        "fetched_at": "2026-09-10T22:18:15.540264+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv",
+        "status_code": 200,
+        "text_chars": 9010,
+        "title": "Omni-Lattice Unification III: Decoding HIV as an Adversarial Holographic Operator and Evolutionary Catalyst for Systemic Awareness"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-synthobs-omni-lattice-hiv",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Synthobs Omni Lattice Hiv",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:18:14.936056+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-synthobs-omni-lattice-hiv",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 55,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:18:14.933764+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Synthobs Omni Lattice Hiv",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-synthobs-omni-lattice-hiv",
+  "skill_sha256": "80142cb7ca143b6f50f2d42dba73a990c389003de6a2cb5829a1789e1fa85c08",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-omni-lattice-hiv"
+  ],
+  "target_id": "whitepaper-synthobs-omni-lattice-hiv",
+  "warnings": []
+}

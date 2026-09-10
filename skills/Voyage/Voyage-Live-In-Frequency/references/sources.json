@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "01499affd4381e1b39750673d63beb7df8c6fc1e5e3e005120976c63334e36f0",
+      "fetched_at": "2026-09-10T22:17:40.235129+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "status_code": 200,
+      "title": "∞ Live in frequency · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency"
+    }
+  ],
+  "target_id": "voyage-live-in-frequency"
+}

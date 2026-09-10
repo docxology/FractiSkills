@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2fbeb35e8dce38e9d8b7b141e4b277e339984df43d15c9033d7f7bc5e894951e",
+      "fetched_at": "2026-09-10T22:15:36.462542+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal",
+      "status_code": 200,
+      "title": "Your valet just got Infinite Octaves · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octaves-omniversal"
+    }
+  ],
+  "target_id": "ship-blog-infinite-octaves-omniversal"
+}

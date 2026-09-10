@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b3172d80e85a9076c9fceb3ea5775f32bc13aa4bfc50e349ff0c93490ae2ebd4",
+      "fetched_at": "2026-09-10T22:15:22.743466+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eddy-current-mirror",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eddy-current-mirror",
+      "status_code": 200,
+      "title": "Eddy-Current Mirror · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/eddy-current-mirror"
+    }
+  ],
+  "target_id": "ship-blog-eddy-current-mirror"
+}

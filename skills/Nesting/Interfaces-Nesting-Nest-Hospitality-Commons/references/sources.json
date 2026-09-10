@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3bc22ba41be6b24bb30374b7381289e7b1b63a9c41e9f19f6257ce0e1b33d870",
+      "fetched_at": "2026-09-10T22:14:50.057341+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-hospitality-commons.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-hospitality-commons.html",
+      "status_code": 200,
+      "title": "Puerto Reno Guest Brochure & Crew Portals · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-hospitality-commons.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-hospitality-commons-html"
+}

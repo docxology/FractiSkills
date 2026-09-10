@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5e67264a10d2241032f177d3e39fae26745bbffd47120571760447b7327dc074",
+      "fetched_at": "2026-09-10T22:12:26.915960+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/chef.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/chef.html",
+      "status_code": 200,
+      "title": "Chef portal · Sanctuary Gastronomy Director · Puerto Reno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/commons/chef.html"
+    }
+  ],
+  "target_id": "interfaces-commons-chef-html"
+}

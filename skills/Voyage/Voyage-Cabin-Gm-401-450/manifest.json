@@ -1,0 +1,110 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "75987e44b7f6f5844ded4c8fa76aa3931a912e0c7376d09d802427dfa62c1b1b",
+    "references/sources.json": "e081c7bd53e7c5af93c7a85060f042404beedecf7d771a58fb3e02f3e53f2e27"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "7a603f45894f00819718927866a990ca4b190707a13a94314020982c5dc382cf",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "3f0d7efb070fa57766ffc0bebb9691df036778c4963f859ae08a4c576b667449"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:27.179881+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-cabin-gm-401-450",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Cabin Gm 401 450",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "content_sha256": "29e13906fe685d65ab3cfb3cd46e94bdddce633d0d2cd19b8c0e192f37233906",
+      "fetched_at": "2026-09-10T22:17:26.737877+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "status_code": 200,
+      "text_sha256": "c1c2984f1753f47a238910f8d99ab58b687ac6b5b65d8f0414b5c70d40b35eaf",
+      "title": "GM-401–450 · Grove Mezzanine Lofts · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-cabin-gm-401-450",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 6232,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:26.731069+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450"
+    }
+  ],
+  "requested_skill_name": "Voyage Cabin Gm 401 450",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-cabin-gm-401-450",
+  "skill_sha256": "75987e44b7f6f5844ded4c8fa76aa3931a912e0c7376d09d802427dfa62c1b1b",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-gm-401-450"
+  ],
+  "target_id": "voyage-cabin-gm-401-450",
+  "warnings": []
+}

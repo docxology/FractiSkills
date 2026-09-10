@@ -1,0 +1,111 @@
+{
+  "area": "Lattice",
+  "artifact_hashes": {
+    "SKILL.md": "05e7062012ab5ffda755847b8971c0bd921542d6cda9ac818bd5394387a59cf5",
+    "references/sources.json": "c7253d7642a66e0e7fe332c07efa526e3182c549ac5e7427ca554ee59c1bcea2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d9e7d573b67248aa18c322c6be1dac7d12160a825b211fd145054d57b2836d5c",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+    "request_count": 1,
+    "target_fingerprint": "2fde5bea323ce9bb07d6d5c6edc247ace1ea46060620111faa4512f7b39bbc22"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 1,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:08.529680+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "lattice-how",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Lattice How",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "content_sha256": "7fcc272585d45bdcb4c58a9a23b29c5e9fb8869bd11cb94c1555251b4d587141",
+      "fetched_at": "2026-09-10T22:15:07.349331+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "status_code": 200,
+      "text_sha256": "4ea6a2dee6bef515c62ecb17a5a7b38542cb98e6a52bb8995e57b8c2bfb87e95",
+      "title": "How it works · Learn more · Infinite Octaves Omniversal Lattice Chat Agent V1.618 · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Lattice%20Chat%20V1.618%20%E2%80%94%20Token%20Maxing%20free%20trial): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Lattice%20Chat%20V1.618%20%E2%80%94%20free%20trial): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Lattice%20Chat%20V1.618%20%E2%80%94%20free%20trial): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "lattice-how",
+  "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+  "profile_id": "ssvibelandia-lattice",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Lattice",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 55219,
+      "duration_ms": 33,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:07.288649+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/how"
+    }
+  ],
+  "requested_skill_name": "Lattice How",
+  "run_id": "ssvibelandia-lattice--0413bc61ac105c707b86",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "lattice-how",
+  "skill_sha256": "05e7062012ab5ffda755847b8971c0bd921542d6cda9ac818bd5394387a59cf5",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/lattice/how"
+  ],
+  "target_id": "lattice-how",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-about",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "f852bdf23e4a00099f3dc1402f0085477f565816886e48ab64266edbb5a4863b",
+      "fetched_at": "2026-09-10T22:12:21.904419+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente",
+      "status_code": 200,
+      "title": "About · Sonic Singularity · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/about/reno-holographic-swamp-beats-caliente"
+    }
+  ],
+  "target_id": "about-reno-holographic-swamp-beats-caliente"
+}

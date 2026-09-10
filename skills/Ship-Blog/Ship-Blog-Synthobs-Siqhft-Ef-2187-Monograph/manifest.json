@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "52bf6a4a73b539ce424370126547669861edf8280994e42872d45b43a735f1e5",
+    "references/sources.json": "9194dac1a6d5e254f842b0d4d07bc8ffd043d5db2cea03a3d8fa096cd3eeafa3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3a9ebdaf2c1dab0ccfd909c4750d5f2ae33b122e026b237ae449880cbaa0e0e8",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "17800cf2ceee9e333ab14fcb3c58dd3db718483b1c5faeb0698502710ab9952d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:27.129028+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-synthobs-siqhft-ef-2187-monograph",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Synthobs Siqhft Ef 2187 Monograph",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "content_sha256": "3c0bd4259ed155d4072064422834f0d74ef0bc111568f907b5ede052de1c4c6c",
+      "fetched_at": "2026-09-10T22:16:26.824238+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "status_code": 200,
+      "text_sha256": "a120dc9ba5095774f36e26b9dd2876414e38367271e680f4be464212c9f0fdcf",
+      "title": "Scale-Invariant Quantum Holographic Field Theory · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-synthobs-siqhft-ef-2187-monograph",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3819,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:26.819227+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Synthobs Siqhft Ef 2187 Monograph",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-synthobs-siqhft-ef-2187-monograph",
+  "skill_sha256": "52bf6a4a73b539ce424370126547669861edf8280994e42872d45b43a735f1e5",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph"
+  ],
+  "target_id": "ship-blog-synthobs-siqhft-ef-2187-monograph",
+  "warnings": []
+}

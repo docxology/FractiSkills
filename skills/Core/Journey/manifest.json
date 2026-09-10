@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "a512b21d07cb5c41f04ae981528d669e62b2048885cb3ecc5165f07e568a2cfb",
+    "references/sources.json": "10ee046eb2d61ec407cd974d427ef763478af6ef84fdbc5ad8aa093e60ea3e2d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b17ca3cea3683f49695677f083a4c986add73cd028bde85678bfbb48eec43a03",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "816f7e534b9d9466893628f8b32b5a4dc48a1b8bfffed813dfb73cc004b50bdf"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:12.613754+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "journey",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Journey",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "content_sha256": "e313c6d355c52314a31c2652d71476b06a680e86b1aeb92a86464d02718be250",
+      "fetched_at": "2026-09-10T22:12:12.403254+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "status_code": 200,
+      "text_sha256": "4e4e012a4b7caa39e605185f9c1ded72e007493acbb00c88f89a5c3949b75e7e",
+      "title": "Journeys · Adventures aboard SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey",
+      "warnings": []
+    }
+  ],
+  "portable_name": "journey",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14635,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:12.398104+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey"
+    }
+  ],
+  "requested_skill_name": "Journey",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "journey",
+  "skill_sha256": "a512b21d07cb5c41f04ae981528d669e62b2048885cb3ecc5165f07e568a2cfb",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/journey"
+  ],
+  "target_id": "journey",
+  "warnings": []
+}

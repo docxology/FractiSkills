@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "755efc19cfb2cbcf5a3cf6727a52c659dd6efe86b4c7889ea505b899cb7053ab",
+      "fetched_at": "2026-09-10T22:15:35.772919+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity",
+      "status_code": 200,
+      "title": "Infinite Octave Prime-Parity · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/infinite-octave-prime-parity"
+    }
+  ],
+  "target_id": "ship-blog-infinite-octave-prime-parity"
+}

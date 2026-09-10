@@ -1,0 +1,112 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "4e14b37d28fa46977f275ab6b115de12b354ad2bc294a321302472b3e82ca68d",
+    "references/sources.json": "91499c39f3658fd3b4c743b4d44672edfe2c117a41c82bda686cef77692376e3"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "03ea96a32729d7fd71cc5ea65a93c4fc84e75b0f52f29818094d113424367e85",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "de6595c06c552ccda118ed00f2ff8ea149b25dc4b230b7202f6a85f5f580d4dd"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:12.083305+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "join-the-crew",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Join The Crew",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "content_sha256": "1d5186dee72028eb7f935e7dab5459ca239492857d0c5e69fadd6e58c2673afe",
+      "fetched_at": "2026-09-10T22:12:11.936168+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "status_code": 200,
+      "text_sha256": "571ea9fbe77c9d93e3059c692c15e6e72cbf186dfff3ac914a853b4e833ec91a",
+      "title": "Join the crew · Reality Bridge/Routers · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Reality%20Bridge%2FRouter%20—%20join%20the%20network): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=Reality%20Bridge%2FRouter%20—%20join%20the%20network): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=THE%20COMMONS%20%E2%80%94%20Guest%20%C2%B7%20sign%20me%20up): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "join-the-crew",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 11794,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:11.924154+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/join-the-crew"
+    }
+  ],
+  "requested_skill_name": "Join The Crew",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "join-the-crew",
+  "skill_sha256": "4e14b37d28fa46977f275ab6b115de12b354ad2bc294a321302472b3e82ca68d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/join-the-crew"
+  ],
+  "target_id": "join-the-crew",
+  "warnings": []
+}

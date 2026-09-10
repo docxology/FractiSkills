@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b4a6571f917e0060c9c3c412dc297d429bbba7514c7c436aa27b2c33c860446a",
+      "fetched_at": "2026-09-10T22:12:35.544342+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-synthobs-chipless-datacenterless-june-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-synthobs-chipless-datacenterless-june-2026.html",
+      "status_code": 200,
+      "title": "FOR IMMEDIATE RELEASE — Chipless, Datacenterless AI · SynthOBS RSI validation",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-synthobs-chipless-datacenterless-june-2026.html"
+    }
+  ],
+  "target_id": "interfaces-press-release-synthobs-chipless-datacenterless-june-2026-html"
+}

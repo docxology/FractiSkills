@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "b31c7abfc3fb37c463cb83a472f7bbee9c6910ff26bb0c8322271ec184f974d2",
+      "fetched_at": "2026-09-10T22:12:20.778279+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/synthio",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/synthio",
+      "status_code": 200,
+      "title": "Synthio · Syntheverse Sandbox",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/synthio"
+    }
+  ],
+  "target_id": "synthio"
+}

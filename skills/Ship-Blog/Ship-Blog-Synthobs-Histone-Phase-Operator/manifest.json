@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "43b62cc2b11254e595d6b34459435fa8fd5df3ad63250d26970164941c91c87a",
+    "references/sources.json": "1c10188948954ab6e919b1f5f760db8f25444eca818779737ad57987cdba243a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "b57887c2ae3433729ca5062d8721b394d66b2004743574f306e2c994c47042c0",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "32523d2c6f149df3b98acd6fe3f9329bd7a6d83ca807a7f54429702e18ce3f2d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:09.830281+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-synthobs-histone-phase-operator",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Synthobs Histone Phase Operator",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator",
+      "content_sha256": "77c51bf370f6fef69bcd57ed71e58aba2b78dd39f672db2c86f0c1dc966a625b",
+      "fetched_at": "2026-09-10T22:16:09.525574+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator",
+      "status_code": 200,
+      "text_sha256": "8e1529f209e528c1d578d9d6404fc7ac67af7fb588fb391bfee340a1f47ffb60",
+      "title": "Histones as Scale-Invariant Phase-Lock Operators · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-synthobs-histone-phase-operator",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4011,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:09.521072+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Synthobs Histone Phase Operator",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-synthobs-histone-phase-operator",
+  "skill_sha256": "43b62cc2b11254e595d6b34459435fa8fd5df3ad63250d26970164941c91c87a",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-histone-phase-operator"
+  ],
+  "target_id": "ship-blog-synthobs-histone-phase-operator",
+  "warnings": []
+}

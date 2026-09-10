@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1b3d8088a0ea9629fe9d6134002c478e01c3e1eeca3d0467dd6ad9f59f505740",
+      "fetched_at": "2026-09-10T22:14:53.040109+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html",
+      "status_code": 200,
+      "title": "Sonic Singularity · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-sonic-singularity.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-sonic-singularity-html"
+}

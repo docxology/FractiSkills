@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3bc03e6082c24bde3fe5fd38db390d176b0afeb1b32994f26de9e2d03790c67c",
+      "fetched_at": "2026-09-10T22:16:27.965977+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-protein-phase-collapse",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-protein-phase-collapse",
+      "status_code": 200,
+      "title": "Biomedical Field Exploration · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-tbme-protein-phase-collapse"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-tbme-protein-phase-collapse"
+}

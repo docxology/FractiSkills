@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "1fb3549241bc9adf80c2de843e95e9e7d7c658db2b6a46b8225b25b3e7d5361d",
+    "references/sources.json": "925011c69ddafe5c12834aa8c080864e747e8f9f343ed86c2ead95cbcb47ec62"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3b8d60ba14d8397d7b8db0f9844b313367cdc0dc9229662841eee07abd2728c6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "529a090c58fec2552c84438a3042c3557b6a266877e3b91e0eb92c6e981e193d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 131,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:57.921825+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=ops-egs-btc-mining",
+        "content_sha256": "445d3dfa2e7cde05ecce02edc3f70dd02e56063aab737788392908d87c118fc5",
+        "error": null,
+        "etag": "W/\"30bf-9PO3oTJT8qXuLoiMGJKzD3stlYE\"",
+        "fetched_at": "2026-09-10T22:17:58.053101+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining",
+        "status_code": 200,
+        "text_chars": 7224,
+        "title": "EGS legal sovereign mining · OPS-EGS-BTC-2026-008"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-ops-egs-btc-mining",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Ops Egs Btc Mining",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:57.619265+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-ops-egs-btc-mining",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 61,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:57.616847+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Ops Egs Btc Mining",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-ops-egs-btc-mining",
+  "skill_sha256": "1fb3549241bc9adf80c2de843e95e9e7d7c658db2b6a46b8225b25b3e7d5361d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/ops-egs-btc-mining"
+  ],
+  "target_id": "whitepaper-ops-egs-btc-mining",
+  "warnings": []
+}

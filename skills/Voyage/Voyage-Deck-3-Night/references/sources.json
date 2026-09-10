@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "33f46897d2e7f0ebc3fb971ab0b95c2bf284e90d8ed376716ecb97ae9a67820a",
+      "fetched_at": "2026-09-10T22:17:33.380515+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-3-night",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-3-night",
+      "status_code": 200,
+      "title": "Sin City · Deck 3 — Night · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-3-night"
+    }
+  ],
+  "target_id": "voyage-deck-3-night"
+}

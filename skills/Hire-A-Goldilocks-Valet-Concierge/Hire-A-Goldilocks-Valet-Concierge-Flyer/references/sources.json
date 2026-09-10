@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-hire-a-goldilocks-valet-concierge",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2272157a69f69533e0be1e7a3f1ed190db0cf05da559e296f4f6b0062485eb6c",
+      "fetched_at": "2026-09-10T22:12:24.335944+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/flyer",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/flyer",
+      "status_code": 200,
+      "title": "Valet Pru Concierge · postcard flyer (print)",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge/flyer"
+    }
+  ],
+  "target_id": "hire-a-goldilocks-valet-concierge-flyer"
+}

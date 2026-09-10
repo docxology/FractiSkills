@@ -1,0 +1,109 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "e0cfc754873c01c4105529898e2bbb345a1152dca5ac2d8e42ffb078a18359e1",
+    "references/sources.json": "e98aa850b49599611b3e710b21b534327eaaf96c9e07fbeb1205a1a93f213c36"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "d7e5390b6095893a7f2c5edeb0d56a3a07834413c5bde2300a5bd6656b993a4e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "280211328622a923b4d3d98eee625891fae5ce5f2717a5b2da836fcd90896da0"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:25.600072+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-frontiersman-voyage",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Frontiersman Voyage",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "content_sha256": "c48efb958c5bec008c77ac7313614775684bdf69e09ab4f0fce01c36ed20e66d",
+      "fetched_at": "2026-09-10T22:15:25.267205+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "status_code": 200,
+      "text_sha256": "b7cc4692d1631a00cf82f53b5f28f5da34b383f5ff13942bec9821496cd5bd0a",
+      "title": "Frontiersman Voyage — one tribe, many homes · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "ship-blog-frontiersman-voyage",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 10339,
+      "duration_ms": 30,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:25.249535+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Frontiersman Voyage",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-frontiersman-voyage",
+  "skill_sha256": "e0cfc754873c01c4105529898e2bbb345a1152dca5ac2d8e42ffb078a18359e1",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/frontiersman-voyage"
+  ],
+  "target_id": "ship-blog-frontiersman-voyage",
+  "warnings": []
+}

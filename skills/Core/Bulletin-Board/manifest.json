@@ -1,0 +1,107 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "7c30f25514e82f579a939487dabb5b4d58d956b4fa9ee3c3db959917a0666c13",
+    "references/sources.json": "7151bf7c790a096d77fc0209e8101247adb9c21e17b7d5f43acf29d1f917d551"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0354ce52dd4f890021c8ee3a44ac26982d6e2eb448bec5b35eff52bd06ee5737",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "6b9609d99137811c5ed211a0ae06b037e3edf6db141747b1eb5bcb3b49e64ef9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:03.429866+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "bulletin-board",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Bulletin Board",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "content_sha256": "4dc47783a2d8432578ef5a2ef852a8fc8ebea6cf4171c3652d2a5d50cd02993a",
+      "fetched_at": "2026-09-10T22:12:03.318461+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "status_code": 200,
+      "text_sha256": "bfc77a58fba3c80349348a44df0a1c03a8d2c7b4450f2c544e56f0bf133afeb3",
+      "title": "SS Vibelandia Bulletin Board · QUESTFEST 24×365",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board",
+      "warnings": []
+    }
+  ],
+  "portable_name": "bulletin-board",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3644,
+      "duration_ms": 42,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:03.312542+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/bulletin-board"
+    }
+  ],
+  "requested_skill_name": "Bulletin Board",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "bulletin-board",
+  "skill_sha256": "7c30f25514e82f579a939487dabb5b4d58d956b4fa9ee3c3db959917a0666c13",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/bulletin-board"
+  ],
+  "target_id": "bulletin-board",
+  "warnings": []
+}

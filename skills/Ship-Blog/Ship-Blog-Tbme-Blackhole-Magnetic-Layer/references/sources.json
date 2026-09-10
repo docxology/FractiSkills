@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "91f8ad719fbdbeeb086856043de08b3afedcd050773f9ee982f0735fd4dab332",
+      "fetched_at": "2026-09-10T22:16:35.684634+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-magnetic-layer",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-magnetic-layer",
+      "status_code": 200,
+      "title": "Identity of the Event Horizon and the Magnetic Vector Layer · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-blackhole-magnetic-layer"
+    }
+  ],
+  "target_id": "ship-blog-tbme-blackhole-magnetic-layer"
+}

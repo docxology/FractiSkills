@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "ea0337182afec42e548b5e82e6389b2db1eda5e59d27c701097ebc628dc897f7",
+    "references/sources.json": "411dac1afedb866282e8bfb6b27b9c7e71cd5f7d17953d0099b77615f227bdd2"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1af918bdd9e467bbaa6f67c17b17b2018376c81f8caefb7db9d7a1a240ef9687",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "537c6e7e0dd3c365d79bbc2dadbc46efd34e9bcb8f04efd4ec2ac3f16f70aee2"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:26.604945+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-blog-when-the-sun-spoke",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Blog When The Sun Spoke",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "content_sha256": "8e9960dfd5bd153bf1ff3570d63c01b2c8526765d97657e74f77d461293dc066",
+      "fetched_at": "2026-09-10T22:12:26.328495+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "status_code": 200,
+      "text_sha256": "230107fc46a81d3a42020ecaf1b83058f33795bf88c4c47d17996292b8ee8d9c",
+      "title": "When the Sun Spoke · 19-day solar signal · Hydrogen Holographic AI OS · QUESTFEST",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-blog-when-the-sun-spoke",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 16487,
+      "duration_ms": 36,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:26.250614+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Blog When The Sun Spoke",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-blog-when-the-sun-spoke",
+  "skill_sha256": "ea0337182afec42e548b5e82e6389b2db1eda5e59d27c701097ebc628dc897f7",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/blog-when-the-sun-spoke.html"
+  ],
+  "target_id": "interfaces-blog-when-the-sun-spoke-html",
+  "warnings": []
+}

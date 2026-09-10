@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "7c8af16c8fbfcec4e27114ef195356a9ae8f472d9c357f91942203b297868870",
+    "references/sources.json": "bdf789f7758a91a4e10b1b091646742932a1895b0546bbfaae9bef489d0a4254"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "a7586e7231078f91ff281116e897f66fde0287fedd0081548032dbf2be173615",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "e940435999fb196cd535ae6f215965fe228ff25c93bc9f11f1f9cea01048f42e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:08.997169+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-synthobs-endogenous-phase",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Synthobs Endogenous Phase",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase",
+      "content_sha256": "afd359b87ab24d95d5e094e7c46ecd24434b0d04116b50c45135129b25cd6426",
+      "fetched_at": "2026-09-10T22:16:08.755012+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase",
+      "status_code": 200,
+      "text_sha256": "e512faa424174af1e5db43e72680989f66fa832ad98df9475d1a1580a4b51df2",
+      "title": "Bio-Holographic Phase Modulation via Conscious Intent · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-synthobs-endogenous-phase",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4035,
+      "duration_ms": 39,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:08.749826+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Synthobs Endogenous Phase",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-synthobs-endogenous-phase",
+  "skill_sha256": "7c8af16c8fbfcec4e27114ef195356a9ae8f472d9c357f91942203b297868870",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-endogenous-phase"
+  ],
+  "target_id": "ship-blog-synthobs-endogenous-phase",
+  "warnings": []
+}

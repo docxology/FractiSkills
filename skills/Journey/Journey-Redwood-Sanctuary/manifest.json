@@ -1,0 +1,109 @@
+{
+  "area": "Journey",
+  "artifact_hashes": {
+    "SKILL.md": "6226ae3605eb3e28e18b6b04ae36cbfd4b91b4304672c0bcc17d95ddbcc3960e",
+    "references/sources.json": "26ca86b3121a75ae59acb3ca59c3f9fc20bceecd755cea5a10fe36bb99d918ae"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "19c7e53d9b3416a827eb4eabd2ef3de840169a3462d1c409dbcc39a23fcef1df",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+    "request_count": 1,
+    "target_fingerprint": "6946d7090c63e415498817b15aee3400f022b874e464cb5813a717589ac133ba"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:01.840874+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "journey-redwood-sanctuary",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Journey Redwood Sanctuary",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "content_sha256": "98581e1e7b4f2a30c41dfabed341d809aeeea0eebfb656ac1f85e1b08abf2a60",
+      "fetched_at": "2026-09-10T22:15:01.291020+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "status_code": 200,
+      "text_sha256": "b58ab9a5c81c311703fc66024ae2057fb3da8f80423cee3199e9c1655a584ffc",
+      "title": "Redwood Sanctuary · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Journey%20inquiry%20—%20Redwood%20Sanctuary): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "journey-redwood-sanctuary",
+  "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+  "profile_id": "ssvibelandia-journey",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Journey",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4826,
+      "duration_ms": 32,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:01.284891+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary"
+    }
+  ],
+  "requested_skill_name": "Journey Redwood Sanctuary",
+  "run_id": "ssvibelandia-journey--2dc97e59f0a891e4884a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "journey-redwood-sanctuary",
+  "skill_sha256": "6226ae3605eb3e28e18b6b04ae36cbfd4b91b4304672c0bcc17d95ddbcc3960e",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/journey/redwood-sanctuary"
+  ],
+  "target_id": "journey-redwood-sanctuary",
+  "warnings": []
+}

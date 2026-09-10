@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "89808458dcdbfa4f36ab8a1b3106d9fc225d457b1e273ad7a843dd2709b38a90",
+      "fetched_at": "2026-09-10T22:12:37.368144+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/",
+      "status_code": 200,
+      "title": "Jukebox · SS Vibelandia QUESTFEST",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/questfest-bridge/"
+    }
+  ],
+  "target_id": "interfaces-questfest-bridge"
+}

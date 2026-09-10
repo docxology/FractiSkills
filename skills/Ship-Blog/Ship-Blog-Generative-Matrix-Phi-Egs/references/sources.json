@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "8ff1cbf5d437955bde81a8a02c2bbc238f4d098c2d798e0db1673f70324a1f4e",
+      "fetched_at": "2026-09-10T22:15:25.689162+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/generative-matrix-phi-egs",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/generative-matrix-phi-egs",
+      "status_code": 200,
+      "title": "Generative Matrix · One seed, many metrology leaves · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/generative-matrix-phi-egs"
+    }
+  ],
+  "target_id": "ship-blog-generative-matrix-phi-egs"
+}

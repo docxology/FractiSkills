@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-interfaces",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "bea4594031a8eee450164289484107f7cde15ef8a86f0537a8b12d2f6a4353a1",
+      "fetched_at": "2026-09-10T22:12:38.308063+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html",
+      "status_code": 200,
+      "title": "Sonic Singularity Sing! 13 · Edge onboarding · plain talk",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/sing13-edge-onboarding.html"
+    }
+  ],
+  "target_id": "interfaces-sing13-edge-onboarding-html"
+}

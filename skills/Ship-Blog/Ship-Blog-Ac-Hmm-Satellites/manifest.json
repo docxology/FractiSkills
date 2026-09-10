@@ -1,0 +1,119 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "f31f59826976a7f9a05cb3360fcafbc1c58a69e30896cd84582efcfe31908f14",
+    "references/sources.json": "7c0dbc2d116431e9ab8835c09f194bb1c9572969fdf4e7f88f715364f7faadd7"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "f0ed145bb0194a1785c1ae28c7f45baaf10725e8c604b1440a0f3e8eeb03cbfe",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 2,
+    "target_fingerprint": "0f6c44f48b6fe8c308ae19c6a11582f03d0db9746be943916ed3680b86e185d6"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:16.937912+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-ac-hmm-satellites",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Ac Hmm Satellites",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "content_sha256": "ccc19b700e8065d580b22e7376d4f0b7cce759305a229f5c3c63ed096be88243",
+      "fetched_at": "2026-09-10T22:15:15.510435+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "status_code": 200,
+      "text_sha256": "2357c3b86ce167981df5cba34ef2baf803f810f745f2f7fa894c21753c6a4be6",
+      "title": "Scalable Context-Conditioned Sequence Modeling in Repetitive Genomic Regions via Spar… · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-ac-hmm-satellites",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 131,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:15.106111+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 3832,
+      "duration_ms": 30,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:15.505305+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Ac Hmm Satellites",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-ac-hmm-satellites",
+  "skill_sha256": "f31f59826976a7f9a05cb3360fcafbc1c58a69e30896cd84582efcfe31908f14",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/ac-hmm-satellites"
+  ],
+  "target_id": "ship-blog-ac-hmm-satellites",
+  "warnings": []
+}

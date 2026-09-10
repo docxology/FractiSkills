@@ -1,0 +1,122 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "7eac4bbc7073aa7033f288fb15ec3ccf75e3519b7bac7d2961080a5ac73ed743",
+    "references/sources.json": "4ef688e59fd6c1b9204ebe91cfd813971fba639b9aa7aed487103b1cdc1c5b20"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "30db56c8623f8fa4c59ab5b98fb6966f0484bfc72d97cb3ec7990c190f280a36",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 1,
+    "target_fingerprint": "182c17e43524d03a320405a902ae0d35fc251b7fa0b1869d27ac113164b2a59a"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 273,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:50.280770+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=lattice-omni-complete-layer-guide",
+        "content_sha256": "b69502b59373b94bb489633da4b7e1ffa0a9b19e63d36584376f64471c3fe344",
+        "error": null,
+        "etag": "W/\"f147-tYoVK8lH1I4ex68jMSB+GvZjpzw\"",
+        "fetched_at": "2026-09-10T22:17:50.552007+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide",
+        "status_code": 200,
+        "text_chars": 37166,
+        "title": "Lattice Chat Agent · Omni-Lattice Complete Layer Guide"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-lattice-omni-complete-layer-guide",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Lattice Omni Complete Layer Guide",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:49.998550+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-lattice-omni-complete-layer-guide",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:49.996214+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Lattice Omni Complete Layer Guide",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-lattice-omni-complete-layer-guide",
+  "skill_sha256": "7eac4bbc7073aa7033f288fb15ec3ccf75e3519b7bac7d2961080a5ac73ed743",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/lattice-omni-complete-layer-guide"
+  ],
+  "target_id": "whitepaper-lattice-omni-complete-layer-guide",
+  "warnings": []
+}

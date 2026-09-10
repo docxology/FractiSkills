@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "660caef2e597f6fb6d147e3e0127e97a69890f0b9cbf33222682da31dac0b909",
+      "fetched_at": "2026-09-10T22:12:11.570604+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/holographic-goldilocks-ai-os",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/holographic-goldilocks-ai-os",
+      "status_code": 200,
+      "title": "Holographic Panama Canal · 13D Goldilocks AI OS Trials · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/holographic-goldilocks-ai-os"
+    }
+  ],
+  "target_id": "holographic-goldilocks-ai-os"
+}

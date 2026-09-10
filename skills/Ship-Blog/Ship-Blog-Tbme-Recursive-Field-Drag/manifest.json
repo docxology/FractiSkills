@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "08a452f606b02f61fb791d3919a7543a1dc885f943b8a9dcaa6ad6d94701b3cf",
+    "references/sources.json": "83bfbf9697e3e81812b6cbf78c3a1165af88587e96e15b63d3b642e9705de977"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "1592663819ba1383e2e6794b95d23587f2dfe629e5cc5b1856ab11fae6711176",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "d2ced9be835882a0b2ba820e8916c5a703050eec48b158a7395c919e160acd80"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:40.165058+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tbme-recursive-field-drag",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tbme Recursive Field Drag",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "content_sha256": "a9ab378bb5b24a3e0371ac423d8a18c39281006db99b95cabd8b73a9defade6f",
+      "fetched_at": "2026-09-10T22:16:39.824059+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "status_code": 200,
+      "text_sha256": "9a1134ec2badf1b1eac040e5736e50387788b4d2349143fdb180c5b527bacdb1",
+      "title": "The Recursive Field-Drag Theorem · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tbme-recursive-field-drag",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3960,
+      "duration_ms": 40,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:39.819083+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tbme Recursive Field Drag",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tbme-recursive-field-drag",
+  "skill_sha256": "08a452f606b02f61fb791d3919a7543a1dc885f943b8a9dcaa6ad6d94701b3cf",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-recursive-field-drag"
+  ],
+  "target_id": "ship-blog-tbme-recursive-field-drag",
+  "warnings": []
+}

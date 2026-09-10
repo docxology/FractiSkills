@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2a3b21430f081153dcce6ea76538e26d6bb69941715c8fa3771d3dbfe97577ec",
+      "fetched_at": "2026-09-10T22:16:36.908262+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-hgaios",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-hgaios",
+      "status_code": 200,
+      "title": "Four ways of thinking — find yours on this ship · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-egs-hgaios"
+    }
+  ],
+  "target_id": "ship-blog-tbme-egs-hgaios"
+}

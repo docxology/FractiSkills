@@ -1,0 +1,15 @@
+{
+  "backend": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "manifest_schema_version": 2,
+  "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+  "profile_id": "ssvibelandia-lattice",
+  "requested_skill_name": "Lattice How",
+  "run_id": "ssvibelandia-lattice--0413bc61ac105c707b86",
+  "schema": "skillarum.regeneration/v1",
+  "skill_format": "SKILL.md/v2",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/lattice/how"
+  ],
+  "target_id": "lattice-how"
+}

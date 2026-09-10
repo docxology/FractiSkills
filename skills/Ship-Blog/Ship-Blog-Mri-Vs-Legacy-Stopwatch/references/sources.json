@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "02eb124f3a97d759ee9ec607ccc8d37028a9398b68321510a787f3e50652dbea",
+      "fetched_at": "2026-09-10T22:15:46.854132+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-vs-legacy-stopwatch",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-vs-legacy-stopwatch",
+      "status_code": 200,
+      "title": "We timed two ways of thinking in silicon. One was faster. · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/mri-vs-legacy-stopwatch"
+    }
+  ],
+  "target_id": "ship-blog-mri-vs-legacy-stopwatch"
+}

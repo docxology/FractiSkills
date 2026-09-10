@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "27c4edf73ee48dcaf3837c7ef2f2fbe3946e39537b06c291b67a8f3fb2ca8b4b",
+    "references/sources.json": "96eca6a87e786ced443ce154d5460d91e388a656f0fa4105d494725a551c7b8f"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "4edbb5c0a51ead1395e6737b5ddfc71c794a64709a118c96f035bab66268b361",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "6dd3f4000acc0ea58e92edbad952a040bdc5b55516a181602ac16e50ba23db55"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:30.299155+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-cabin-sc-501-560",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Cabin Sc 501 560",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "content_sha256": "7b39bc6178604e3a08da2f15835364d4f27251845aec56d5aead11426c10b3e2",
+      "fetched_at": "2026-09-10T22:17:29.831435+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "status_code": 200,
+      "text_sha256": "ea4d88da5e1a93c55b5fa732397679bb0d9e231260f2cfb6b2413afb655f12ee",
+      "title": "SC-501–560 · High-Roller Executive Suites · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-cabin-sc-501-560",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 6625,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:29.825319+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560"
+    }
+  ],
+  "requested_skill_name": "Voyage Cabin Sc 501 560",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-cabin-sc-501-560",
+  "skill_sha256": "27c4edf73ee48dcaf3837c7ef2f2fbe3946e39537b06c291b67a8f3fb2ca8b4b",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560"
+  ],
+  "target_id": "voyage-cabin-sc-501-560",
+  "warnings": []
+}

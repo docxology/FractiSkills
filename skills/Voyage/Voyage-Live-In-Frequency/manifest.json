@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "044f39983052a2d858ef2141f50e23e63dbccb0379515d78da8a98ba11c2342b",
+    "references/sources.json": "e5e262727028634555db259c20bc4dfe6ddbf172d8d11efd6a4a32454f14c83a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "550fb1f01759c9a8c3e03e36ca379434d36ade5177233f6c6869ce06a3a347c9",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "d3ddd512ce60c1985dea309954e1adb9afa3df33812c818dc6ffd926d6d0da00"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:40.686260+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-live-in-frequency",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Live In Frequency",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "content_sha256": "01499affd4381e1b39750673d63beb7df8c6fc1e5e3e005120976c63334e36f0",
+      "fetched_at": "2026-09-10T22:17:40.235129+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "status_code": 200,
+      "text_sha256": "3ef6fa02b8aeb92aaab97cf1cfcedfae34fb6bc58d900db078446b2124142958",
+      "title": "∞ Live in frequency · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-live-in-frequency",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4151,
+      "duration_ms": 38,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:40.228846+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency"
+    }
+  ],
+  "requested_skill_name": "Voyage Live In Frequency",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-live-in-frequency",
+  "skill_sha256": "044f39983052a2d858ef2141f50e23e63dbccb0379515d78da8a98ba11c2342b",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/live-in-frequency"
+  ],
+  "target_id": "voyage-live-in-frequency",
+  "warnings": []
+}

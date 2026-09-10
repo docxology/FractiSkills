@@ -1,0 +1,121 @@
+{
+  "area": "Journey",
+  "artifact_hashes": {
+    "SKILL.md": "395db38158685f11da42963de3cdad22b7b5352c7c246a68040d900526f776ba",
+    "references/sources.json": "9c02c8ea9e06006ab78ffd3f83086825a5fdbd598fb93b039886705f11049c19"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "cc3cb785cc4718870d71403e0a3ddefb5a54b17e095da08702795c4943ae4488",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+    "request_count": 2,
+    "target_fingerprint": "bb544589f0f89c5b048332acb7406c3975c93b6997ea12ea43ddd0442d92f8c4"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:14:57.660218+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "journey-bachdoor-music-lab",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Journey Bachdoor Music Lab",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "content_sha256": "2031be26b503a3bc31b8070f24fa20dbd04a344cf454a59b35a0363858d345a3",
+      "fetched_at": "2026-09-10T22:14:56.355859+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "status_code": 200,
+      "text_sha256": "40bb8a76500d3cd63039b3ea646ed0aeff0e974bef0bdc9a0567b13e5d900ec4",
+      "title": "Golden Bachdoor · Music Lab · Journey · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Journey%20inquiry%20—%20Golden%20Bachdoor%20%C2%B7%20Music%20Lab): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "journey-bachdoor-music-lab",
+  "profile_fingerprint": "74701bd4b898bd1d873f97d6da37b34247d01d84cdb7669206b02652fbeda5c2",
+  "profile_id": "ssvibelandia-journey",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Journey",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 91,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:55.699228+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 4866,
+      "duration_ms": 232,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:14:56.349531+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab"
+    }
+  ],
+  "requested_skill_name": "Journey Bachdoor Music Lab",
+  "run_id": "ssvibelandia-journey--2dc97e59f0a891e4884a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "journey-bachdoor-music-lab",
+  "skill_sha256": "395db38158685f11da42963de3cdad22b7b5352c7c246a68040d900526f776ba",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/journey/bachdoor-music-lab"
+  ],
+  "target_id": "journey-bachdoor-music-lab",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c8b3c016e3b074984b55ceff02e3af10cd9e2322517ba8bf013eefc4011eafef",
+      "fetched_at": "2026-09-10T22:12:15.835760+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "status_code": 200,
+      "title": "Prime Vault Chat · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat"
+    }
+  ],
+  "target_id": "prime-vault-chat"
+}

@@ -1,0 +1,110 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "065e3a3da3dde3539dc240bc014978874e80f5fb2b25e55bfa6ea6a7afe18a3d",
+    "references/sources.json": "51c2dc836c545bef28125412883a8214c61f6447ca1fd6e30b7633e131a00059"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "75819068121e9f4efdc658806e6de2dc56c1638c305e7d84437cba1ae8c1122f",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "24dc3cf19a75117c195c6b53f051b45309eda6d4bc18467c3187315b0a367755"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:34.375153+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-press-release-etcon-reno-desert-may-2026",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Press Release Etcon Reno Desert May 2026",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html",
+      "content_sha256": "6bb8e98bc37d0256295208f2b111f5481ed4699ad0e060199f89ac3d57aafc79",
+      "fetched_at": "2026-09-10T22:12:34.301347+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html",
+      "status_code": 200,
+      "text_sha256": "2ea4ae57822c082c8a849b33d00ac057f8310b4590fcad354ae7bef2b6ff73df",
+      "title": "FOR IMMEDIATE RELEASE — ETCon: Reno Desert Interdimensional Edition · final call",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=ETCon%20Golden%20Bachdoor): ValueError",
+        "invalid link ignored (mailto:info@fractiai.com?subject=ETCon%20vendor): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "interfaces-press-release-etcon-reno-desert-may-2026",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 8749,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:34.298595+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Press Release Etcon Reno Desert May 2026",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-press-release-etcon-reno-desert-may-2026",
+  "skill_sha256": "065e3a3da3dde3539dc240bc014978874e80f5fb2b25e55bfa6ea6a7afe18a3d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/press-release-etcon-reno-desert-may-2026.html"
+  ],
+  "target_id": "interfaces-press-release-etcon-reno-desert-may-2026-html",
+  "warnings": []
+}

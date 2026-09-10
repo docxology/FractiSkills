@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "3c0bd4259ed155d4072064422834f0d74ef0bc111568f907b5ede052de1c4c6c",
+      "fetched_at": "2026-09-10T22:16:26.824238+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph",
+      "status_code": 200,
+      "title": "Scale-Invariant Quantum Holographic Field Theory · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-siqhft-ef-2187-monograph"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-siqhft-ef-2187-monograph"
+}

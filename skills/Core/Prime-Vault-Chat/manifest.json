@@ -1,0 +1,109 @@
+{
+  "area": "Core",
+  "artifact_hashes": {
+    "SKILL.md": "3aba936e2d9715c728aaa4d5adb6a9079c698ef85d7c533914102009ff5ec481",
+    "references/sources.json": "c0b4b59040a5203db213aad3e5f972c78f388f2d745d66f3514ecd553d34761a"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "dcca14b471d3e8eb64d566f80c8151f067ce0852e547fdcb95cd4aa1b8b0424e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+    "request_count": 1,
+    "target_fingerprint": "a8b6a38ad6c614883721b397683d794b2e5cc963e4bc18080a4c065d8e8cadc9"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:15.962840+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "prime-vault-chat",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Prime Vault Chat",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "content_sha256": "c8b3c016e3b074984b55ceff02e3af10cd9e2322517ba8bf013eefc4011eafef",
+      "fetched_at": "2026-09-10T22:12:15.835760+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "status_code": 200,
+      "text_sha256": "9e04249596d2a8dc5286618325226d4d26e42e685154389a8abd778f03e97197",
+      "title": "Prime Vault Chat · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat",
+      "warnings": [
+        "invalid link ignored (mailto:valetpru@gmail.com?subject=Prime%20Vault%20Chat%20guest%20seat): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "prime-vault-chat",
+  "profile_fingerprint": "24b4c995d8639c712a3d36699cda4a0278393e1fcf47f3ecea40069a382738b5",
+  "profile_id": "ssvibelandia-core",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Core",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4410,
+      "duration_ms": 48,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:15.832077+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat"
+    }
+  ],
+  "requested_skill_name": "Prime Vault Chat",
+  "run_id": "ssvibelandia-core--8740ca5c3fb776d1023a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "prime-vault-chat",
+  "skill_sha256": "3aba936e2d9715c728aaa4d5adb6a9079c698ef85d7c533914102009ff5ec481",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/prime-vault-chat"
+  ],
+  "target_id": "prime-vault-chat",
+  "warnings": []
+}

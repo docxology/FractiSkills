@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-whitepaper",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:18:08.377199+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-holographic-operators",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-holographic-operators",
+      "status_code": 200,
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/synthobs-holographic-operators"
+    }
+  ],
+  "target_id": "whitepaper-synthobs-holographic-operators"
+}

@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "e7580de0b04b6819596b30f6a2ce9911535bed410bc626cca723e8f0fe59396d",
+    "references/sources.json": "6711b002ac409dbe373b642d72e6ec32ef86edf2e7f381089827453fa0423919"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "bdd130090cfb77e1f73d2c134a4cba29bed5a1cd9e5efea9ef5fd836c53cfcc3",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "779f863d4e2308f975b43e02af48f957ab1ff5cca7e36d0248ce1802b8f5fb5b"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:46.483313+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-zero-octave-y-goldilocks",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Zero Octave Y Goldilocks",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "content_sha256": "67e2f3af91abe7af1564f720eb432c3a6ce2f06ade5622b695359726451ec159",
+      "fetched_at": "2026-09-10T22:16:45.982978+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "status_code": 200,
+      "text_sha256": "8606bd796a213f842038c2768e02b1ca6efec1b073d4acfdc3cd3b0242e230c6",
+      "title": "Zero-Octave · Y Goldilocks · Fibonacci Vaults · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-zero-octave-y-goldilocks",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 7219,
+      "duration_ms": 50,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:45.976745+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Zero Octave Y Goldilocks",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-zero-octave-y-goldilocks",
+  "skill_sha256": "e7580de0b04b6819596b30f6a2ce9911535bed410bc626cca723e8f0fe59396d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/zero-octave-y-goldilocks"
+  ],
+  "target_id": "ship-blog-zero-octave-y-goldilocks",
+  "warnings": []
+}

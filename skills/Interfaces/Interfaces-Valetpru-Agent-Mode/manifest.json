@@ -1,0 +1,107 @@
+{
+  "area": "Interfaces",
+  "artifact_hashes": {
+    "SKILL.md": "300b95f390d95a66c62ef71a5dd598ac8bc2f1a81135cc31e3336d2c18e65532",
+    "references/sources.json": "25e9f646a9e1e5dddf928b8c072e391a727f29a9fc7c81d8ecd1b220eed43758"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0a4c6eb9fb5c8433cead9c61fa8666ea7f5515e7c336f39286f1dcc61ed9114b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+    "request_count": 1,
+    "target_fingerprint": "7643875a449bfe480d2686baa08aa03bb23f5e259b0255f1b46f1ca915d5b253"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:12:41.037851+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "interfaces-valetpru-agent-mode",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Interfaces Valetpru Agent Mode",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "eb2f425cd2de1a88021288c8e0999f53cebbdd03b4b766efc52b577494cb278d",
+      "fetched_at": "2026-09-10T22:12:40.379003+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html",
+      "status_code": 200,
+      "text_sha256": "a28c637dc8163a62456dcf0761a789b7c0137eabdaeaaf3868e0221d8ba6be29",
+      "title": "VALETPRU-AGENT · ACTIVATED · Capitan Bridge Console",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html",
+      "warnings": []
+    }
+  ],
+  "portable_name": "interfaces-valetpru-agent-mode",
+  "profile_fingerprint": "d45af1a22626d232cbc9222e07f73c9ba553e12caae88cdb8b34102d8472d473",
+  "profile_id": "ssvibelandia-interfaces",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Interfaces",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 5348,
+      "duration_ms": 43,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:12:40.376772+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html"
+    }
+  ],
+  "requested_skill_name": "Interfaces Valetpru Agent Mode",
+  "run_id": "ssvibelandia-interfaces--7f3643335c634649677e",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "interfaces-valetpru-agent-mode",
+  "skill_sha256": "300b95f390d95a66c62ef71a5dd598ac8bc2f1a81135cc31e3336d2c18e65532",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/interfaces/valetpru-agent-mode.html"
+  ],
+  "target_id": "interfaces-valetpru-agent-mode-html",
+  "warnings": []
+}

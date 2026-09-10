@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "da82ad6e9a1ac9e22e18dc4faccd86f1d3a8995adfeeaa1c3fb0ea73f798b70d",
+      "fetched_at": "2026-09-10T22:12:16.604679+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room-program",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room-program",
+      "status_code": 200,
+      "title": "Reading Room Concert Program · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reading-room-program"
+    }
+  ],
+  "target_id": "reading-room-program"
+}

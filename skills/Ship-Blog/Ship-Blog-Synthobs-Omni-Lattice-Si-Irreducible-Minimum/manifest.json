@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "2acff38c2462507dc76421bd8c36c1a07814152d8f28cef791f60312717123f3",
+    "references/sources.json": "f0885972ccd9a1250e04e69c06b2d91ce9648fd52fa194c579ed13eadb26ece6"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "6e984587c0e90746635bae2247f05631baca45222da0fd9612105a73373c57d6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "34a37ed4cc9ea8abe4002c0aa8d235904a31bf773d1b779512ee93bc5d48081e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:18.445256+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-synthobs-omni-lattice-si-irreducible-minimum",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Synthobs Omni Lattice Si Irreducible Minimum",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "content_sha256": "9b8a25e991bb1f4987db6b16a0ad01f941bd795f600883682c1e44d87da34300",
+      "fetched_at": "2026-09-10T22:16:18.054076+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "status_code": 200,
+      "text_sha256": "6fffee58e6c7ec797cc0aeffd3769bfae33e91c73bfa234b82b444e33b72a335",
+      "title": "Omni-Lattice · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-synthobs-omni-lattice-si-irreducible-minimum",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3834,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:18.050404+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Synthobs Omni Lattice Si Irreducible Minimum",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-synthobs-omni-lattice-si-irreducible-minimum",
+  "skill_sha256": "2acff38c2462507dc76421bd8c36c1a07814152d8f28cef791f60312717123f3",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-si-irreducible-minimum"
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-si-irreducible-minimum",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "1179d11f040cd245cffa365da83ace1d54b8b751e9dde0200f9e837b60965f65",
+      "fetched_at": "2026-09-10T22:12:16.204067+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/reading-room",
+      "status_code": 200,
+      "title": "Reading Room · Deep Memory · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/reading-room"
+    }
+  ],
+  "target_id": "reading-room"
+}

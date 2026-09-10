@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "420b922d9a10f9f65011c93145f0d5b69fd4ed8b14d05bc1ee0900f217e75a4b",
+      "fetched_at": "2026-09-10T22:12:11.030396+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge",
+      "status_code": 200,
+      "title": "Valet Pru Concierge Service - Downtown Reno",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/hire-a-goldilocks-valet-concierge"
+    }
+  ],
+  "target_id": "hire-a-goldilocks-valet-concierge"
+}

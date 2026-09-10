@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d3460d73bbbb4299c6130e2f0828daa21100cab0101541e0f56d01ed4e3450c3",
+      "fetched_at": "2026-09-10T22:16:04.375428+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syntheverse-sandbox-comprehensive",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syntheverse-sandbox-comprehensive",
+      "status_code": 200,
+      "title": "Syntheverse Sandbox Comprehensive Analysis · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/syntheverse-sandbox-comprehensive"
+    }
+  ],
+  "target_id": "ship-blog-syntheverse-sandbox-comprehensive"
+}

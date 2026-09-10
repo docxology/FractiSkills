@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "327d57b1265a81d8974ba9838b7825b126ef48d1afde274408cac32879efed57",
+      "fetched_at": "2026-09-10T22:17:25.831012+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-cc-201-224",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-cc-201-224",
+      "status_code": 200,
+      "title": "CC-201–224 · Captiva Cove Beachfront Cabins · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-cc-201-224"
+    }
+  ],
+  "target_id": "voyage-cabin-cc-201-224"
+}

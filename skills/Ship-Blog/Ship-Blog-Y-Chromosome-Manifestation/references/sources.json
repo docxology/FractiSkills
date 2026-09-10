@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "380640a01106a48247751043cc2101a2814ad792128d8b120cfb7c465b68ff3c",
+      "fetched_at": "2026-09-10T22:16:44.509026+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation",
+      "status_code": 200,
+      "title": "Y chromosome as Φ manifestation — holographic MSY · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/y-chromosome-manifestation"
+    }
+  ],
+  "target_id": "ship-blog-y-chromosome-manifestation"
+}

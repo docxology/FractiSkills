@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "5ea987cc13e18af1684a79ac54c213b697d83d068dd1cab2009ad5f4af84d92f",
+      "fetched_at": "2026-09-10T22:16:38.855139+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi",
+      "status_code": 200,
+      "title": "The Epistemological Horizon · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-narrow-gate-asi"
+    }
+  ],
+  "target_id": "ship-blog-tbme-narrow-gate-asi"
+}

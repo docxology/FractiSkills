@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-whitepaper",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:46.457137+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics",
+      "status_code": 200,
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/goldilocks-erdos-mathematics"
+    }
+  ],
+  "target_id": "whitepaper-goldilocks-erdos-mathematics"
+}

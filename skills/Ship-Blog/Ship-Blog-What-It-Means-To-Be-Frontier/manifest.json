@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "c0b989c45b8ccad9fae26144a19d7add9bb241eb126e66cb168917b66febc712",
+    "references/sources.json": "58dff4073fe5bed11f1a9962f5d2329c6dc82d369f2c503c7b51ffc02ae21f2d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "92c45ed64dfcdc62cdf99913f62eff760a6bbfafe430f68fedb228376c5aa785",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "e2a9f4b5574e680dcf4f5a2c3a3c3312523aae7786a6fac426d0998e8a2c948d"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:44.379523+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-what-it-means-to-be-frontier",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog What It Means To Be Frontier",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "content_sha256": "ae3efb29e66d5425f3496bacf352b7cea9d5799c4d48fb9f645e49350c1624c6",
+      "fetched_at": "2026-09-10T22:16:44.175356+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "status_code": 200,
+      "text_sha256": "597d3293f5f7291f16d4c8ea1095c88b91959fa4e8441d016fba7c409cc01a7d",
+      "title": "What it means to be frontier on the QUESTFEST trail · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-what-it-means-to-be-frontier",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 9906,
+      "duration_ms": 59,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:44.165223+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier"
+    }
+  ],
+  "requested_skill_name": "Ship Blog What It Means To Be Frontier",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-what-it-means-to-be-frontier",
+  "skill_sha256": "c0b989c45b8ccad9fae26144a19d7add9bb241eb126e66cb168917b66febc712",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/what-it-means-to-be-frontier"
+  ],
+  "target_id": "ship-blog-what-it-means-to-be-frontier",
+  "warnings": []
+}

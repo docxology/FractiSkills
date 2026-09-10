@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "35c26fad48a54c3bd0d27265fc8648b0c937e3a492f86610c25e68ddf20826da",
+      "fetched_at": "2026-09-10T22:15:43.884880+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/moving-up-the-stack",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/moving-up-the-stack",
+      "status_code": 200,
+      "title": "Moving Up the Stack · Lattice is the next AI layer · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/moving-up-the-stack"
+    }
+  ],
+  "target_id": "ship-blog-moving-up-the-stack"
+}

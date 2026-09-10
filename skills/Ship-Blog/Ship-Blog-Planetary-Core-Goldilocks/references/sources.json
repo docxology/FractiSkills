@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "99580edfab96861a15a19be72958b071b33b8bf980c6238b6fb51d9b75499a1a",
+      "fetched_at": "2026-09-10T22:15:51.060492+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/planetary-core-goldilocks",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/planetary-core-goldilocks",
+      "status_code": 200,
+      "title": "Old Earth letting go — a story filed at the planet’s core · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/planetary-core-goldilocks"
+    }
+  ],
+  "target_id": "ship-blog-planetary-core-goldilocks"
+}

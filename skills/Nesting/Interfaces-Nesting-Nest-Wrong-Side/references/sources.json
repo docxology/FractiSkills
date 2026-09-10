@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-nesting",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "9115c5893a927699e7c017d12a56f550644a487005eca113d8133021b913cf2d",
+      "fetched_at": "2026-09-10T22:14:54.391280+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-wrong-side.html",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-wrong-side.html",
+      "status_code": 200,
+      "title": "Wrong Side of Town · nesting guide",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/interfaces/nesting/nest-wrong-side.html"
+    }
+  ],
+  "target_id": "interfaces-nesting-nest-wrong-side-html"
+}

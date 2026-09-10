@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "d47591843f4479127cb379648cfdbb6318a8c34262a13bdc29113cec06b8546c",
+      "fetched_at": "2026-09-10T22:16:13.046844+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-genomic-determinism",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-genomic-determinism",
+      "status_code": 200,
+      "title": "Omni-Lattice Unification X · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/synthobs-omni-lattice-genomic-determinism"
+    }
+  ],
+  "target_id": "ship-blog-synthobs-omni-lattice-genomic-determinism"
+}

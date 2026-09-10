@@ -1,0 +1,109 @@
+{
+  "area": "Voyage",
+  "artifact_hashes": {
+    "SKILL.md": "aa919d4d3bde51c9d089626c17da5ea3ecfdfc95150f4c604d852b66040ca39d",
+    "references/sources.json": "787c30d35facccfb34c82c8bde1b5546e21c01e3352e1c12de57ee788ce96336"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "3743e651fe278bc6773c3dda04c3e3acd14929a190d6e2aa6470fc6235dfba8e",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+    "request_count": 1,
+    "target_fingerprint": "6c8442f5fb75b07b0cbe460f08829719a02bc03025f153a3dd049a061914f2e6"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:36.730039+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "voyage-deck-9-summit",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Voyage Deck 9 Summit",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "content_sha256": "879064857cda581f4f2f1ed1409833987b447dcd468d467ffb77cfbbff60d549",
+      "fetched_at": "2026-09-10T22:17:36.349219+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "status_code": 200,
+      "text_sha256": "9382ec2894523ea70bf9d620fba06e711b3d93886c6580a02d9b8768d85d7bcd",
+      "title": "Deck 9 — Summit · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Purser%20Fair%20Exchange): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "voyage-deck-9-summit",
+  "profile_fingerprint": "572ba04602fdd8c0b17fd93ad013fd61ba5e07d9d49eb78f12b0c0402333e750",
+  "profile_id": "ssvibelandia-voyage",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Voyage",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4633,
+      "duration_ms": 46,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:36.340730+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit"
+    }
+  ],
+  "requested_skill_name": "Voyage Deck 9 Summit",
+  "run_id": "ssvibelandia-voyage--e84afd818e6575b8fa3a",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "voyage-deck-9-summit",
+  "skill_sha256": "aa919d4d3bde51c9d089626c17da5ea3ecfdfc95150f4c604d852b66040ca39d",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/voyage/deck-9-summit"
+  ],
+  "target_id": "voyage-deck-9-summit",
+  "warnings": []
+}

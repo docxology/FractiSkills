@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "1612345fda2c1e89f60454233da75ff4d44178b3a926b9ceecfbe21091bea2e8",
+    "references/sources.json": "84808b28a9b32b51cca4827dda25f122463a7e19b2c96e029c323a836f386baa"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "0f28b19b6f9d891f2073ac5bdae50d897ddcae8aae36651f5a1227d007e34860",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "6f3f164bc9245e9858207ae8ab1df33a63f9a4209f5f4f70575bb2eafd230b6e"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:24.492607+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-egs-nlrf",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Egs Nlrf",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf",
+      "content_sha256": "d44f60aa3e0fe2b454ed73029ec3da874e9f92800ce8697ce5e21b45d6427fc3",
+      "fetched_at": "2026-09-10T22:15:24.327258+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf",
+      "status_code": 200,
+      "text_sha256": "ab4d8e0e82c8cbd6b8735d0229973fdd092b8ae369e18941dd3ca0bcc81e7088",
+      "title": "Fractal Magnetism and Hydrogen-Holographic Systems · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-egs-nlrf",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 3700,
+      "duration_ms": 31,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:24.322124+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Egs Nlrf",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-egs-nlrf",
+  "skill_sha256": "1612345fda2c1e89f60454233da75ff4d44178b3a926b9ceecfbe21091bea2e8",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/egs-nlrf"
+  ],
+  "target_id": "ship-blog-egs-nlrf",
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "7b39bc6178604e3a08da2f15835364d4f27251845aec56d5aead11426c10b3e2",
+      "fetched_at": "2026-09-10T22:17:29.831435+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560",
+      "status_code": 200,
+      "title": "SC-501–560 · High-Roller Executive Suites · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/cabin-sc-501-560"
+    }
+  ],
+  "target_id": "voyage-cabin-sc-501-560"
+}

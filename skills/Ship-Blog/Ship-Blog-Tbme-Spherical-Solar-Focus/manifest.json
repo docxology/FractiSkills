@@ -1,0 +1,107 @@
+{
+  "area": "Ship-Blog",
+  "artifact_hashes": {
+    "SKILL.md": "5907473d588544ad86a70375dde1dc35eb8581916cfd25aeb38369a4514f2ab0",
+    "references/sources.json": "74175449d9330e6720d68b48a5fb39249ff9ea3c4d331e2622fd98e48ad9905d"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "ecbc8501811f2478bbde6d464484cd98befdf22a17bb9269d0ab16c0989f70fb",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+    "request_count": 1,
+    "target_fingerprint": "86ed14866add9c72bab53ee6091cbaf77175ea5c87d74191e687f4763dc61ce3"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:16:40.452347+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "ship-blog-tbme-spherical-solar-focus",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Ship Blog Tbme Spherical Solar Focus",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "content_sha256": "0a0a085bed5cb10579dd38e9d00cc6f64185a92002bf0852d223540f3bd9f3a7",
+      "fetched_at": "2026-09-10T22:16:40.236444+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "status_code": 200,
+      "text_sha256": "9a1134ec2badf1b1eac040e5736e50387788b4d2349143fdb180c5b527bacdb1",
+      "title": "Solar-Focus Dynamics of Spherical Mirror Lattices & Somatic Matter Rendering · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "warnings": []
+    }
+  ],
+  "portable_name": "ship-blog-tbme-spherical-solar-focus",
+  "profile_fingerprint": "aa556dc98de80125bdc97152113aa32634eacf4ecb6ee0f62158f40f1280f8a7",
+  "profile_id": "ssvibelandia-ship-blog",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Ship-Blog",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 4107,
+      "duration_ms": 41,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:16:40.231251+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus"
+    }
+  ],
+  "requested_skill_name": "Ship Blog Tbme Spherical Solar Focus",
+  "run_id": "ssvibelandia-ship-blog--041c3e889de82504cb17",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "ship-blog-tbme-spherical-solar-focus",
+  "skill_sha256": "5907473d588544ad86a70375dde1dc35eb8581916cfd25aeb38369a4514f2ab0",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus"
+  ],
+  "target_id": "ship-blog-tbme-spherical-solar-focus",
+  "warnings": []
+}

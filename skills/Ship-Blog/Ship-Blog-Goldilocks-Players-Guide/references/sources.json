@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "9d27091e63452b8bdfbd8a697283b9f352a552658c0ea1411f28d37b892edaa0",
+      "fetched_at": "2026-09-10T22:15:28.336805+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-players-guide",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-players-guide",
+      "status_code": 200,
+      "title": "A free playbook for when brute force stops working · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/goldilocks-players-guide"
+    }
+  ],
+  "target_id": "ship-blog-goldilocks-players-guide"
+}

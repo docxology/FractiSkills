@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "13f4472ece631faaf945a37d4a2812c978ba3482744e1443fb075b147b07ed6a",
+      "fetched_at": "2026-09-10T22:15:56.075880+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/protein-folding-prime-container",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/protein-folding-prime-container",
+      "status_code": 200,
+      "title": "When proteins meet prime vaults — a Nevada contrast to AlphaFold · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/protein-folding-prime-container"
+    }
+  ],
+  "target_id": "ship-blog-protein-folding-prime-container"
+}

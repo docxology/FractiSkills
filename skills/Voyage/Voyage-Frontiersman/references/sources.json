@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-voyage",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "48a4c92154e4080584896859e4611c05b5c3420408a4e88ffdb9e7bc7579ccbb",
+      "fetched_at": "2026-09-10T22:17:37.842591+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman",
+      "status_code": 200,
+      "title": "☀ Frontiersman · SS Vibelandia Voyage",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/voyage/frontiersman"
+    }
+  ],
+  "target_id": "voyage-frontiersman"
+}

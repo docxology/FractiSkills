@@ -1,0 +1,134 @@
+{
+  "area": "Whitepaper",
+  "artifact_hashes": {
+    "SKILL.md": "05ab86096eb62bbe1f6724fab973104bd763fea8f569f2f803221b33b185b651",
+    "references/sources.json": "e8fc9a51e30853aacb24a26d4dadad32f45d4313b45edf1a86734d56388ce0aa"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "36d8ffedb54f55aeba9b16241b0feec7dde044160e0309cf17d4339f2594712b",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+    "request_count": 2,
+    "target_fingerprint": "c5672bc354109a06c5c855c95783f16e1ba0db61a223edd1bac76dc1386a5c52"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 256,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:17:43.475520+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [
+      {
+        "api_url": "https://www.ssvibelandiaquestfest24x365.com/api/whitepaper?id=coherence-plain-speak",
+        "content_sha256": "2c2c88e18d42b300aba2db791a754cb01aa5fbdba0c78594beb2c14edda50391",
+        "error": null,
+        "etag": "W/\"4635-aFPRoR0yYud8b0cHxSQSWWSe3Ug\"",
+        "fetched_at": "2026-09-10T22:17:43.715164+00:00",
+        "ok": true,
+        "page_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak",
+        "status_code": 200,
+        "text_chars": 11310,
+        "title": "Coherence · plain speak · what's real · HONESTY-COHERENCE-2026-009"
+      }
+    ],
+    "page_count": 1,
+    "portable_skill_name": "whitepaper-coherence-plain-speak",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Whitepaper Coherence Plain Speak",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": null,
+      "content_sha256": "c98021adaf741cc6043a0b90ee59773f68fabfea09ab7a804850e94b70e236c4",
+      "fetched_at": "2026-09-10T22:17:43.253870+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak",
+      "status_code": 200,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "Reader · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak",
+      "warnings": [
+        "page has no extracted text"
+      ]
+    }
+  ],
+  "portable_name": "whitepaper-coherence-plain-speak",
+  "profile_fingerprint": "481718b75597659d69386e5b9316b0ed50a0c1334f762b93af68a600918bf853",
+  "profile_id": "ssvibelandia-whitepaper",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Whitepaper",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 2,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 376,
+      "duration_ms": 82,
+      "kind": "robots",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:42.779534+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/robots.txt"
+    },
+    {
+      "attempt": 0,
+      "bytes": 12931,
+      "duration_ms": 48,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 2,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:17:43.251656+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak"
+    }
+  ],
+  "requested_skill_name": "Whitepaper Coherence Plain Speak",
+  "run_id": "ssvibelandia-whitepaper--64bf5d8384cf6d7bc5af",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "whitepaper-coherence-plain-speak",
+  "skill_sha256": "05ab86096eb62bbe1f6724fab973104bd763fea8f569f2f803221b33b185b651",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/whitepaper/coherence-plain-speak"
+  ],
+  "target_id": "whitepaper-coherence-plain-speak",
+  "warnings": []
+}

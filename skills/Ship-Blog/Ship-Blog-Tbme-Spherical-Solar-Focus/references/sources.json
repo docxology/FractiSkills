@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "0a0a085bed5cb10579dd38e9d00cc6f64185a92002bf0852d223540f3bd9f3a7",
+      "fetched_at": "2026-09-10T22:16:40.236444+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus",
+      "status_code": 200,
+      "title": "Solar-Focus Dynamics of Spherical Mirror Lattices & Somatic Matter Rendering · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/tbme-spherical-solar-focus"
+    }
+  ],
+  "target_id": "ship-blog-tbme-spherical-solar-focus"
+}

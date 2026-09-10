@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "2ecd78927f309bc24db8b8e5873124fde3ca88e1c2aa77d7b0823d39fb67bd69",
+      "fetched_at": "2026-09-10T22:15:32.664523+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/higgs-awareness-unified",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/higgs-awareness-unified",
+      "status_code": 200,
+      "title": "Higgs Gate · awareness phase coupling · unified edition · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/higgs-awareness-unified"
+    }
+  ],
+  "target_id": "ship-blog-higgs-awareness-unified"
+}

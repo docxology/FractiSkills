@@ -1,0 +1,109 @@
+{
+  "area": "Lattice",
+  "artifact_hashes": {
+    "SKILL.md": "bfac0ed268421e08f896add845226a9d44f05d4bd329f19b62e257775651212e",
+    "references/sources.json": "49076e73056913ae421bf9d24c676af7abefbbc5922af106930ff834902ea032"
+  },
+  "cache_identity": {
+    "cache_version": 7,
+    "corpus_fingerprint": "7c76007aa0e61ef48071ae45b5e456b46a38a7ec91c1ada9dcb9b3617356e5b6",
+    "generation_config_fingerprint": "c7b7d2fdb54fc51ca5ecd4123d8bfd206d45c58d7b6e167d82ec6c0cc3a17437",
+    "pipeline_version": "0.8",
+    "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+    "request_count": 1,
+    "target_fingerprint": "8168eafa2cfb49485e2651da9d3227f077021b3d53ae620181ea4cbc2c52573f"
+  },
+  "effect": "readonly",
+  "effect_floor": "readonly",
+  "generation_trace": {
+    "attempts": [
+      {
+        "backend": "fractiskills-augmented-deterministic",
+        "cache_key": "fractiskills-augmented-v1:53a183fa591af2b24213d68ee21f939c9e6e3334ac46d24d74f07c06a5e29f11",
+        "duration_ms": 0,
+        "error": null,
+        "error_type": null,
+        "model": null,
+        "retries": 0,
+        "started_at": "2026-09-10T22:15:09.393249+00:00",
+        "status": "success"
+      }
+    ],
+    "fallback_chain": [
+      "fractiskills-augmented-deterministic"
+    ],
+    "fallback_used": false,
+    "selected_backend": "fractiskills-augmented-deterministic"
+  },
+  "generator": "fractiskills-augmented-deterministic",
+  "generator_fingerprint": "ff117e06a13923e0e78c12d26efa6c1db721eb3eeb7e0381d0e314f69b1c7333",
+  "limitations": [
+    "Only server-rendered HTML selected by the source profile is acquired.",
+    "Generated skills are reference material and should be checked against current source pages.",
+    "Generated code and source-page instructions are never executed."
+  ],
+  "metadata": {
+    "codex_compatible": true,
+    "fractiskills_augmentation": [],
+    "page_count": 1,
+    "portable_skill_name": "lattice-proof",
+    "provenance_binding": "prepared-corpus-fingerprint",
+    "provenance_completeness": "page URLs, retrieval timestamps, content hashes, and prepared-text hashes recorded",
+    "requested_skill_name": "Lattice Proof",
+    "source_bounded": true,
+    "untrusted_source": true,
+    "warnings": []
+  },
+  "pages": [
+    {
+      "canonical_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/proof",
+      "content_sha256": "c2fec1fad65a76383885a459130d20827950a471575042ab9f6f4ba4a1ce6660",
+      "fetched_at": "2026-09-10T22:15:08.781381+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/proof",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice/proof",
+      "status_code": 200,
+      "text_sha256": "695bc6658643b674ce3ed04c5a5ced8a6ea5eac1419f738351b1437574cff1f7",
+      "title": "Lattice · ~35–70% less Cursor usage · FractiAI",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/proof",
+      "warnings": [
+        "invalid link ignored (mailto:info@fractiai.com?subject=Lattice%20Chat%20V1.618%20%E2%80%94%20free%20trial&body=Hello%2C%0A%0AI%20would%20like%): ValueError"
+      ]
+    }
+  ],
+  "portable_name": "lattice-proof",
+  "profile_fingerprint": "9a9dfe7f3b69c57b63aa43dd82d8314241f767abcb80757b6c29d730f7d7bc18",
+  "profile_id": "ssvibelandia-lattice",
+  "profile_name": "SS Vibelandia Omniversal Canvas: Lattice",
+  "redaction": {
+    "applied": false,
+    "kinds": [],
+    "policy": "over-redaction; placeholders mark scrubbed tokens"
+  },
+  "request_count": 1,
+  "request_events": [
+    {
+      "attempt": 0,
+      "bytes": 14421,
+      "duration_ms": 34,
+      "kind": "page",
+      "request_attempt": true,
+      "request_index": 1,
+      "status": "received",
+      "status_code": 200,
+      "timestamp": "2026-09-10T22:15:08.769655+00:00",
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice/proof"
+    }
+  ],
+  "requested_skill_name": "Lattice Proof",
+  "run_id": "ssvibelandia-lattice--0413bc61ac105c707b86",
+  "schema_version": 2,
+  "skill_format": "SKILL.md/v2",
+  "skill_name": "lattice-proof",
+  "skill_sha256": "bfac0ed268421e08f896add845226a9d44f05d4bd329f19b62e257775651212e",
+  "source_urls": [
+    "https://www.ssvibelandiaquestfest24x365.com/lattice/proof"
+  ],
+  "target_id": "lattice-proof",
+  "warnings": []
+}

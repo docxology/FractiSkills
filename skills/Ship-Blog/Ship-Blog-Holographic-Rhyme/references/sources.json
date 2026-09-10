@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-ship-blog",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "55f967160c8b7d0e26432d0fe08e6663eeb65f68efff7a956c7aebf598a31da3",
+      "fetched_at": "2026-09-10T22:15:33.751228+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-rhyme",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-rhyme",
+      "status_code": 200,
+      "title": "Holographic Rhyme · Four-Pillar Fractal · Ship blog · SS Vibelandia",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/ship-blog/holographic-rhyme"
+    }
+  ],
+  "target_id": "ship-blog-holographic-rhyme"
+}

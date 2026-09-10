@@ -1,0 +1,17 @@
+{
+  "profile_id": "ssvibelandia-core",
+  "schema": "skillarum.sources/v1",
+  "sources": [
+    {
+      "content_sha256": "6a56f12970c08f63a7f5d074b92291d8a179ff1a0287da6489bb32db76ac2476",
+      "fetched_at": "2026-09-10T22:12:13.599955+00:00",
+      "final_url": "https://www.ssvibelandiaquestfest24x365.com/lattice-chat",
+      "requested_url": "https://www.ssvibelandiaquestfest24x365.com/lattice-chat",
+      "status_code": 200,
+      "title": "Infinite Octaves Omniversal Lattice Chat · Collaborate · V1.618",
+      "truncated": false,
+      "url": "https://www.ssvibelandiaquestfest24x365.com/lattice-chat"
+    }
+  ],
+  "target_id": "lattice-chat"
+}
