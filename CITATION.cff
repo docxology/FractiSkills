@@ -8,6 +8,7 @@ authors:
     affiliation: Active Inference Institute, FractiAI
 title: "FractiSkills: One Portable Agent Skill per Page"
 version: 0.1.0
+doi: 10.5281/zenodo.22712650
 date-released: "2026-09-10"
 license: MIT
 repository-code: "https://github.com/docxology/FractiSkills"

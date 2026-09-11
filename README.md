@@ -1,6 +1,13 @@
 # FractiSkills
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22712651.svg)](https://doi.org/10.5281/zenodo.22712651)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/docxology/FractiSkills/releases/tag/v0.1.0)
+
 One portable agent `SKILL.md` package **per page** of the [SS Vibelandia Omniversal Canvas](https://www.ssvibelandiaquestfest24x365.com/) — a living, openly shared SuperAI art project by Valet Pru (Downtown Reno) — rendered with [Skillarum](https://github.com/docxology/Skillarum), organized by the site's own section architecture, published with deterministic figures and a token-hydrated manuscript.
+
+## Publication
+
+The typeset manuscript is archived on Zenodo: **DOI [10.5281/zenodo.22712651](https://doi.org/10.5281/zenodo.22712651)** (versioned record for v0.1.0) · concept DOI [10.5281/zenodo.22712650](https://doi.org/10.5281/zenodo.22712650) (always-latest). The record carries the PDF, the MIT license, and back-links to this repository and release; cite as *Friedman, Daniel Ari (2026). FractiSkills: One Portable Agent Skill per Page (v0.1.0). Zenodo.* New releases deposit under the same concept DOI.
 
 **Agent orientation (read in this order):** [AGENTS.md](AGENTS.md) (layer contract + testing rules) → `uv run python scripts/00_preflight.py` → `output/data/inventory.json` (page inventory) → `skills/index.json` (discovery index for rendered skills).
 
@@ -13,7 +20,7 @@ One portable agent `SKILL.md` package **per page** of the [SS Vibelandia Omniver
 | Harness discovery index | `skills/index.json` |
 | Augmentation receipts (dynamic documents) | `output/data/augmentation_receipts.jsonl` |
 | Aggregated analysis record + CSV | `output/data/fractiskills_analysis.json`, `skills.csv` |
-| Five deterministic figures + registry | `output/figures/*.png`, `output/data/figure_registry.json` |
+| Deterministic figures + registry | `output/figures/*.png`, `output/data/figure_registry.json` |
 | Bound manuscript chapters | `output/manuscript/` |
 
 ## Quick start

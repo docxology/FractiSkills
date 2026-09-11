@@ -19,6 +19,9 @@ publication:
   github_repository: "docxology/FractiSkills"
   repository_url: "https://github.com/docxology/FractiSkills"
   year: "2026"
+  doi: "10.5281/zenodo.22712650"
+  version_doi: "10.5281/zenodo.22712651"
+  version_record: "https://zenodo.org/records/22712651"
 
 keywords:
   - "agent skills"

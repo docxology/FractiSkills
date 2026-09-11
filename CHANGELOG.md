@@ -8,6 +8,17 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Zenodo publication: DOI [10.5281/zenodo.22712651](https://doi.org/10.5281/zenodo.22712651)
+  (concept [10.5281/zenodo.22712650](https://doi.org/10.5281/zenodo.22712650)) via the
+  engine's reserve-first flow — DOIs written to config/CITATION.cff before the
+  DOI-bearing PDF was deposited and published; record carries MIT license,
+  v0.1.0 metadata, FractiAI affiliation, and GitHub release/repo back-links.
+- GitHub release v0.1.0 with the DOI-bearing PDF and structured release notes;
+  repo description and homepage link the DOI; README carries DOI badge and
+  Publication section.
+
+### Added
+
 - Cover artwork: deterministic generative cover (`src/fractiskills/cover.py`,
   committed asset `cover/FractiSkills_cover.png`, wired through
   `paper.cover.image`), rendered on the PDF title page.
