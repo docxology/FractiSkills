@@ -36,6 +36,18 @@ uv run python -m fractiskills run --refresh --json
 4. `uv run python scripts/40_analyze.py && uv run python scripts/50_figures.py`.
 5. Inspect `output/data/render_summary.json` for failed sections; a failed
    section means a page died between discovery and render — rerun discovery.
+6. If the page that triggered the refresh is client-rendered, add its
+   binding row to `data/sources/ssvibelandia.yaml` (`match_path` +
+   `api_template` with `{id}`/`{last_segment}` placeholders) *before*
+   step 2; without a binding it renders as a thin shell with a warning
+   receipt instead of the real document.
+7. A new top-level path segment creates its section automatically — a new
+   source profile and a new `skills/<area>/` output area follow from the
+   path alone; no registration step exists.
+8. Final step: update `data/claim_ledger.yaml` rows for any numbers that
+   changed — the parent evidence gate is fail-closed and rejects
+   stale/unsupported values — then rerun `scripts/40_analyze.py` and
+   `scripts/50_figures.py` so the figure registry and the analysis agree.
 
 ## Parent-template rendering
 

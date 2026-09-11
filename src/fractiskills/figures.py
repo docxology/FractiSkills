@@ -7,6 +7,7 @@ color is the colorblind-safe Okabe-Ito palette throughout.
 
 from __future__ import annotations
 
+import itertools
 import math
 import statistics
 from collections import Counter
@@ -16,6 +17,8 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
+from matplotlib.lines import Line2D  # noqa: E402
+from matplotlib.patches import Patch  # noqa: E402
 
 from .models import write_json_atomic  # noqa: E402
 
@@ -30,12 +33,18 @@ _C_RED = "#D55E00"
 _C_PURPLE = "#CC79A7"
 _C_GREY = "#7F7F7F"
 _C_LIGHT = "#9ECAE1"
+_SECTION_PALETTE = [_C_BLUE, _C_ORANGE, _C_GREEN, _C_RED, _C_PURPLE]
 
 
 def _style_axes(ax) -> None:
     """Hide top/right spines and shrink tick labels."""
     ax.spines[["top", "right"]].set_visible(False)
     ax.tick_params(labelsize=8)
+
+
+def _section_colors(sections: list[str]) -> dict[str, str]:
+    """Map sorted section names onto the cycling five-color Okabe-Ito palette."""
+    return dict(zip(sorted(sections), itertools.cycle(_SECTION_PALETTE)))
 
 
 def _save(fig, path: str) -> str:
@@ -164,8 +173,9 @@ def figure_skill_sizes(analysis: dict, output_dir: str) -> str:
         patch_artist=True,
         medianprops={"color": _C_RED, "linewidth": 1.4},
     )
-    for box in boxes["boxes"]:
-        box.set(facecolor=_C_LIGHT, edgecolor=_C_BLUE, linewidth=0.8)
+    section_colors = _section_colors(sections)
+    for box, area in zip(boxes["boxes"], order, strict=True):
+        box.set(facecolor=section_colors[area], alpha=0.55, edgecolor=_C_BLUE, linewidth=0.8)
     for counts, area in zip(data, order, strict=True):
         ax.annotate(
             f"n={len(counts)}",
@@ -206,6 +216,7 @@ def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
         for target, count in targets.items():
             edges[(source, target)] += count
     sections = sorted({row["section"] for row in analysis["sections"]}) or ["(empty)"]
+    edge_colors = _section_colors(sections)
     page_counts = {row["section"]: row["pages"] for row in analysis["sections"]}
     n = len(sections)
     radius = 1.0
@@ -230,7 +241,7 @@ def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
             xytext=(x0 + shrink * dx, y0 + shrink * dy),
             arrowprops={
                 "arrowstyle": "-|>",
-                "color": _C_GREY,
+                "color": edge_colors.get(target, _C_GREY),
                 "alpha": 0.3 + 0.6 * weight,
                 "linewidth": 0.6 + 3.2 * weight,
                 "shrinkA": 0,
@@ -252,6 +263,20 @@ def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
             ha="center",
             fontsize=8,
             zorder=3,
+        )
+    target_sections = sorted({target for _, target in edges})
+    if target_sections:
+        handles = [
+            Line2D([0], [0], color=edge_colors.get(name, _C_GREY), linewidth=2.4, label=name)
+            for name in target_sections
+        ]
+        ax.legend(
+            handles=handles,
+            title="quoted section",
+            frameon=False,
+            fontsize=7,
+            title_fontsize=7,
+            loc="lower right",
         )
     ax.set_title(
         "Cross-section link flow quoted in rendered skills\n"
@@ -335,6 +360,9 @@ def figure_discovery_funnel(analysis: dict, output_dir: str) -> str:
         fontsize=8,
         color=_C_GREY,
     )
+    handles = [Patch(facecolor=color, label=name) for name, _, color in stages]
+    ax.legend(handles=handles, frameon=False, fontsize=8, loc="lower right")
+    ax.set_ylim(-1.4, 2.75)
     ax.set_xlabel("Distinct pages")
     ax.set_title("Discovery funnel", fontsize=11)
     _style_axes(ax)
@@ -524,7 +552,15 @@ def figure_cumulative_words(analysis: dict, output_dir: str) -> str:
         running += share
         cumulative.append(100 * running)
     fig, ax = plt.subplots(figsize=(8.2, 4.6))
-    ax.plot(range(1, len(names) + 1), cumulative, marker="o", color=_C_TEAL, linewidth=1.6)
+    colors = _section_colors(names)
+    ax.plot(range(1, len(names) + 1), cumulative, color=_C_TEAL, linewidth=1.6)
+    ax.scatter(
+        range(1, len(names) + 1),
+        cumulative,
+        s=42,
+        color=[colors[name] for name in names],
+        zorder=3,
+    )
     ax.fill_between(range(1, len(names) + 1), cumulative, color=_C_LIGHT, alpha=0.35)
     ax.set_xticks(range(1, len(names) + 1))
     ax.set_xticklabels(names, rotation=35, ha="right", fontsize=8)
@@ -545,6 +581,18 @@ def figure_cumulative_words(analysis: dict, output_dir: str) -> str:
         fontsize=11,
     )
     ax.set_ylim(0, 108)
+    handles = [
+        Line2D([0], [0], marker="o", linestyle="none", color=colors[name], label=name)
+        for name in names
+    ]
+    ax.legend(
+        handles=handles,
+        title="sections",
+        frameon=False,
+        fontsize=6,
+        title_fontsize=6,
+        loc="lower right",
+    )
     _style_axes(ax)
     fig.tight_layout()
     return _save(fig, f"{output_dir}/figures/fig12-cumulative-words.png")
@@ -640,7 +688,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Body-size distribution of the "
                 f"{skills['count']} rendered SKILL.md documents, box-plotted per section "
-                f"(overall median {skills['median_words']:,.0f} words)."
+                f"(overall median {skills['median_words']:,.0f} words). Read each box against the red overall median: sections whose whole box sits above it (Interfaces, Whitepaper) are mass-dense, while the wide Ship-Blog whiskers show breadth over depth."
             ),
             "alt_text": "Horizontal box plot of skill body word counts per site section.",
         },
@@ -660,7 +708,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Dynamic-document augmentation: same-origin API documents retrieved for "
                 "client-rendered pages "
-                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts). The distribution is right-skewed: most retrieved documents cluster near the median with a long tail of long-form whitepapers."
+                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts). The distribution is right-skewed: most retrieved documents cluster near the median with a long tail of long-form whitepapers. Bins group retrieved document sizes; the dashed line marks the median document, and the four failed attempts remain receipt-only, not drawn."
             ),
             "alt_text": "Histogram of retrieved document character sizes for dynamic-page augmentations.",
         },
@@ -670,7 +718,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Discovery funnel: declared sitemap URLs, distinct pages reached through them, and "
                 f"the full union ({inv['discovered_pages']} pages = "
-                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count). The steep first step is sitemap yield; the tall second step is pure crawl gain."
+                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count). The steep first step is sitemap yield; the tall second step is pure crawl gain. The gap between the second and third bars is exactly the crawl-only surplus the sitemap cannot see."
             ),
             "alt_text": "Horizontal funnel bar chart from sitemap URLs to the full page union.",
         },
@@ -707,10 +755,10 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_words_vs_pages(analysis, output_dir),
             "caption": (
                 "Pages against rendered skill words per section (log-spread "
-                "annotated). Sections above the reference diagonal pack more "
-                "words per page than the corpus at large: Interfaces and "
-                "Whitepaper are mass-dense, while Voyage and Ship-Blog carry "
-                "many lighter pages."
+                "annotated). Sections above the line pack more words per page "
+                "than the corpus at large: Interfaces and Whitepaper are "
+                "mass-dense, while Voyage and Ship-Blog carry many lighter "
+                "pages. Sections above the line pack more words per page than the corpus average; vertical distance from the dotted reference is mass density."
             ),
             "alt_text": "Scatter plot of section page counts against skill word counts with labels.",
         },
@@ -733,7 +781,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
                 "Section-by-section heatmap of skill-quoted link counts "
                 "(rows quote columns; the within-section diagonal is "
                 "excluded). Dense off-diagonal cells expose the reading "
-                "paths the site's own authors build between areas."
+                "paths the site's own authors build between areas. Read row by row: each cell counts how many times pages of the row's section quote pages of the column's section inside rendered skills."
             ),
             "alt_text": "Heatmap of link counts between site sections.",
         },
@@ -741,11 +789,19 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
     # The parent validator reads the registry from output/figures/; keep the
     # data/ copy for the analysis record consumers.
     # The parent validator's envelope shape matches references by each
-    # entry's "label" field (fig:<figure_id>).
-    registry_payload = {
-        "schema_version": 1,
-        "figures": [{**figure, "label": f"fig:{figure['figure_id']}"} for figure in registry],
-    }
-    write_json_atomic(f"{output_dir}/figures/figure_registry.json", registry_payload)
-    write_json_atomic(f"{output_dir}/data/figure_registry.json", registry_payload)
+    # entry's "label" field (fig:<figure_id>). The copy under output/figures/
+    # is read by the PDF renderer's accessibility registry, which requires a
+    # path relative to output/figures/; the data/ copy keeps absolute paths
+    # for analysis consumers and the Downloads bundle.
+    labeled = [{**figure, "label": f"fig:{figure['figure_id']}"} for figure in registry]
+    write_json_atomic(
+        f"{output_dir}/figures/figure_registry.json",
+        {
+            "schema_version": 1,
+            "figures": [{**figure, "path": Path(figure["path"]).name} for figure in labeled],
+        },
+    )
+    write_json_atomic(
+        f"{output_dir}/data/figure_registry.json", {"schema_version": 1, "figures": labeled}
+    )
     return registry

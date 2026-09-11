@@ -8,6 +8,23 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Cover artwork: deterministic generative cover (`src/fractiskills/cover.py`,
+  committed asset `cover/FractiSkills_cover.png`, wired through
+  `paper.cover.image`), rendered on the PDF title page.
+- Reproduction-as-pages-added documentation: "Adding new pages" section in
+  the reproducibility chapter and an expanded operator runbook.
+- Author affiliation updated to "Active Inference Institute, FractiAI"
+  across config, CITATION.cff, and .zenodo.json.
+- Visualization upgrades: edge/target coloring + legends on the link graph,
+  funnel legend, per-section colored Pareto markers and box faces, and
+  richer captions on five figures.
+
+### Changed
+
+- Figure registry written in two shapes: the renderer-safe relative-path
+  copy under output/figures/ and the absolute-path analysis copy under
+  output/data/.
+
 - Paper overhaul: compact 0.7-inch margins, red hyperlinks, thirteen
   auto-numbered cross-referenced figures, eight labeled formalisms
   (union, alias fixed point, request budget, both sitemap yields, modal

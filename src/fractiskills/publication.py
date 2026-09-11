@@ -280,6 +280,7 @@ def build_research_package(
     to the tracked tree at the project root.
     """
     from .analysis import build_analysis
+    from .cover import build_cover
     from .figures import build_figures
 
     project = Path(project_dir)
@@ -295,6 +296,10 @@ def build_research_package(
         publish_receipt=publish_receipt,
     )
     registry = build_figures(analysis, output_dir=output_dir)
+    cover_path = build_cover(analysis, output_dir)
+    cover_dir = project / "cover"
+    cover_dir.mkdir(exist_ok=True)
+    shutil.copyfile(cover_path, cover_dir / "FractiSkills_cover.png")
     variables = build_variables(analysis, {"figures": registry})
     write_json_atomic(
         f"{output_dir}/data/manuscript_variables.json",
@@ -308,4 +313,9 @@ def build_research_package(
         output_dir=output_dir,
         variables=variables,
     )
-    return {"analysis_summary": True, "figures": len(registry), "receipt": receipt}
+    return {
+        "analysis_summary": True,
+        "figures": len(registry),
+        "cover": cover_path,
+        "receipt": receipt,
+    }

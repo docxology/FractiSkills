@@ -4,12 +4,15 @@ paper:
   title: "FractiSkills: One Portable Agent Skill per Page"
   subtitle: "A Skillarum-backed render of the SS Vibelandia Omniversal Canvas"
   version: "0.1.0"
+  cover:
+    image: "cover/FractiSkills_cover.png"
+    alt: "Generated cover for FractiSkills: golden-ratio nested arcs carrying the site's sections around a central convergence node, one point per discovered page"
 
 authors:
   - name: "Daniel Ari Friedman"
     orcid: "0000-0001-6232-9096"
     email: "daniel@activeinference.institute"
-    affiliation: "Active Inference Institute"
+    affiliation: "Active Inference Institute, FractiAI"
     corresponding: true
 
 publication:
