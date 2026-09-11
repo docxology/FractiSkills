@@ -1,0 +1,135 @@
+# Claim ledger: numeric claims made in the manuscript, each bound to its
+# observation evidence. Regenerate all numbers via the full pipeline; never
+# hand-edit a value without rerunning the pipeline that observes it.
+#
+# Schema follows the parent engine's evidence-registry claim-ledger contract:
+# each row carries claim_id, value, and an artifact path that identifies the
+# observation the value came from.
+
+claims:
+  - claim_id: pages-discovered
+    value: 405
+    artifact_path: output/data/inventory.json
+    source: "output/data/inventory.json:entries"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: skills-published
+    value: 405
+    artifact_path: output/data/publish_receipt.json
+    source: "output/data/publish_receipt.json:count"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: skills-word-count
+    value: 497896
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:skills.total_words"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: skill-median-words
+    value: 959
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:skills.median_words"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: sitemap-urls-declared
+    value: 53
+    artifact_path: output/data/inventory.json
+    source: "output/data/inventory.json:sitemap_url_count"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: pages-via-sitemap
+    value: 45
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:inventory.via_sitemap"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: pages-crawl-only
+    value: 360
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:inventory.via_crawl_only"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: sitemap-url-acceptance-rate
+    value: 84.9
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:inventory.via_sitemap / sitemap_url_count"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: sitemap-only-miss-rate
+    value: 88.9
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:inventory.via_crawl_only / discovered_pages"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-attempts
+    value: 173
+    artifact_path: output/data/augmentation_receipts.jsonl
+    source: "output/data/augmentation_receipts.jsonl:count"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-ok
+    value: 169
+    artifact_path: output/data/augmentation_receipts.jsonl
+    source: "output/data/augmentation_receipts.jsonl:ok-fraction"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-failed
+    value: 4
+    artifact_path: output/data/augmentation_receipts.jsonl
+    source: "output/data/augmentation_receipts.jsonl:failed-fraction"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-document-chars
+    value: 1988848
+    artifact_path: output/data/augmentation_receipts.jsonl
+    source: "output/data/augmentation_receipts.jsonl:text_chars-sum"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-median-static-words
+    value: 486
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:skills.median_words_static"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: augmentation-median-augmented-words
+    value: 1824
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:skills.median_words_augmented"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: render-request-count
+    value: 417
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:runs.request_count"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: section-count
+    value: 12
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:sections"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: hub-inbound-vibelandia-questfest
+    value: 156
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:indegree.top[0].inbound"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: hub-inbound-ship-blog-index
+    value: 70
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:indegree.top[1].inbound"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: depth-mode-4-share
+    value: 53
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:depth_histogram[4] / total"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: http-400-augmentation-failure
+    value: 400
+    artifact_path: output/data/augmentation_receipts.jsonl
+    source: "output/data/augmentation_receipts.jsonl:error (reader shell without ?id=)"
+    observed: "2026-09-10"
+    origin: live
