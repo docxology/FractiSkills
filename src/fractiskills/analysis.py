@@ -179,6 +179,17 @@ def build_analysis(
     section_outbound: dict[str, int] = {}
     for entry in inventory.entries:
         section_outbound[entry.section] = section_outbound.get(entry.section, 0) + len(entry.links)
+    section_edges: dict[str, dict[str, int]] = {}
+    for entry in inventory.entries:
+        for link in entry.links:
+            resolved = _resolve_target(link)
+            if resolved is None:
+                continue
+            source_section = entry.section
+            target_section = section_of.get(resolved)
+            if target_section and target_section != source_section:
+                bucket = section_edges.setdefault(source_section, {})
+                bucket[target_section] = bucket.get(target_section, 0) + 1
     depth_counts: dict[str, int] = {}
     for entry in inventory.entries:
         depth = str(entry.crawl_depth) if entry.crawl_depth is not None else "unfetched"
@@ -248,6 +259,10 @@ def build_analysis(
             )[:10],
         },
         "section_outbound": dict(sorted(section_outbound.items(), key=lambda item: -item[1])),
+        "section_edges": {
+            source: dict(sorted(targets.items(), key=lambda item: -item[1]))
+            for source, targets in sorted(section_edges.items())
+        },
         "depth_histogram": dict(
             sorted(
                 depth_counts.items(),

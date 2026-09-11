@@ -99,13 +99,13 @@ def test_figures_and_research_package_bind(loaded_spec, fixture_inventory, tmp_p
         publish_receipt=receipt,
     )
     registry = build_figures(analysis, output_dir=output_dir)
-    assert len(registry) == 10
+    assert len(registry) == 13
     for figure in registry:
         assert Path(figure["path"]).is_file()
     variables_receipt = build_research_package(
         str(REPO_ROOT), output_dir, skills_dir=receipt["skills_dir"]
     )
-    assert variables_receipt["figures"] == 10
+    assert variables_receipt["figures"] == 13
     bound = Path(output_dir) / "manuscript"
     assert (bound / "00_abstract.md").is_file()
     assert "{{" not in (bound / "00_abstract.md").read_text(encoding="utf-8")

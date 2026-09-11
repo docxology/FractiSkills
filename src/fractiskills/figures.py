@@ -11,7 +11,6 @@ import math
 import statistics
 from collections import Counter
 from pathlib import Path
-from urllib.parse import urlparse
 
 import matplotlib
 
@@ -19,7 +18,6 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 from .models import write_json_atomic  # noqa: E402
-from .profiles import section_for_path  # noqa: E402
 
 _DPI = 200
 
@@ -198,35 +196,15 @@ def figure_skill_sizes(analysis: dict, output_dir: str) -> str:
     return _save(fig, path)
 
 
-def _skill_links(skill: dict, analysis: dict) -> list[str]:
-    """Outbound same-origin links quoted by one skill's source page."""
-    links_by_page = analysis.get("links_by_page", {})
-    for url in skill["source_urls"]:
-        if url in links_by_page:
-            return list(links_by_page[url])
-    return []
-
-
-def _section_of_link(link: str) -> str:
-    """Map a URL to its site section, preserving the query in the path."""
-    path = urlparse(link).path or "/"
-    query = urlparse(link).query
-    if query:
-        path = f"{path}?{query}"
-    return section_for_path(path)
-
-
 def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
     """Circular directed graph of cross-section link flow quoted in rendered
     skills: node area = section pages, edge weight = skill-quoted link count;
     writes fig5-section-link-graph.png."""
+    persisted = analysis.get("section_edges", {})
     edges: Counter = Counter()
-    for skill in analysis["skills"]["records"]:
-        source_section = skill["area"]
-        for link in _skill_links(skill, analysis):
-            target_section = _section_of_link(link)
-            if target_section != source_section:
-                edges[(source_section, target_section)] += 1
+    for source, targets in persisted.items():
+        for target, count in targets.items():
+            edges[(source, target)] += count
     sections = sorted({row["section"] for row in analysis["sections"]}) or ["(empty)"]
     page_counts = {row["section"]: row["pages"] for row in analysis["sections"]}
     n = len(sections)
@@ -463,6 +441,155 @@ def figure_augmentation_effect(analysis: dict, output_dir: str) -> str:
     return _save(fig, path)
 
 
+def _top_word_sections(analysis: dict) -> list[dict]:
+    """Sections sorted by skill-word mass, descending (ties by name)."""
+    return sorted(analysis["sections"], key=lambda row: (-row["words"], row["section"]))
+
+
+def figure_words_vs_pages(analysis: dict, output_dir: str) -> str:
+    """Annotated scatter of pages (x) versus skill words (y) per section,
+    with the corpus-average words-per-page reference line; points too small
+    to label individually are grouped into a shared cluster note. Writes
+    fig11-words-vs-pages.png."""
+    rows = analysis["sections"]
+    fig, ax = plt.subplots(figsize=(8.2, 5.4))
+    xs = [row["pages"] for row in rows]
+    ys = [row["words"] for row in rows]
+    total_pages = sum(xs) or 1
+    total_words = sum(ys) or 1
+    avg_wpp = total_words / total_pages
+    x_max = max(xs) * 1.12
+    ax.plot(
+        [0, x_max],
+        [0, x_max * avg_wpp],
+        color=_C_GREY,
+        linestyle=":",
+        linewidth=1.2,
+        label=f"corpus average ({avg_wpp:,.0f} words/page)",
+    )
+    ax.scatter(xs, ys, s=90, color=_C_PURPLE, zorder=2, alpha=0.9, edgecolors="white")
+    cluster = []
+    for row in rows:
+        name = row["section"]
+        if row["pages"] >= 14:
+            ax.annotate(
+                name,
+                (row["pages"], row["words"]),
+                textcoords="offset points",
+                xytext=(7, 5),
+                fontsize=7.5,
+                color="#333333",
+            )
+        else:
+            cluster.append(name)
+    if cluster:
+        ax.annotate(
+            "small sections\n(" + ", ".join(cluster) + ")",
+            (
+                max(rows_i["pages"] for rows_i in rows if rows_i["pages"] < 10),
+                max(rows_i["words"] for rows_i in rows if rows_i["pages"] < 10),
+            ),
+            textcoords="offset points",
+            xytext=(14, -4),
+            fontsize=7,
+            color=_C_GREY,
+            arrowprops={"arrowstyle": "-", "color": _C_GREY, "linewidth": 0.7},
+        )
+    ax.set_xlabel("Pages", fontsize=9)
+    ax.set_ylabel("Skill words", fontsize=9)
+    ax.set_title(
+        f"Mass per section: pages against rendered words\n"
+        f"(corpus: {total_pages} pages, {total_words:,} words)",
+        fontsize=11,
+    )
+    ax.legend(fontsize=7, frameon=False, loc="upper left")
+    ax.set_xlim(left=0)
+    ax.set_ylim(bottom=0)
+    _style_axes(ax)
+    fig.tight_layout()
+    return _save(fig, f"{output_dir}/figures/fig11-words-vs-pages.png")
+
+
+def figure_cumulative_words(analysis: dict, output_dir: str) -> str:
+    """Pareto curve of cumulative skill-word share over sections sorted by
+    mass, annotating how few sections carry most of the corpus; writes
+    fig12-cumulative-words.png."""
+    rows = _top_word_sections(analysis)
+    total = sum(row["words"] for row in rows) or 1
+    names = [row["section"] for row in rows]
+    shares = [row["words"] / total for row in rows]
+    cumulative = []
+    running = 0.0
+    for share in shares:
+        running += share
+        cumulative.append(100 * running)
+    fig, ax = plt.subplots(figsize=(8.2, 4.6))
+    ax.plot(range(1, len(names) + 1), cumulative, marker="o", color=_C_TEAL, linewidth=1.6)
+    ax.fill_between(range(1, len(names) + 1), cumulative, color=_C_LIGHT, alpha=0.35)
+    ax.set_xticks(range(1, len(names) + 1))
+    ax.set_xticklabels(names, rotation=35, ha="right", fontsize=8)
+    for index, value in enumerate(cumulative, start=1):
+        ax.annotate(
+            f"{value:.0f}%",
+            (index, value),
+            textcoords="offset points",
+            xytext=(0, 6),
+            ha="center",
+            fontsize=7,
+            color=_C_GREY,
+        )
+    ax.set_ylabel("Cumulative share of skill words (%)")
+    ax.set_xlabel("Sections, ordered by word mass")
+    ax.set_title(
+        f"Corpus concentration: the top 2 sections carry {cumulative[1]:.0f}% of {total:,} words",
+        fontsize=11,
+    )
+    ax.set_ylim(0, 108)
+    _style_axes(ax)
+    fig.tight_layout()
+    return _save(fig, f"{output_dir}/figures/fig12-cumulative-words.png")
+
+
+def figure_section_adjacency(analysis: dict, output_dir: str) -> str:
+    """Heatmap of the section-by-section link-count matrix quoted in
+    rendered skills, with counts annotated in each cell; writes
+    fig13-section-adjacency.png."""
+    persisted = analysis.get("section_edges", {})
+    edges: Counter = Counter()
+    for source, targets in persisted.items():
+        for target, count in targets.items():
+            edges[(source, target)] += count
+    sections = sorted({row["section"] for row in analysis["sections"]})
+    matrix = [[edges.get((s, t), 0) for t in sections] for s in sections]
+    fig, ax = plt.subplots(figsize=(8.6, 7.4))
+    image = ax.imshow(matrix, cmap="Blues", aspect="auto")
+    ax.set_xticks(range(len(sections)))
+    ax.set_yticks(range(len(sections)))
+    ax.set_xticklabels(sections, rotation=35, ha="right", fontsize=7)
+    ax.set_yticklabels(sections, fontsize=7)
+    peak = max((max(row) for row in matrix), default=1) or 1
+    for i in range(len(sections)):
+        for j in range(len(sections)):
+            count = matrix[i][j]
+            if count:
+                ax.annotate(
+                    str(count),
+                    (j, i),
+                    ha="center",
+                    va="center",
+                    fontsize=6.5,
+                    color="white" if count > peak * 0.55 else "#333333",
+                )
+    fig.colorbar(image, ax=ax, shrink=0.75, label="Skill-quoted link count")
+    ax.set_title(
+        "Section adjacency: quoted links from rows to columns\n"
+        "(diagonal within-section links are excluded)",
+        fontsize=11,
+    )
+    fig.tight_layout()
+    return _save(fig, f"{output_dir}/figures/fig13-section-adjacency.png")
+
+
 def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
     """Render every figure and persist the registry with captions."""
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -479,7 +606,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 f"Discovered pages per section of the SS Vibelandia site (n={inv['discovered_pages']}), "
                 f"annotated with mean skill words per page. The largest section is "
-                f"{biggest['section']} with {biggest['pages']} pages."
+                f"{biggest['section']} with {biggest['pages']} pages; compare the right-hand words-per-page annotations against bar lengths to spot mass-dense sections."
                 if biggest
                 else "Discovered pages per section (no pages)."
             ),
@@ -491,7 +618,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Discovery provenance by section: pages listed in the declared sitemap versus pages "
                 f"found only by the bounded breadth-first crawl ({inv['via_sitemap']} sitemap, "
-                f"{inv['via_crawl_only']} crawl-only)."
+                f"{inv['via_crawl_only']} crawl-only). Orange-dominant rows — Ship-Blog, Voyage, most of Interfaces — are invisible to sitemap-only ingestion."
             ),
             "alt_text": "Stacked horizontal bar chart of sitemap versus crawl-only page counts per section.",
         },
@@ -501,7 +628,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Share of pages versus share of rendered skill words by section. "
                 f"{heavy['section']} carries {100 * heavy['words'] / max(skills['total_words'], 1):.0f}% "
-                "of the corpus words."
+                "of the corpus words; gaps between the paired bars flag sections whose average page is much heavier (Interfaces, Whitepaper) or lighter (Ship-Blog) than the corpus mean."
                 if heavy
                 else "Share of pages versus share of words by section (no data)."
             ),
@@ -523,7 +650,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Cross-section link flow quoted inside rendered skills: node area is proportional to "
                 "section page count and edge weight to the number of skill-quoted links between "
-                "sections (arrows point from the quoting section to the quoted section)."
+                "sections (arrows point from the quoting section to the quoted section). The dominant Ship-Blog-to-Core edge is the site's own reading spine: posts quote the deck-level pages that define their vocabulary."
             ),
             "alt_text": "Circular directed graph of link flow between site sections.",
         },
@@ -533,7 +660,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Dynamic-document augmentation: same-origin API documents retrieved for "
                 "client-rendered pages "
-                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts)."
+                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts). The distribution is right-skewed: most retrieved documents cluster near the median with a long tail of long-form whitepapers."
             ),
             "alt_text": "Histogram of retrieved document character sizes for dynamic-page augmentations.",
         },
@@ -543,7 +670,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Discovery funnel: declared sitemap URLs, distinct pages reached through them, and "
                 f"the full union ({inv['discovered_pages']} pages = "
-                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count)."
+                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count). The steep first step is sitemap yield; the tall second step is pure crawl gain."
             ),
             "alt_text": "Horizontal funnel bar chart from sitemap URLs to the full page union.",
         },
@@ -552,7 +679,8 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_crawl_depth(analysis, output_dir),
             "caption": (
                 "Pages by breadth-first discovery depth: most pages sit several hops from the root, "
-                "which is why a sitemap-only render would have missed them."
+                "which is why a sitemap-only render would have missed them; the modal depth "
+                f"alone holds {analysis['mode_depth_share']:.0f}% of all pages."
             ),
             "alt_text": "Bar chart of page counts by BFS discovery depth.",
         },
@@ -561,7 +689,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_top_indegree(analysis, output_dir),
             "caption": (
                 f"The {len(analysis['indegree']['top'])} most-linked pages by inbound links from other "
-                "discovered pages, colored by section: the site's hub structure."
+                "discovered pages, colored by section: the site's hub structure; links to redirect stubs and canonical duplicates fold onto their target pages, so these counts are page-level, not URL-level."
             ),
             "alt_text": "Horizontal bar chart of the most inbound-linked pages colored by section.",
         },
@@ -570,10 +698,54 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_augmentation_effect(analysis, output_dir),
             "caption": (
                 "Median skill body size for static pages versus augmented (document-bearing) pages "
-                f"(n={skills['static_count']} static, n={skills['augmented_count']} augmented)."
+                f"(n={skills['static_count']} static, n={skills['augmented_count']} augmented). The gap is the measured value of honest augmentation: the same pipeline without the declared bindings would ship the shorter median throughout."
             ),
             "alt_text": "Bar chart comparing median skill sizes of static and augmented skills.",
         },
+        {
+            "figure_id": "words-vs-pages",
+            "path": figure_words_vs_pages(analysis, output_dir),
+            "caption": (
+                "Pages against rendered skill words per section (log-spread "
+                "annotated). Sections above the reference diagonal pack more "
+                "words per page than the corpus at large: Interfaces and "
+                "Whitepaper are mass-dense, while Voyage and Ship-Blog carry "
+                "many lighter pages."
+            ),
+            "alt_text": "Scatter plot of section page counts against skill word counts with labels.",
+        },
+        {
+            "figure_id": "cumulative-words",
+            "path": figure_cumulative_words(analysis, output_dir),
+            "caption": (
+                "Pareto curve of cumulative skill-word share over sections "
+                "ordered by mass. The curve quantifies concentration: the "
+                "first two sections already carry the majority of the "
+                "corpus, so a render that dropped them would lose most of "
+                "the substance."
+            ),
+            "alt_text": "Cumulative share line chart of skill words by section.",
+        },
+        {
+            "figure_id": "section-adjacency",
+            "path": figure_section_adjacency(analysis, output_dir),
+            "caption": (
+                "Section-by-section heatmap of skill-quoted link counts "
+                "(rows quote columns; the within-section diagonal is "
+                "excluded). Dense off-diagonal cells expose the reading "
+                "paths the site's own authors build between areas."
+            ),
+            "alt_text": "Heatmap of link counts between site sections.",
+        },
     ]
-    write_json_atomic(f"{output_dir}/data/figure_registry.json", {"figures": registry})
+    # The parent validator reads the registry from output/figures/; keep the
+    # data/ copy for the analysis record consumers.
+    # The parent validator's envelope shape matches references by each
+    # entry's "label" field (fig:<figure_id>).
+    registry_payload = {
+        "schema_version": 1,
+        "figures": [{**figure, "label": f"fig:{figure['figure_id']}"} for figure in registry],
+    }
+    write_json_atomic(f"{output_dir}/figures/figure_registry.json", registry_payload)
+    write_json_atomic(f"{output_dir}/data/figure_registry.json", registry_payload)
     return registry

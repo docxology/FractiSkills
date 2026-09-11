@@ -133,3 +133,15 @@ claims:
     source: "output/data/augmentation_receipts.jsonl:error (reader shell without ?id=)"
     observed: "2026-09-10"
     origin: live
+  - claim_id: section-edge-ship-blog-to-core
+    value: 122
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:section_edges.Ship-Blog.Core"
+    observed: "2026-09-10"
+    origin: live
+  - claim_id: section-edge-core-to-ship-blog
+    value: 133
+    artifact_path: output/data/fractiskills_analysis.json
+    source: "output/data/fractiskills_analysis.json:section_edges.Core.Ship-Blog"
+    observed: "2026-09-10"
+    origin: live

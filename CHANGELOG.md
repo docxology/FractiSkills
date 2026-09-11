@@ -6,6 +6,15 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Paper overhaul: compact 0.7-inch margins, red hyperlinks, thirteen
+  auto-numbered cross-referenced figures, eight labeled formalisms
+  (union, alias fixed point, request budget, both sitemap yields, modal
+  depth, inbound score, augmentation ratio), labeled tables, and a formal
+  coverage model; registry gains fig-labeled entries dual-written to
+  output/figures/ for the parent validator.
+
 ### Changed
 
 - Orchestration review pass: `section_for_path` moved to `profiles.py`
