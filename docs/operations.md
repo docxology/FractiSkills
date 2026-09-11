@@ -45,6 +45,31 @@ tree (`template/projects/ongoing/docxology/FractiSkills`). Pre-render,
 (analysis, figures, variables, binding) so PDF/HTML render against current
 artifacts.
 
+### Template render path (managed mirror)
+
+PDF/HTML render and validation run through the template's managed
+`_`-category mirror, which is the only alias the parent provenance binder
+authorizes for a nested ongoing project (intermediate symlinks are rejected
+with `PROJECT_LINK_INVALID`):
+
+```bash
+cd ../template
+uv run python scripts/pipeline/stage_03_render.py --project ongoing/_fracti/FractiSkills
+uv run python scripts/pipeline/stage_04_validate.py --project ongoing/_fracti/FractiSkills
+```
+
+`template/projects/ongoing/_fracti/FractiSkills` is a leaf symlink to this
+checkout inside a real `_fracti/` category directory (the engine's documented
+`projects/<lifecycle>/_<category>/<name>` shape). Outputs land in this
+project's `output/pdf/` and `output/web/`.
+
+### Claim ledger
+
+`data/claim_ledger.yaml` follows the parent engine's evidence-registry
+claim-ledger contract (`claims[].claim_id/value/artifact_path`); it admits
+every prose number in the manuscript, including HTTP 400 (the no-`?id=`
+reader failure) and the 88.9% sitemap-only miss rate.
+
 ## Doctor-style checks
 
 - Spec loads and bindings are absolute paths: `scripts/00_preflight.py`.
