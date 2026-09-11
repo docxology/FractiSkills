@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from pathlib import Path
 
-import pytest
 import yaml
 from pytest_httpserver import HTTPServer
 
@@ -14,12 +13,6 @@ from fractiskills.discover import discover_site
 from fractiskills.models import SiteSpec
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-
-
-@pytest.fixture()
-def run_env(tmp_path, monkeypatch):
-    monkeypatch.chdir(REPO_ROOT)
-    return tmp_path
 
 
 def test_frontmatter_description_variants() -> None:

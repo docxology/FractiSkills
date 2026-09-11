@@ -14,7 +14,7 @@ from pathlib import Path
 
 from skillarum.pipeline import CACHE_VERSION, PIPELINE_VERSION
 
-from .models import load_json, write_json_atomic, write_text_atomic
+from .models import SiteInventory, load_json, try_load_json, write_json_atomic, write_text_atomic
 
 MANUSCRIPT_TOKEN_PATTERN = re.compile(r"\{\{([A-Z][A-Z0-9_]+)\}\}")
 
@@ -37,11 +37,13 @@ _CHAPTER_ORDER = [
 
 
 def _md_escape(value: object) -> str:
+    """Escape a value for a Markdown table cell (pipes and newlines)."""
     return str(value).replace("|", r"\|").replace("\n", " ")
 
 
 def _skill_catalog_table(analysis: dict) -> str:
-    """The organized catalog: every rendered skill, grouped by section."""
+    """Render the per-section skill catalog as a Markdown table with a
+    totals footer."""
     by_area: dict[str, list[dict]] = {}
     for skill in analysis["skills"]["records"]:
         by_area.setdefault(skill["area"], []).append(skill)
@@ -64,6 +66,8 @@ def _skill_catalog_table(analysis: dict) -> str:
 
 
 def _section_table(analysis: dict) -> str:
+    """Render per-section page/skill/word counts as a Markdown table with
+    a totals footer."""
     rows = [
         "| Section | Pages | Skills | Skill words |",
         "| --- | --- | --- | --- |",
@@ -80,6 +84,8 @@ def _section_table(analysis: dict) -> str:
 
 
 def _observation_window(analysis: dict) -> str:
+    """Format the generated-at through published-at observation window, or
+    the single timestamp, or ``unavailable``."""
     generated_at = analysis["inventory"].get("generated_at", "")
     published_at = analysis.get("publish_receipt", {}).get("published_at", "")
     if generated_at and published_at:
@@ -88,6 +94,7 @@ def _observation_window(analysis: dict) -> str:
 
 
 def _indegree_table(analysis: dict) -> str:
+    """Render the top inbound-link pages as a Markdown table."""
     rows = [
         "| Page | Section | Inbound links |",
         "| --- | --- | --- |",
@@ -100,6 +107,8 @@ def _indegree_table(analysis: dict) -> str:
 
 
 def _depth_table(analysis: dict) -> str:
+    """Render the crawl-depth histogram with per-depth share, unfetched
+    sorted last."""
     histogram = analysis["depth_histogram"]
     total = sum(histogram.values()) or 1
     rows = [
@@ -114,43 +123,12 @@ def _depth_table(analysis: dict) -> str:
     return "\n".join(rows)
 
 
-def _mode_depth(analysis: dict) -> str:
-    histogram = analysis["depth_histogram"]
-    if not histogram:
-        return "n/a"
-    key = max(histogram, key=lambda k: histogram[k])
-    return "unfetched" if key == "unfetched" else f"depth {key}"
-
-
-def _mode_depth_share(analysis: dict) -> str:
-    histogram = analysis["depth_histogram"]
-    total = sum(histogram.values()) or 1
-    return f"{100 * max(histogram.values(), default=0) / total:.0f}%"
-
-
-def _heavy_section(analysis: dict) -> str:
-    heavy = max(analysis["sections"], key=lambda row: row["words"], default=None)
-    return f"{heavy['section']}" if heavy else "n/a"
-
-
-def _biggest_section(analysis: dict) -> str:
-    biggest = max(analysis["sections"], key=lambda row: row["pages"], default=None)
-    return f"{biggest['section']} ({biggest['pages']} pages)" if biggest else "n/a"
-
-
-def _sitemap_yield(analysis: dict) -> str:
-    inv = analysis["inventory"]
-    return f"{100 * inv['via_sitemap'] / max(inv['sitemap_url_count'], 1):.0f}%"
-
-
-def _augment_ratio(skills: dict) -> str:
-    static_median = skills["median_words_static"]
-    if not static_median:
-        return "0.0"
-    return f"{skills['median_words_augmented'] / static_median:.1f}"
-
-
 def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict[str, str]:
+    """Return every manuscript token value from the persisted analysis.
+
+    Derived scalars (yield, ratio, mode depth, heavy/biggest section) are
+    read flat from the analysis record; figures contribute
+    ``FIGURE_<ID>_CAPTION/_ALT`` tokens."""
     """Return every manuscript token value from the persisted analysis."""
     inventory = analysis["inventory"]
     skills = analysis["skills"]
@@ -187,17 +165,17 @@ def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict
         "TOP_DEPTH": str(
             max((int(k) for k in analysis["depth_histogram"] if k.isdigit()), default=0)
         ),
-        "DEPTH_MODE_DEPTH": _mode_depth(analysis),
-        "DEPTH_MODE_SHARE": _mode_depth_share(analysis),
+        "DEPTH_MODE_DEPTH": str(analysis["mode_depth"]),
+        "DEPTH_MODE_SHARE": f"{analysis['mode_depth_share']:.0f}%",
         "LINKED_PAGES": str(analysis["indegree"]["linked_pages"]),
         "AUGMENT_SKILLS": str(skills["augmented_count"]),
         "STATIC_SKILLS": str(skills["static_count"]),
         "MEDIAN_WORDS_AUGMENTED": f"{skills['median_words_augmented']:.0f}",
         "MEDIAN_WORDS_STATIC": f"{skills['median_words_static']:.0f}",
-        "AUGMENT_RATIO": _augment_ratio(skills),
-        "HEAVY_SECTION": _heavy_section(analysis),
-        "BIGGEST_SECTION": _biggest_section(analysis),
-        "SITEMAP_YIELD": _sitemap_yield(analysis),
+        "AUGMENT_RATIO": f"{analysis['augment_ratio']:.1f}",
+        "HEAVY_SECTION": str(analysis["heavy_section"]),
+        "BIGGEST_SECTION": str(analysis["biggest_section"]),
+        "SITEMAP_YIELD": f"{analysis['sitemap_yield']:.0f}%",
     }
     for figure in (figure_registry or {}).get("figures", []):
         prefix = "FIGURE_" + str(figure["figure_id"]).replace("-", "_").upper()
@@ -261,24 +239,35 @@ def bind_manuscript(
 
 
 def _chapter_sort_key(name: str) -> tuple[int, str]:
+    """Return the canonical chapter position, or ``(99, name)`` for files
+    outside the canonical order (name breaks ties)."""
     try:
         return (_CHAPTER_ORDER.index(name), name)
     except ValueError:
         return (99, name)
 
 
-def _inventory_from_output(output_dir: str):
-    from .models import SiteInventory
-
+def load_inventory(output_dir: str) -> SiteInventory:
+    """Load and validate ``data/inventory.json`` from an output directory."""
     value = load_json(f"{output_dir}/data/inventory.json")
     return SiteInventory.from_dict(value)
 
 
-def _try_load(path: str):
-    try:
-        return load_json(path)
-    except (OSError, ValueError):
-        return None
+def run_research_hook(project_dir: str) -> int:
+    """Parent-template pre-render hook entry: rebuild the research package
+    and translate a no-token binding into a nonzero exit.
+
+    Returns 0 on success, 1 when the bound chapters carry no tokens.
+    """
+    import sys
+
+    project = Path(project_dir)
+    receipt = build_research_package(str(project), str(project / "output"))
+    if not any(receipt["receipt"]["used_tokens"].values()):
+        print("warning: no manuscript tokens were bound", file=sys.stderr)
+        return 1
+    print(f"bound {len(receipt['receipt']['rendered_chapters'])} chapters")
+    return 0
 
 
 def build_research_package(
@@ -294,10 +283,10 @@ def build_research_package(
     from .figures import build_figures
 
     project = Path(project_dir)
-    inventory = _inventory_from_output(output_dir)
+    inventory = load_inventory(output_dir)
     resolved_skills_dir = skills_dir or str(project / "skills")
-    render_summary = _try_load(f"{output_dir}/data/render_summary.json")
-    publish_receipt = _try_load(f"{output_dir}/data/publish_receipt.json")
+    render_summary = try_load_json(f"{output_dir}/data/render_summary.json")
+    publish_receipt = try_load_json(f"{output_dir}/data/publish_receipt.json")
     analysis = build_analysis(
         output_dir=output_dir,
         skills_dir=resolved_skills_dir,

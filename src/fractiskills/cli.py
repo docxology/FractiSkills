@@ -7,20 +7,66 @@ import json
 import sys
 from pathlib import Path
 
-from .models import SiteSpec
+from .models import SiteSpec, resolve_evidence_origin
+
+# Backward-compatible alias for scripts that imported the CLI private.
+_resolve_evidence_origin = resolve_evidence_origin
 
 
 def _spec(args: argparse.Namespace) -> SiteSpec:
+    """Load the SiteSpec named by ``args.spec``."""
     return SiteSpec.load(args.spec)
 
 
 def _inventory(output_dir: str):
-    from .publication import _inventory_from_output
+    """Load the persisted inventory from an output directory (no acquisition)."""
+    from .publication import load_inventory
 
-    return _inventory_from_output(output_dir)
+    return load_inventory(output_dir)
+
+
+def _analysis_record(args: argparse.Namespace) -> dict:
+    """Build the analysis record from the artifacts an output dir holds."""
+    from .analysis import build_analysis
+    from .models import try_load_json
+
+    return build_analysis(
+        output_dir=args.output_dir,
+        skills_dir=args.skills_dir,
+        inventory=_inventory(args.output_dir),
+        render_summary=try_load_json(f"{args.output_dir}/data/render_summary.json"),
+        publish_receipt=try_load_json(f"{args.output_dir}/data/publish_receipt.json"),
+    )
+
+
+def cmd_preflight(args: argparse.Namespace) -> int:
+    """Verify the site spec loads, report bindings and origin policy, and
+    confirm the output directory is writable. Exits 0 on a loadable spec."""
+    spec = _spec(args)
+    if args.json:
+        print(
+            json.dumps(
+                {
+                    "profile_id": spec.profile_id,
+                    "base_url": spec.base_url,
+                    "bindings": len(spec.bindings),
+                    "origin": resolve_evidence_origin("auto", spec.base_url),
+                },
+                indent=1,
+            )
+        )
+    else:
+        print(f"spec ok: {spec.profile_id} -> {spec.base_url}")
+        print(f"bindings: {len(spec.bindings)} declared")
+        print(f"origin resolution: {resolve_evidence_origin('auto', spec.base_url)}")
+        Path(args.output_dir).mkdir(exist_ok=True)
+        print("output/ writable")
+    return 0
 
 
 def cmd_discover(args: argparse.Namespace) -> int:
+    """Run sitemap+crawl discovery and persist the inventory; prints section
+    counts. Exit 1 when the crawl hit a limit (incomplete)."""
     from .discover import discover_site
 
     spec = _spec(args)
@@ -47,21 +93,15 @@ def cmd_discover(args: argparse.Namespace) -> int:
     return 1 if payload["incomplete"] else 0
 
 
-def _resolve_evidence_origin(value: str, base_url: str) -> str:
-    from urllib.parse import urlparse
-
-    if value != "auto":
-        return value
-    host = urlparse(base_url).hostname or ""
-    return "fixture" if host in {"localhost", "127.0.0.1", "::1"} else "live"
-
-
 def cmd_render(args: argparse.Namespace) -> int:
+    """Render all sections from the persisted inventory and write
+    render_summary.json; per-section status to stdout, failures to stderr.
+    Exit 1 when any section failed."""
     from .pipeline import render_site
 
     spec = _spec(args)
     inventory = _inventory(args.output_dir)
-    evidence_origin = _resolve_evidence_origin(args.evidence_origin, spec.base_url)
+    evidence_origin = resolve_evidence_origin(args.evidence_origin, spec.base_url)
     allow_private = evidence_origin == "fixture" or getattr(args, "allow_private", False)
     summary = render_site(
         inventory,
@@ -95,6 +135,8 @@ def cmd_render(args: argparse.Namespace) -> int:
 
 
 def cmd_publish(args: argparse.Namespace) -> int:
+    """Publish rendered packages into the tracked skills tree and write
+    publish_receipt.json. Always exits 0."""
     from .pipeline import publish_skills
 
     receipt = publish_skills(args.output_dir, args.skills_dir)
@@ -111,17 +153,9 @@ def cmd_publish(args: argparse.Namespace) -> int:
 
 
 def cmd_analyze(args: argparse.Namespace) -> int:
-    from .analysis import build_analysis
-    from .pipeline import publish_skills  # noqa: F401 - parity with docs
-    from .publication import _try_load
-
-    analysis = build_analysis(
-        output_dir=args.output_dir,
-        skills_dir=args.skills_dir,
-        inventory=_inventory(args.output_dir),
-        render_summary=_try_load(f"{args.output_dir}/data/render_summary.json"),
-        publish_receipt=_try_load(f"{args.output_dir}/data/publish_receipt.json"),
-    )
+    """Aggregate persisted artifacts into the analysis record and print it;
+    never acquires. Always exits 0."""
+    analysis = _analysis_record(args)
     if args.json:
         print(json.dumps(analysis["inventory"] | {"sections": analysis["sections"]}, indent=1))
     else:
@@ -134,17 +168,11 @@ def cmd_analyze(args: argparse.Namespace) -> int:
 
 
 def cmd_figures(args: argparse.Namespace) -> int:
-    from .analysis import build_analysis
+    """Build the analysis record, render its figures, and print the
+    registry. Always exits 0."""
     from .figures import build_figures
-    from .publication import _try_load
 
-    analysis = build_analysis(
-        output_dir=args.output_dir,
-        skills_dir=args.skills_dir,
-        inventory=_inventory(args.output_dir),
-        render_summary=_try_load(f"{args.output_dir}/data/render_summary.json"),
-        publish_receipt=_try_load(f"{args.output_dir}/data/publish_receipt.json"),
-    )
+    analysis = _analysis_record(args)
     registry = build_figures(analysis, output_dir=args.output_dir)
     if args.json:
         print(json.dumps(registry, indent=1))
@@ -155,6 +183,8 @@ def cmd_figures(args: argparse.Namespace) -> int:
 
 
 def cmd_research(args: argparse.Namespace) -> int:
+    """Bind analysis, figures, and variables into the research package rooted
+    at the cwd and print the receipt. Always exits 0."""
     from .publication import build_research_package
 
     receipt = build_research_package(str(Path.cwd()), args.output_dir)
@@ -165,28 +195,12 @@ def cmd_research(args: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_run(args: argparse.Namespace) -> int:
-    for command in (cmd_discover, cmd_render, cmd_publish, cmd_research):
-        code = command(args)
-        if code != 0:
-            return code
-    return 0
-
-
 def cmd_validate(args: argparse.Namespace) -> int:
-    """Validate every tracked skill package and the discovery index."""
-    from skillarum.render import validate_skill_package, write_skill_index
+    """Validate every tracked skill package and rewrite the index; exit 1 on
+    any validation failure (printed to stderr)."""
+    from .pipeline import validate_skills_tree
 
-    skills_root = Path(args.skills_dir)
-    failures: list[str] = []
-    count = 0
-    for skill_path in sorted(skills_root.glob("*/*/SKILL.md")):
-        count += 1
-        try:
-            validate_skill_package(skill_path)
-        except (ValueError, OSError) as exc:
-            failures.append(f"{skill_path}: {exc}")
-    write_skill_index(skills_root)
+    count, failures = validate_skills_tree(args.skills_dir)
     if args.json:
         print(json.dumps({"validated": count, "failures": failures}, indent=1))
     else:
@@ -196,7 +210,19 @@ def cmd_validate(args: argparse.Namespace) -> int:
     return 1 if failures else 0
 
 
+def cmd_run(args: argparse.Namespace) -> int:
+    """Run discover, render, publish, research in sequence, stopping at the
+    first nonzero exit code."""
+    for command in (cmd_discover, cmd_render, cmd_publish, cmd_research):
+        code = command(args)
+        if code != 0:
+            return code
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
+    """Build the fractiskills parser; all subcommands share --spec,
+    --output-dir, --skills-dir, and --json defaults."""
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument(
         "--spec",
@@ -221,6 +247,11 @@ def build_parser() -> argparse.ArgumentParser:
         parents=[common],
     )
     sub = parser.add_subparsers(dest="command", required=True)
+
+    preflight = sub.add_parser(
+        "preflight", help="verify the site spec and output writability", parents=[common]
+    )
+    preflight.set_defaults(func=cmd_preflight)
 
     discover = sub.add_parser(
         "discover", help="sitemap + bounded crawl inventory", parents=[common]
@@ -294,6 +325,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
+    """Parse argv and dispatch to the selected ``cmd_*``; returns its exit
+    code."""
     parser = build_parser()
     args = parser.parse_args(argv)
     return int(args.func(args))

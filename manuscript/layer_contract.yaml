@@ -2,12 +2,13 @@
 
 | Surface | Rule |
 | --- | --- |
-| `src/fractiskills/models.py` | Deterministic contracts and IO helpers — no network, no imports of sibling stages |
+| `src/fractiskills/models.py` | Deterministic contracts, origin policy, IO helpers — no network, no sibling-stage imports |
+| `src/fractiskills/profiles.py` | Deterministic profile compilation + path/section taxonomy — no network, no sibling-stage imports |
 | `src/fractiskills/profiles.py` | Deterministic profile compilation — no network |
 | `src/fractiskills/discover.py` | Acquisition boundary: sitemap GET + one bounded Skillarum BFS crawl; owns `output/data/inventory.json` |
 | `src/fractiskills/generator.py` | Augmentation boundary: same-origin JSON GETs for declared bindings only; everything else offline |
 | `src/fractiskills/pipeline.py` | Stage orchestration; page acquisition delegated to `skillarum.pipeline`/`skillarum.render` |
-| `src/fractiskills/analysis.py`, `figures.py`, `publication.py` | Research layer — reads persisted artifacts, never acquires pages |
+| `src/fractiskills/analysis.py`, `figures.py`, `publication.py` | Research layer — reads persisted artifacts, never acquires; may import `models`/`profiles` only |
 | `src/fractiskills/cli.py`, `scripts/` | Thin dispatch only |
 | Live counts | Bound as manuscript tokens from persisted artifacts; never hand-typed |
 

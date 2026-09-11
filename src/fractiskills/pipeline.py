@@ -31,7 +31,9 @@ def render_site(
     force_process: bool = False,
     allow_private_hosts: bool = False,
 ) -> RenderSummary:
-    """Render one skill per inventory page, one Skillarum profile per section."""
+    """Render one skill per inventory page via one Skillarum profile per
+    section, isolating per-section failures into ``ok=False`` runs; writes
+    ``data/render_summary.json`` atomically."""
     from skillarum.pipeline import run_profile
 
     profiles = build_section_profiles(inventory, spec, allow_private_hosts=allow_private_hosts)
@@ -87,7 +89,8 @@ def render_site(
 
 
 def _latest_run_id(output_dir: str, profile_id: str, *, failed: bool = False) -> str:
-    """Return the newest run directory name for one profile id."""
+    """Newest (mtime) run-directory name for ``profile_id`` containing
+    ``manifest.json`` (or ``failure.json`` when ``failed``); ``""`` if none."""
     runs_root = Path(output_dir) / "runs"
     if not runs_root.is_dir():
         return ""
@@ -106,6 +109,25 @@ def _latest_run_id(output_dir: str, profile_id: str, *, failed: bool = False) ->
     return max(candidates, key=lambda run_dir: run_dir.stat().st_mtime).name
 
 
+def validate_skills_tree(skills_dir: str) -> tuple[int, list[str]]:
+    """Validate every ``<area>/<skill>/SKILL.md`` package under ``skills_dir``
+    and rewrite the discovery index.
+
+    Returns the validated count and one message per failed package; the
+    index is rewritten from whatever complete packages remain.
+    """
+    count = 0
+    failures: list[str] = []
+    for skill_path in sorted(Path(skills_dir).glob("*/*/SKILL.md")):
+        count += 1
+        try:
+            validate_skill_package(skill_path)
+        except (ValueError, OSError) as exc:
+            failures.append(f"{skill_path}: {exc}")
+    write_skill_index(Path(skills_dir))
+    return count, failures
+
+
 def publish_skills(
     output_dir: str,
     skills_dir: str,
@@ -113,7 +135,8 @@ def publish_skills(
     """Validate and copy rendered packages into the tracked skills tree.
 
     Reconciles: packages absent from the current render are removed so the
-    tracked tree is always a clean cut of the latest run. Returns the receipt.
+    tracked tree is always a clean cut of the latest run. Writes
+    ``data/publish_receipt.json``. Returns the receipt.
     """
     source_root = Path(output_dir) / "skills"
     destination_root = Path(skills_dir)

@@ -22,6 +22,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 
 import httpx
+from bs4 import BeautifulSoup
 from skillarum.crawler import CrawlError, WebsiteCrawler
 from skillarum.urls import normalize_url, resolve_url, same_origin
 
@@ -29,6 +30,7 @@ from .models import PageEntry, SiteInventory, SiteSpec, write_json_atomic
 from .profiles import (
     build_discovery_profile,
     build_resolve_profile,
+    section_for_path,
     slug_for_path,
 )
 
@@ -42,7 +44,11 @@ def fetch_sitemap_entries(
     user_agent: str,
     timeout_seconds: float = 30.0,
 ) -> tuple[list[dict[str, object]], list[str]]:
-    """Fetch and parse a sitemap into normalized, same-origin URL records."""
+    """Fetch and parse the sitemap XML into normalized, same-origin URL
+    records, following at most one redirect hop manually.
+
+    Unsafe, cross-origin, and non-numeric-priority entries are downgraded to
+    notes rather than errors; unparseable XML raises :class:`ValueError`."""
     notes: list[str] = []
     with httpx.Client(
         headers={"User-Agent": user_agent},
@@ -103,6 +109,8 @@ def fetch_sitemap_entries(
 
 
 def _resolve_alias_chain(alias_map: dict[str, str], url: str) -> str:
+    """Follow alias links from ``url`` to a fixed point, guarding against
+    cycles; the last unmapped URL wins."""
     seen: set[str] = set()
     current = url
     while current in alias_map and current not in seen:
@@ -111,31 +119,34 @@ def _resolve_alias_chain(alias_map: dict[str, str], url: str) -> str:
     return current
 
 
-def section_for_path(path: str) -> str:
-    """Derive the skill area (section) from a site path.
-
-    Multi-segment paths take their area from the first path segment (with
-    ``/interfaces/nesting/`` promoted to its own area); single-segment pages
-    belong to the deck-level ``Core`` area.
-    """
-    from skillarum.utils import artifact_name
-
-    parts = [part for part in urlparse(path).path.split("/") if part]
-    if not parts or len(parts) == 1:
-        return "Core"
-    if parts[0] == "interfaces":
-        if parts[1] == "nesting":
-            return "Nesting"
-        return "Interfaces"
-    return artifact_name(parts[0].replace("-", " ").title())
-
-
 def _page_info(page) -> dict[str, object]:  # noqa: ANN001 - PageRecord contract
+    """Project a Skillarum page record onto the (title, depth, links) dict
+    discover_site merges across duplicate identities."""
     return {
         "title": page.title,
         "depth": int(page.depth),
         "links": tuple(page.links),
     }
+
+
+def _canonical_from_duplicate(url: str, fetch_entries: dict) -> str:
+    """Recover the declared canonical URL of a duplicate-rejected page from
+    its cached fetch content; empty string when none can be recovered.
+
+    The crawler rejects a request whose canonical/final identity it has
+    already accepted, so the alias target exists only in the cached HTML.
+    """
+    entry = fetch_entries.get(url)
+    if entry is None or not entry.content:
+        return ""
+    soup = BeautifulSoup(entry.content, "html.parser")
+    canonical_node = soup.select_one('link[rel~="canonical"][href]')
+    if canonical_node is None:
+        return ""
+    try:
+        return resolve_url(url, str(canonical_node.get("href")))
+    except (TypeError, ValueError):
+        return ""
 
 
 def discover_site(
@@ -146,7 +157,10 @@ def discover_site(
 ) -> tuple[SiteInventory, str]:
     """Run discovery and persist the inventory.
 
-    Returns the inventory and the path of the persisted JSON file.
+    Every declared sitemap URL ends up either represented in the inventory
+    (directly, via an alias, or via a resolution fetch) or recorded as a
+    warning note; ``incomplete`` is set only when the crawler reports a page
+    or request limit. Returns the inventory and the persisted JSON path.
     """
     sitemap_entries, sitemap_notes = fetch_sitemap_entries(
         spec.sitemap_url,
@@ -197,25 +211,13 @@ def discover_site(
     # crawler's fetch cache; recover it so canonical-declared duplicates
     # (a landing page reached under two spellings) fold onto the page they
     # duplicate.
-    from bs4 import BeautifulSoup
-
     for event in events:
         if event.get("kind") != "duplicate":
             continue
         url = str(event.get("url", ""))
         if not url or url in alias_map or url in pages:
             continue
-        entry = fetch_entries.get(url)
-        if entry is None or not entry.content:
-            continue
-        soup = BeautifulSoup(entry.content, "html.parser")
-        canonical_node = soup.select_one('link[rel~="canonical"][href]')
-        if canonical_node is None:
-            continue
-        try:
-            candidate = resolve_url(url, str(canonical_node.get("href")))
-        except (TypeError, ValueError):
-            continue
+        candidate = _canonical_from_duplicate(url, fetch_entries)
         if candidate in pages:
             alias_map.setdefault(url, candidate)
 

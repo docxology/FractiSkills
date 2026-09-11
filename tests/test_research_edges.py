@@ -10,15 +10,10 @@ from pytest_httpserver import HTTPServer
 
 from fractiskills.cli import main
 from fractiskills.discover import fetch_sitemap_entries
-from fractiskills.publication import _try_load, bind_manuscript
+from fractiskills.models import try_load_json
+from fractiskills.publication import bind_manuscript
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-
-
-@pytest.fixture()
-def run_env(tmp_path, monkeypatch):
-    monkeypatch.chdir(REPO_ROOT)
-    return tmp_path
 
 
 def test_fetch_sitemap_follows_redirect() -> None:
@@ -81,7 +76,7 @@ def test_fetch_sitemap_rejects_unsafe_urls() -> None:
 
 
 def test_try_load_missing_returns_none(tmp_path: Path) -> None:
-    assert _try_load(str(tmp_path / "missing.json")) is None
+    assert try_load_json(str(tmp_path / "missing.json")) is None
 
 
 def test_bind_manuscript_rejects_unresolved_braces(tmp_path: Path) -> None:

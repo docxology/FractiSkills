@@ -10,6 +10,15 @@ from pytest_httpserver import HTTPServer
 
 from fractiskills.models import SiteSpec
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+
+@pytest.fixture()
+def run_env(tmp_path, monkeypatch):
+    """Chdir into the repo root and hand back a tmp_path for outputs."""
+    monkeypatch.chdir(REPO_ROOT)
+    return tmp_path
+
 
 def _page(title: str, body: str, links: list[str] | None = None) -> str:
     nav = "".join(f'<a href="{link}">{link}</a> ' for link in (links or []))
@@ -116,11 +125,15 @@ def spec_file(fixture_site: str, tmp_path: Path) -> Path:
 
 @pytest.fixture()
 def loaded_spec(spec_file: Path) -> SiteSpec:
+    """SiteSpec loaded from spec_file against the running fixture server."""
     return SiteSpec.load(str(spec_file))
 
 
 @pytest.fixture()
 def fixture_inventory(fixture_site: str, loaded_spec: SiteSpec, tmp_path: Path):
+    """Run discovery against the fixture site; returns (inventory,
+    output_dir, inventory_path). Performs local-HTTP acquisition and writes
+    inventory.json under tmp_path."""
     from fractiskills.discover import discover_site
 
     output_dir = str(tmp_path / "output")

@@ -5,18 +5,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import pytest
-
 from fractiskills.cli import main
 from fractiskills.models import write_json_atomic
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-
-
-@pytest.fixture()
-def run_env(tmp_path, monkeypatch):
-    monkeypatch.chdir(REPO_ROOT)
-    return tmp_path
 
 
 def test_discover_and_validate_cli_json(run_env, spec_file, capsys) -> None:
@@ -37,7 +29,9 @@ def test_discover_and_validate_cli_json(run_env, spec_file, capsys) -> None:
     assert payload["discovered_pages"] >= 4
     assert payload["incomplete"] is False
 
-    code = main(["validate", "--skills-dir", "skills/nonexistent", "--json"])
+    empty = run_env / "empty-skills"
+    empty.mkdir()
+    code = main(["validate", "--skills-dir", str(empty), "--json"])
     assert code == 0  # zero tracked packages is a valid empty state
     capsys.readouterr()
 

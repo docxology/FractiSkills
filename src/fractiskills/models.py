@@ -1,20 +1,19 @@
-"""Typed contracts for the site spec, page inventory, and render summaries."""
+"""Typed contracts for the site spec, inventory, and render summaries, plus
+the shared atomic JSON/text persistence helpers every stage imports.
+
+Deterministic and network-free by layer contract: no sibling-stage imports.
+"""
 
 from __future__ import annotations
 
+import json
+import os
+import tempfile
 from dataclasses import dataclass
 from typing import Any
 from urllib.parse import parse_qs, urlparse
 
 import yaml
-
-
-def _strings(value: Any) -> tuple[str, ...]:
-    if value is None:
-        return ()
-    if isinstance(value, str):
-        return (value,)
-    return tuple(str(item) for item in value)
 
 
 @dataclass(frozen=True)
@@ -31,6 +30,7 @@ class BindingSpec:
 
     @classmethod
     def from_mapping(cls, value: dict[str, Any]) -> BindingSpec:
+        """Build a BindingSpec from a mapping; both paths must be absolute (``/...``)."""
         match_path = str(value.get("match_path", "")).strip()
         api_template = str(value.get("api_template", "")).strip()
         if not match_path.startswith("/"):
@@ -44,7 +44,8 @@ class BindingSpec:
 
         Supported placeholders: ``{id}`` (the page's ``?id=`` query value),
         ``{path}`` (the page path), and ``{last_segment}`` (the final path
-        segment).
+        segment). A missing ``?id=`` substitutes an empty string for ``{id}``
+        — never an error.
         """
         parsed = urlparse(path)
         api = self.api_template
@@ -58,11 +59,16 @@ class BindingSpec:
         return api
 
     def to_dict(self) -> dict[str, Any]:
+        """Round-trip mapping form (inverse of :meth:`from_mapping`)."""
         return {"match_path": self.match_path, "api_template": self.api_template}
 
 
 @dataclass(frozen=True)
 class SiteSpec:
+    """Immutable crawl/extraction/augment configuration for one site, loaded
+    from its reviewed site-spec YAML and consumed by every network-touching
+    stage."""
+
     profile_id: str
     profile_name: str
     base_url: str
@@ -81,6 +87,8 @@ class SiteSpec:
 
     @classmethod
     def from_mapping(cls, value: dict[str, Any]) -> SiteSpec:
+        """Build a SiteSpec with per-group defaults; blank identity fields
+        (id/name/base_url/sitemap_url) raise :class:`ValueError`."""
         data = dict(value)
         bindings = tuple(BindingSpec.from_mapping(item) for item in (data.get("bindings") or []))
         spec = cls(
@@ -118,6 +126,7 @@ class SiteSpec:
 
     @classmethod
     def load(cls, path: str) -> SiteSpec:
+        """Load and validate a SiteSpec from a YAML file."""
         with open(path, encoding="utf-8") as handle:
             value = yaml.safe_load(handle) or {}
         if not isinstance(value, dict):
@@ -125,6 +134,7 @@ class SiteSpec:
         return cls.from_mapping(value)
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize back to the nested mapping form (inverse of from_mapping)."""
         return {
             "profile_id": self.profile_id,
             "profile_name": self.profile_name,
@@ -166,6 +176,8 @@ class PageEntry:
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> PageEntry:
+        """Rebuild a PageEntry from its serialized form; url, path, and
+        section are required; everything else defaults."""
         return cls(
             url=str(value["url"]),
             path=str(value["path"]),
@@ -181,6 +193,7 @@ class PageEntry:
         )
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize the entry with links and alias_urls as JSON lists."""
         return {
             "url": self.url,
             "path": self.path,
@@ -211,6 +224,8 @@ class SiteInventory:
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> SiteInventory:
+        """Rebuild a SiteInventory from its serialized form; base_url,
+        sitemap_url, generated_at, and entries are required."""
         return cls(
             base_url=str(value["base_url"]),
             sitemap_url=str(value["sitemap_url"]),
@@ -223,6 +238,7 @@ class SiteInventory:
         )
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize with per-source counts, warnings, and the incomplete flag."""
         return {
             "base_url": self.base_url,
             "sitemap_url": self.sitemap_url,
@@ -256,6 +272,8 @@ class SectionRun:
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> SectionRun:
+        """Rebuild a SectionRun from its serialized form; section,
+        profile_id, and run_id are required."""
         return cls(
             section=str(value["section"]),
             profile_id=str(value["profile_id"]),
@@ -267,6 +285,7 @@ class SectionRun:
         )
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize with rendered paths as a JSON list and ok/error status."""
         return {
             "section": self.section,
             "profile_id": self.profile_id,
@@ -290,6 +309,8 @@ class RenderSummary:
 
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> RenderSummary:
+        """Rebuild a RenderSummary from its serialized form; generated_at,
+        backend, and evidence_origin are required."""
         return cls(
             generated_at=str(value["generated_at"]),
             backend=str(value["backend"]),
@@ -299,6 +320,7 @@ class RenderSummary:
         )
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize the summary with runs as a JSON list."""
         return {
             "generated_at": self.generated_at,
             "backend": self.backend,
@@ -309,11 +331,8 @@ class RenderSummary:
 
 
 def write_json_atomic(path: str, value: Any) -> None:
-    """Persist JSON with an atomic replace so readers never see a torn file."""
-    import json
-    import os
-    import tempfile
-
+    """Create the parent directory, then write JSON to a temp file, fsync,
+    and atomically rename over ``path`` so readers never see a torn file."""
     directory = os.path.dirname(os.path.abspath(path))
     os.makedirs(directory, exist_ok=True)
     handle = tempfile.NamedTemporaryFile(
@@ -330,18 +349,33 @@ def write_json_atomic(path: str, value: Any) -> None:
             os.unlink(handle.name)
 
 
-def load_json(path: str) -> Any:
-    import json
+def resolve_evidence_origin(value: str, base_url: str) -> str:
+    """Resolve the CLI evidence-origin policy: ``auto`` becomes ``fixture``
+    for loopback hosts and ``live`` otherwise; explicit values pass through."""
+    if value != "auto":
+        return value
+    host = urlparse(base_url).hostname or ""
+    return "fixture" if host in {"localhost", "127.0.0.1", "::1"} else "live"
 
+
+def try_load_json(path: str) -> Any:
+    """Load JSON from ``path``; missing file or parse failure yields ``None``
+    instead of raising (for optional artifacts)."""
+    try:
+        return load_json(path)
+    except (OSError, ValueError):
+        return None
+
+
+def load_json(path: str) -> Any:
+    """Read and parse one JSON file; OSError/JSONDecodeError propagate."""
     with open(path, encoding="utf-8") as handle:
         return json.load(handle)
 
 
 def write_text_atomic(path: str, text: str) -> None:
-    """Persist text with an atomic replace."""
-    import os
-    import tempfile
-
+    """Create the parent directory, write text to a temp file, fsync, and
+    atomically rename over ``path``."""
     directory = os.path.dirname(os.path.abspath(path))
     os.makedirs(directory, exist_ok=True)
     handle = tempfile.NamedTemporaryFile(

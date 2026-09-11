@@ -18,7 +18,8 @@ from .models import PageEntry, SiteInventory, SiteSpec
 
 
 def query_identity(path: str) -> str:
-    """Stable identity string for a page path, including its routing query."""
+    """Stable identity string: the path, or ``path?id=<first id param>`` when
+    an ``id`` query param exists (all other query params are dropped)."""
     parsed = urlparse(path)
     query = parse_qs(parsed.query)
     id_values = query.get("id")
@@ -33,7 +34,10 @@ def slug_for_path(path: str) -> str:
 
 
 def readable_name_for_path(path: str) -> str:
-    """Readable, stable skill name derived from the page path (not its title)."""
+    """Readable, stable skill name from path segments (extension stripped,
+    hyphen-split, capitalized, ``?id`` folded in); falls back to ``Home``
+    for the bare root and ``Page`` when nothing parses, truncated to 80
+    chars."""
     parsed = urlparse(path)
     if parsed.path in ("", "/") and not parsed.query:
         return "Home"
@@ -57,6 +61,8 @@ def _crawl_config(
     min_delay_seconds: float,
     allow_private_hosts: bool = False,
 ) -> CrawlConfig:
+    """Build a CrawlConfig from the SiteSpec with per-call bounds; robots
+    are respected and same-origin is enforced."""
     return CrawlConfig(
         respect_robots=True,
         same_origin_only=True,
@@ -139,14 +145,7 @@ def build_section_profiles(
     """One profile per site section; one exact-page target per discovered page."""
     profiles: list[SourceProfile] = []
     for section, entries in inventory.sections().items():
-        targets = tuple(
-            TargetSpec(
-                id=slug_for_path(entry.path),
-                name=readable_name_for_path(entry.path),
-                urls=(entry.url,),
-            )
-            for entry in entries
-        )
+        targets = tuple(target_for_entry(entry) for entry in entries)
         page_count = len(targets)
         profiles.append(
             SourceProfile(
@@ -178,3 +177,23 @@ def target_for_entry(entry: PageEntry) -> TargetSpec:
         name=readable_name_for_path(entry.path),
         urls=(entry.url,),
     )
+
+
+def section_for_path(path: str) -> str:
+    """Derive the skill area (section) from a site path.
+
+    Multi-segment paths take their area from the first path segment (with
+    ``/interfaces/nesting/`` promoted to its own area); single-segment pages
+    belong to the deck-level ``Core`` area. Pure and network-free, so the
+    research layer may import it.
+    """
+    from skillarum.utils import artifact_name
+
+    parts = [part for part in urlparse(path).path.split("/") if part]
+    if not parts or len(parts) == 1:
+        return "Core"
+    if parts[0] == "interfaces":
+        if parts[1] == "nesting":
+            return "Nesting"
+        return "Interfaces"
+    return artifact_name(parts[0].replace("-", " ").title())

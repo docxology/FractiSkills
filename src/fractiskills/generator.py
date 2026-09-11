@@ -68,6 +68,8 @@ class AugmentationReceipt:
     error: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
+        """Serialize with every provenance field present (empty-string
+        sentinels for absent status/etag), matching the receipts JSONL."""
         return {
             "page_url": self.page_url,
             "api_url": self.api_url,
@@ -113,10 +115,14 @@ class AugmentedGenerator(DeterministicGenerator):
     retry: RetryConfig = field(default_factory=RetryConfig)
 
     def cache_key(self) -> str:
+        """Version-stamped digest of the serialized bindings so augmentation
+        config changes invalidate cached drafts."""
         digest = sha256_json([binding.to_dict() for binding in self.bindings])
         return f"fractiskills-augmented-v1:{digest}"
 
     def binding_for(self, page_url: str) -> BindingSpec | None:
+        """Return the first declared binding whose match_path equals or
+        prefixes the page URL path; ``None`` for static-only pages."""
         path = urlparse(page_url).path
         for binding in self.bindings:
             if path == binding.match_path or path.startswith(binding.match_path):
@@ -148,6 +154,9 @@ class AugmentedGenerator(DeterministicGenerator):
         return payload, response.status_code, response.headers.get("etag")
 
     def _generate_once(self, corpus: PreparedCorpus) -> SkillDraft:
+        """Augment matching corpus pages via declared same-origin GETs,
+        record one receipt per attempt, then delegate to the deterministic
+        generator and attach the receipts to ``draft.metadata``."""
         augmented_pages: list[PreparedPage] = []
         receipts: list[dict[str, Any]] = []
         failure_warnings: list[str] = []
@@ -220,6 +229,8 @@ class AugmentedGenerator(DeterministicGenerator):
         return augmented_draft
 
     def _append_receipts(self, receipts: list[dict[str, Any]]) -> None:
+        """Append each receipt to ``receipts_path`` as one sorted-key JSON
+        line; no-op on an empty list."""
         if not receipts:
             return
         with open(self.receipts_path, "a", encoding="utf-8") as handle:

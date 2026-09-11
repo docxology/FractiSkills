@@ -8,6 +8,7 @@ color is the colorblind-safe Okabe-Ito palette throughout.
 from __future__ import annotations
 
 import math
+import statistics
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
@@ -17,8 +18,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
-from .discover import section_for_path  # noqa: E402
 from .models import write_json_atomic  # noqa: E402
+from .profiles import section_for_path  # noqa: E402
 
 _DPI = 200
 
@@ -34,11 +35,20 @@ _C_LIGHT = "#9ECAE1"
 
 
 def _style_axes(ax) -> None:
+    """Hide top/right spines and shrink tick labels."""
     ax.spines[["top", "right"]].set_visible(False)
     ax.tick_params(labelsize=8)
 
 
+def _save(fig, path: str) -> str:
+    """Save the figure at the standard DPI, close it, and return the path."""
+    fig.savefig(path, dpi=_DPI)
+    plt.close(fig)
+    return path
+
+
 def _pages_per_section(analysis: dict) -> list[tuple[str, int]]:
+    """Return (section, pages) pairs sorted by pages then name."""
     return [
         (row["section"], row["pages"])
         for row in sorted(analysis["sections"], key=lambda row: (row["pages"], row["section"]))
@@ -46,6 +56,8 @@ def _pages_per_section(analysis: dict) -> list[tuple[str, int]]:
 
 
 def figure_site_sections(analysis: dict, output_dir: str) -> str:
+    """Horizontal bars of pages per section (sorted by pages, ties by name),
+    annotated with mean words per page; writes fig1-site-sections.png."""
     rows = _pages_per_section(analysis)
     names = [name for name, _ in rows]
     values = [count for _, count in rows]
@@ -73,13 +85,15 @@ def figure_site_sections(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig1-site-sections.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_discovery_provenance(analysis: dict, output_dir: str) -> str:
-    rows = sorted(analysis["sections"], key=lambda row: (row["pages"], row["section"]))
+    """Stacked horizontal bars splitting each section's pages into
+    sitemap-declared versus crawl-discovered-only; writes
+    fig2-discovery-provenance.png."""
+    order = {name: index for index, (name, _) in enumerate(_pages_per_section(analysis))}
+    rows = sorted(analysis["sections"], key=lambda row: order[row["section"]])
     names = [row["section"] for row in rows]
     sitemap = [row["via_sitemap"] for row in rows]
     crawl_only = [row["via_crawl_only"] for row in rows]
@@ -103,12 +117,12 @@ def figure_discovery_provenance(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig2-discovery-provenance.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_corpus_share(analysis: dict, output_dir: str) -> str:
+    """Grouped bars comparing each section's share of total pages against
+    its share of total skill words; writes fig3-corpus-share.png."""
     rows = sorted(analysis["sections"], key=lambda row: row["pages"], reverse=True)
     names = [row["section"] for row in rows]
     total_pages = sum(row["pages"] for row in rows) or 1
@@ -130,12 +144,13 @@ def figure_corpus_share(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig3-corpus-share.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_skill_sizes(analysis: dict, output_dir: str) -> str:
+    """Horizontal box plots of skill body word counts per section (ordered
+    by mean size) with the overall median line; writes
+    fig4-skill-size-distribution.png."""
     records = analysis["skills"]["records"]
     sections = sorted({r["area"] for r in records})
     by_area = {area: [r["word_count"] for r in records if r["area"] == area] for area in sections}
@@ -180,9 +195,7 @@ def figure_skill_sizes(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig4-skill-size-distribution.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def _skill_links(skill: dict, analysis: dict) -> list[str]:
@@ -195,6 +208,7 @@ def _skill_links(skill: dict, analysis: dict) -> list[str]:
 
 
 def _section_of_link(link: str) -> str:
+    """Map a URL to its site section, preserving the query in the path."""
     path = urlparse(link).path or "/"
     query = urlparse(link).query
     if query:
@@ -203,6 +217,9 @@ def _section_of_link(link: str) -> str:
 
 
 def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
+    """Circular directed graph of cross-section link flow quoted in rendered
+    skills: node area = section pages, edge weight = skill-quoted link count;
+    writes fig5-section-link-graph.png."""
     edges: Counter = Counter()
     for skill in analysis["skills"]["records"]:
         source_section = skill["area"]
@@ -269,9 +286,7 @@ def figure_section_link_graph(analysis: dict, output_dir: str) -> str:
     ax.set_ylim(-1.45, 1.45)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig5-section-link-graph.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_augmentation(analysis: dict, output_dir: str) -> str:
@@ -287,7 +302,7 @@ def figure_augmentation(analysis: dict, output_dir: str) -> str:
             color=_C_ORANGE,
             edgecolor="white",
         )
-    median = sorted(values)[len(values) // 2] if values else 0
+    median = statistics.median(values) if values else 0
     ax.axvline(median, color=_C_TEAL, linestyle="--", linewidth=1.2)
     ax.annotate(
         f"median {median:,.0f} chars",
@@ -310,12 +325,13 @@ def figure_augmentation(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig6-augmentation.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_discovery_funnel(analysis: dict, output_dir: str) -> str:
+    """Three-bar funnel from declared sitemap URLs to distinct sitemap pages
+    to the full union, with yield/union annotations; writes
+    fig7-discovery-funnel.png."""
     inv = analysis["inventory"]
     stages = [
         ("Sitemap URLs declared", inv["sitemap_url_count"], _C_BLUE),
@@ -346,16 +362,17 @@ def figure_discovery_funnel(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig7-discovery-funnel.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_crawl_depth(analysis: dict, output_dir: str) -> str:
+    """Vertical bars of page counts by BFS discovery depth (digit keys
+    ascending, "unfetched" last) annotated with percentages; writes
+    fig8-crawl-depth.png."""
     histogram = analysis["depth_histogram"]
     keys = sorted(histogram, key=lambda k: (k == "unfetched", int(k) if k.isdigit() else 99))
     values = [histogram[key] for key in keys]
-    labels = [key if key != "unfetched" else "unfetched" for key in keys]
+    labels = list(keys)
     fig, ax = plt.subplots(figsize=(7.6, 3.8))
     bars = ax.bar(labels, values, color=_C_GREEN)
     ax.bar_label(bars, padding=3, fontsize=8)
@@ -377,12 +394,12 @@ def figure_crawl_depth(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig8-crawl-depth.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_top_indegree(analysis: dict, output_dir: str) -> str:
+    """Horizontal bars of the most inbound-linked discovered pages, colored
+    by section and labeled section · path; writes fig9-top-indegree.png."""
     top = analysis["indegree"]["top"]
     palette = [_C_BLUE, _C_ORANGE, _C_GREEN, _C_RED, _C_PURPLE]
     section_names = sorted({row["section"] for row in analysis["sections"]})
@@ -401,12 +418,13 @@ def figure_top_indegree(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig9-top-indegree.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def figure_augmentation_effect(analysis: dict, output_dir: str) -> str:
+    """Two bars comparing median skill body size for static versus
+    augmented pages, annotated with counts; writes
+    fig10-augmentation-effect.png."""
     skills = analysis["skills"]
     pairs = [
         ("Static (no document)", skills["static_count"], skills["median_words_static"], _C_BLUE),
@@ -442,9 +460,7 @@ def figure_augmentation_effect(analysis: dict, output_dir: str) -> str:
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig10-augmentation-effect.png"
-    fig.savefig(path, dpi=_DPI)
-    plt.close(fig)
-    return path
+    return _save(fig, path)
 
 
 def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
@@ -519,7 +535,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
                 "client-rendered pages "
                 f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts)."
             ),
-            "alt_text": "Horizontal bar chart of retrieved document sizes for dynamic pages.",
+            "alt_text": "Histogram of retrieved document character sizes for dynamic-page augmentations.",
         },
         {
             "figure_id": "discovery-funnel",

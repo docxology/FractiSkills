@@ -4,6 +4,18 @@ All notable changes to this project are documented here. Format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- Orchestration review pass: `section_for_path` moved to `profiles.py`
+  (research layer no longer imports the acquisition module); `preflight`
+  promoted to a CLI subcommand with thin scripts; `cmd_validate` dispatches
+  to `pipeline.validate_skills_tree`; derived metrics (sitemap yield,
+  augment ratio, mode depth, heavy/biggest section) computed once in the
+  analysis record; dead code removed; every module, class, and function in
+  `src/fractiskills/` documented.
+
 ## [0.1.0] - 2026-09-10
 
 ### Added

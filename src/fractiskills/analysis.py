@@ -11,7 +11,7 @@ import re
 import statistics
 from pathlib import Path
 
-from .models import SiteInventory, load_json
+from .models import SiteInventory, load_json, write_json_atomic
 
 _FRONTMATTER_DESCRIPTION = re.compile(
     r"(?s)\A---\s*\n.*?^description:\s*(.+?)\s*\n.*?^---", re.MULTILINE
@@ -19,6 +19,8 @@ _FRONTMATTER_DESCRIPTION = re.compile(
 
 
 def _skill_frontmatter_description(skill_md: str) -> str:
+    """Extract the frontmatter ``description:`` value from a rendered
+    SKILL.md; empty string when absent."""
     match = _FRONTMATTER_DESCRIPTION.search(skill_md)
     if not match:
         return ""
@@ -26,6 +28,8 @@ def _skill_frontmatter_description(skill_md: str) -> str:
 
 
 def _iter_published_skills(skills_dir: str):
+    """Yield (area, skill, SKILL.md path, manifest path) for every published
+    skill directory containing both files, sorted by area then skill."""
     root = Path(skills_dir)
     if not root.is_dir():
         return
@@ -40,6 +44,8 @@ def _iter_published_skills(skills_dir: str):
 
 
 def _load_run_manifests(output_dir: str) -> dict[str, dict]:
+    """Load every runs/<name>/manifest.json keyed by run name, silently
+    skipping missing or unreadable manifests."""
     manifests: dict[str, dict] = {}
     runs_root = Path(output_dir) / "runs"
     if not runs_root.is_dir():
@@ -56,6 +62,8 @@ def _load_run_manifests(output_dir: str) -> dict[str, dict]:
 
 
 def _augmentation_receipts(output_dir: str) -> list[dict]:
+    """Parse data/augmentation_receipts.jsonl into receipt dicts, skipping
+    blank and malformed lines."""
     path = Path(output_dir) / "data" / "augmentation_receipts.jsonl"
     if not path.is_file():
         return []
@@ -78,7 +86,8 @@ def build_analysis(
     render_summary: dict | None = None,
     publish_receipt: dict | None = None,
 ) -> dict:
-    """Aggregate every persisted artifact into one analysis record."""
+    """Aggregate every persisted artifact into one analysis record and
+    persist it as data/fractiskills_analysis.json and data/skills.csv."""
     skills: list[dict] = []
     for area, name, skill_path, manifest_path in _iter_published_skills(skills_dir):
         skill_md = skill_path.read_text(encoding="utf-8")
@@ -143,6 +152,8 @@ def build_analysis(
             alias_resolution[alias] = entry.url
 
     def _resolve_target(link: str) -> str | None:
+        # Follow the alias chain with a cycle guard; a link counts only when
+        # it lands on a discovered page.
         current = link
         seen: set[str] = set()
         while current not in page_urls and current not in seen:
@@ -167,15 +178,25 @@ def build_analysis(
     top_indegree = sorted(inbound.items(), key=lambda item: (-item[1], item[0]))[:15]
     section_outbound: dict[str, int] = {}
     for entry in inventory.entries:
-        section_outbound[entry.section] = (
-            section_outbound.get(entry.section, 0) + len(entry.links)
-        )
+        section_outbound[entry.section] = section_outbound.get(entry.section, 0) + len(entry.links)
     depth_counts: dict[str, int] = {}
     for entry in inventory.entries:
         depth = str(entry.crawl_depth) if entry.crawl_depth is not None else "unfetched"
         depth_counts[depth] = depth_counts.get(depth, 0) + 1
+    mode_depth = max(depth_counts, key=lambda k: depth_counts[k]) if depth_counts else ""
+    mode_depth = "unfetched" if mode_depth == "unfetched" else mode_depth
+    total_depth_pages = sum(depth_counts.values()) or 1
+    sitemap_yield = (
+        100
+        * sum(1 for e in inventory.entries if e.via_sitemap)
+        / max(inventory.sitemap_url_count, 1)
+    )
     augmented_words = [skill["word_count"] for skill in skills if skill["augmentation_ok"]]
     static_words = [skill["word_count"] for skill in skills if not skill["augmentation_ok"]]
+    augmented_median = statistics.median(augmented_words) if augmented_words else 0
+    static_median = statistics.median(static_words) if static_words else 0
+    heavy_section = max(sections.values(), key=lambda b: b.get("words", 0), default=None)
+    biggest_section = max(sections.values(), key=lambda b: b.get("pages", 0), default=None)
     run_manifests = _load_run_manifests(output_dir)
     successful_runs = {
         name: manifest
@@ -233,6 +254,18 @@ def build_analysis(
                 key=lambda item: (item[0] == "unfetched", item[0]),
             )
         ),
+        "mode_depth": f"depth {mode_depth}"
+        if mode_depth and mode_depth != "unfetched"
+        else (mode_depth or "n/a"),
+        "mode_depth_share": round(100 * depth_counts.get(mode_depth, 0) / total_depth_pages, 1),
+        "sitemap_yield": round(sitemap_yield, 1),
+        "augment_ratio": round(augmented_median / static_median, 1) if static_median else 0.0,
+        "heavy_section": heavy_section["section"] if heavy_section else "",
+        "biggest_section": (
+            f"{biggest_section['section']} ({biggest_section.get('pages', 0)} pages)"
+            if biggest_section
+            else ""
+        ),
         "skills": {
             "count": len(skills),
             "total_words": sum(word_counts),
@@ -281,12 +314,13 @@ def build_analysis(
 
 
 def write_analysis(analysis: dict, output_dir: str) -> None:
-    from .models import write_json_atomic
-
+    """Persist the analysis record atomically to data/fractiskills_analysis.json."""
     write_json_atomic(f"{output_dir}/data/fractiskills_analysis.json", analysis)
 
 
 def write_skills_csv(skills: list[dict], output_dir: str) -> None:
+    """Write the skill records to data/skills.csv, joining source_urls and
+    dropping the description/augmentation flag columns."""
     path = Path(output_dir) / "data" / "skills.csv"
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
