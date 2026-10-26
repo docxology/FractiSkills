@@ -19,7 +19,7 @@ The typeset manuscript is archived on Zenodo: **DOI [10.5281/zenodo.22712651](ht
 | One validated skill package per page | `skills/<Section>/<Skill>/SKILL.md` + `manifest.json` |
 | Harness discovery index | `skills/index.json` |
 | Augmentation receipts (dynamic documents) | `output/data/augmentation_receipts.jsonl` |
-| Aggregated analysis record + CSV | `output/data/fractiskills_analysis.json`, `skills.csv` |
+| Aggregated analysis record + CSV | `output/data/fractiskills_analysis.json`, `output/data/skills.csv` |
 | Deterministic figures + registry | `output/figures/*.png`, `output/data/figure_registry.json` |
 | Bound manuscript chapters | `output/manuscript/` |
 
@@ -54,7 +54,7 @@ discover → render → publish → research
 1. **discover** — fetch the site's declared sitemap, then run one bounded, robots-respecting breadth-first crawl (Skillarum's `WebsiteCrawler`: same-origin, rate-limited, streamed) seeded with `/` and every sitemap URL. Redirect chains and declared canonical duplicates are resolved to aliases; the union is the page inventory.
 2. **render** — one Skillarum profile per site section, one exact-page target per page. The `AugmentedGenerator` keeps Skillarum's deterministic skill body and, for pages whose static HTML is a client-rendered shell, retrieves the real document from the same-origin JSON endpoint declared in the reviewed site spec — with per-fetch receipts. Hard target failures fail their section loudly; nothing is silently skipped or fabricated.
 3. **publish** — validate every rendered package and copy it into the tracked, reconciled `skills/` tree; rebuild the discovery index.
-4. **research** — aggregate artifacts into one analysis record, render the five figures, compute manuscript tokens, bind them into `output/manuscript/`.
+4. **research** — aggregate artifacts into one analysis record, render the thirteen figures, compute manuscript tokens, bind them into `output/manuscript/`.
 
 Every numeric claim in the manuscript is a bound token hydrated from persisted run artifacts; rerunning produces a new dated observation with fresh receipts, not an implicit merge.
 

@@ -27,7 +27,7 @@ pipeline.publish_skills ─ validate, copy into tracked skills/,
         │                 reconcile stale packages, rebuild index.json
         ▼
 research layer (analysis.py → figures.py → publication.py)
-        │  one analysis record, five PNG figures, token variables,
+        │  one analysis record, thirteen PNG figures, token variables,
         │  bound chapters in output/manuscript/
 ```
 

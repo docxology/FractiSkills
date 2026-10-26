@@ -9,9 +9,6 @@ from pathlib import Path
 
 from .models import SiteSpec, resolve_evidence_origin
 
-# Backward-compatible alias for scripts that imported the CLI private.
-_resolve_evidence_origin = resolve_evidence_origin
-
 
 def _spec(args: argparse.Namespace) -> SiteSpec:
     """Load the SiteSpec named by ``args.spec``."""

@@ -6,6 +6,18 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- Removed the unused `_resolve_evidence_origin` backward-compatibility alias
+  from `cli.py`.
+- Documentation corrections: README and architecture now report the thirteen
+  rendered figures; README's CSV artifact path is `output/data/skills.csv`;
+  the TODO ledger path is `data/claim_ledger.yaml`; dropped the completed
+  Zenodo deposit item.
+- Research-package and CLI end-to-end tests now build against disposable
+  project copies, so the suite no longer overwrites the tracked
+  `cover/FractiSkills_cover.png`.
+
 ### Added
 
 - Zenodo publication: DOI [10.5281/zenodo.22712651](https://doi.org/10.5281/zenodo.22712651)

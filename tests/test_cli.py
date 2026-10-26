@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 
 from fractiskills.cli import main
@@ -36,9 +37,17 @@ def test_discover_and_validate_cli_json(run_env, spec_file, capsys) -> None:
     capsys.readouterr()
 
 
-def test_full_run_cli(run_env, spec_file, capsys) -> None:
+def test_full_run_cli(run_env, spec_file, capsys, monkeypatch) -> None:
     output = run_env / "out"
     skills = run_env / "skills"
+    # The CLI research stage writes cover/ and manuscript variables relative to
+    # the working directory, so run from a disposable project copy instead of
+    # the repository root (which owns the tracked cover asset).
+    project = run_env / "project"
+    shutil.copytree(REPO_ROOT / "manuscript", project / "manuscript")
+    (project / "cover").mkdir(parents=True)
+    (project / "skills").symlink_to(REPO_ROOT / "skills")
+    monkeypatch.chdir(project)
     code = main(
         [
             "run",

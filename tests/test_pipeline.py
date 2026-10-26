@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import shutil
 from pathlib import Path
 
 import pytest
@@ -102,8 +103,13 @@ def test_figures_and_research_package_bind(loaded_spec, fixture_inventory, tmp_p
     assert len(registry) == 13
     for figure in registry:
         assert Path(figure["path"]).is_file()
+    # Build against a disposable project copy so the research package's cover
+    # copy cannot overwrite the tracked cover asset at the repository root.
+    project_dir = tmp_path / "project"
+    shutil.copytree(REPO_ROOT / "manuscript", project_dir / "manuscript")
+    (project_dir / "cover").mkdir(parents=True)
     variables_receipt = build_research_package(
-        str(REPO_ROOT), output_dir, skills_dir=receipt["skills_dir"]
+        str(project_dir), output_dir, skills_dir=receipt["skills_dir"]
     )
     assert variables_receipt["figures"] == 13
     bound = Path(output_dir) / "manuscript"
