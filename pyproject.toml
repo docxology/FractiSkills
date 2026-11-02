@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fractiskills"
 description = "One portable agent SKILL per page of the SS Vibelandia Omniversal Canvas, rendered with Skillarum, with figures and a reproducible manuscript"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dynamic = ["version"]
 license = { text = "MIT" }
 authors = [
