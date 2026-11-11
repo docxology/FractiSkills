@@ -19,3 +19,7 @@ Backlog with acceptance lines. A line is done when its acceptance holds.
 - [ ] **PyPI publication.** Publish the `fractiskills` package once the
   skill library stabilizes. Acceptance: `pip install fractiskills` renders
   the fixture pipeline.
+
+## Workflowz review — 2026-11-10
+
+Coverage is limited to the supplied packet: project guidance, README and existing TODO; Python/runtime metadata; the visible orchestration, CLI, profile-building, and script-dispatch excerpts; and the opt-in live-site test. All 30 Python candidate files and the full 1,700-file repository were not available. The review found no concrete, behaviorally verifiable improvement supported by an exact visible path:line. Per-section exception isolation in `pipeline.py`, fixture origin handling in `cli.py`, opt-in live testing, and thin script wrappers are explicit design choices, not silent production substitutes. The packet does not expose `.python-version` as `3.15.2`, so no interpreter-pin change is asserted. Re-review on a concrete failure or when omitted source/test content or changed runtime/deployment constraints are supplied.
