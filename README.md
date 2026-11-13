@@ -5,6 +5,8 @@
 
 One portable agent `SKILL.md` package **per page** of the [SS Vibelandia Omniversal Canvas](https://www.ssvibelandiaquestfest24x365.com/) — a living, openly shared SuperAI art project by Valet Pru (Downtown Reno) — rendered with [Skillarum](https://github.com/docxology/Skillarum), organized by the site's own section architecture, published with deterministic figures and a token-hydrated manuscript.
 
+<p align="center"><img src="cover/FractiSkills_cover.png" alt="FractiSkills cover" width="360"></p>
+
 ## Publication
 
 The typeset manuscript is archived on Zenodo: **DOI [10.5281/zenodo.22712651](https://doi.org/10.5281/zenodo.22712651)** (versioned record for v0.1.0) · concept DOI [10.5281/zenodo.22712650](https://doi.org/10.5281/zenodo.22712650) (always-latest). The record carries the PDF, the MIT license, and back-links to this repository and release; cite as *Friedman, Daniel Ari (2026). FractiSkills: One Portable Agent Skill per Page (v0.1.0). Zenodo.* New releases deposit under the same concept DOI.
