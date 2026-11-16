@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from skillarum.render import validate_skill_package, write_skill_index
@@ -79,7 +79,7 @@ def render_site(
                 )
             )
     summary = RenderSummary(
-        generated_at=datetime.now(timezone.utc).isoformat(),
+        generated_at=datetime.now(UTC).isoformat(),
         backend=backend,
         evidence_origin=evidence_origin,
         runs=tuple(runs),
@@ -178,7 +178,7 @@ def publish_skills(
                     shutil.rmtree(skill_dir)
     index_path = write_skill_index(destination_root)
     receipt = {
-        "published_at": datetime.now(timezone.utc).isoformat(),
+        "published_at": datetime.now(UTC).isoformat(),
         "skills_dir": str(destination_root),
         "index_path": str(index_path),
         "count": len(published),

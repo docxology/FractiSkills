@@ -18,7 +18,7 @@ Everything else in FractiSkills consumes the persisted inventory.
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from urllib.parse import urlparse
 
 import httpx
@@ -340,7 +340,7 @@ def discover_site(
     inventory = SiteInventory(
         base_url=spec.base_url,
         sitemap_url=spec.sitemap_url,
-        generated_at=datetime.now(timezone.utc).isoformat(),
+        generated_at=datetime.now(UTC).isoformat(),
         entries=tuple(merged_entries),
         sitemap_url_count=len(sitemap_urls),
         crawl_accepted_count=len(bundle.pages),

@@ -17,7 +17,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass, field, replace
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 from urllib.parse import urlparse
 
@@ -174,7 +174,7 @@ class AugmentedGenerator(DeterministicGenerator):
                 document_text = html_to_text(document_html) if document_html else ""
                 if not document_text:
                     raise ValueError("augmentation API payload carried no document text")
-                fetched_at = datetime.now(timezone.utc).isoformat()
+                fetched_at = datetime.now(UTC).isoformat()
                 content_sha256 = sha256_bytes(document_text.encode("utf-8"))
                 header = (
                     f"Dynamic document retrieved from {absolute_api} at {fetched_at} "
@@ -211,7 +211,7 @@ class AugmentedGenerator(DeterministicGenerator):
                         api_url=absolute_api,
                         ok=False,
                         error=error,
-                        fetched_at=datetime.now(timezone.utc).isoformat(),
+                        fetched_at=datetime.now(UTC).isoformat(),
                     ).to_dict()
                 )
                 failure_warnings.append(f"augmentation failed for {page.url}: {error}")
