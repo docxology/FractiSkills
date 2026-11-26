@@ -13,7 +13,7 @@ The pipeline is four stages — **discover → render → publish → research**
 
 : The four stages, their module boundaries, and their single network column. {#tbl:pipeline_stages}
 
-Every stage writes atomically and reads only persisted artifacts, so any stage can be re-run independently; [@tbl:pipeline_stages] is the enforcement surface for the layer contract in `manuscript/layer_contract.yaml`.
+Every stage writes atomically and reads only persisted artifacts, so any stage can be re-run independently; [@tbl:pipeline_stages] is the enforcement surface for the layer contract in `docs/manuscript/layer_contract.yaml`.
 
 ## Discovery
 
@@ -47,7 +47,7 @@ $$
 R_s \;=\; 3\,|\mathcal{P}_s| + 20,
 $$ {#eq:request_budget}
 
-which kept the twelve section runs inside {{REQUEST_COUNT}} network requests in total. A sitemap URL that survives neither the breadth-first pass nor alias resolution becomes a recorded note — never a silent gap — so the inventory is complete with respect to its own evidence.
+The analyzed run issued {{REQUEST_COUNT}} network requests. A sitemap URL that survives neither the breadth-first pass nor alias resolution becomes a recorded note — never a silent gap — so the inventory is complete with respect to its own evidence.
 
 ## Render
 

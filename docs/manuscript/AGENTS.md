@@ -8,5 +8,5 @@
 - `config.yaml` carries paper metadata consumed by the parent renderer;
   `references.bib` uses natbib keys cited as `[@key]`.
 - `layer_contract.yaml` documents the enforced surface rules.
-- Figures are referenced as `../output/figures/<name>.png` with registry
+- Figures are referenced as `../../output/figures/<name>.png` with registry
   captions (`FIGURE_<ID>_CAPTION` tokens).

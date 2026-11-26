@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from contextlib import contextmanager
 from pathlib import Path
 
 import pytest
@@ -42,8 +43,8 @@ SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
 """
 
 
-@pytest.fixture()
-def fixture_site():
+@contextmanager
+def serve_fixture_site():
     """Serve a small site with sitemap, redirect alias, and dynamic pages."""
     server = HTTPServer()
     server.expect_request("/robots.txt").respond_with_data(
@@ -92,13 +93,20 @@ def fixture_site():
             "html": "<p>Catalog of two documents.</p>",
         }
     )
-    yield base
-    server.stop()
+    try:
+        yield base
+    finally:
+        server.stop()
 
 
 @pytest.fixture()
-def spec_file(fixture_site: str, tmp_path: Path) -> Path:
-    """A site spec pointing at the fixture server, written to tmp_path."""
+def fixture_site():
+    with serve_fixture_site() as base:
+        yield base
+
+
+def write_fixture_spec(fixture_site: str, directory: Path) -> Path:
+    """Write the local fixture site configuration."""
     spec = {
         "id": "fixturesite",
         "name": "Fixture Site",
@@ -118,9 +126,14 @@ def spec_file(fixture_site: str, tmp_path: Path) -> Path:
             {"match_path": "/papers", "api_template": "/api/whitepaper-catalog"},
         ],
     }
-    path = tmp_path / "fixturesite.yaml"
+    path = directory / "fixturesite.yaml"
     path.write_text(yaml.safe_dump(spec), encoding="utf-8")
     return path
+
+
+@pytest.fixture()
+def spec_file(fixture_site: str, tmp_path: Path) -> Path:
+    return write_fixture_spec(fixture_site, tmp_path)
 
 
 @pytest.fixture()

@@ -28,7 +28,7 @@ Augmentation receipt — Per-fetch provenance in metadata and run artifacts: end
 
 Prepared corpus fingerprint — Content hash binding every rendered skill to its exact prepared corpus, enabling byte-identical reproduction.
 
-Evidence origin — Manifest field classifying corpus text; here all evidence is live, fetched within the observation window rather than replayed from cache.
+Evidence origin — Manifest field classifying corpus text; the run manifest distinguishes fresh acquisition, fixture evidence, and unknown origin.
 
 Discovery index — Published per-skill index linking each skill to its source URL, section, and provenance.
 

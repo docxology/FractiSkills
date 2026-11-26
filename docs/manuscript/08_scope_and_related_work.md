@@ -2,7 +2,7 @@
 
 ## In scope
 
-FractiSkills does exactly four things for exactly one declared site, SS Vibelandia:
+FractiSkills does exactly four things for one declared site at a time: SS Vibelandia for the published case study:
 
 1. **Discovery.** Enumerate every page as the union of sitemap endpoints and a bounded breadth-first crawl, reconciled against {{SITEMAP_URLS}} sitemap entries into {{TOTAL_PAGES}} unique pages.
 2. **Render.** One validated portable skill per page, with honest dynamic-document augmentation where the site offers a structured document surface — {{AUGMENT_OK}} of {{AUGMENT_ATTEMPTS}} attempts succeed.
@@ -18,7 +18,7 @@ The result is a *render* of one public work, with the work's own architecture as
 - **Not an LLM synthesis pipeline.** The deterministic backend is the default and produced all tracked artifacts; no provider LLM content appears in the corpus.
 - **Single-origin only.** No aggregation of multiple sites into one skill namespace.
 - **No generated-code execution.** Rendered skills are inspected, never run.
-- **No fixture-to-live upgrades.** Evidence-origin rules are inherited from Skillarum and enforced in run manifests; live observations stay {{EVIDENCE_ORIGINS}}.
+- **No fixture-to-live upgrades.** Evidence-origin rules are inherited from Skillarum and enforced in run manifests; the analyzed evidence origin is {{EVIDENCE_ORIGINS}}.
 
 ## Related work
 

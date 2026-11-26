@@ -106,7 +106,7 @@ def test_figures_and_research_package_bind(loaded_spec, fixture_inventory, tmp_p
     # Build against a disposable project copy so the research package's cover
     # copy cannot overwrite the tracked cover asset at the repository root.
     project_dir = tmp_path / "project"
-    shutil.copytree(REPO_ROOT / "manuscript", project_dir / "manuscript")
+    shutil.copytree(REPO_ROOT / "docs" / "manuscript", project_dir / "docs" / "manuscript")
     (project_dir / "cover").mkdir(parents=True)
     variables_receipt = build_research_package(
         str(project_dir), output_dir, skills_dir=receipt["skills_dir"]
@@ -114,7 +114,10 @@ def test_figures_and_research_package_bind(loaded_spec, fixture_inventory, tmp_p
     assert variables_receipt["figures"] == 13
     bound = Path(output_dir) / "manuscript"
     assert (bound / "00_abstract.md").is_file()
-    assert "{{" not in (bound / "00_abstract.md").read_text(encoding="utf-8")
+    abstract = (bound / "00_abstract.md").read_text(encoding="utf-8")
+    assert "{{" not in abstract
+    assert "Fixture verification only" in abstract
+    assert not (project_dir / "cover" / "FractiSkills_cover.png").exists()
     catalog = (bound / "06_skill_catalog.md").read_text(encoding="utf-8")
     assert "reader.html?id=doc1" in catalog
 
@@ -125,7 +128,7 @@ def test_unknown_token_fails_loudly(loaded_spec, fixture_inventory, tmp_path) ->
 
     with pytest.raises(ValueError, match="unknown manuscript tokens"):
         bind_manuscript(
-            manuscript_dir=str(REPO_ROOT / "manuscript"),
+            manuscript_dir=str(REPO_ROOT / "docs" / "manuscript"),
             output_dir=output_dir,
             variables={"ONLY_ONE": "x"},
         )

@@ -5,7 +5,7 @@ paper:
   subtitle: "A Skillarum-backed render of the SS Vibelandia Omniversal Canvas"
   version: "0.1.0"
   cover:
-    image: "cover/FractiSkills_cover.png"
+    image: "figures/cover.png"
     alt: "Generated cover for FractiSkills: golden-ratio nested arcs carrying the site's sections around a central convergence node, one point per discovered page"
 
 authors:

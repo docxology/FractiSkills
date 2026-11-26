@@ -12,10 +12,10 @@ discovery, augmentation, publication, and research as separate testable stages.
 | Entrypoints | [`scripts/AGENTS.md`](scripts/AGENTS.md) |
 | Tests | [`tests/AGENTS.md`](tests/AGENTS.md) |
 | Inputs and ledgers | [`data/AGENTS.md`](data/AGENTS.md), [`data/sources/AGENTS.md`](data/sources/AGENTS.md) |
-| Manuscript sources | [`manuscript/AGENTS.md`](manuscript/AGENTS.md) |
+| Manuscript sources | [`docs/manuscript/AGENTS.md`](docs/manuscript/AGENTS.md) |
 | Documentation | [`docs/AGENTS.md`](docs/AGENTS.md) |
 
-`output/` is generated, disposable, and untracked. It is not documented.
+`output/` is generated, disposable, and untracked. See the [output inventory](docs/operations.md).
 
 ## Layer contract
 
@@ -38,7 +38,7 @@ discovery, augmentation, publication, and research as separate testable stages.
 
 Tests use local fixture HTTP servers (pytest-httpserver) and real subprocesses
 rather than mock frameworks; the default suite must be hermetic from a clean
-checkout (`output/` and `skills/` are disposable/ignored for tests). Fixture
+checkout (tests use isolated output and fixture skills directories). Fixture
 origin runs pass `evidence_origin="fixture"` and `allow_private_hosts=True`;
 a fixture observation is never presented as live-site evidence. Default suite:
 

@@ -88,7 +88,7 @@ def figure_site_sections(analysis: dict, output_dir: str) -> str:
             color=_C_GREY,
         )
     ax.set_xlabel("Discovered pages")
-    ax.set_title(f"SS Vibelandia pages per section (n={sum(values)})", fontsize=11)
+    ax.set_title(f"Discovered pages per section (n={sum(values)})", fontsize=11)
     _style_axes(ax)
     fig.tight_layout()
     path = f"{output_dir}/figures/fig1-site-sections.png"
@@ -652,7 +652,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "figure_id": "site-sections",
             "path": figure_site_sections(analysis, output_dir),
             "caption": (
-                f"Discovered pages per section of the SS Vibelandia site (n={inv['discovered_pages']}), "
+                f"Discovered pages per section in the analyzed run (n={inv['discovered_pages']}), "
                 f"annotated with mean skill words per page. The largest section is "
                 f"{biggest['section']} with {biggest['pages']} pages; compare the right-hand words-per-page annotations against bar lengths to spot mass-dense sections."
                 if biggest
@@ -666,7 +666,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Discovery provenance by section: pages listed in the declared sitemap versus pages "
                 f"found only by the bounded breadth-first crawl ({inv['via_sitemap']} sitemap, "
-                f"{inv['via_crawl_only']} crawl-only). Orange-dominant rows — Ship-Blog, Voyage, most of Interfaces — are invisible to sitemap-only ingestion."
+                f"{inv['via_crawl_only']} crawl-only). Orange bars count pages reachable only through crawling."
             ),
             "alt_text": "Stacked horizontal bar chart of sitemap versus crawl-only page counts per section.",
         },
@@ -676,7 +676,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Share of pages versus share of rendered skill words by section. "
                 f"{heavy['section']} carries {100 * heavy['words'] / max(skills['total_words'], 1):.0f}% "
-                "of the corpus words; gaps between the paired bars flag sections whose average page is much heavier (Interfaces, Whitepaper) or lighter (Ship-Blog) than the corpus mean."
+                "of the corpus words. The paired bars compare page share with word share."
                 if heavy
                 else "Share of pages versus share of words by section (no data)."
             ),
@@ -688,7 +688,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Body-size distribution of the "
                 f"{skills['count']} rendered SKILL.md documents, box-plotted per section "
-                f"(overall median {skills['median_words']:,.0f} words). Read each box against the red overall median: sections whose whole box sits above it (Interfaces, Whitepaper) are mass-dense, while the wide Ship-Blog whiskers show breadth over depth."
+                f"(overall median {skills['median_words']:,.0f} words). The red line marks the overall median. Boxes show the middle half of each section’s distribution."
             ),
             "alt_text": "Horizontal box plot of skill body word counts per site section.",
         },
@@ -698,7 +698,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Cross-section link flow quoted inside rendered skills: node area is proportional to "
                 "section page count and edge weight to the number of skill-quoted links between "
-                "sections (arrows point from the quoting section to the quoted section). The dominant Ship-Blog-to-Core edge is the site's own reading spine: posts quote the deck-level pages that define their vocabulary."
+                "sections (arrows point from the quoting section to the quoted section). Edge width indicates the relative number of links."
             ),
             "alt_text": "Circular directed graph of link flow between site sections.",
         },
@@ -708,7 +708,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Dynamic-document augmentation: same-origin API documents retrieved for "
                 "client-rendered pages "
-                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts). The distribution is right-skewed: most retrieved documents cluster near the median with a long tail of long-form whitepapers. Bins group retrieved document sizes; the dashed line marks the median document, and the four failed attempts remain receipt-only, not drawn."
+                f"({augmentation['ok']} succeeded, {augmentation['failed']} failed with persisted receipts). Bins group retrieved document sizes. The dashed line marks the median document. Failures are recorded in receipts."
             ),
             "alt_text": "Histogram of retrieved document character sizes for dynamic-page augmentations.",
         },
@@ -718,7 +718,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Discovery funnel: declared sitemap URLs, distinct pages reached through them, and "
                 f"the full union ({inv['discovered_pages']} pages = "
-                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count). The steep first step is sitemap yield; the tall second step is pure crawl gain. The gap between the second and third bars is exactly the crawl-only surplus the sitemap cannot see."
+                f"{inv['discovered_pages'] / max(inv['sitemap_url_count'], 1):.1f}× the sitemap count). The difference between the second and third bars gives the number of pages found only by crawling."
             ),
             "alt_text": "Horizontal funnel bar chart from sitemap URLs to the full page union.",
         },
@@ -726,8 +726,8 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "figure_id": "crawl-depth",
             "path": figure_crawl_depth(analysis, output_dir),
             "caption": (
-                "Pages by breadth-first discovery depth: most pages sit several hops from the root, "
-                "which is why a sitemap-only render would have missed them; the modal depth "
+                "Pages by breadth-first discovery depth. "
+                "The modal depth "
                 f"alone holds {analysis['mode_depth_share']:.0f}% of all pages."
             ),
             "alt_text": "Bar chart of page counts by BFS discovery depth.",
@@ -746,7 +746,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_augmentation_effect(analysis, output_dir),
             "caption": (
                 "Median skill body size for static pages versus augmented (document-bearing) pages "
-                f"(n={skills['static_count']} static, n={skills['augmented_count']} augmented). The gap is the measured value of honest augmentation: the same pipeline without the declared bindings would ship the shorter median throughout."
+                f"(n={skills['static_count']} static, n={skills['augmented_count']} augmented). The bars describe the two observed groups."
             ),
             "alt_text": "Bar chart comparing median skill sizes of static and augmented skills.",
         },
@@ -756,9 +756,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "caption": (
                 "Pages against rendered skill words per section (log-spread "
                 "annotated). Sections above the line pack more words per page "
-                "than the corpus at large: Interfaces and Whitepaper are "
-                "mass-dense, while Voyage and Ship-Blog carry many lighter "
-                "pages. Sections above the line pack more words per page than the corpus average; vertical distance from the dotted reference is mass density."
+                "than the corpus average."
             ),
             "alt_text": "Scatter plot of section page counts against skill word counts with labels.",
         },
@@ -767,10 +765,7 @@ def build_figures(analysis: dict, *, output_dir: str) -> list[dict]:
             "path": figure_cumulative_words(analysis, output_dir),
             "caption": (
                 "Pareto curve of cumulative skill-word share over sections "
-                "ordered by mass. The curve quantifies concentration: the "
-                "first two sections already carry the majority of the "
-                "corpus, so a render that dropped them would lose most of "
-                "the substance."
+                "ordered by word count. The curve shows how quickly those sections account for the full corpus."
             ),
             "alt_text": "Cumulative share line chart of skill words by section.",
         },
