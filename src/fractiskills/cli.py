@@ -184,7 +184,7 @@ def cmd_research(args: argparse.Namespace) -> int:
     at the cwd and print the receipt. Always exits 0."""
     from .publication import build_research_package
 
-    receipt = build_research_package(str(Path.cwd()), args.output_dir)
+    receipt = build_research_package(str(Path.cwd()), args.output_dir, skills_dir=args.skills_dir)
     if args.json:
         print(json.dumps(receipt, indent=1))
     else:

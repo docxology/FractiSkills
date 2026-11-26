@@ -44,7 +44,7 @@ def test_full_run_cli(run_env, spec_file, capsys, monkeypatch) -> None:
     # the working directory, so run from a disposable project copy instead of
     # the repository root (which owns the tracked cover asset).
     project = run_env / "project"
-    shutil.copytree(REPO_ROOT / "manuscript", project / "manuscript")
+    shutil.copytree(REPO_ROOT / "docs" / "manuscript", project / "docs" / "manuscript")
     (project / "cover").mkdir(parents=True)
     (project / "skills").symlink_to(REPO_ROOT / "skills")
     monkeypatch.chdir(project)

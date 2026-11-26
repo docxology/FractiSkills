@@ -1,7 +1,7 @@
 """Manuscript hydration: token variables, binding, and the ordered research build.
 
 Mirrors the parent-template contract: numbered chapter sources stay pristine
-under ``manuscript/``; ``{{TOKEN}}`` placeholders are resolved into
+under ``docs/manuscript/``; ``{{TOKEN}}`` placeholders are resolved into
 ``output/manuscript/`` with a receipt that fails loudly on unknown or
 unresolved tokens.
 """
@@ -129,13 +129,21 @@ def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict
     Derived scalars (yield, ratio, mode depth, heavy/biggest section) are
     read flat from the analysis record; figures contribute
     ``FIGURE_<ID>_CAPTION/_ALT`` tokens."""
-    """Return every manuscript token value from the persisted analysis."""
     inventory = analysis["inventory"]
     skills = analysis["skills"]
     augmentation = analysis["augmentation"]
+    origins = analysis["runs"].get("evidence_origins", [])
+    scope = (
+        "Fixture verification only. Counts and figures describe the local test site."
+        if origins == ["fixture"]
+        else "Observed corpus analysis. Consult the run receipt for the evidence origin."
+    )
     variables = {
         "PROJECT_NAME": "FractiSkills",
-        "SITE_NAME": "SS Vibelandia Omniversal Canvas",
+        "SITE_NAME": (
+            "Local fixture site" if origins == ["fixture"] else "SS Vibelandia Omniversal Canvas"
+        ),
+        "OBSERVATION_SCOPE": scope,
         "BASE_URL": inventory["base_url"],
         "SITEMAP_URL": inventory["sitemap_url"],
         "TOTAL_PAGES": str(inventory["discovered_pages"]),
@@ -156,7 +164,7 @@ def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict
         "AUGMENT_FAILED": str(augmentation["failed"]),
         "AUGMENT_CHARS": str(augmentation["document_text_chars"]),
         "REQUEST_COUNT": str(analysis["runs"].get("request_count", 0)),
-        "EVIDENCE_ORIGINS": ", ".join(analysis["runs"].get("evidence_origins", [])) or "unknown",
+        "EVIDENCE_ORIGINS": ", ".join(origins) or "unknown",
         "PIPELINE_VERSION": PIPELINE_VERSION,
         "CACHE_VERSION": str(CACHE_VERSION),
         "OBSERVATION_WINDOW": _observation_window(analysis),
@@ -176,6 +184,9 @@ def build_variables(analysis: dict, figure_registry: dict | None = None) -> dict
         "HEAVY_SECTION": str(analysis["heavy_section"]),
         "BIGGEST_SECTION": str(analysis["biggest_section"]),
         "SITEMAP_YIELD": f"{analysis['sitemap_yield']:.0f}%",
+        "SITEMAP_MISS_RATE": (
+            f"{100 * inventory['via_crawl_only'] / max(1, inventory['discovered_pages']):.1f}%"
+        ),
     }
     for figure in (figure_registry or {}).get("figures", []):
         prefix = "FIGURE_" + str(figure["figure_id"]).replace("-", "_").upper()
@@ -222,6 +233,7 @@ def bind_manuscript(
         resolved = MANUSCRIPT_TOKEN_PATTERN.sub(lambda match: variables[match.group(1)], text)
         if "{{" in resolved:
             raise ValueError(f"{path.name} contains unresolved manuscript tokens")
+        resolved = resolved.replace("](../../output/figures/", "](../figures/")
         write_text_atomic(str(destination_root / path.name), resolved)
         used[path.name] = sorted(set(tokens))
         rendered.append(path.name)
@@ -285,31 +297,43 @@ def build_research_package(
 
     project = Path(project_dir)
     inventory = load_inventory(output_dir)
-    resolved_skills_dir = skills_dir or str(project / "skills")
     render_summary = try_load_json(f"{output_dir}/data/render_summary.json")
+    fixture_run = bool(render_summary and render_summary.get("evidence_origin") == "fixture")
+    if skills_dir is None:
+        if fixture_run:
+            fixture_skills = Path(output_dir) / "fixture-skills"
+            if not (fixture_skills / "index.json").is_file():
+                raise ValueError(
+                    "fixture analysis requires published output/fixture-skills packages"
+                )
+            skills_dir = str(fixture_skills)
+        else:
+            skills_dir = str(project / "skills")
     publish_receipt = try_load_json(f"{output_dir}/data/publish_receipt.json")
     analysis = build_analysis(
         output_dir=output_dir,
-        skills_dir=resolved_skills_dir,
+        skills_dir=skills_dir,
         inventory=inventory,
         render_summary=render_summary,
         publish_receipt=publish_receipt,
     )
     registry = build_figures(analysis, output_dir=output_dir)
     cover_path = build_cover(analysis, output_dir)
-    cover_dir = project / "cover"
-    cover_dir.mkdir(exist_ok=True)
-    shutil.copyfile(cover_path, cover_dir / "FractiSkills_cover.png")
+    if not fixture_run:
+        cover_dir = project / "cover"
+        cover_dir.mkdir(exist_ok=True)
+        shutil.copyfile(cover_path, cover_dir / "FractiSkills_cover.png")
     variables = build_variables(analysis, {"figures": registry})
     write_json_atomic(
         f"{output_dir}/data/manuscript_variables.json",
         {key: value for key, value in sorted(variables.items())},
     )
-    errors = validate_manuscript_dir(str(project / "manuscript"))
+    source_dir = str(project / "docs" / "manuscript")
+    errors = validate_manuscript_dir(source_dir)
     if errors:
         raise ValueError("manuscript validation failed: " + "; ".join(errors))
     receipt = bind_manuscript(
-        manuscript_dir=str(project / "manuscript"),
+        manuscript_dir=source_dir,
         output_dir=output_dir,
         variables=variables,
     )

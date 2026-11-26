@@ -1,10 +1,16 @@
 # Reproducibility {#sec:reproducibility}
 
-The artifact regenerates from a clean checkout. Setup: `uv sync --extra dev`. Staged execution runs the numbered scripts in order — `scripts/00_preflight.py` (environment and site-spec checks), `10_discover.py`, `20_render_skills.py --refresh`, `30_publish_skills.py`, `40_analyze.py`, `50_figures.py`, `60_validate.py` — or the equivalent one-command entry point, `uv run python -m fractiskills run --refresh --json`. On the reference machine the full pipeline — discovery plus render — completed in roughly seven and a half minutes wall-clock (the published observation window bounds it); analysis, figures, and binding are near-instant.
+Install the locked project dependencies with `uv sync --locked --extra dev`.
+The project supports offline analysis and rendering from persisted run artifacts.
+The published archive [@fractiskills] preserves the live paper and its observation
+window. Original raw live-run inputs are not included with the public PDF.
+The local fixture workflow exercises the same binding and validation stages with
+a synthetic site and a separate fixture evidence origin.
+
 
 ## Caching and revalidation
 
-HTTP fetches cache under `output/.cache/fetches/` and revalidate conditionally with ETag/Last-Modified, so unchanged pages cost one 304 per URL. The draft cache is keyed by prepared-corpus hash plus generator fingerprint: re-runs reuse rendered drafts until either the corpus or the `AugmentedGenerator` changes. `--refresh` re-renders within cache discipline; `--force-process` bypasses draft reuse entirely. Stage identities are stable run ids, not timestamps, so repeated runs address the same record idempotently.
+HTTP fetches cache under `output/.cache/fetches/` and revalidate conditionally with ETag/Last-Modified, so an unchanged page can return HTTP Not Modified. The draft cache is keyed by prepared-corpus hash plus generator fingerprint: re-runs reuse rendered drafts until either the corpus or the `AugmentedGenerator` changes. `--refresh` re-renders within cache discipline; `--force-process` bypasses draft reuse entirely. Stage identities are stable run ids, not timestamps, so repeated runs address the same record idempotently.
 
 ## Adding new pages
 
@@ -25,7 +31,7 @@ A section that fails hard persists `failure.json` and aborts its stage — no si
 
 ## Tracked vs disposable; determinism
 
-Tracked inputs/outputs: `skills/` (published packages), `data/` (site spec, figure definitions), and this manuscript. The entire `output/` tree is disposable and rebuildable. The generator is deterministic — no LLM contributes to tracked artifacts — figures render on a fixed matplotlib Agg backend with no timestamps drawn, and byte-level re-runs of render/publish are stable.
+Tracked inputs/outputs: `skills/` (published packages), `data/` (site spec, figure definitions), and this manuscript. The `output/` tree stores the generated records for that run. Retain a record before replacing it if its evidence is needed later. The generator is deterministic — no LLM contributes to tracked artifacts — figures render on a fixed matplotlib Agg backend with no timestamps drawn, and byte-level re-runs of render/publish are stable.
 
 ## Artifact inventory
 

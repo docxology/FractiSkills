@@ -160,10 +160,16 @@ def _draw_typography(ax, analysis: dict, rows: list[tuple[str, float, int]]) -> 
         color=_INK,
         family="DejaVu Sans",
     )
+    origins = analysis.get("runs", {}).get("evidence_origins", [])
+    subtitle = (
+        "Fixture verification · Local synthetic site"
+        if origins == ["fixture"]
+        else "One Portable Agent Skill per Page · SS Vibelandia Omniversal Canvas"
+    )
     ax.text(
         0,
         -1.90,
-        "One Portable Agent Skill per Page · SS Vibelandia Omniversal Canvas",
+        subtitle,
         ha="center",
         va="center",
         fontsize=13,

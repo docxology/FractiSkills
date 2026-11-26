@@ -49,5 +49,5 @@ research layer (analysis.py → figures.py → publication.py)
 - Skill names are path-derived; page titles live in inventory and bodies.
 - Publishing is a clean cutover, not a merge.
 
-See `manuscript/layer_contract.yaml` for the enforcement table and
+See `docs/manuscript/layer_contract.yaml` for the enforcement table and
 `docs/policies.md` for safety and evidence rules.

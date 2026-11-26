@@ -6,7 +6,7 @@
 
 ## The site as corpus
 
-The corpus is the SS Vibelandia site at {{BASE_URL}}. Its machine posture is explicit: `robots.txt` serves `User-agent: * / Allow: /` with the banner "All crawlers welcome. All content public. Index everything." A sitemap of {{SITEMAP_URLS}} URLs follows the sitemap protocol [@sitemaps], and the crawl respects the Robots Exclusion Protocol [@rfc9309] as enforced by Skillarum's fetcher. Content spans an art manifest, a ship-board blog, journey brochures, nesting guides, press releases, a whitepaper reading room, and interactive exhibits — a stress test for whole-site, section-organized skilling.
+The published case-study corpus is the SS Vibelandia site. Its machine posture is explicit: `robots.txt` serves `User-agent: * / Allow: /` with the banner "All crawlers welcome. All content public. Index everything." The sitemap in the analyzed run lists {{SITEMAP_URLS}} URLs and follows the sitemap protocol [@sitemaps], and the crawl respects the Robots Exclusion Protocol [@rfc9309] as enforced by Skillarum's fetcher. Content spans an art manifest, a ship-board blog, journey brochures, nesting guides, press releases, a whitepaper reading room, and interactive exhibits — a stress test for whole-site, section-organized skilling.
 
 ## The dynamic-content problem
 
