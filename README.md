@@ -11,7 +11,7 @@ bodies as untrusted data.
 ![FractiSkills cover](cover/FractiSkills_cover.png)
 
 - [Documentation index](docs/README.md)
-- [Setup and local verification](docs/quickstart.md)
+- [Setup and offline fixture verification](docs/quickstart.md). The fixture prepares publication evidence from local files without fetching pages or executing generated skills.
 - [Maintained manuscript](docs/manuscript/README.md)
 - [Archived live evidence](docs/release_evidence.md)
 - [Published package index](skills/index.json)
